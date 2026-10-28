@@ -1,0 +1,1399 @@
+busqueda,nivel,url,total_informado,en_pagina,nuevos,hoja,desde_cache
+Chevrolet | concesionaria,1,https://autos.mercadolibre.com.uy/chevrolet/usado/concesionaria/,1236,48,48,False,True
+Volkswagen | particular,1,https://autos.mercadolibre.com.uy/volkswagen/usado/dueno/,1176,48,48,False,True
+Chevrolet | particular,1,https://autos.mercadolibre.com.uy/chevrolet/usado/dueno/,1067,48,48,False,True
+Volkswagen | concesionaria,1,https://autos.mercadolibre.com.uy/volkswagen/usado/concesionaria/,1012,48,48,False,False
+Renault | concesionaria,1,https://autos.mercadolibre.com.uy/renault/usado/concesionaria/,727,48,48,False,False
+Peugeot | particular,1,https://autos.mercadolibre.com.uy/peugeot/usado/dueno/,684,48,48,False,False
+Peugeot | concesionaria,1,https://autos.mercadolibre.com.uy/peugeot/usado/concesionaria/,642,48,48,False,False
+Renault | particular,1,https://autos.mercadolibre.com.uy/renault/usado/dueno/,613,48,48,False,False
+Suzuki | particular,1,https://autos.mercadolibre.com.uy/suzuki/usado/dueno/,582,48,48,False,False
+Fiat | particular,1,https://autos.mercadolibre.com.uy/fiat/usado/dueno/,559,48,48,False,False
+Nissan | particular,1,https://autos.mercadolibre.com.uy/nissan/usado/dueno/,559,48,48,False,False
+Suzuki | concesionaria,1,https://autos.mercadolibre.com.uy/suzuki/usado/concesionaria/,537,48,48,False,False
+Fiat | concesionaria,1,https://autos.mercadolibre.com.uy/fiat/usado/concesionaria/,517,48,48,False,False
+Nissan | concesionaria,1,https://autos.mercadolibre.com.uy/nissan/usado/concesionaria/,505,48,48,False,False
+Hyundai | particular,1,https://autos.mercadolibre.com.uy/hyundai/usado/dueno/,439,48,48,False,False
+Hyundai | concesionaria,1,https://autos.mercadolibre.com.uy/hyundai/usado/concesionaria/,419,48,48,False,False
+Toyota | particular,1,https://autos.mercadolibre.com.uy/toyota/usado/dueno/,370,48,48,False,False
+Citroën | concesionaria,1,https://autos.mercadolibre.com.uy/citroen/usado/concesionaria/,355,48,48,False,False
+Ford | concesionaria,1,https://autos.mercadolibre.com.uy/ford/usado/concesionaria/,341,48,48,False,False
+Citroën | particular,1,https://autos.mercadolibre.com.uy/citroen/usado/dueno/,330,48,48,False,False
+Chevrolet | concesionaria | Onix,2,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/,312,48,38,False,False
+Ford | particular,1,https://autos.mercadolibre.com.uy/ford/usado/dueno/,306,48,48,False,False
+BMW | concesionaria,1,https://autos.mercadolibre.com.uy/bmw/usado/concesionaria/,258,48,48,False,False
+Toyota | concesionaria,1,https://autos.mercadolibre.com.uy/toyota/usado/concesionaria/,243,48,48,False,False
+Mercedes-Benz | concesionaria,1,https://autos.mercadolibre.com.uy/mercedes-benz/usado/concesionaria/,241,48,48,False,False
+Chevrolet | particular | Onix,2,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/,231,48,39,False,False
+Volkswagen | particular | Gol,2,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/dueno/,229,48,46,False,False
+BMW | particular,1,https://autos.mercadolibre.com.uy/bmw/usado/dueno/,224,48,48,False,False
+Peugeot | particular | 208,2,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/,213,48,34,False,False
+Peugeot | concesionaria | 208,2,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/,211,48,20,False,False
+Volkswagen | concesionaria | Gol,2,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/concesionaria/,202,48,43,False,False
+Mercedes-Benz | particular,1,https://autos.mercadolibre.com.uy/mercedes-benz/usado/dueno/,190,48,48,False,False
+Volkswagen | particular | Saveiro,2,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/dueno/,173,48,43,False,False
+Honda | particular,1,https://autos.mercadolibre.com.uy/honda/usado/dueno/,168,48,48,False,False
+Suzuki | particular | Swift,2,https://autos.mercadolibre.com.uy/suzuki/swift/usado/dueno/,160,48,41,False,False
+Volkswagen | concesionaria | Saveiro,2,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/concesionaria/,159,48,39,False,False
+Fiat | concesionaria | Strada,2,https://autos.mercadolibre.com.uy/fiat/strada/usado/concesionaria/,156,48,38,False,False
+Kia | particular,1,https://autos.mercadolibre.com.uy/kia/usado/dueno/,157,48,48,False,False
+Honda | concesionaria,1,https://autos.mercadolibre.com.uy/honda/usado/concesionaria/,155,48,48,False,False
+Audi | concesionaria,1,https://autos.mercadolibre.com.uy/audi/usado/concesionaria/,155,48,48,False,False
+Suzuki | particular | Celerio,2,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/dueno/,153,48,31,False,False
+Renault | concesionaria | Kwid,2,https://autos.mercadolibre.com.uy/renault/kwid/usado/concesionaria/,149,48,42,False,False
+Fiat | particular | Strada,2,https://autos.mercadolibre.com.uy/fiat/strada/usado/dueno/,147,48,33,False,False
+Suzuki | concesionaria | Celerio,2,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/concesionaria/,147,48,33,False,False
+Renault | concesionaria | Oroch,2,https://autos.mercadolibre.com.uy/renault/oroch/usado/concesionaria/,146,48,34,False,False
+Kia | concesionaria,1,https://autos.mercadolibre.com.uy/kia/usado/concesionaria/,140,48,48,False,False
+Chery | concesionaria,1,https://autos.mercadolibre.com.uy/chery/usado/concesionaria/,141,48,48,False,False
+Hyundai | concesionaria | HB20,2,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/concesionaria/,138,48,26,False,False
+Audi | particular,1,https://autos.mercadolibre.com.uy/audi/usado/dueno/,137,48,48,False,False
+Chery | particular,1,https://autos.mercadolibre.com.uy/chery/usado/dueno/,131,48,48,False,False
+Toyota | particular | Hilux,2,https://autos.mercadolibre.com.uy/toyota/hilux/usado/dueno/,129,48,37,False,False
+BYD | particular,1,https://autos.mercadolibre.com.uy/byd/usado/dueno/,125,48,48,False,False
+Peugeot | concesionaria | 2008,2,https://autos.mercadolibre.com.uy/peugeot/2008/usado/concesionaria/,125,48,37,False,False
+Hyundai | particular | HB20,2,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/dueno/,124,48,30,False,False
+Citroën | concesionaria | C3,2,https://autos.mercadolibre.com.uy/citroen/c3/usado/concesionaria/,122,48,26,False,False
+Jeep | concesionaria,1,https://autos.mercadolibre.com.uy/jeep/usado/concesionaria/,121,48,48,False,False
+Ford | concesionaria | Ecosport,2,https://autos.mercadolibre.com.uy/ford/ecosport/usado/concesionaria/,119,48,25,False,False
+Renault | particular | Kwid,2,https://autos.mercadolibre.com.uy/renault/kwid/usado/dueno/,118,48,39,False,False
+Renault | particular | Oroch,2,https://autos.mercadolibre.com.uy/renault/oroch/usado/dueno/,116,48,38,False,False
+BYD | concesionaria,1,https://autos.mercadolibre.com.uy/byd/usado/concesionaria/,114,48,48,False,False
+Toyota | concesionaria | Hilux,2,https://autos.mercadolibre.com.uy/toyota/hilux/usado/concesionaria/,113,48,33,False,False
+Suzuki | concesionaria | Swift,2,https://autos.mercadolibre.com.uy/suzuki/swift/usado/concesionaria/,108,48,45,False,False
+Nissan | particular | Versa,2,https://autos.mercadolibre.com.uy/nissan/versa/usado/dueno/,107,48,33,False,False
+Volkswagen | particular | Up!,2,https://autos.mercadolibre.com.uy/volkswagen/up/usado/dueno/,105,48,34,False,False
+Fiat | concesionaria | Uno,2,https://autos.mercadolibre.com.uy/fiat/uno/usado/concesionaria/,101,48,35,False,False
+Peugeot | particular | 2008,2,https://autos.mercadolibre.com.uy/peugeot/2008/usado/dueno/,98,48,34,False,False
+Nissan | concesionaria | Versa,2,https://autos.mercadolibre.com.uy/nissan/versa/usado/concesionaria/,96,48,40,False,False
+Mitsubishi | particular,1,https://autos.mercadolibre.com.uy/mitsubishi/usado/dueno/,94,48,48,False,False
+Chevrolet | concesionaria | Tracker,2,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/concesionaria/,89,48,47,False,False
+Fiat | particular | Uno,2,https://autos.mercadolibre.com.uy/fiat/uno/usado/dueno/,89,48,34,False,False
+Citroën | particular | C3,2,https://autos.mercadolibre.com.uy/citroen/c3/usado/dueno/,89,48,37,False,False
+Chevrolet | concesionaria | Corsa,2,https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/concesionaria/,88,48,46,False,False
+Volkswagen | particular | Vento,2,https://autos.mercadolibre.com.uy/volkswagen/vento/usado/dueno/,88,48,48,False,False
+Volkswagen | concesionaria | Up!,2,https://autos.mercadolibre.com.uy/volkswagen/up/usado/concesionaria/,84,48,34,False,False
+Mitsubishi | concesionaria,1,https://autos.mercadolibre.com.uy/mitsubishi/usado/concesionaria/,83,48,48,False,False
+Volkswagen | concesionaria | Amarok,2,https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/concesionaria/,82,48,46,False,False
+Nissan | particular | Sentra,2,https://autos.mercadolibre.com.uy/nissan/sentra/usado/dueno/,79,48,45,False,False
+Renault | concesionaria | Duster,2,https://autos.mercadolibre.com.uy/renault/duster/usado/concesionaria/,78,48,41,False,False
+Suzuki | particular | Alto 800,2,https://autos.mercadolibre.com.uy/suzuki/alto-800/usado/dueno/,78,48,39,False,False
+Nissan | particular | Kicks,2,https://autos.mercadolibre.com.uy/nissan/kicks/usado/dueno/,78,48,45,False,False
+Volkswagen | particular | Nivus,2,https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/dueno/,77,48,41,False,False
+Volkswagen | concesionaria | Tiguan,2,https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/concesionaria/,77,48,45,False,False
+Nissan | concesionaria | Frontier,2,https://autos.mercadolibre.com.uy/nissan/frontier/usado/concesionaria/,77,48,45,False,False
+Nissan | concesionaria | Kicks,2,https://autos.mercadolibre.com.uy/nissan/kicks/usado/concesionaria/,75,48,44,False,False
+Chevrolet | particular | Montana,2,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/dueno/,74,48,46,False,False
+Geely | concesionaria,1,https://autos.mercadolibre.com.uy/geely/usado/concesionaria/,73,48,48,False,False
+Chevrolet | particular | Spark,2,https://autos.mercadolibre.com.uy/chevrolet/spark/usado/dueno/,73,48,43,False,False
+Suzuki | concesionaria | Alto,2,https://autos.mercadolibre.com.uy/suzuki/alto/usado/concesionaria/,73,48,41,False,False
+Hyundai | concesionaria | Tucson,2,https://autos.mercadolibre.com.uy/hyundai/tucson/usado/concesionaria/,73,48,44,False,False
+GWM | concesionaria,1,https://autos.mercadolibre.com.uy/gwm/usado/concesionaria/,73,48,48,False,False
+Chevrolet | concesionaria | Montana,2,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/concesionaria/,72,48,47,False,False
+Ford | particular | Ecosport,2,https://autos.mercadolibre.com.uy/ford/ecosport/usado/dueno/,72,48,30,False,False
+Chevrolet | particular | Tracker,2,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/dueno/,71,48,40,False,False
+Citroën | concesionaria | C4 Cactus,2,https://autos.mercadolibre.com.uy/citroen/c4-cactus/usado/concesionaria/,71,48,34,False,False
+Jeep | particular,1,https://autos.mercadolibre.com.uy/jeep/usado/dueno/,72,48,48,False,False
+Volkswagen | particular | Tiguan,2,https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/dueno/,70,48,44,False,False
+Toyota | particular | Corolla,2,https://autos.mercadolibre.com.uy/toyota/corolla/usado/dueno/,69,48,45,False,False
+Geely | particular,1,https://autos.mercadolibre.com.uy/geely/usado/dueno/,68,48,48,False,False
+Chevrolet | concesionaria | S10,2,https://autos.mercadolibre.com.uy/chevrolet/s10/usado/concesionaria/,67,48,48,False,False
+Chevrolet | concesionaria | Prisma,2,https://autos.mercadolibre.com.uy/chevrolet/prisma/usado/concesionaria/,66,48,45,False,False
+Peugeot | concesionaria | 207,2,https://autos.mercadolibre.com.uy/peugeot/207/usado/concesionaria/,66,48,46,False,False
+Nissan | particular | March,2,https://autos.mercadolibre.com.uy/nissan/march/usado/dueno/,65,48,39,False,False
+Ford | concesionaria | Ranger,2,https://autos.mercadolibre.com.uy/ford/ranger/usado/concesionaria/,65,48,43,False,False
+Chevrolet | concesionaria | Spark,2,https://autos.mercadolibre.com.uy/chevrolet/spark/usado/concesionaria/,64,48,42,False,False
+Volkswagen | particular | Amarok,2,https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/dueno/,64,48,46,False,False
+Chevrolet | particular | Celta,2,https://autos.mercadolibre.com.uy/chevrolet/celta/usado/dueno/,64,48,46,False,False
+Chevrolet | particular | Corsa,2,https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/dueno/,62,48,48,False,False
+Peugeot | particular | 207,2,https://autos.mercadolibre.com.uy/peugeot/207/usado/dueno/,61,48,45,False,False
+Volkswagen | concesionaria | Nivus,2,https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/concesionaria/,60,48,41,False,False
+Renault | concesionaria | Sandero Stepway,2,https://autos.mercadolibre.com.uy/renault/sandero-stepway/usado/concesionaria/,58,48,42,False,False
+Ford | particular | Ranger,2,https://autos.mercadolibre.com.uy/ford/ranger/usado/dueno/,58,48,40,False,False
+Renault | particular | Clio,2,https://autos.mercadolibre.com.uy/renault/clio/usado/dueno/,57,48,44,False,False
+Renault | particular | Duster,2,https://autos.mercadolibre.com.uy/renault/duster/usado/dueno/,57,48,42,False,False
+Subaru | particular,1,https://autos.mercadolibre.com.uy/subaru/usado/dueno/,56,48,48,False,False
+Volkswagen | particular | Polo,2,https://autos.mercadolibre.com.uy/volkswagen/polo/usado/dueno/,55,48,46,False,False
+Nissan | particular | Frontier,2,https://autos.mercadolibre.com.uy/nissan/frontier/usado/dueno/,55,48,47,False,False
+Volkswagen | concesionaria | Vento,2,https://autos.mercadolibre.com.uy/volkswagen/vento/usado/concesionaria/,54,48,48,False,False
+Nissan | concesionaria | Sentra,2,https://autos.mercadolibre.com.uy/nissan/sentra/usado/concesionaria/,54,48,46,False,False
+Volkswagen | particular | Golf,2,https://autos.mercadolibre.com.uy/volkswagen/golf/usado/dueno/,54,48,47,False,False
+Volkswagen | particular | T-Cross,2,https://autos.mercadolibre.com.uy/volkswagen/t-cross/usado/dueno/,53,48,48,False,False
+Citroën | concesionaria | Berlingo,2,https://autos.mercadolibre.com.uy/citroen/berlingo/usado/concesionaria/,53,48,44,False,False
+Suzuki | particular | Alto,2,https://autos.mercadolibre.com.uy/suzuki/alto/usado/dueno/,52,48,44,False,False
+Nissan | concesionaria | March,2,https://autos.mercadolibre.com.uy/nissan/march/usado/concesionaria/,51,48,33,False,False
+Mazda | particular,1,https://autos.mercadolibre.com.uy/mazda/usado/dueno/,50,48,48,False,False
+Peugeot | concesionaria | 301,2,https://autos.mercadolibre.com.uy/peugeot/301/usado/concesionaria/,50,48,45,False,False
+Chevrolet | concesionaria | Montana | 2024,3,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/concesionaria/2024/,50,48,13,True,False
+Fiat | concesionaria | Mobi,2,https://autos.mercadolibre.com.uy/fiat/mobi/usado/concesionaria/,49,48,41,False,False
+Chevrolet | concesionaria | Onix | 2023,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2023/,49,48,36,True,False
+Suzuki | concesionaria | Grand Vitara,2,https://autos.mercadolibre.com.uy/suzuki/grand-vitara/usado/concesionaria/,48,48,47,True,False
+Hyundai | concesionaria | Creta,2,https://autos.mercadolibre.com.uy/hyundai/creta/usado/concesionaria/,48,48,46,True,False
+Volkswagen | particular | Gol | 2012-2015,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/dueno/2012-2015/,48,48,38,True,False
+Volkswagen | concesionaria | Gol | 2012-2015,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/concesionaria/2012-2015/,48,48,40,True,False
+Peugeot | concesionaria | 2008 | 2013-2018,3,https://autos.mercadolibre.com.uy/peugeot/2008/usado/concesionaria/2013-2018/,48,48,25,True,False
+Fiat | concesionaria | Uno | 2017-2018,3,https://autos.mercadolibre.com.uy/fiat/uno/usado/concesionaria/2017-2018/,48,48,31,True,False
+Nissan | particular | Kicks | 2016-2021,3,https://autos.mercadolibre.com.uy/nissan/kicks/usado/dueno/2016-2021/,48,48,16,True,False
+Suzuki | concesionaria | Alto | 2009-2019,3,https://autos.mercadolibre.com.uy/suzuki/alto/usado/concesionaria/2009-2019/,48,48,16,True,False
+Toyota | particular | Corolla | 1988-2014,3,https://autos.mercadolibre.com.uy/toyota/corolla/usado/dueno/1988-2014/,48,48,16,True,False
+Chevrolet | concesionaria | S10 | 1996-2021,3,https://autos.mercadolibre.com.uy/chevrolet/s10/usado/concesionaria/1996-2021/,48,48,15,True,False
+Chevrolet | concesionaria | Prisma | 2014-2018,3,https://autos.mercadolibre.com.uy/chevrolet/prisma/usado/concesionaria/2014-2018/,48,48,14,True,False
+Ford | concesionaria | Ranger | 1998-2021,3,https://autos.mercadolibre.com.uy/ford/ranger/usado/concesionaria/1998-2021/,48,48,15,True,False
+Chevrolet | particular | Corsa | 1994-2009,3,https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/dueno/1994-2009/,48,48,11,True,False
+Peugeot | particular | 207 | 2008-2012,3,https://autos.mercadolibre.com.uy/peugeot/207/usado/dueno/2008-2012/,48,48,11,True,False
+Citroën | concesionaria | Berlingo | 1999-2022,3,https://autos.mercadolibre.com.uy/citroen/berlingo/usado/concesionaria/1999-2022/,48,48,5,True,False
+Suzuki | particular | Alto | 1997-2021,3,https://autos.mercadolibre.com.uy/suzuki/alto/usado/dueno/1997-2021/,48,48,3,True,False
+Nissan | concesionaria | March | 2011-2019,3,https://autos.mercadolibre.com.uy/nissan/march/usado/concesionaria/2011-2019/,48,48,3,True,False
+Peugeot | particular | 308,2,https://autos.mercadolibre.com.uy/peugeot/308/usado/dueno/,47,47,44,True,False
+Chevrolet | particular | Onix | 2022-2023,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/2022-2023/,47,47,35,True,False
+Volkswagen | particular | Gol | 2005-2011,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/dueno/2005-2011/,47,47,34,True,False
+Volkswagen | particular | Gol | 2016-2019,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/dueno/2016-2019/,47,47,41,True,False
+BMW | particular | Serie 3,2,https://autos.mercadolibre.com.uy/bmw/serie-3/usado/dueno/,47,47,42,True,False
+Peugeot | concesionaria | 208 | 2016-2017,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/2016-2017/,47,47,37,True,False
+Peugeot | concesionaria | 208 | 2024-2026,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/2024-2026/,47,47,39,True,False
+Volkswagen | concesionaria | Gol | 1994-2011,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/concesionaria/1994-2011/,46,46,28,True,False
+Honda | particular | CR-V,2,https://autos.mercadolibre.com.uy/honda/cr-v/usado/dueno/,47,47,33,True,False
+Volkswagen | concesionaria | Saveiro | 2018-2020,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/concesionaria/2018-2020/,47,47,33,True,False
+Renault | concesionaria | Oroch | 2023-2025,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/concesionaria/2023-2025/,47,47,37,True,False
+Hyundai | concesionaria | HB20 | 2022,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/concesionaria/2022/,47,47,26,True,False
+Toyota | concesionaria | Hilux | 1998-2017,3,https://autos.mercadolibre.com.uy/toyota/hilux/usado/concesionaria/1998-2017/,47,47,22,True,False
+Suzuki | particular | Alto 800 | 2008-2019,3,https://autos.mercadolibre.com.uy/suzuki/alto-800/usado/dueno/2008-2019/,47,47,18,True,False
+Volkswagen | particular | Amarok | 2010-2019,3,https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/dueno/2010-2019/,47,47,14,True,False
+Renault | particular | Clio | 1996-2018,3,https://autos.mercadolibre.com.uy/renault/clio/usado/dueno/1996-2018/,47,47,7,True,False
+Volkswagen | concesionaria | Vento | 2008-2022,3,https://autos.mercadolibre.com.uy/volkswagen/vento/usado/concesionaria/2008-2022/,46,46,4,True,False
+Hyundai | particular | Tucson,2,https://autos.mercadolibre.com.uy/hyundai/tucson/usado/dueno/,46,46,36,True,False
+Citroën | particular | C4 Cactus,2,https://autos.mercadolibre.com.uy/citroen/c4-cactus/usado/dueno/,46,46,37,True,False
+Volkswagen | particular | Gol | 1988-2004,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/dueno/1988-2004/,46,46,37,True,False
+Volkswagen | particular | Saveiro | 1999-2016,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/dueno/1999-2016/,46,46,37,True,False
+Suzuki | particular | Celerio | 2015-2017,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/dueno/2015-2017/,46,46,37,True,False
+Toyota | particular | Hilux | 1993-2013,3,https://autos.mercadolibre.com.uy/toyota/hilux/usado/dueno/1993-2013/,47,47,32,True,False
+Citroën | concesionaria | C3 | 2019-2023,3,https://autos.mercadolibre.com.uy/citroen/c3/usado/concesionaria/2019-2023/,46,46,29,True,False
+Suzuki | concesionaria | Swift | 1994-2018,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/concesionaria/1994-2018/,46,46,25,True,False
+Nissan | particular | Versa | 2012-2019,3,https://autos.mercadolibre.com.uy/nissan/versa/usado/dueno/2012-2019/,46,46,27,True,False
+Nissan | concesionaria | Versa | 2012-2020,3,https://autos.mercadolibre.com.uy/nissan/versa/usado/concesionaria/2012-2020/,46,46,23,True,False
+Citroën | particular | C3 | 2005-2019,3,https://autos.mercadolibre.com.uy/citroen/c3/usado/dueno/2005-2019/,46,46,16,True,False
+Volkswagen | particular | Vento | 2007-2015,3,https://autos.mercadolibre.com.uy/volkswagen/vento/usado/dueno/2007-2015/,46,46,20,True,False
+Volkswagen | concesionaria | Tiguan | 2011-2020,3,https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/concesionaria/2011-2020/,46,46,19,True,False
+Nissan | concesionaria | Kicks | 2016-2021,3,https://autos.mercadolibre.com.uy/nissan/kicks/usado/concesionaria/2016-2021/,46,46,15,True,False
+Chevrolet | particular | Tracker | 2013-2022,3,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/dueno/2013-2022/,46,46,12,True,False
+Volkswagen | concesionaria | Nivus | 2021-2023,3,https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/concesionaria/2021-2023/,46,46,11,True,False
+Nissan | particular | Frontier | 2006-2023,3,https://autos.mercadolibre.com.uy/nissan/frontier/usado/dueno/2006-2023/,46,46,7,True,False
+Fiat | concesionaria | Mobi | 2016-2025,3,https://autos.mercadolibre.com.uy/fiat/mobi/usado/concesionaria/2016-2025/,46,46,1,True,False
+Chevrolet | concesionaria | Celta,2,https://autos.mercadolibre.com.uy/chevrolet/celta/usado/concesionaria/,45,45,44,True,False
+Chevrolet | concesionaria | Onix plus,2,https://autos.mercadolibre.com.uy/chevrolet/onix-plus/usado/concesionaria/,45,45,43,True,False
+Chevrolet | particular | Onix plus,2,https://autos.mercadolibre.com.uy/chevrolet/onix-plus/usado/dueno/,45,45,42,True,False
+Peugeot | particular | 208 | 2017-2019,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/2017-2019/,45,45,32,True,False
+Volkswagen | particular | Saveiro | 2023-2025,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/dueno/2023-2025/,45,45,30,True,False
+Suzuki | particular | Swift | 2023-2026,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/dueno/2023-2026/,45,45,31,True,False
+Kia | particular | Rio,2,https://autos.mercadolibre.com.uy/kia/rio/usado/dueno/,45,45,34,True,False
+Jeep | concesionaria | Compass,2,https://autos.mercadolibre.com.uy/jeep/compass/usado/concesionaria/,45,45,25,True,False
+Ford | concesionaria | Ecosport | 2005-2014,3,https://autos.mercadolibre.com.uy/ford/ecosport/usado/concesionaria/2005-2014/,45,45,27,True,False
+Toyota | concesionaria | Hilux | 2018-2022,3,https://autos.mercadolibre.com.uy/toyota/hilux/usado/concesionaria/2018-2022/,45,45,33,True,False
+Peugeot | particular | 2008 | 2013-2020,3,https://autos.mercadolibre.com.uy/peugeot/2008/usado/dueno/2013-2020/,45,45,23,True,False
+Fiat | particular | Uno | 2017-2025,3,https://autos.mercadolibre.com.uy/fiat/uno/usado/dueno/2017-2025/,45,45,18,True,False
+Chevrolet | concesionaria | Corsa | 2009-2014,3,https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/concesionaria/2009-2014/,45,45,25,True,False
+Volkswagen | concesionaria | Up! | 2018-2020,3,https://autos.mercadolibre.com.uy/volkswagen/up/usado/concesionaria/2018-2020/,45,45,15,True,False
+Volkswagen | concesionaria | Amarok | 2019-2025,3,https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/concesionaria/2019-2025/,45,45,16,True,False
+Chevrolet | particular | Montana | 2024,3,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/dueno/2024/,45,45,13,True,False
+Volkswagen | particular | Tiguan | 2012-2020,3,https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/dueno/2012-2020/,45,45,13,True,False
+Chevrolet | particular | Celta | 2001-2013,3,https://autos.mercadolibre.com.uy/chevrolet/celta/usado/dueno/2001-2013/,45,45,11,True,False
+Ford | particular | Ranger | 1998-2021,3,https://autos.mercadolibre.com.uy/ford/ranger/usado/dueno/1998-2021/,45,45,10,True,False
+Renault | concesionaria | Clio,2,https://autos.mercadolibre.com.uy/renault/clio/usado/concesionaria/,44,44,43,True,False
+Chevrolet | particular | Onix | 2017-2018,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/2017-2018/,44,44,34,True,False
+Volkswagen | concesionaria | Gol | 2016-2019,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/concesionaria/2016-2019/,44,44,36,True,False
+Volkswagen | concesionaria | Saveiro | 2010-2017,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/concesionaria/2010-2017/,44,44,32,True,False
+Fiat | concesionaria | Strada | 2022-2023,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/concesionaria/2022-2023/,44,44,25,True,False
+Suzuki | particular | Celerio | 2018-2022,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/dueno/2018-2022/,44,44,29,True,False
+Renault | concesionaria | Kwid | 2024-2026,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/concesionaria/2024-2026/,44,44,41,True,False
+Toyota | particular | Hilux | 2021-2026,3,https://autos.mercadolibre.com.uy/toyota/hilux/usado/dueno/2021-2026/,44,44,26,True,False
+Suzuki | concesionaria | Swift | 2020-2023,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/concesionaria/2020-2023/,44,44,24,True,False
+Volkswagen | particular | Up! | 2018-2019,3,https://autos.mercadolibre.com.uy/volkswagen/up/usado/dueno/2018-2019/,44,44,28,True,False
+Peugeot | particular | 2008 | 2021-2024,3,https://autos.mercadolibre.com.uy/peugeot/2008/usado/dueno/2021-2024/,44,44,21,True,False
+Fiat | particular | Uno | 1989-2016,3,https://autos.mercadolibre.com.uy/fiat/uno/usado/dueno/1989-2016/,44,44,23,True,False
+Volkswagen | particular | Nivus | 2023-2026,3,https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/dueno/2023-2026/,44,44,19,True,False
+Chevrolet | particular | Spark | 2007-2013,3,https://autos.mercadolibre.com.uy/chevrolet/spark/usado/dueno/2007-2013/,44,44,18,True,False
+Chevrolet | concesionaria | Spark | 2008-2013,3,https://autos.mercadolibre.com.uy/chevrolet/spark/usado/concesionaria/2008-2013/,44,44,15,True,False
+Nissan | concesionaria | Sentra | 1993-2021,3,https://autos.mercadolibre.com.uy/nissan/sentra/usado/concesionaria/1993-2021/,44,44,5,True,False
+GWM | particular,1,https://autos.mercadolibre.com.uy/gwm/usado/dueno/,43,43,43,True,False
+Dodge | concesionaria,1,https://autos.mercadolibre.com.uy/dodge/usado/concesionaria/,43,43,43,True,False
+Chevrolet | concesionaria | Aveo,2,https://autos.mercadolibre.com.uy/chevrolet/aveo/usado/concesionaria/,43,43,40,True,False
+Renault | concesionaria | Sandero,2,https://autos.mercadolibre.com.uy/renault/sandero/usado/concesionaria/,43,43,41,True,False
+Hyundai | particular | Creta,2,https://autos.mercadolibre.com.uy/hyundai/creta/usado/dueno/,43,43,40,True,False
+Chevrolet | concesionaria | Onix | 2024,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2024/,44,44,37,True,False
+Ford | particular | Fiesta,2,https://autos.mercadolibre.com.uy/ford/fiesta/usado/dueno/,43,43,40,True,False
+BMW | concesionaria | X3,2,https://autos.mercadolibre.com.uy/bmw/x3/usado/concesionaria/,43,43,32,True,False
+Mercedes-Benz | concesionaria | Clase C,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-c/usado/concesionaria/,43,43,35,True,False
+Peugeot | particular | 208 | 2013-2016,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/2013-2016/,43,43,35,True,False
+Volkswagen | particular | Saveiro | 2017-2020,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/dueno/2017-2020/,44,44,30,True,False
+Suzuki | particular | Swift | 1994-2015,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/dueno/1994-2015/,43,43,32,True,False
+Fiat | particular | Strada | 2019-2022,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/dueno/2019-2022/,43,43,26,True,False
+Suzuki | concesionaria | Celerio | 2010-2016,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/concesionaria/2010-2016/,44,44,31,True,False
+Hyundai | particular | HB20 | 2023-2024,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/dueno/2023-2024/,43,43,33,True,False
+Ford | concesionaria | Ecosport | 2015-2018,3,https://autos.mercadolibre.com.uy/ford/ecosport/usado/concesionaria/2015-2018/,42,42,29,True,False
+Renault | particular | Kwid | 2020-2022,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/dueno/2020-2022/,43,43,16,True,False
+Renault | particular | Kwid | 2023-2026,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/dueno/2023-2026/,43,43,31,True,False
+Renault | particular | Oroch | 2021-2023,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/dueno/2021-2023/,43,43,26,True,False
+Citroën | particular | C3 | 2020-2026,3,https://autos.mercadolibre.com.uy/citroen/c3/usado/dueno/2020-2026/,43,43,25,True,False
+Chevrolet | concesionaria | Corsa | 1995-2008,3,https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/concesionaria/1995-2008/,43,43,15,True,False
+Nissan | particular | Sentra | 1992-2017,3,https://autos.mercadolibre.com.uy/nissan/sentra/usado/dueno/1992-2017/,43,43,24,True,False
+Citroën | concesionaria | C4 Cactus | 2016-2022,3,https://autos.mercadolibre.com.uy/citroen/c4-cactus/usado/concesionaria/2016-2022/,43,43,14,True,False
+Nissan | particular | March | 2011-2015,3,https://autos.mercadolibre.com.uy/nissan/march/usado/dueno/2011-2015/,43,43,11,True,False
+Renault | concesionaria | Sandero Stepway | 2011-2018,3,https://autos.mercadolibre.com.uy/renault/sandero-stepway/usado/concesionaria/2011-2018/,43,43,8,True,False
+Chevrolet | concesionaria | Captiva,2,https://autos.mercadolibre.com.uy/chevrolet/captiva/usado/concesionaria/,42,42,42,True,False
+Volkswagen | concesionaria | T-Cross,2,https://autos.mercadolibre.com.uy/volkswagen/t-cross/usado/concesionaria/,42,42,42,True,False
+Ford | concesionaria | Fiesta,2,https://autos.mercadolibre.com.uy/ford/fiesta/usado/concesionaria/,42,42,37,True,False
+Chevrolet | concesionaria | Onix | 2022,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2022/,42,42,38,True,False
+BMW | concesionaria | Serie 3,2,https://autos.mercadolibre.com.uy/bmw/serie-3/usado/concesionaria/,42,42,33,True,False
+Chevrolet | particular | Onix | 2019-2021,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/2019-2021/,42,42,31,True,False
+BMW | particular | Serie 1,2,https://autos.mercadolibre.com.uy/bmw/serie-1/usado/dueno/,42,42,33,True,False
+Peugeot | concesionaria | 208 | 2018-2020,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/2018-2020/,42,42,31,True,False
+Fiat | concesionaria | Strada | 2019-2021,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/concesionaria/2019-2021/,42,42,27,True,False
+Fiat | particular | Strada | 2001-2018,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/dueno/2001-2018/,42,42,29,True,False
+Hyundai | concesionaria | HB20 | 2023-2025,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/concesionaria/2023-2025/,42,42,26,True,False
+Fiat | concesionaria | Uno | 1994-2016,3,https://autos.mercadolibre.com.uy/fiat/uno/usado/concesionaria/1994-2016/,42,42,18,True,False
+Chevrolet | concesionaria | Tracker | 2021-2023,3,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/concesionaria/2021-2023/,42,42,18,True,False
+Volkswagen | particular | Vento | 2016-2025,3,https://autos.mercadolibre.com.uy/volkswagen/vento/usado/dueno/2016-2025/,42,42,20,True,False
+Ford | particular | Ecosport | 2017-2021,3,https://autos.mercadolibre.com.uy/ford/ecosport/usado/dueno/2017-2021/,42,42,14,True,False
+Renault | particular | Duster | 2012-2021,3,https://autos.mercadolibre.com.uy/renault/duster/usado/dueno/2012-2021/,42,42,6,True,False
+Volkswagen | particular | Golf | 1994-2018,3,https://autos.mercadolibre.com.uy/volkswagen/golf/usado/dueno/1994-2018/,42,42,6,True,False
+Subaru | concesionaria,1,https://autos.mercadolibre.com.uy/subaru/usado/concesionaria/,41,41,41,True,False
+MINI | concesionaria,1,https://autos.mercadolibre.com.uy/mini/usado/concesionaria/,42,42,42,True,False
+Chevrolet | concesionaria | Cruze,2,https://autos.mercadolibre.com.uy/chevrolet/cruze/usado/concesionaria/,41,41,41,True,False
+Peugeot | particular | Partner,2,https://autos.mercadolibre.com.uy/peugeot/partner/usado/dueno/,41,41,39,True,False
+Fiat | particular | Mobi,2,https://autos.mercadolibre.com.uy/fiat/mobi/usado/dueno/,41,41,40,True,False
+Fiat | particular | Toro,2,https://autos.mercadolibre.com.uy/fiat/toro/usado/dueno/,41,41,39,True,False
+Hyundai | particular | Accent,2,https://autos.mercadolibre.com.uy/hyundai/accent/usado/dueno/,40,40,38,True,False
+Hyundai | particular | HB20S,2,https://autos.mercadolibre.com.uy/hyundai/hb20s/usado/dueno/,42,42,42,True,False
+Volkswagen | particular | Gol | 2020-2024,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/dueno/2020-2024/,41,41,31,True,False
+Fiat | concesionaria | Strada | 2000-2018,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/concesionaria/2000-2018/,41,41,32,True,False
+Renault | concesionaria | Oroch | 2019-2021,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/concesionaria/2019-2021/,41,41,27,True,False
+Citroën | concesionaria | C3 | 2004-2018,3,https://autos.mercadolibre.com.uy/citroen/c3/usado/concesionaria/2004-2018/,41,41,28,True,False
+Renault | concesionaria | Duster | 2012-2019,3,https://autos.mercadolibre.com.uy/renault/duster/usado/concesionaria/2012-2019/,41,41,15,True,False
+Nissan | concesionaria | Frontier | 2003-2022,3,https://autos.mercadolibre.com.uy/nissan/frontier/usado/concesionaria/2003-2022/,41,41,16,True,False
+BMW | concesionaria | X1,2,https://autos.mercadolibre.com.uy/bmw/x1/usado/concesionaria/,41,41,32,True,False
+Peugeot | particular | 208 | 2024,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/2024/,41,41,32,True,False
+Mercedes-Benz | particular | Clase C,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-c/usado/dueno/,40,40,35,True,False
+Suzuki | particular | Swift | 2016-2020,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/dueno/2016-2020/,40,40,31,True,False
+Audi | concesionaria | Q5,2,https://autos.mercadolibre.com.uy/audi/q5/usado/concesionaria/,40,40,33,True,False
+Peugeot | concesionaria | 2008 | 2019-2021,3,https://autos.mercadolibre.com.uy/peugeot/2008/usado/concesionaria/2019-2021/,40,40,23,True,False
+Nissan | particular | Versa | 2020-2022,3,https://autos.mercadolibre.com.uy/nissan/versa/usado/dueno/2020-2022/,40,40,20,True,False
+FAW | concesionaria,1,https://autos.mercadolibre.com.uy/faw/usado/concesionaria/,39,39,39,True,False
+Chevrolet | particular | Prisma,2,https://autos.mercadolibre.com.uy/chevrolet/prisma/usado/dueno/,39,39,35,True,False
+Volkswagen | concesionaria | Suran,2,https://autos.mercadolibre.com.uy/volkswagen/suran/usado/concesionaria/,39,39,37,True,False
+Fiat | particular | Fiorino,2,https://autos.mercadolibre.com.uy/fiat/fiorino/usado/dueno/,39,39,34,True,False
+Suzuki | concesionaria | Alto 800,2,https://autos.mercadolibre.com.uy/suzuki/alto-800/usado/concesionaria/,39,39,27,True,False
+BMW | concesionaria | Serie 1,2,https://autos.mercadolibre.com.uy/bmw/serie-1/usado/concesionaria/,39,39,35,True,False
+Honda | particular | Civic,2,https://autos.mercadolibre.com.uy/honda/civic/usado/dueno/,39,39,31,True,False
+Kia | particular | Picanto,2,https://autos.mercadolibre.com.uy/kia/picanto/usado/dueno/,39,39,30,True,False
+Fiat | particular | Strada | 2023-2024,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/dueno/2023-2024/,39,39,22,True,False
+Toyota | particular | Hilux | 2014-2020,3,https://autos.mercadolibre.com.uy/toyota/hilux/usado/dueno/2014-2020/,39,39,24,True,False
+Renault | particular | Oroch | 2016-2020,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/dueno/2016-2020/,39,39,20,True,False
+Volkswagen | concesionaria | Up! | 2016-2017,3,https://autos.mercadolibre.com.uy/volkswagen/up/usado/concesionaria/2016-2017/,39,39,21,True,False
+Hyundai | concesionaria | Tucson | 2016-2026,3,https://autos.mercadolibre.com.uy/hyundai/tucson/usado/concesionaria/2016-2026/,39,39,17,True,False
+Volkswagen | particular | T-Cross | 2020-2024,3,https://autos.mercadolibre.com.uy/volkswagen/t-cross/usado/dueno/2020-2024/,39,39,1,True,False
+Peugeot | concesionaria | 301 | 2013-2021,3,https://autos.mercadolibre.com.uy/peugeot/301/usado/concesionaria/2013-2021/,39,39,2,True,False
+Jetour | particular,1,https://autos.mercadolibre.com.uy/jetour/usado/dueno/,38,38,38,True,False
+Renault | concesionaria | Logan,2,https://autos.mercadolibre.com.uy/renault/logan/usado/concesionaria/,38,38,36,True,False
+Peugeot | concesionaria | 308,2,https://autos.mercadolibre.com.uy/peugeot/308/usado/concesionaria/,38,38,38,True,False
+Nissan | particular | Tiida,2,https://autos.mercadolibre.com.uy/nissan/tiida/usado/dueno/,38,38,35,True,False
+Chevrolet | particular | Onix | 2024,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/2024/,38,38,32,True,False
+Suzuki | concesionaria | Celerio | 2020-2022,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/concesionaria/2020-2022/,38,38,19,True,False
+Hyundai | concesionaria | HB20 | 2014-2021,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/concesionaria/2014-2021/,39,39,28,True,False
+Peugeot | concesionaria | 207 | 2008-2011,3,https://autos.mercadolibre.com.uy/peugeot/207/usado/concesionaria/2008-2011/,38,38,8,True,False
+Peugeot | particular | 307,2,https://autos.mercadolibre.com.uy/peugeot/307/usado/dueno/,36,36,36,True,False
+Volkswagen | concesionaria | Saveiro | 2021-2023,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/concesionaria/2021-2023/,37,37,23,True,False
+Renault | concesionaria | Kwid | 2020-2021,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/concesionaria/2020-2021/,37,37,22,True,False
+Peugeot | concesionaria | 2008 | 2022-2026,3,https://autos.mercadolibre.com.uy/peugeot/2008/usado/concesionaria/2022-2026/,37,37,29,True,False
+Volkswagen | particular | Up! | 2016-2017,3,https://autos.mercadolibre.com.uy/volkswagen/up/usado/dueno/2016-2017/,37,37,16,True,False
+Volkswagen | concesionaria | Amarok | 2011-2018,3,https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/concesionaria/2011-2018/,37,37,18,True,False
+Renault | concesionaria | Duster | 2020-2025,3,https://autos.mercadolibre.com.uy/renault/duster/usado/concesionaria/2020-2025/,37,37,15,True,False
+Volkswagen | particular | Polo | 2001-2024,3,https://autos.mercadolibre.com.uy/volkswagen/polo/usado/dueno/2001-2024/,37,37,4,True,False
+Volkswagen | concesionaria | Golf,2,https://autos.mercadolibre.com.uy/volkswagen/golf/usado/concesionaria/,36,36,36,True,False
+Peugeot | concesionaria | Partner,2,https://autos.mercadolibre.com.uy/peugeot/partner/usado/concesionaria/,36,36,36,True,False
+Renault | particular | Sandero Stepway,2,https://autos.mercadolibre.com.uy/renault/sandero-stepway/usado/dueno/,37,37,33,True,False
+Nissan | concesionaria | NP300 Frontier,2,https://autos.mercadolibre.com.uy/nissan/np300-frontier/usado/concesionaria/,36,36,35,True,False
+Mercedes-Benz | concesionaria | Clase GLC,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-glc/usado/concesionaria/,36,36,24,True,False
+Renault | concesionaria | Oroch | 2016-2018,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/concesionaria/2016-2018/,36,36,20,True,False
+BYD | particular | F0,2,https://autos.mercadolibre.com.uy/byd/f0/usado/dueno/,36,36,26,True,False
+Nissan | concesionaria | Versa | 2021-2023,3,https://autos.mercadolibre.com.uy/nissan/versa/usado/concesionaria/2021-2023/,36,36,17,True,False
+Nissan | particular | Sentra | 2018-2024,3,https://autos.mercadolibre.com.uy/nissan/sentra/usado/dueno/2018-2024/,36,36,7,True,False
+Nissan | concesionaria | Frontier | 2023-2026,3,https://autos.mercadolibre.com.uy/nissan/frontier/usado/concesionaria/2023-2026/,36,36,13,True,False
+JAC | particular,1,https://autos.mercadolibre.com.uy/jac/usado/dueno/,35,35,35,True,False
+Renault | particular | Sandero,2,https://autos.mercadolibre.com.uy/renault/sandero/usado/dueno/,35,35,30,True,False
+Suzuki | concesionaria | Vitara,2,https://autos.mercadolibre.com.uy/suzuki/vitara/usado/concesionaria/,35,35,35,True,False
+Fiat | concesionaria | Toro,2,https://autos.mercadolibre.com.uy/fiat/toro/usado/concesionaria/,35,35,32,True,False
+Honda | concesionaria | CR-V,2,https://autos.mercadolibre.com.uy/honda/cr-v/usado/concesionaria/,35,35,18,True,False
+Renault | concesionaria | Kwid | 2017-2019,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/concesionaria/2017-2019/,35,35,23,True,False
+Kia | concesionaria | Sportage,2,https://autos.mercadolibre.com.uy/kia/sportage/usado/concesionaria/,35,35,23,True,False
+Hyundai | particular | HB20 | 2017-2021,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/dueno/2017-2021/,35,35,22,True,False
+Citroën | concesionaria | C3 | 2024-2026,3,https://autos.mercadolibre.com.uy/citroen/c3/usado/concesionaria/2024-2026/,35,35,17,True,False
+Mitsubishi | concesionaria | L200,2,https://autos.mercadolibre.com.uy/mitsubishi/l200/usado/concesionaria/,35,35,19,True,False
+Renault | concesionaria | Stepway,2,https://autos.mercadolibre.com.uy/renault/stepway/usado/concesionaria/,34,34,28,True,False
+Nissan | concesionaria | Note,2,https://autos.mercadolibre.com.uy/nissan/note/usado/concesionaria/,34,34,25,True,False
+BMW | particular | X1,2,https://autos.mercadolibre.com.uy/bmw/x1/usado/dueno/,34,34,29,True,False
+Suzuki | concesionaria | Celerio | 2017-2019,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/concesionaria/2017-2019/,34,34,28,True,False
+Kia | concesionaria | Picanto,2,https://autos.mercadolibre.com.uy/kia/picanto/usado/concesionaria/,34,33,25,True,False
+Renault | particular | Oroch | 2024-2026,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/dueno/2024-2026/,34,34,22,True,False
+Hyundai | concesionaria | Tucson | 2006-2015,3,https://autos.mercadolibre.com.uy/hyundai/tucson/usado/concesionaria/2006-2015/,33,33,7,True,False
+Chevrolet | particular | Joy,2,https://autos.mercadolibre.com.uy/chevrolet/joy/usado/dueno/,33,33,32,True,False
+Toyota | particular | Corolla Cross,2,https://autos.mercadolibre.com.uy/toyota/corolla-cross/usado/dueno/,33,33,27,True,False
+Chevrolet | concesionaria | Onix | 2018,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2018/,33,33,23,True,False
+Chevrolet | concesionaria | Onix | 2020,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2020/,33,33,31,True,False
+Peugeot | particular | 208 | 2020-2022,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/2020-2022/,33,33,23,True,False
+Suzuki | particular | Celerio | 2011-2014,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/dueno/2011-2014/,33,33,20,True,False
+Renault | concesionaria | Kwid | 2022-2023,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/concesionaria/2022-2023/,33,33,15,True,False
+BYD | concesionaria | F0,2,https://autos.mercadolibre.com.uy/byd/f0/usado/concesionaria/,33,33,13,True,False
+Volkswagen | particular | Nivus | 2021-2022,3,https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/dueno/2021-2022/,33,33,10,True,False
+Jetour | concesionaria,1,https://autos.mercadolibre.com.uy/jetour/usado/concesionaria/,33,33,33,True,False
+Volkswagen | particular | Gol Sedan,2,https://autos.mercadolibre.com.uy/volkswagen/gol-sedan/usado/dueno/,32,32,29,True,False
+Chevrolet | particular | S10,2,https://autos.mercadolibre.com.uy/chevrolet/s10/usado/dueno/,33,33,33,True,False
+Volkswagen | concesionaria | Gol Sedan,2,https://autos.mercadolibre.com.uy/volkswagen/gol-sedan/usado/concesionaria/,32,32,31,True,False
+Hyundai | particular | i10,2,https://autos.mercadolibre.com.uy/hyundai/i10/usado/dueno/,32,32,29,True,False
+Chevrolet | concesionaria | Onix | 2013-2017,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2013-2017/,32,32,28,True,False
+Volkswagen | concesionaria | Gol | 2022-2023,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/concesionaria/2022-2023/,32,32,24,True,False
+Volkswagen | particular | Saveiro | 2021-2022,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/dueno/2021-2022/,32,32,23,True,False
+Suzuki | particular | Swift | 2021-2022,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/dueno/2021-2022/,32,32,18,True,False
+Suzuki | concesionaria | Celerio | 2023-2025,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/concesionaria/2023-2025/,32,32,22,True,False
+Renault | particular | Kwid | 2018-2019,3,https://autos.mercadolibre.com.uy/renault/kwid/usado/dueno/2018-2019/,32,32,23,True,False
+FAW | particular,1,https://autos.mercadolibre.com.uy/faw/usado/dueno/,31,31,31,True,False
+JAC | concesionaria,1,https://autos.mercadolibre.com.uy/jac/usado/concesionaria/,32,32,32,True,False
+Chevrolet | particular | Cruze,2,https://autos.mercadolibre.com.uy/chevrolet/cruze/usado/dueno/,31,31,30,True,False
+Renault | particular | Logan,2,https://autos.mercadolibre.com.uy/renault/logan/usado/dueno/,31,31,28,True,False
+Nissan | particular | NP300 Frontier,2,https://autos.mercadolibre.com.uy/nissan/np300-frontier/usado/dueno/,31,31,28,True,False
+Citroën | particular | Berlingo,2,https://autos.mercadolibre.com.uy/citroen/berlingo/usado/dueno/,31,31,27,True,False
+Mercedes-Benz | concesionaria | Clase GLA,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-gla/usado/concesionaria/,31,31,21,True,False
+Volkswagen | concesionaria | Gol | 2020-2021,3,https://autos.mercadolibre.com.uy/volkswagen/gol/usado/concesionaria/2020-2021/,31,31,25,True,False
+Volkswagen | concesionaria | Saveiro | 2024-2026,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/concesionaria/2024-2026/,31,31,23,True,False
+Ford | concesionaria | Ecosport | 2019-2021,3,https://autos.mercadolibre.com.uy/ford/ecosport/usado/concesionaria/2019-2021/,31,31,14,True,False
+Suzuki | particular | Alto 800 | 2020-2023,3,https://autos.mercadolibre.com.uy/suzuki/alto-800/usado/dueno/2020-2023/,31,31,12,True,False
+Volkswagen | concesionaria | Tiguan | 2021-2025,3,https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/concesionaria/2021-2025/,31,31,10,True,False
+MINI | particular,1,https://autos.mercadolibre.com.uy/mini/usado/dueno/,30,30,30,True,False
+DFSK | concesionaria,1,https://autos.mercadolibre.com.uy/dfsk/usado/concesionaria/,30,30,30,True,False
+Chevrolet | concesionaria | Spin,2,https://autos.mercadolibre.com.uy/chevrolet/spin/usado/concesionaria/,30,30,29,True,False
+Chevrolet | particular | Corsa Classic,2,https://autos.mercadolibre.com.uy/chevrolet/corsa-classic/usado/dueno/,30,30,30,True,False
+Nissan | particular | Note,2,https://autos.mercadolibre.com.uy/nissan/note/usado/dueno/,30,30,26,True,False
+Hyundai | concesionaria | HB20S,2,https://autos.mercadolibre.com.uy/hyundai/hb20s/usado/concesionaria/,30,30,28,True,False
+Chevrolet | concesionaria | Onix | 2025-2026,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2025-2026/,30,30,29,True,False
+Chevrolet | particular | Onix | 2014-2016,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/2014-2016/,30,30,25,True,False
+Chevrolet | particular | Onix | 2025-2026,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/dueno/2025-2026/,30,30,26,True,False
+Peugeot | concesionaria | 208 | 2021-2022,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/2021-2022/,30,30,23,True,False
+Suzuki | particular | Celerio | 2023-2025,3,https://autos.mercadolibre.com.uy/suzuki/celerio/usado/dueno/2023-2025/,30,30,19,True,False
+Jeep | concesionaria | Renegade,2,https://autos.mercadolibre.com.uy/jeep/renegade/usado/concesionaria/,29,29,14,True,False
+Chevrolet | concesionaria | Tracker | 2004-2019,3,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/concesionaria/2004-2019/,30,30,13,True,False
+Nissan | particular | Kicks | 2022-2026,3,https://autos.mercadolibre.com.uy/nissan/kicks/usado/dueno/2022-2026/,30,30,14,True,False
+Ford | particular | Ecosport | 2007-2016,3,https://autos.mercadolibre.com.uy/ford/ecosport/usado/dueno/2007-2016/,30,30,10,True,False
+Mazda | concesionaria,1,https://autos.mercadolibre.com.uy/mazda/usado/concesionaria/,29,29,29,True,False
+Peugeot | particular | 206,2,https://autos.mercadolibre.com.uy/peugeot/206/usado/dueno/,28,28,28,True,False
+Fiat | concesionaria | Strada | 2024-2026,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/concesionaria/2024-2026/,29,29,24,True,False
+Kia | particular | Sportage,2,https://autos.mercadolibre.com.uy/kia/sportage/usado/dueno/,29,29,20,True,False
+Audi | particular | Q3,2,https://autos.mercadolibre.com.uy/audi/q3/usado/dueno/,29,29,21,True,False
+Hyundai | particular | HB20 | 2022,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/dueno/2022/,29,29,8,True,False
+Mitsubishi | particular | L200,2,https://autos.mercadolibre.com.uy/mitsubishi/l200/usado/dueno/,29,29,15,True,False
+Nissan | concesionaria | Kicks | 2022-2027,3,https://autos.mercadolibre.com.uy/nissan/kicks/usado/concesionaria/2022-2027/,29,29,12,True,False
+Chevrolet | particular | Spark | 2014-2016,3,https://autos.mercadolibre.com.uy/chevrolet/spark/usado/dueno/2014-2016/,29,29,7,True,False
+Chevrolet | particular | Agile,2,https://autos.mercadolibre.com.uy/chevrolet/agile/usado/dueno/,28,28,27,True,False
+Renault | concesionaria | Kangoo,2,https://autos.mercadolibre.com.uy/renault/kangoo/usado/concesionaria/,28,28,28,True,False
+Fiat | particular | Palio,2,https://autos.mercadolibre.com.uy/fiat/palio/usado/dueno/,28,28,28,True,False
+Citroën | particular | C-Elysée,2,https://autos.mercadolibre.com.uy/citroen/c-elysee/usado/dueno/,28,28,21,True,False
+Peugeot | particular | 208 | 2023,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/2023/,28,28,21,True,False
+Citroën | concesionaria | C4 Cactus | 2023-2025,3,https://autos.mercadolibre.com.uy/citroen/c4-cactus/usado/concesionaria/2023-2025/,28,28,9,True,False
+Peugeot | concesionaria | 207 | 2012-2014,3,https://autos.mercadolibre.com.uy/peugeot/207/usado/concesionaria/2012-2014/,29,29,11,True,False
+Peugeot | particular | 301,2,https://autos.mercadolibre.com.uy/peugeot/301/usado/dueno/,27,27,24,True,False
+Fiat | concesionaria | Fiorino,2,https://autos.mercadolibre.com.uy/fiat/fiorino/usado/concesionaria/,27,27,27,True,False
+Nissan | concesionaria | Tiida,2,https://autos.mercadolibre.com.uy/nissan/tiida/usado/concesionaria/,27,27,26,True,False
+Chevrolet | concesionaria | Onix | 2019,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2019/,27,27,21,True,False
+Toyota | concesionaria | Corolla,2,https://autos.mercadolibre.com.uy/toyota/corolla/usado/concesionaria/,27,27,22,True,False
+Honda | concesionaria | HR-V,2,https://autos.mercadolibre.com.uy/honda/hr-v/usado/concesionaria/,27,27,22,True,False
+Chevrolet | particular | Aveo,2,https://autos.mercadolibre.com.uy/chevrolet/aveo/usado/dueno/,26,26,24,True,False
+Volkswagen | concesionaria | Bora,2,https://autos.mercadolibre.com.uy/volkswagen/bora/usado/concesionaria/,26,26,25,True,False
+Volkswagen | concesionaria | Taos,2,https://autos.mercadolibre.com.uy/volkswagen/taos/usado/concesionaria/,26,26,25,True,False
+Honda | concesionaria | Ridgeline,2,https://autos.mercadolibre.com.uy/honda/ridgeline/usado/concesionaria/,26,26,21,True,False
+Chevrolet | concesionaria | Joy,2,https://autos.mercadolibre.com.uy/chevrolet/joy/usado/concesionaria/,25,25,23,True,False
+Fiat | particular | Siena,2,https://autos.mercadolibre.com.uy/fiat/siena/usado/dueno/,25,25,25,True,False
+Peugeot | concesionaria | 208 | 2013-2015,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/2013-2015/,25,25,21,True,False
+Honda | particular | HR-V,2,https://autos.mercadolibre.com.uy/honda/hr-v/usado/dueno/,25,25,18,True,False
+Honda | concesionaria | WR-V,2,https://autos.mercadolibre.com.uy/honda/wr-v/usado/concesionaria/,25,25,14,True,False
+Suzuki | concesionaria | Alto | 2020-2025,3,https://autos.mercadolibre.com.uy/suzuki/alto/usado/concesionaria/2020-2025/,25,25,9,True,False
+Chevrolet | particular | Tracker | 2023-2026,3,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/dueno/2023-2026/,25,25,11,True,False
+Jeep | particular | Compass,2,https://autos.mercadolibre.com.uy/jeep/compass/usado/dueno/,25,25,6,True,False
+Volkswagen | particular | Tiguan | 2021-2024,3,https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/dueno/2021-2024/,25,25,9,True,False
+Dodge | particular,1,https://autos.mercadolibre.com.uy/dodge/usado/dueno/,24,24,24,True,False
+Volvo | particular,1,https://autos.mercadolibre.com.uy/volvo/usado/dueno/,24,24,24,True,False
+Chevrolet | concesionaria | Equinox,2,https://autos.mercadolibre.com.uy/chevrolet/equinox/usado/concesionaria/,24,24,24,True,False
+Volkswagen | particular | Suran,2,https://autos.mercadolibre.com.uy/volkswagen/suran/usado/dueno/,24,24,22,True,False
+Fiat | particular | Strada Adventure,2,https://autos.mercadolibre.com.uy/fiat/strada-adventure/usado/dueno/,24,24,22,True,False
+Hyundai | concesionaria | i10,2,https://autos.mercadolibre.com.uy/hyundai/i10/usado/concesionaria/,24,24,20,True,False
+Peugeot | particular | 208 | 2025-2027,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/dueno/2025-2027/,24,24,23,True,False
+Mercedes-Benz | particular | Clase GLA,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-gla/usado/dueno/,24,24,16,True,False
+Volkswagen | particular | Up! | 2020,3,https://autos.mercadolibre.com.uy/volkswagen/up/usado/dueno/2020/,24,24,13,True,False
+Volkswagen | concesionaria | Polo,2,https://autos.mercadolibre.com.uy/volkswagen/polo/usado/concesionaria/,23,23,22,True,False
+Peugeot | concesionaria | 307,2,https://autos.mercadolibre.com.uy/peugeot/307/usado/concesionaria/,23,23,22,True,False
+Suzuki | particular | Grand Vitara,2,https://autos.mercadolibre.com.uy/suzuki/grand-vitara/usado/dueno/,23,23,23,True,False
+Fiat | concesionaria | Siena,2,https://autos.mercadolibre.com.uy/fiat/siena/usado/concesionaria/,23,23,21,True,False
+Chevrolet | concesionaria | Onix | 2021,3,https://autos.mercadolibre.com.uy/chevrolet/onix/usado/concesionaria/2021/,23,23,21,True,False
+Audi | concesionaria | Q3,2,https://autos.mercadolibre.com.uy/audi/q3/usado/concesionaria/,23,23,15,True,False
+Fiat | particular | Strada | 2025-2026,3,https://autos.mercadolibre.com.uy/fiat/strada/usado/dueno/2025-2026/,23,23,22,True,False
+Jeep | particular | Renegade,2,https://autos.mercadolibre.com.uy/jeep/renegade/usado/dueno/,23,23,6,True,False
+Subaru | particular | Forester,2,https://autos.mercadolibre.com.uy/subaru/forester/usado/dueno/,24,24,5,True,False
+Chevrolet | concesionaria | Agile,2,https://autos.mercadolibre.com.uy/chevrolet/agile/usado/concesionaria/,22,22,20,True,False
+Volkswagen | particular | Bora,2,https://autos.mercadolibre.com.uy/volkswagen/bora/usado/dueno/,22,22,22,True,False
+Suzuki | particular | Dzire,2,https://autos.mercadolibre.com.uy/suzuki/dzire/usado/dueno/,22,22,21,True,False
+Toyota | concesionaria | RAV4,2,https://autos.mercadolibre.com.uy/toyota/rav4/usado/concesionaria/,22,22,17,True,False
+BMW | particular | X3,2,https://autos.mercadolibre.com.uy/bmw/x3/usado/dueno/,22,22,13,True,False
+Audi | particular | A3 Sportback,2,https://autos.mercadolibre.com.uy/audi/a3-sportback/usado/dueno/,22,22,14,True,False
+Audi | particular | Q5,2,https://autos.mercadolibre.com.uy/audi/q5/usado/dueno/,23,23,18,True,False
+Mitsubishi | particular | Lancer,2,https://autos.mercadolibre.com.uy/mitsubishi/lancer/usado/dueno/,22,22,12,True,False
+Nissan | particular | March | 2016-2021,3,https://autos.mercadolibre.com.uy/nissan/march/usado/dueno/2016-2021/,22,22,6,True,False
+DFSK | particular,1,https://autos.mercadolibre.com.uy/dfsk/usado/dueno/,21,21,21,True,False
+Chevrolet | concesionaria | Sonic,2,https://autos.mercadolibre.com.uy/chevrolet/sonic/usado/concesionaria/,21,21,19,True,False
+Chevrolet | particular | Captiva,2,https://autos.mercadolibre.com.uy/chevrolet/captiva/usado/dueno/,21,21,20,True,False
+Renault | particular | Kangoo,2,https://autos.mercadolibre.com.uy/renault/kangoo/usado/dueno/,21,21,19,True,False
+Suzuki | concesionaria | Dzire,2,https://autos.mercadolibre.com.uy/suzuki/dzire/usado/concesionaria/,21,21,20,True,False
+Citroën | concesionaria | C-Elysée,2,https://autos.mercadolibre.com.uy/citroen/c-elysee/usado/concesionaria/,21,21,21,True,False
+Toyota | concesionaria | Hilux | 2023-2026,3,https://autos.mercadolibre.com.uy/toyota/hilux/usado/concesionaria/2023-2026/,21,21,10,True,False
+Nissan | particular | Versa | 2023-2026,3,https://autos.mercadolibre.com.uy/nissan/versa/usado/dueno/2023-2026/,21,21,12,True,False
+GWM | concesionaria | Wingle 5,2,https://autos.mercadolibre.com.uy/gwm/wingle-5/usado/concesionaria/,21,21,11,True,False
+Toyota | particular | Corolla | 2015-2021,3,https://autos.mercadolibre.com.uy/toyota/corolla/usado/dueno/2015-2021/,21,21,5,True,False
+Mazda | particular | CX-30,2,https://autos.mercadolibre.com.uy/mazda/cx-30/usado/dueno/,21,21,0,True,False
+Lifan | concesionaria,1,https://autos.mercadolibre.com.uy/lifan/usado/concesionaria/,20,20,20,True,False
+Lifan | particular,1,https://autos.mercadolibre.com.uy/lifan/usado/dueno/,20,20,20,True,False
+Land Rover | concesionaria,1,https://autos.mercadolibre.com.uy/land-rover/usado/concesionaria/,20,20,20,True,False
+Volkswagen | concesionaria | Virtus,2,https://autos.mercadolibre.com.uy/volkswagen/virtus/usado/concesionaria/,20,20,19,True,False
+Peugeot | concesionaria | 206,2,https://autos.mercadolibre.com.uy/peugeot/206/usado/concesionaria/,19,19,18,True,False
+Peugeot | concesionaria | 3008,2,https://autos.mercadolibre.com.uy/peugeot/3008/usado/concesionaria/,20,20,19,True,False
+Fiat | concesionaria | Palio,2,https://autos.mercadolibre.com.uy/fiat/palio/usado/concesionaria/,20,20,18,True,False
+Mercedes-Benz | concesionaria | Clase A,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-a/usado/concesionaria/,20,20,15,True,False
+Mercedes-Benz | concesionaria | Clase E,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-e/usado/concesionaria/,20,20,16,True,False
+Peugeot | concesionaria | 208 | 2023,3,https://autos.mercadolibre.com.uy/peugeot/208/usado/concesionaria/2023/,19,19,11,True,False
+Honda | particular | WR-V,2,https://autos.mercadolibre.com.uy/honda/wr-v/usado/dueno/,20,20,13,True,False
+Kia | concesionaria | Rio,2,https://autos.mercadolibre.com.uy/kia/rio/usado/concesionaria/,21,21,15,True,False
+Chery | concesionaria | QQ,2,https://autos.mercadolibre.com.uy/chery/qq/usado/concesionaria/,20,20,11,True,False
+Chevrolet | particular | Montana | 2025-2026,3,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/dueno/2025-2026/,20,20,8,True,False
+Chevrolet | concesionaria | Spark | 2014-2015,3,https://autos.mercadolibre.com.uy/chevrolet/spark/usado/concesionaria/2014-2015/,20,20,1,True,False
+Nissan | particular | tiida hb,2,https://autos.mercadolibre.com.uy/nissan/tiida-hb/usado/dueno/,19,19,14,True,False
+Suzuki | concesionaria | Baleno,2,https://autos.mercadolibre.com.uy/suzuki/baleno/usado/concesionaria/,19,19,17,True,False
+Ford | particular | Escort,2,https://autos.mercadolibre.com.uy/ford/escort/usado/dueno/,19,19,19,True,False
+Mercedes-Benz | particular | Clase A,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-a/usado/dueno/,19,19,14,True,False
+Chery | particular | Fulwin,2,https://autos.mercadolibre.com.uy/chery/fulwin/usado/dueno/,19,19,9,True,False
+Chevrolet | concesionaria | S10 | 2022-2026,3,https://autos.mercadolibre.com.uy/chevrolet/s10/usado/concesionaria/2022-2026/,19,19,4,True,False
+Chevrolet | particular | Celta | 2014-2016,3,https://autos.mercadolibre.com.uy/chevrolet/celta/usado/dueno/2014-2016/,19,19,5,True,False
+Volvo | concesionaria,1,https://autos.mercadolibre.com.uy/volvo/usado/concesionaria/,18,18,18,True,False
+Fiat | particular | Palio Weekend,2,https://autos.mercadolibre.com.uy/fiat/palio-weekend/usado/dueno/,18,18,16,True,False
+Hyundai | particular | H1,2,https://autos.mercadolibre.com.uy/hyundai/h1/usado/dueno/,18,18,17,True,False
+Ford | particular | Fiesta Kinetic,2,https://autos.mercadolibre.com.uy/ford/fiesta-kinetic/usado/dueno/,18,18,13,True,False
+Ford | particular | Ka,2,https://autos.mercadolibre.com.uy/ford/ka/usado/dueno/,18,18,16,True,False
+Toyota | concesionaria | Corolla Cross,2,https://autos.mercadolibre.com.uy/toyota/corolla-cross/usado/concesionaria/,18,18,10,True,False
+Chery | concesionaria | QQ3,2,https://autos.mercadolibre.com.uy/chery/qq3/usado/concesionaria/,18,18,12,True,False
+Chery | concesionaria | Tiggo 2,2,https://autos.mercadolibre.com.uy/chery/tiggo-2/usado/concesionaria/,18,18,11,True,False
+BYD | particular | F3,2,https://autos.mercadolibre.com.uy/byd/f3/usado/dueno/,18,18,6,True,False
+Suzuki | concesionaria | Swift | 2024-2026,3,https://autos.mercadolibre.com.uy/suzuki/swift/usado/concesionaria/2024-2026/,18,18,11,True,False
+Chevrolet | concesionaria | Prisma | 2019-2023,3,https://autos.mercadolibre.com.uy/chevrolet/prisma/usado/concesionaria/2019-2023/,18,18,4,True,False
+Volkswagen | particular | Polo | 2025-2026,3,https://autos.mercadolibre.com.uy/volkswagen/polo/usado/dueno/2025-2026/,18,18,3,True,False
+Victory Auto | concesionaria,1,https://autos.mercadolibre.com.uy/victory-auto/usado/concesionaria/,17,17,17,True,False
+Porsche | concesionaria,1,https://autos.mercadolibre.com.uy/porsche/usado/concesionaria/,17,17,17,True,False
+Chevrolet | concesionaria | Silverado,2,https://autos.mercadolibre.com.uy/chevrolet/silverado/usado/concesionaria/,17,17,16,True,False
+Volkswagen | particular | Taos,2,https://autos.mercadolibre.com.uy/volkswagen/taos/usado/dueno/,17,17,15,True,False
+Peugeot | particular | Partner Furgon,2,https://autos.mercadolibre.com.uy/peugeot/partner-furgon/usado/dueno/,17,17,16,True,False
+Fiat | particular | Argo,2,https://autos.mercadolibre.com.uy/fiat/argo/usado/dueno/,17,17,17,True,False
+Hyundai | concesionaria | Grand i10,2,https://autos.mercadolibre.com.uy/hyundai/grand-i10/usado/concesionaria/,17,17,16,True,False
+Toyota | particular | Rav 4 Hybrid,2,https://autos.mercadolibre.com.uy/toyota/rav-4-hybrid/usado/dueno/,17,17,12,True,False
+Mercedes-Benz | particular | Clase E,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-e/usado/dueno/,17,17,14,True,False
+Renault | concesionaria | Oroch | 2022,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/concesionaria/2022/,17,17,13,True,False
+Chery | particular | Chery QQ,2,https://autos.mercadolibre.com.uy/chery/chery-qq/usado/dueno/,17,17,8,True,False
+Hyundai | particular | HB20 | 2025-2026,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/dueno/2025-2026/,17,17,13,True,False
+Chevrolet | concesionaria | Tracker | 2024-2026,3,https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/concesionaria/2024-2026/,17,17,10,True,False
+Ford | concesionaria | Ranger | 2022-2026,3,https://autos.mercadolibre.com.uy/ford/ranger/usado/concesionaria/2022-2026/,17,17,2,True,False
+Volkswagen | particular | Amarok | 2020-2025,3,https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/dueno/2020-2025/,17,17,2,True,False
+Renault | concesionaria | Grand Captur,2,https://autos.mercadolibre.com.uy/renault/grand-captur/usado/concesionaria/,16,16,15,True,False
+Peugeot | particular | 106,2,https://autos.mercadolibre.com.uy/peugeot/106/usado/dueno/,16,16,15,True,False
+Suzuki | particular | Vitara,2,https://autos.mercadolibre.com.uy/suzuki/vitara/usado/dueno/,16,16,11,True,False
+Fiat | concesionaria | Argo,2,https://autos.mercadolibre.com.uy/fiat/argo/usado/concesionaria/,16,16,16,True,False
+Hyundai | particular | Kona Hybrid,2,https://autos.mercadolibre.com.uy/hyundai/kona-hybrid/usado/dueno/,16,16,13,True,False
+Hyundai | concesionaria | H1,2,https://autos.mercadolibre.com.uy/hyundai/h1/usado/concesionaria/,16,16,14,True,False
+Citroën | particular | Berlingo Furgon,2,https://autos.mercadolibre.com.uy/citroen/berlingo-furgon/usado/dueno/,16,16,14,True,False
+Citroën | particular | C4,2,https://autos.mercadolibre.com.uy/citroen/c4/usado/dueno/,16,16,11,True,False
+Mercedes-Benz | particular | Clase GLC,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-glc/usado/dueno/,16,16,13,True,False
+Honda | particular | Fit,2,https://autos.mercadolibre.com.uy/honda/fit/usado/dueno/,16,16,13,True,False
+Audi | concesionaria | A3,2,https://autos.mercadolibre.com.uy/audi/a3/usado/concesionaria/,16,16,13,True,False
+Chery | concesionaria | Fulwin,2,https://autos.mercadolibre.com.uy/chery/fulwin/usado/concesionaria/,15,15,9,True,False
+BYD | concesionaria | F3,2,https://autos.mercadolibre.com.uy/byd/f3/usado/concesionaria/,16,16,7,True,False
+Mitsubishi | concesionaria | Outlander,2,https://autos.mercadolibre.com.uy/mitsubishi/outlander/usado/concesionaria/,16,16,8,True,False
+GWM | concesionaria | Wingle,2,https://autos.mercadolibre.com.uy/gwm/wingle/usado/concesionaria/,16,16,2,True,False
+Land Rover | particular,1,https://autos.mercadolibre.com.uy/land-rover/usado/dueno/,15,15,15,True,False
+Chevrolet | concesionaria | Corsa Classic,2,https://autos.mercadolibre.com.uy/chevrolet/corsa-classic/usado/concesionaria/,15,15,15,True,False
+Volkswagen | particular | Parati,2,https://autos.mercadolibre.com.uy/volkswagen/parati/usado/dueno/,16,16,16,True,False
+Volkswagen | concesionaria | CrossFox,2,https://autos.mercadolibre.com.uy/volkswagen/crossfox/usado/concesionaria/,15,15,14,True,False
+Fiat | concesionaria | 500X,2,https://autos.mercadolibre.com.uy/fiat/500x/usado/concesionaria/,15,15,14,True,False
+Fiat | concesionaria | Palio Weekend,2,https://autos.mercadolibre.com.uy/fiat/palio-weekend/usado/concesionaria/,15,15,12,True,False
+Hyundai | particular | Grand i10,2,https://autos.mercadolibre.com.uy/hyundai/grand-i10/usado/dueno/,15,15,14,True,False
+Hyundai | concesionaria | Accent,2,https://autos.mercadolibre.com.uy/hyundai/accent/usado/concesionaria/,15,15,15,True,False
+Toyota | particular | RAV4,2,https://autos.mercadolibre.com.uy/toyota/rav4/usado/dueno/,15,15,14,True,False
+BYD | particular | Yuan Pro,2,https://autos.mercadolibre.com.uy/byd/yuan-pro/usado/dueno/,15,15,10,True,False
+Renault | concesionaria | Sandero Stepway | 2019-2024,3,https://autos.mercadolibre.com.uy/renault/sandero-stepway/usado/concesionaria/2019-2024/,15,15,2,True,False
+Renault | particular | Duster | 2022-2025,3,https://autos.mercadolibre.com.uy/renault/duster/usado/dueno/2022-2025/,15,15,3,True,False
+Seat | concesionaria,1,https://autos.mercadolibre.com.uy/seat/usado/concesionaria/,14,14,14,True,False
+Daewoo | particular,1,https://autos.mercadolibre.com.uy/daewoo/usado/dueno/,14,14,14,True,False
+Volkswagen | particular | Escarabajo/Fusca,2,https://autos.mercadolibre.com.uy/volkswagen/escarabajo-fusca/usado/dueno/,14,14,13,True,False
+Volkswagen | particular | Kombi,2,https://autos.mercadolibre.com.uy/volkswagen/kombi/usado/dueno/,14,14,14,True,False
+Volkswagen | particular | Virtus,2,https://autos.mercadolibre.com.uy/volkswagen/virtus/usado/dueno/,14,14,14,True,False
+Renault | particular | Scénic,2,https://autos.mercadolibre.com.uy/renault/scenic/usado/dueno/,14,14,14,True,False
+Mercedes-Benz | concesionaria | Clase GLE,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-gle/usado/concesionaria/,14,14,11,True,False
+Audi | concesionaria | Q2,2,https://autos.mercadolibre.com.uy/audi/q2/usado/concesionaria/,14,14,6,True,False
+Jeep | concesionaria | Grand Cherokee,2,https://autos.mercadolibre.com.uy/jeep/grand-cherokee/usado/concesionaria/,14,14,8,True,False
+Nissan | concesionaria | Versa | 2024-2025,3,https://autos.mercadolibre.com.uy/nissan/versa/usado/concesionaria/2024-2025/,14,14,8,True,False
+Chevrolet | particular | Corsa | 2010-2012,3,https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/dueno/2010-2012/,14,14,3,True,False
+Volkswagen | concesionaria | Nivus | 2024-2026,3,https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/concesionaria/2024-2026/,14,14,1,True,False
+Volkswagen | particular | T-Cross | 2025-2026,3,https://autos.mercadolibre.com.uy/volkswagen/t-cross/usado/dueno/2025-2026/,15,15,5,True,False
+Changan | concesionaria,1,https://autos.mercadolibre.com.uy/changan/usado/concesionaria/,13,13,13,True,False
+Opel | particular,1,https://autos.mercadolibre.com.uy/opel/usado/dueno/,13,13,13,True,False
+Chevrolet | particular | S-10,2,https://autos.mercadolibre.com.uy/chevrolet/s-10/usado/dueno/,13,13,13,True,False
+Peugeot | particular | 3008,2,https://autos.mercadolibre.com.uy/peugeot/3008/usado/dueno/,13,13,8,True,False
+Peugeot | particular | 306,2,https://autos.mercadolibre.com.uy/peugeot/306/usado/dueno/,13,13,13,True,False
+Fiat | particular | FASTBACK,2,https://autos.mercadolibre.com.uy/fiat/fastback/usado/dueno/,13,13,10,True,False
+Ford | concesionaria | Fiesta Kinetic,2,https://autos.mercadolibre.com.uy/ford/fiesta-kinetic/usado/concesionaria/,13,13,7,True,False
+Ford | concesionaria | Ka,2,https://autos.mercadolibre.com.uy/ford/ka/usado/concesionaria/,13,13,13,True,False
+Citroën | particular | Saxo,2,https://autos.mercadolibre.com.uy/citroen/saxo/usado/dueno/,13,13,13,True,False
+Honda | concesionaria | Civic,2,https://autos.mercadolibre.com.uy/honda/civic/usado/concesionaria/,13,13,12,True,False
+Chery | concesionaria | Tiggo 4,2,https://autos.mercadolibre.com.uy/chery/tiggo-4/usado/concesionaria/,13,13,8,True,False
+Chery | particular | Tiggo 2,2,https://autos.mercadolibre.com.uy/chery/tiggo-2/usado/dueno/,13,13,9,True,False
+BYD | concesionaria | Seagull,2,https://autos.mercadolibre.com.uy/byd/seagull/usado/concesionaria/,13,13,11,True,False
+Geely | concesionaria | GX3,2,https://autos.mercadolibre.com.uy/geely/gx3/usado/concesionaria/,12,12,3,True,False
+Peugeot | particular | 207 | 2013-2014,3,https://autos.mercadolibre.com.uy/peugeot/207/usado/dueno/2013-2014/,13,13,2,True,False
+Ford | particular | Ranger | 2022-2025,3,https://autos.mercadolibre.com.uy/ford/ranger/usado/dueno/2022-2025/,13,13,0,True,False
+Chana | particular,1,https://autos.mercadolibre.com.uy/chana/usado/dueno/,12,12,12,True,False
+OMODA | particular,1,https://autos.mercadolibre.com.uy/omoda/usado/dueno/,13,13,13,True,False
+BYD auto | particular,1,https://autos.mercadolibre.com.uy/byd-auto/usado/dueno/,12,12,12,True,False
+Chevrolet | concesionaria | Meriva,2,https://autos.mercadolibre.com.uy/chevrolet/meriva/usado/concesionaria/,12,12,11,True,False
+Chevrolet | particular | Astra,2,https://autos.mercadolibre.com.uy/chevrolet/astra/usado/dueno/,13,13,13,True,False
+Chevrolet | particular | Meriva,2,https://autos.mercadolibre.com.uy/chevrolet/meriva/usado/dueno/,12,12,12,True,False
+Chevrolet | particular | Spin,2,https://autos.mercadolibre.com.uy/chevrolet/spin/usado/dueno/,12,12,9,True,False
+Renault | particular | Fluence,2,https://autos.mercadolibre.com.uy/renault/fluence/usado/dueno/,12,12,12,True,False
+Renault | particular | Symbol,2,https://autos.mercadolibre.com.uy/renault/symbol/usado/dueno/,12,12,11,True,False
+Fiat | concesionaria | FASTBACK,2,https://autos.mercadolibre.com.uy/fiat/fastback/usado/concesionaria/,12,12,8,True,False
+Toyota | particular | Hilux Pick-Up,2,https://autos.mercadolibre.com.uy/toyota/hilux-pick-up/usado/dueno/,12,12,11,True,False
+Citroën | concesionaria | Xsara Picasso,2,https://autos.mercadolibre.com.uy/citroen/xsara-picasso/usado/concesionaria/,12,12,9,True,False
+BMW | concesionaria | Serie 4,2,https://autos.mercadolibre.com.uy/bmw/serie-4/usado/concesionaria/,12,12,10,True,False
+BMW | concesionaria | X4,2,https://autos.mercadolibre.com.uy/bmw/x4/usado/concesionaria/,12,12,10,True,False
+Chery | particular | QQ3,2,https://autos.mercadolibre.com.uy/chery/qq3/usado/dueno/,12,12,8,True,False
+Jeep | concesionaria | Commander,2,https://autos.mercadolibre.com.uy/jeep/commander/usado/concesionaria/,12,12,8,True,False
+BYD | concesionaria | Yuan Pro,2,https://autos.mercadolibre.com.uy/byd/yuan-pro/usado/concesionaria/,12,12,7,True,False
+Chevrolet | concesionaria | Montana | 2025,3,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/concesionaria/2025/,12,12,5,True,False
+Volkswagen | particular | Golf | 2019-2020,3,https://autos.mercadolibre.com.uy/volkswagen/golf/usado/dueno/2019-2020/,12,12,0,True,False
+Daihatsu | particular,1,https://autos.mercadolibre.com.uy/daihatsu/usado/dueno/,12,12,12,True,False
+Chevrolet | concesionaria | Aveo G3,2,https://autos.mercadolibre.com.uy/chevrolet/aveo-g3/usado/concesionaria/,11,11,8,True,False
+Volkswagen | particular | Fox,2,https://autos.mercadolibre.com.uy/volkswagen/fox/usado/dueno/,11,11,9,True,False
+Renault | concesionaria | Captur,2,https://autos.mercadolibre.com.uy/renault/captur/usado/concesionaria/,11,11,11,True,False
+Suzuki | particular | Fronx,2,https://autos.mercadolibre.com.uy/suzuki/fronx/usado/dueno/,11,11,11,True,False
+Suzuki | concesionaria | S-Presso,2,https://autos.mercadolibre.com.uy/suzuki/s-presso/usado/concesionaria/,11,11,8,True,False
+Toyota | particular | Corolla Hybrid,2,https://autos.mercadolibre.com.uy/toyota/corolla-hybrid/usado/dueno/,11,11,8,True,False
+Toyota | particular | Prius,2,https://autos.mercadolibre.com.uy/toyota/prius/usado/dueno/,11,11,9,True,False
+Toyota | particular | Yaris,2,https://autos.mercadolibre.com.uy/toyota/yaris/usado/dueno/,11,11,10,True,False
+Ford | concesionaria | Ranger Raptor,2,https://autos.mercadolibre.com.uy/ford/ranger-raptor/usado/concesionaria/,11,11,11,True,False
+Citroën | particular | C3 Aircross,2,https://autos.mercadolibre.com.uy/citroen/c3-aircross/usado/dueno/,11,11,9,True,False
+Citroën | particular | Xsara Picasso,2,https://autos.mercadolibre.com.uy/citroen/xsara-picasso/usado/dueno/,11,11,10,True,False
+BMW | particular | Serie 5,2,https://autos.mercadolibre.com.uy/bmw/serie-5/usado/dueno/,11,11,10,True,False
+Honda | concesionaria | Fit,2,https://autos.mercadolibre.com.uy/honda/fit/usado/concesionaria/,11,11,7,True,False
+Audi | concesionaria | Q3 Sportback,2,https://autos.mercadolibre.com.uy/audi/q3-sportback/usado/concesionaria/,12,12,7,True,False
+Chery | concesionaria | Tiggo,2,https://autos.mercadolibre.com.uy/chery/tiggo/usado/concesionaria/,11,11,9,True,False
+Chery | concesionaria | Tiggo 2 Pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-2-pro/usado/concesionaria/,10,10,6,True,False
+Hyundai | concesionaria | HB20 | 2026,3,https://autos.mercadolibre.com.uy/hyundai/hb20/usado/concesionaria/2026/,11,11,11,True,False
+Chery | particular | Tiggo 2 Pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-2-pro/usado/dueno/,12,12,9,True,False
+Chery | particular | Tiggo 4,2,https://autos.mercadolibre.com.uy/chery/tiggo-4/usado/dueno/,11,11,8,True,False
+BYD | particular | Seagull,2,https://autos.mercadolibre.com.uy/byd/seagull/usado/dueno/,11,11,9,True,False
+Fiat | concesionaria | Uno | 2019-2020,3,https://autos.mercadolibre.com.uy/fiat/uno/usado/concesionaria/2019-2020/,11,11,4,True,False
+Mitsubishi | particular | Outlander,2,https://autos.mercadolibre.com.uy/mitsubishi/outlander/usado/dueno/,11,11,4,True,False
+Peugeot | concesionaria | 301 | 2022-2024,3,https://autos.mercadolibre.com.uy/peugeot/301/usado/concesionaria/2022-2024/,11,11,0,True,False
+Karry | concesionaria,1,https://autos.mercadolibre.com.uy/karry/usado/concesionaria/,10,10,10,True,False
+Great Wall | particular,1,https://autos.mercadolibre.com.uy/usado/dueno/_BRAND_42829323,10,10,10,True,False
+ZxAuto | concesionaria,1,https://autos.mercadolibre.com.uy/zxauto/usado/concesionaria/,10,10,10,True,False
+Chevrolet | particular | Chevette,2,https://autos.mercadolibre.com.uy/chevrolet/chevette/usado/dueno/,10,10,10,True,False
+Chevrolet | particular | Classic,2,https://autos.mercadolibre.com.uy/chevrolet/classic/usado/dueno/,11,11,11,True,False
+Chevrolet | particular | Equinox,2,https://autos.mercadolibre.com.uy/chevrolet/equinox/usado/dueno/,10,10,10,True,False
+Renault | particular | Megane,2,https://autos.mercadolibre.com.uy/renault/megane/usado/dueno/,10,10,10,True,False
+Renault | particular | Stepway,2,https://autos.mercadolibre.com.uy/renault/stepway/usado/dueno/,10,10,9,True,False
+Suzuki | particular | Baleno,2,https://autos.mercadolibre.com.uy/suzuki/baleno/usado/dueno/,10,10,9,True,False
+Suzuki | particular | Ciaz,2,https://autos.mercadolibre.com.uy/suzuki/ciaz/usado/dueno/,10,10,9,True,False
+Fiat | concesionaria | Pulse,2,https://autos.mercadolibre.com.uy/fiat/pulse/usado/concesionaria/,10,10,9,True,False
+Nissan | concesionaria | tiida hb,2,https://autos.mercadolibre.com.uy/nissan/tiida-hb/usado/concesionaria/,10,10,6,True,False
+Mercedes-Benz | concesionaria | Sprinter,2,https://autos.mercadolibre.com.uy/mercedes-benz/sprinter/usado/concesionaria/,10,10,9,True,False
+BMW | particular | Ix1,2,https://autos.mercadolibre.com.uy/bmw/ix1/usado/dueno/,10,10,7,True,False
+BMW | particular | X4,2,https://autos.mercadolibre.com.uy/bmw/x4/usado/dueno/,10,10,7,True,False
+Mercedes-Benz | particular | Sprinter,2,https://autos.mercadolibre.com.uy/mercedes-benz/sprinter/usado/dueno/,10,10,5,True,False
+Audi | particular | A3,2,https://autos.mercadolibre.com.uy/audi/a3/usado/dueno/,10,10,8,True,False
+Geely | concesionaria | Coolray,2,https://autos.mercadolibre.com.uy/geely/coolray/usado/concesionaria/,10,10,4,True,False
+Geely | concesionaria | LC,2,https://autos.mercadolibre.com.uy/geely/lc/usado/concesionaria/,10,10,4,True,False
+Chevrolet | concesionaria | Montana | 2005-2023,3,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/concesionaria/2005-2023/,10,10,4,True,False
+Renault | particular | Clio | 2020-2024,3,https://autos.mercadolibre.com.uy/renault/clio/usado/dueno/2020-2024/,10,10,2,True,False
+Nissan | concesionaria | Sentra | 2022-2025,3,https://autos.mercadolibre.com.uy/nissan/sentra/usado/concesionaria/2022-2025/,10,10,1,True,False
+Victory Auto | particular,1,https://autos.mercadolibre.com.uy/victory-auto/usado/dueno/,9,9,9,True,False
+Alfa Romeo | particular,1,https://autos.mercadolibre.com.uy/alfa-romeo/usado/dueno/,9,9,9,True,False
+BAW | particular,1,https://autos.mercadolibre.com.uy/baw/usado/dueno/,9,9,9,True,False
+Chevrolet | particular | Groove,2,https://autos.mercadolibre.com.uy/chevrolet/groove/usado/dueno/,9,9,9,True,False
+Chevrolet | particular | Sail,2,https://autos.mercadolibre.com.uy/chevrolet/sail/usado/dueno/,9,9,7,True,False
+Renault | concesionaria | Fluence,2,https://autos.mercadolibre.com.uy/renault/fluence/usado/concesionaria/,9,9,8,True,False
+Renault | concesionaria | Megane,2,https://autos.mercadolibre.com.uy/renault/megane/usado/concesionaria/,9,9,9,True,False
+Renault | particular | Twingo,2,https://autos.mercadolibre.com.uy/renault/twingo/usado/dueno/,9,9,9,True,False
+Nissan | particular | Qashqai,2,https://autos.mercadolibre.com.uy/nissan/qashqai/usado/dueno/,9,9,8,True,False
+Toyota | particular | Tercel,2,https://autos.mercadolibre.com.uy/toyota/tercel/usado/dueno/,9,9,8,True,False
+Citroën | concesionaria | C4,2,https://autos.mercadolibre.com.uy/citroen/c4/usado/concesionaria/,9,9,9,True,False
+Ford | concesionaria | Focus,2,https://autos.mercadolibre.com.uy/ford/focus/usado/concesionaria/,9,9,9,True,False
+Ford | concesionaria | Fusion,2,https://autos.mercadolibre.com.uy/ford/fusion/usado/concesionaria/,9,9,9,True,False
+Ford | particular | Focus,2,https://autos.mercadolibre.com.uy/ford/focus/usado/dueno/,9,9,8,True,False
+Toyota | concesionaria | Yaris,2,https://autos.mercadolibre.com.uy/toyota/yaris/usado/concesionaria/,9,9,6,True,False
+Honda | particular | Ridgeline,2,https://autos.mercadolibre.com.uy/honda/ridgeline/usado/dueno/,9,9,5,True,False
+BYD | particular | E2,2,https://autos.mercadolibre.com.uy/byd/e2/usado/dueno/,9,9,5,True,False
+Peugeot | particular | 2008 | 2025-2026,3,https://autos.mercadolibre.com.uy/peugeot/2008/usado/dueno/2025-2026/,9,9,6,True,False
+Mitsubishi | concesionaria | ASX,2,https://autos.mercadolibre.com.uy/mitsubishi/asx/usado/concesionaria/,9,9,1,True,False
+Chevrolet | particular | Montana | 2008-2023,3,https://autos.mercadolibre.com.uy/chevrolet/montana/usado/dueno/2008-2023/,9,9,5,True,False
+Geely | concesionaria | CK,2,https://autos.mercadolibre.com.uy/geely/ck/usado/concesionaria/,9,9,3,True,False
+Geely | particular | LC,2,https://autos.mercadolibre.com.uy/geely/lc/usado/dueno/,9,9,3,True,False
+Nissan | particular | Frontier | 2024-2025,3,https://autos.mercadolibre.com.uy/nissan/frontier/usado/dueno/2024-2025/,9,9,0,True,False
+Porsche | particular,1,https://autos.mercadolibre.com.uy/porsche/usado/dueno/,8,8,8,True,False
+Seat | particular,1,https://autos.mercadolibre.com.uy/seat/usado/dueno/,8,8,8,True,False
+Changan | particular,1,https://autos.mercadolibre.com.uy/changan/usado/dueno/,8,8,8,True,False
+RAM | concesionaria,1,https://autos.mercadolibre.com.uy/ram/usado/concesionaria/,8,8,8,True,False
+Effa (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/effa/usado/,8,8,8,True,True
+Chevrolet | concesionaria | Cruze 5,2,https://autos.mercadolibre.com.uy/chevrolet/cruze-5/usado/concesionaria/,8,8,7,True,False
+Chevrolet | concesionaria | Sail,2,https://autos.mercadolibre.com.uy/chevrolet/sail/usado/concesionaria/,8,8,7,True,False
+Chevrolet | particular | Sonic,2,https://autos.mercadolibre.com.uy/chevrolet/sonic/usado/dueno/,8,8,7,True,False
+Renault | concesionaria | Symbol,2,https://autos.mercadolibre.com.uy/renault/symbol/usado/concesionaria/,9,9,9,True,False
+Suzuki | particular | Grand Vitara Hybrid,2,https://autos.mercadolibre.com.uy/suzuki/grand-vitara-hybrid/usado/dueno/,8,8,8,True,False
+Nissan | concesionaria | X-Trail,2,https://autos.mercadolibre.com.uy/nissan/x-trail/usado/concesionaria/,8,8,8,True,False
+Toyota | particular | Etios,2,https://autos.mercadolibre.com.uy/toyota/etios/usado/dueno/,8,8,5,True,False
+Toyota | particular | Hilux SW4,2,https://autos.mercadolibre.com.uy/toyota/hilux-sw4/usado/dueno/,8,8,5,True,False
+BMW | concesionaria | Serie 5,2,https://autos.mercadolibre.com.uy/bmw/serie-5/usado/concesionaria/,8,8,5,True,False
+Toyota | concesionaria | Etios,2,https://autos.mercadolibre.com.uy/toyota/etios/usado/concesionaria/,8,8,4,True,False
+BMW | particular | Serie 4,2,https://autos.mercadolibre.com.uy/bmw/serie-4/usado/dueno/,8,8,7,True,False
+Audi | concesionaria | A4,2,https://autos.mercadolibre.com.uy/audi/a4/usado/concesionaria/,8,8,7,True,False
+Kia | concesionaria | Carnival,2,https://autos.mercadolibre.com.uy/kia/carnival/usado/concesionaria/,8,8,4,True,False
+Audi | particular | A4,2,https://autos.mercadolibre.com.uy/audi/a4/usado/dueno/,8,8,6,True,False
+Chery | particular | tiggo 7 pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-7-pro/usado/dueno/,8,8,5,True,False
+Geely | concesionaria | EX5,2,https://autos.mercadolibre.com.uy/geely/ex5/usado/concesionaria/,8,8,3,True,False
+Geely | concesionaria | Gx3 Pro,2,https://autos.mercadolibre.com.uy/geely/gx3-pro/usado/concesionaria/,8,8,2,True,False
+GWM | concesionaria | Poer,2,https://autos.mercadolibre.com.uy/gwm/poer/usado/concesionaria/,8,8,0,True,False
+Geely | particular | GX3,2,https://autos.mercadolibre.com.uy/geely/gx3/usado/dueno/,8,8,3,True,False
+Geely | particular | Gx3 Pro,2,https://autos.mercadolibre.com.uy/geely/gx3-pro/usado/dueno/,8,8,2,True,False
+Subaru | particular | XV,2,https://autos.mercadolibre.com.uy/subaru/xv/usado/dueno/,8,8,2,True,False
+RAM | particular,1,https://autos.mercadolibre.com.uy/ram/usado/dueno/,7,7,7,True,False
+Foton | particular,1,https://autos.mercadolibre.com.uy/foton/usado/dueno/,7,7,7,True,False
+Chevrolet | concesionaria | Cruze II,2,https://autos.mercadolibre.com.uy/chevrolet/cruze-ii/usado/concesionaria/,7,7,4,True,False
+Chevrolet | concesionaria | Vectra,2,https://autos.mercadolibre.com.uy/chevrolet/vectra/usado/concesionaria/,7,7,7,True,False
+Volkswagen | particular | CrossFox,2,https://autos.mercadolibre.com.uy/volkswagen/crossfox/usado/dueno/,7,7,6,True,False
+Chevrolet | particular | Aveo G3,2,https://autos.mercadolibre.com.uy/chevrolet/aveo-g3/usado/dueno/,7,7,6,True,False
+Chevrolet | particular | Silverado,2,https://autos.mercadolibre.com.uy/chevrolet/silverado/usado/dueno/,7,7,7,True,False
+Renault | concesionaria | Arkana,2,https://autos.mercadolibre.com.uy/renault/arkana/usado/concesionaria/,7,7,7,True,False
+Renault | concesionaria | Kangoo Express,2,https://autos.mercadolibre.com.uy/renault/kangoo-express/usado/concesionaria/,7,7,7,True,False
+Renault | concesionaria | Scénic,2,https://autos.mercadolibre.com.uy/renault/scenic/usado/concesionaria/,7,7,7,True,False
+Suzuki | particular | Ertiga,2,https://autos.mercadolibre.com.uy/suzuki/ertiga/usado/dueno/,8,8,8,True,False
+Fiat | particular | 500X,2,https://autos.mercadolibre.com.uy/fiat/500x/usado/dueno/,7,7,7,True,False
+Suzuki | concesionaria | Fronx,2,https://autos.mercadolibre.com.uy/suzuki/fronx/usado/concesionaria/,7,7,6,True,False
+Nissan | concesionaria | NP300,2,https://autos.mercadolibre.com.uy/nissan/np300/usado/concesionaria/,8,8,8,True,False
+Nissan | concesionaria | Qashqai,2,https://autos.mercadolibre.com.uy/nissan/qashqai/usado/concesionaria/,7,7,7,True,False
+Hyundai | particular | Ioniq,2,https://autos.mercadolibre.com.uy/hyundai/ioniq/usado/dueno/,7,7,7,True,False
+Citroën | concesionaria | DS3,2,https://autos.mercadolibre.com.uy/citroen/ds3/usado/concesionaria/,7,7,7,True,False
+Citroën | concesionaria | Saxo,2,https://autos.mercadolibre.com.uy/citroen/saxo/usado/concesionaria/,7,7,7,True,False
+Ford | concesionaria | Bronco Sport,2,https://autos.mercadolibre.com.uy/ford/bronco-sport/usado/concesionaria/,7,7,7,True,False
+Ford | concesionaria | F-150,2,https://autos.mercadolibre.com.uy/ford/f-150/usado/concesionaria/,7,7,4,True,False
+Ford | concesionaria | Maverick,2,https://autos.mercadolibre.com.uy/ford/maverick/usado/concesionaria/,7,7,7,True,False
+Citroën | particular | AX,2,https://autos.mercadolibre.com.uy/citroen/ax/usado/dueno/,7,7,7,True,False
+Citroën | particular | Xsara,2,https://autos.mercadolibre.com.uy/citroen/xsara/usado/dueno/,7,7,7,True,False
+Ford | particular | Focus III,2,https://autos.mercadolibre.com.uy/ford/focus-iii/usado/dueno/,7,7,2,True,False
+Ford | particular | Fusion,2,https://autos.mercadolibre.com.uy/ford/fusion/usado/dueno/,7,7,6,True,False
+Mercedes-Benz | concesionaria | Clase ML,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-ml/usado/concesionaria/,7,7,6,True,False
+Volkswagen | particular | Saveiro | 2026-2027,3,https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/dueno/2026-2027/,7,7,6,True,False
+Kia | particular | Sorento,2,https://autos.mercadolibre.com.uy/kia/sorento/usado/dueno/,7,7,1,True,False
+Audi | concesionaria | Q7,2,https://autos.mercadolibre.com.uy/audi/q7/usado/concesionaria/,7,7,4,True,False
+Audi | concesionaria | SQ5,2,https://autos.mercadolibre.com.uy/audi/sq5/usado/concesionaria/,7,7,2,True,False
+Audi | particular | Q7,2,https://autos.mercadolibre.com.uy/audi/q7/usado/dueno/,7,7,3,True,False
+Jeep | concesionaria | Wrangler,2,https://autos.mercadolibre.com.uy/jeep/wrangler/usado/concesionaria/,7,7,6,True,False
+BYD | concesionaria | E2,2,https://autos.mercadolibre.com.uy/byd/e2/usado/concesionaria/,7,7,4,True,False
+Mitsubishi | particular | ASX,2,https://autos.mercadolibre.com.uy/mitsubishi/asx/usado/dueno/,7,7,3,True,False
+Subaru | particular | Legacy,2,https://autos.mercadolibre.com.uy/subaru/legacy/usado/dueno/,7,7,0,True,False
+Volkswagen | concesionaria | Vento | 2023-2026,3,https://autos.mercadolibre.com.uy/volkswagen/vento/usado/concesionaria/2023-2026/,7,7,1,True,False
+Mazda | particular | CX-5,2,https://autos.mercadolibre.com.uy/mazda/cx-5/usado/dueno/,7,7,0,True,False
+Chana | concesionaria,1,https://autos.mercadolibre.com.uy/chana/usado/concesionaria/,6,6,6,True,False
+OMODA | concesionaria,1,https://autos.mercadolibre.com.uy/omoda/usado/concesionaria/,6,6,6,True,False
+Karry | particular,1,https://autos.mercadolibre.com.uy/karry/usado/dueno/,6,6,6,True,False
+JMC | particular,1,https://autos.mercadolibre.com.uy/jmc/usado/dueno/,6,6,6,True,False
+Lynk & Co | concesionaria,1,https://autos.mercadolibre.com.uy/lynk-co/usado/concesionaria/,6,6,6,True,False
+MG | concesionaria,1,https://autos.mercadolibre.com.uy/mg/usado/concesionaria/,6,6,6,True,False
+SsangYong | particular,1,https://autos.mercadolibre.com.uy/ssangyong/usado/dueno/,6,6,6,True,False
+Chevrolet | concesionaria | Joy Plus,2,https://autos.mercadolibre.com.uy/chevrolet/joy-plus/usado/concesionaria/,6,6,6,True,False
+Volkswagen | particular | Passat,2,https://autos.mercadolibre.com.uy/volkswagen/passat/usado/dueno/,6,6,6,True,False
+Chevrolet | particular | Monza,2,https://autos.mercadolibre.com.uy/chevrolet/monza/usado/dueno/,6,6,6,True,False
+Volkswagen | concesionaria | Tera,2,https://autos.mercadolibre.com.uy/volkswagen/tera/usado/concesionaria/,6,6,6,True,False
+Renault | concesionaria | Koleos,2,https://autos.mercadolibre.com.uy/renault/koleos/usado/concesionaria/,6,6,5,True,False
+Peugeot | particular | 205,2,https://autos.mercadolibre.com.uy/peugeot/205/usado/dueno/,6,6,6,True,False
+Peugeot | particular | 5008,2,https://autos.mercadolibre.com.uy/peugeot/5008/usado/dueno/,6,6,5,True,False
+Peugeot | concesionaria | 5008,2,https://autos.mercadolibre.com.uy/peugeot/5008/usado/concesionaria/,6,6,5,True,False
+Peugeot | concesionaria | Bipper,2,https://autos.mercadolibre.com.uy/peugeot/bipper/usado/concesionaria/,6,6,6,True,False
+Peugeot | concesionaria | Partner Furgon,2,https://autos.mercadolibre.com.uy/peugeot/partner-furgon/usado/concesionaria/,6,6,6,True,False
+Peugeot | concesionaria | Partner K9,2,https://autos.mercadolibre.com.uy/peugeot/partner-k9/usado/concesionaria/,6,6,6,True,False
+Renault | particular | Captur,2,https://autos.mercadolibre.com.uy/renault/captur/usado/dueno/,6,6,5,True,False
+Renault | particular | Kangoo Express,2,https://autos.mercadolibre.com.uy/renault/kangoo-express/usado/dueno/,6,6,5,True,False
+Renault | particular | Kardian,2,https://autos.mercadolibre.com.uy/renault/kardian/usado/dueno/,6,6,6,True,False
+Renault | particular | Mégane III,2,https://autos.mercadolibre.com.uy/renault/megane-iii/usado/dueno/,6,6,6,True,False
+Suzuki | particular | S-Presso,2,https://autos.mercadolibre.com.uy/suzuki/s-presso/usado/dueno/,6,6,6,True,False
+Hyundai | particular | Eon,2,https://autos.mercadolibre.com.uy/hyundai/eon/usado/dueno/,6,6,6,True,False
+Hyundai | particular | Santa Fe,2,https://autos.mercadolibre.com.uy/hyundai/santa-fe/usado/dueno/,6,6,6,True,False
+Hyundai | particular | Sonata,2,https://autos.mercadolibre.com.uy/hyundai/sonata/usado/dueno/,6,6,6,True,False
+Hyundai | concesionaria | Eon,2,https://autos.mercadolibre.com.uy/hyundai/eon/usado/concesionaria/,6,6,5,True,False
+Hyundai | concesionaria | Kona,2,https://autos.mercadolibre.com.uy/hyundai/kona/usado/concesionaria/,6,6,6,True,False
+Citroën | concesionaria | C3 Aircross,2,https://autos.mercadolibre.com.uy/citroen/c3-aircross/usado/concesionaria/,6,6,6,True,False
+Ford | concesionaria | Explorer,2,https://autos.mercadolibre.com.uy/ford/explorer/usado/concesionaria/,6,6,4,True,False
+Citroën | particular | Mehari,2,https://autos.mercadolibre.com.uy/citroen/mehari/usado/dueno/,6,6,6,True,False
+Ford | particular | F-150,2,https://autos.mercadolibre.com.uy/ford/f-150/usado/dueno/,6,6,6,True,False
+Ford | particular | F-150 Raptor,2,https://autos.mercadolibre.com.uy/ford/f-150-raptor/usado/dueno/,6,6,5,True,False
+Ford | particular | Festiva,2,https://autos.mercadolibre.com.uy/ford/festiva/usado/dueno/,6,6,6,True,False
+BMW | concesionaria | Ix1,2,https://autos.mercadolibre.com.uy/bmw/ix1/usado/concesionaria/,6,6,6,True,False
+BMW | concesionaria | Serie 2,2,https://autos.mercadolibre.com.uy/bmw/serie-2/usado/concesionaria/,6,6,6,True,False
+BMW | concesionaria | X5,2,https://autos.mercadolibre.com.uy/bmw/x5/usado/concesionaria/,6,6,4,True,False
+BMW | concesionaria | X6,2,https://autos.mercadolibre.com.uy/bmw/x6/usado/concesionaria/,6,6,6,True,False
+Toyota | concesionaria | Prius,2,https://autos.mercadolibre.com.uy/toyota/prius/usado/concesionaria/,6,6,4,True,False
+BMW | particular | Serie 2,2,https://autos.mercadolibre.com.uy/bmw/serie-2/usado/dueno/,6,6,5,True,False
+BMW | particular | X5,2,https://autos.mercadolibre.com.uy/bmw/x5/usado/dueno/,6,6,4,True,False
+Honda | concesionaria | Pilot,2,https://autos.mercadolibre.com.uy/honda/pilot/usado/concesionaria/,6,6,4,True,False
+Kia | concesionaria | K3 Sedan,2,https://autos.mercadolibre.com.uy/kia/k3-sedan/usado/concesionaria/,6,6,5,True,False
+Chery | particular | QQ,2,https://autos.mercadolibre.com.uy/chery/qq/usado/dueno/,6,6,5,True,False
+Chery | particular | Tiggo 4 Pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-4-pro/usado/dueno/,6,6,3,True,False
+Mitsubishi | particular | Mirage G4,2,https://autos.mercadolibre.com.uy/mitsubishi/mirage-g4/usado/dueno/,6,6,1,True,False
+Mitsubishi | concesionaria | Mirage,2,https://autos.mercadolibre.com.uy/mitsubishi/mirage/usado/concesionaria/,6,6,1,True,False
+GWM | concesionaria | Wingle 7,2,https://autos.mercadolibre.com.uy/gwm/wingle-7/usado/concesionaria/,6,6,6,True,False
+Geely | particular | EX5,2,https://autos.mercadolibre.com.uy/geely/ex5/usado/dueno/,6,6,3,True,False
+Subaru | particular | Outback,2,https://autos.mercadolibre.com.uy/subaru/outback/usado/dueno/,6,6,1,True,False
+Haima | concesionaria,1,https://autos.mercadolibre.com.uy/haima/usado/concesionaria/,5,5,5,True,False
+Haima | particular,1,https://autos.mercadolibre.com.uy/haima/usado/dueno/,5,5,5,True,False
+Tesla | particular,1,https://autos.mercadolibre.com.uy/tesla/usado/dueno/,6,6,6,True,False
+Zotye | concesionaria,1,https://autos.mercadolibre.com.uy/zotye/usado/concesionaria/,5,5,5,True,False
+BAIC | concesionaria,1,https://autos.mercadolibre.com.uy/baic/usado/concesionaria/,5,5,5,True,False
+Dongfeng | particular,1,https://autos.mercadolibre.com.uy/dongfeng/usado/dueno/,5,5,5,True,False
+Bestune | concesionaria,1,https://autos.mercadolibre.com.uy/bestune/usado/concesionaria/,5,5,5,True,False
+Jaguar | concesionaria,1,https://autos.mercadolibre.com.uy/jaguar/usado/concesionaria/,5,5,5,True,False
+Lada (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/lada/usado/,5,5,5,True,True
+Chevrolet | concesionaria | Captiva Sport,2,https://autos.mercadolibre.com.uy/chevrolet/captiva-sport/usado/concesionaria/,5,5,5,True,False
+Chevrolet | concesionaria | Classic,2,https://autos.mercadolibre.com.uy/chevrolet/classic/usado/concesionaria/,5,5,4,True,False
+Chevrolet | concesionaria | Groove,2,https://autos.mercadolibre.com.uy/chevrolet/groove/usado/concesionaria/,4,4,4,True,False
+Chevrolet | particular | Camaro,2,https://autos.mercadolibre.com.uy/chevrolet/camaro/usado/dueno/,5,5,5,True,False
+Chevrolet | particular | Captiva Sport,2,https://autos.mercadolibre.com.uy/chevrolet/captiva-sport/usado/dueno/,5,5,5,True,False
+Chevrolet | particular | Cruze 5,2,https://autos.mercadolibre.com.uy/chevrolet/cruze-5/usado/dueno/,5,5,5,True,False
+Chevrolet | particular | Vectra,2,https://autos.mercadolibre.com.uy/chevrolet/vectra/usado/dueno/,5,5,5,True,False
+Volkswagen | concesionaria | Fox,2,https://autos.mercadolibre.com.uy/volkswagen/fox/usado/concesionaria/,4,4,4,True,False
+Renault | concesionaria | Twingo,2,https://autos.mercadolibre.com.uy/renault/twingo/usado/concesionaria/,5,5,5,True,False
+Peugeot | particular | 107,2,https://autos.mercadolibre.com.uy/peugeot/107/usado/dueno/,5,5,4,True,False
+Peugeot | particular | Expert,2,https://autos.mercadolibre.com.uy/peugeot/expert/usado/dueno/,5,5,5,True,False
+Peugeot | particular | Landtrek,2,https://autos.mercadolibre.com.uy/peugeot/landtrek/usado/dueno/,5,5,5,True,False
+Renault | particular | Koleos,2,https://autos.mercadolibre.com.uy/renault/koleos/usado/dueno/,5,5,4,True,False
+Renault | particular | Master,2,https://autos.mercadolibre.com.uy/renault/master/usado/dueno/,5,5,5,True,False
+Renault | particular | Megane 2,2,https://autos.mercadolibre.com.uy/renault/megane-2/usado/dueno/,5,5,5,True,False
+Suzuki | particular | Maruti,2,https://autos.mercadolibre.com.uy/suzuki/maruti/usado/dueno/,5,5,5,True,False
+Fiat | particular | Palio Weekend Adventure,2,https://autos.mercadolibre.com.uy/fiat/palio-weekend-adventure/usado/dueno/,5,5,5,True,False
+Fiat | particular | Panda,2,https://autos.mercadolibre.com.uy/fiat/panda/usado/dueno/,5,5,4,True,False
+Fiat | particular | Pulse,2,https://autos.mercadolibre.com.uy/fiat/pulse/usado/dueno/,5,5,5,True,False
+Nissan | particular | D-21,2,https://autos.mercadolibre.com.uy/nissan/d-21/usado/dueno/,5,5,5,True,False
+Nissan | particular | Np300 Doble Cabina,2,https://autos.mercadolibre.com.uy/nissan/np300-doble-cabina/usado/dueno/,5,5,5,True,False
+Suzuki | concesionaria | Ertiga,2,https://autos.mercadolibre.com.uy/suzuki/ertiga/usado/concesionaria/,5,5,5,True,False
+Suzuki | concesionaria | SX4,2,https://autos.mercadolibre.com.uy/suzuki/sx4/usado/concesionaria/,5,5,4,True,False
+Fiat | concesionaria | 500,2,https://autos.mercadolibre.com.uy/fiat/500/usado/concesionaria/,5,5,5,True,False
+Fiat | concesionaria | Cronos,2,https://autos.mercadolibre.com.uy/fiat/cronos/usado/concesionaria/,5,5,4,True,False
+Nissan | concesionaria | D-21,2,https://autos.mercadolibre.com.uy/nissan/d-21/usado/concesionaria/,5,5,5,True,False
+Nissan | concesionaria | Murano,2,https://autos.mercadolibre.com.uy/nissan/murano/usado/concesionaria/,5,5,4,True,False
+Hyundai | particular | H100,2,https://autos.mercadolibre.com.uy/hyundai/h100/usado/dueno/,5,5,5,True,False
+Hyundai | concesionaria | Kona Hybrid,2,https://autos.mercadolibre.com.uy/hyundai/kona-hybrid/usado/concesionaria/,5,5,5,True,False
+Hyundai | concesionaria | Santa Fe,2,https://autos.mercadolibre.com.uy/hyundai/santa-fe/usado/concesionaria/,5,5,3,True,False
+Toyota | particular | Rush,2,https://autos.mercadolibre.com.uy/toyota/rush/usado/dueno/,5,5,5,True,False
+Citroën | concesionaria | Berlingo Furgon,2,https://autos.mercadolibre.com.uy/citroen/berlingo-furgon/usado/concesionaria/,5,5,3,True,False
+Ford | concesionaria | Escape,2,https://autos.mercadolibre.com.uy/ford/escape/usado/concesionaria/,5,5,4,True,False
+Ford | concesionaria | Nueva Ranger,2,https://autos.mercadolibre.com.uy/ford/nueva-ranger/usado/concesionaria/,5,5,4,True,False
+Citroën | particular | C4 Picasso,2,https://autos.mercadolibre.com.uy/citroen/c4-picasso/usado/dueno/,5,5,5,True,False
+BMW | concesionaria | I4,2,https://autos.mercadolibre.com.uy/bmw/i4/usado/concesionaria/,5,5,4,True,False
+BMW | concesionaria | IX,2,https://autos.mercadolibre.com.uy/bmw/ix/usado/concesionaria/,5,5,3,True,False
+BMW | concesionaria | Ix3,2,https://autos.mercadolibre.com.uy/bmw/ix3/usado/concesionaria/,5,5,4,True,False
+Toyota | concesionaria | Corolla Hybrid,2,https://autos.mercadolibre.com.uy/toyota/corolla-hybrid/usado/concesionaria/,5,5,4,True,False
+Mercedes-Benz | concesionaria | Clase GLK,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-glk/usado/concesionaria/,5,5,4,True,False
+Mercedes-Benz | concesionaria | Clase SL,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-sl/usado/concesionaria/,5,5,5,True,False
+Mercedes-Benz | particular | Clase GLB,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-glb/usado/dueno/,5,5,3,True,False
+Kia | particular | Avella,2,https://autos.mercadolibre.com.uy/kia/avella/usado/dueno/,5,5,4,True,False
+Kia | particular | Cerato,2,https://autos.mercadolibre.com.uy/kia/cerato/usado/dueno/,5,5,1,True,False
+Honda | concesionaria | Odyssey,2,https://autos.mercadolibre.com.uy/honda/odyssey/usado/concesionaria/,5,5,4,True,False
+Renault | concesionaria | Oroch | 2026,3,https://autos.mercadolibre.com.uy/renault/oroch/usado/concesionaria/2026/,5,5,1,True,False
+Kia | concesionaria | Cerato,2,https://autos.mercadolibre.com.uy/kia/cerato/usado/concesionaria/,5,5,3,True,False
+Kia | concesionaria | Sorento,2,https://autos.mercadolibre.com.uy/kia/sorento/usado/concesionaria/,5,5,5,True,False
+Chery | concesionaria | Chery QQ,2,https://autos.mercadolibre.com.uy/chery/chery-qq/usado/concesionaria/,5,5,3,True,False
+Chery | concesionaria | Tiggo 8 Pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-8-pro/usado/concesionaria/,5,5,3,True,False
+Audi | particular | A1,2,https://autos.mercadolibre.com.uy/audi/a1/usado/dueno/,5,5,3,True,False
+Audi | particular | q5 sportback,2,https://autos.mercadolibre.com.uy/audi/q5-sportback/usado/dueno/,5,5,4,True,False
+Audi | particular | S3,2,https://autos.mercadolibre.com.uy/audi/s3/usado/dueno/,5,5,2,True,False
+Chery | particular | Tiggo,2,https://autos.mercadolibre.com.uy/chery/tiggo/usado/dueno/,5,5,4,True,False
+Chery | particular | Tiggo 8,2,https://autos.mercadolibre.com.uy/chery/tiggo-8/usado/dueno/,5,5,3,True,False
+Jeep | concesionaria | Gladiator,2,https://autos.mercadolibre.com.uy/jeep/gladiator/usado/concesionaria/,5,5,4,True,False
+BYD | concesionaria | S5,2,https://autos.mercadolibre.com.uy/byd/s5/usado/concesionaria/,5,5,3,True,False
+BYD | concesionaria | Song Plus,2,https://autos.mercadolibre.com.uy/byd/song-plus/usado/concesionaria/,5,5,3,True,False
+BYD | concesionaria | Yuan Plus,2,https://autos.mercadolibre.com.uy/byd/yuan-plus/usado/concesionaria/,5,5,4,True,False
+Mitsubishi | particular | Sportero,2,https://autos.mercadolibre.com.uy/mitsubishi/sportero/usado/dueno/,5,5,3,True,False
+Jeep | particular | Grand Cherokee,2,https://autos.mercadolibre.com.uy/jeep/grand-cherokee/usado/dueno/,5,5,2,True,False
+Geely | particular | CK,2,https://autos.mercadolibre.com.uy/geely/ck/usado/dueno/,5,5,2,True,False
+Geely | particular | Emgrand GS,2,https://autos.mercadolibre.com.uy/geely/emgrand-gs/usado/dueno/,5,5,1,True,False
+Geely | particular | Geometry E,2,https://autos.mercadolibre.com.uy/geely/geometry-e/usado/dueno/,5,5,1,True,False
+Citroën | concesionaria | Berlingo | 2023-2024,3,https://autos.mercadolibre.com.uy/citroen/berlingo/usado/concesionaria/2023-2024/,5,5,0,True,False
+Mazda | particular | 3,2,https://autos.mercadolibre.com.uy/mazda/3/usado/dueno/,5,5,1,True,False
+Mazda | particular | BT-50,2,https://autos.mercadolibre.com.uy/mazda/bt-50/usado/dueno/,5,5,0,True,False
+JMC | concesionaria,1,https://autos.mercadolibre.com.uy/jmc/usado/concesionaria/,4,4,4,True,False
+Tesla | concesionaria,1,https://autos.mercadolibre.com.uy/tesla/usado/concesionaria/,4,4,4,True,False
+Zotye | particular,1,https://autos.mercadolibre.com.uy/zotye/usado/dueno/,4,4,4,True,False
+BAIC | particular,1,https://autos.mercadolibre.com.uy/baic/usado/dueno/,4,4,4,True,False
+Dongfeng | concesionaria,1,https://autos.mercadolibre.com.uy/dongfeng/usado/concesionaria/,4,4,4,True,False
+Rover | particular,1,https://autos.mercadolibre.com.uy/rover/usado/dueno/,4,4,4,True,False
+Chrysler | concesionaria,1,https://autos.mercadolibre.com.uy/chrysler/usado/concesionaria/,4,4,4,True,False
+Lexus | concesionaria,1,https://autos.mercadolibre.com.uy/lexus/usado/concesionaria/,4,4,4,True,False
+GAC | concesionaria,1,https://autos.mercadolibre.com.uy/gac/usado/concesionaria/,4,4,4,True,False
+Gonow (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/marca-gonow/usado/,4,4,4,True,True
+TATA (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/tata/usado/,4,4,4,True,True
+Chevrolet | concesionaria | S10 Z71,2,https://autos.mercadolibre.com.uy/chevrolet/s10-z71/usado/concesionaria/,4,4,4,True,False
+Volkswagen | particular | New Beetle,2,https://autos.mercadolibre.com.uy/volkswagen/new-beetle/usado/dueno/,4,4,4,True,False
+Chevrolet | particular | C-10,2,https://autos.mercadolibre.com.uy/chevrolet/c-10/usado/dueno/,4,4,4,True,False
+Chevrolet | particular | Cobalt,2,https://autos.mercadolibre.com.uy/chevrolet/cobalt/usado/dueno/,4,4,4,True,False
+Chevrolet | particular | Cruze II,2,https://autos.mercadolibre.com.uy/chevrolet/cruze-ii/usado/dueno/,4,4,3,True,False
+Chevrolet | particular | Joy Plus,2,https://autos.mercadolibre.com.uy/chevrolet/joy-plus/usado/dueno/,4,4,4,True,False
+Chevrolet | particular | Kadett,2,https://autos.mercadolibre.com.uy/chevrolet/kadett/usado/dueno/,4,4,4,True,False
+Chevrolet | particular | N300,2,https://autos.mercadolibre.com.uy/chevrolet/n300/usado/dueno/,4,4,4,True,False
+Volkswagen | concesionaria | New Beetle,2,https://autos.mercadolibre.com.uy/volkswagen/new-beetle/usado/concesionaria/,4,4,4,True,False
+Peugeot | particular | 405,2,https://autos.mercadolibre.com.uy/peugeot/405/usado/dueno/,4,4,4,True,False
+Peugeot | particular | Boxer,2,https://autos.mercadolibre.com.uy/peugeot/boxer/usado/dueno/,4,4,4,True,False
+Peugeot | particular | Partner K9,2,https://autos.mercadolibre.com.uy/peugeot/partner-k9/usado/dueno/,4,4,4,True,False
+Peugeot | concesionaria | 107,2,https://autos.mercadolibre.com.uy/peugeot/107/usado/concesionaria/,4,4,4,True,False
+Peugeot | concesionaria | Landtrek,2,https://autos.mercadolibre.com.uy/peugeot/landtrek/usado/concesionaria/,4,4,4,True,False
+Renault | particular | Arkana,2,https://autos.mercadolibre.com.uy/renault/arkana/usado/dueno/,4,4,4,True,False
+Renault | particular | Grand Captur,2,https://autos.mercadolibre.com.uy/renault/grand-captur/usado/dueno/,4,4,4,True,False
+Renault | particular | Master minibus,2,https://autos.mercadolibre.com.uy/renault/master-minibus/usado/dueno/,4,4,4,True,False
+Fiat | particular | Cinquecento,2,https://autos.mercadolibre.com.uy/fiat/cinquecento/usado/dueno/,4,4,4,True,False
+Fiat | particular | Idea,2,https://autos.mercadolibre.com.uy/fiat/idea/usado/dueno/,4,4,4,True,False
+Fiat | particular | Way,2,https://autos.mercadolibre.com.uy/fiat/way/usado/dueno/,4,4,4,True,False
+Nissan | particular | D-22,2,https://autos.mercadolibre.com.uy/nissan/d-22/usado/dueno/,4,4,4,True,False
+Suzuki | concesionaria | Ciaz,2,https://autos.mercadolibre.com.uy/suzuki/ciaz/usado/concesionaria/,4,4,3,True,False
+Suzuki | concesionaria | Suzuki,2,https://autos.mercadolibre.com.uy/suzuki/usado/concesionaria/_MODEL_17677412,4,4,4,True,False
+Fiat | concesionaria | Grand Siena,2,https://autos.mercadolibre.com.uy/fiat/grand-siena/usado/concesionaria/,4,4,3,True,False
+Hyundai | particular | Atos,2,https://autos.mercadolibre.com.uy/hyundai/atos/usado/dueno/,4,4,3,True,False
+Hyundai | particular | i20,2,https://autos.mercadolibre.com.uy/hyundai/i20/usado/dueno/,4,4,4,True,False
+Hyundai | concesionaria | Sonata,2,https://autos.mercadolibre.com.uy/hyundai/sonata/usado/concesionaria/,4,4,4,True,False
+Hyundai | concesionaria | Tucson Hybrid,2,https://autos.mercadolibre.com.uy/hyundai/tucson-hybrid/usado/concesionaria/,4,4,2,True,False
+Citroën | particular | C4 Lounge,2,https://autos.mercadolibre.com.uy/citroen/c4-lounge/usado/dueno/,4,4,2,True,False
+Citroën | particular | DS3,2,https://autos.mercadolibre.com.uy/citroen/ds3/usado/dueno/,4,4,4,True,False
+Ford | particular | Bronco Sport,2,https://autos.mercadolibre.com.uy/ford/bronco-sport/usado/dueno/,4,4,3,True,False
+Ford | particular | Explorer,2,https://autos.mercadolibre.com.uy/ford/explorer/usado/dueno/,4,4,4,True,False
+Ford | particular | Mustang,2,https://autos.mercadolibre.com.uy/ford/mustang/usado/dueno/,4,4,4,True,False
+BMW | concesionaria | Ix2,2,https://autos.mercadolibre.com.uy/bmw/ix2/usado/concesionaria/,4,4,2,True,False
+BMW | concesionaria | X2,2,https://autos.mercadolibre.com.uy/bmw/x2/usado/concesionaria/,4,4,4,True,False
+Toyota | concesionaria | Land Cruiser,2,https://autos.mercadolibre.com.uy/toyota/land-cruiser/usado/concesionaria/,4,4,4,True,False
+Toyota | concesionaria | Rav 4 Hybrid,2,https://autos.mercadolibre.com.uy/toyota/rav-4-hybrid/usado/concesionaria/,4,4,3,True,False
+Mercedes-Benz | concesionaria | Clase CLA,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-cla/usado/concesionaria/,4,4,4,True,False
+Mercedes-Benz | concesionaria | Clase GLB,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-glb/usado/concesionaria/,4,4,4,True,False
+Mercedes-Benz | particular | Clase B,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-b/usado/dueno/,4,4,3,True,False
+Mercedes-Benz | particular | Clase GLE,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-gle/usado/dueno/,4,4,3,True,False
+Mercedes-Benz | particular | Clase GLK,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-glk/usado/dueno/,4,4,2,True,False
+Mercedes-Benz | particular | Clase ML,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-ml/usado/dueno/,4,4,3,True,False
+Mercedes-Benz | particular | Clase SLK,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-slk/usado/dueno/,4,4,2,True,False
+Kia | particular | Sonet,2,https://autos.mercadolibre.com.uy/kia/sonet/usado/dueno/,4,4,1,True,False
+Audi | concesionaria | A1,2,https://autos.mercadolibre.com.uy/audi/a1/usado/concesionaria/,4,4,2,True,False
+Audi | concesionaria | A3 Sportback,2,https://autos.mercadolibre.com.uy/audi/a3-sportback/usado/concesionaria/,4,4,3,True,False
+Kia | concesionaria | K3,2,https://autos.mercadolibre.com.uy/kia/usado/concesionaria/_MODEL_11605,4,4,1,True,False
+Kia | concesionaria | Soluto,2,https://autos.mercadolibre.com.uy/kia/soluto/usado/concesionaria/,4,4,2,True,False
+Kia | concesionaria | Soul,2,https://autos.mercadolibre.com.uy/kia/soul/usado/concesionaria/,4,4,3,True,False
+Chery | concesionaria | tiggo 7 pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-7-pro/usado/concesionaria/,4,4,3,True,False
+Audi | particular | A6,2,https://autos.mercadolibre.com.uy/audi/a6/usado/dueno/,4,4,2,True,False
+Audi | particular | Q2,2,https://autos.mercadolibre.com.uy/audi/q2/usado/dueno/,4,4,2,True,False
+BYD | particular | S1,2,https://autos.mercadolibre.com.uy/byd/s1/usado/dueno/,4,4,2,True,False
+Mitsubishi | particular | Mirage,2,https://autos.mercadolibre.com.uy/mitsubishi/mirage/usado/dueno/,5,5,4,True,False
+Mitsubishi | concesionaria | Sportero,2,https://autos.mercadolibre.com.uy/mitsubishi/sportero/usado/concesionaria/,4,4,2,True,False
+Geely | concesionaria | Emgrand GS,2,https://autos.mercadolibre.com.uy/geely/emgrand-gs/usado/concesionaria/,4,4,1,True,False
+GWM | concesionaria | Voleex C30,2,https://autos.mercadolibre.com.uy/gwm/voleex-c30/usado/concesionaria/,4,4,1,True,False
+Jeep | particular | Commander,2,https://autos.mercadolibre.com.uy/jeep/commander/usado/dueno/,4,4,2,True,False
+Geely | particular | 515,2,https://autos.mercadolibre.com.uy/geely/515/usado/dueno/,4,4,0,True,False
+Subaru | particular | Impreza,2,https://autos.mercadolibre.com.uy/subaru/impreza/usado/dueno/,4,4,1,True,False
+Suzuki | particular | Alto | 2022-2025,3,https://autos.mercadolibre.com.uy/suzuki/alto/usado/dueno/2022-2025/,4,4,1,True,False
+Opel | concesionaria,1,https://autos.mercadolibre.com.uy/opel/usado/concesionaria/,3,3,3,True,False
+BYD auto | concesionaria,1,https://autos.mercadolibre.com.uy/byd-auto/usado/concesionaria/,3,3,3,True,False
+Daihatsu | concesionaria,1,https://autos.mercadolibre.com.uy/daihatsu/usado/concesionaria/,3,3,3,True,False
+Great Wall | concesionaria,1,https://autos.mercadolibre.com.uy/usado/concesionaria/_BRAND_42829323,3,3,3,True,False
+Alfa Romeo | concesionaria,1,https://autos.mercadolibre.com.uy/alfa-romeo/usado/concesionaria/,3,3,3,True,False
+BAW | concesionaria,1,https://autos.mercadolibre.com.uy/baw/usado/concesionaria/,3,3,3,True,False
+Foton | concesionaria,1,https://autos.mercadolibre.com.uy/foton/usado/concesionaria/,3,3,3,True,False
+Bestune | particular,1,https://autos.mercadolibre.com.uy/bestune/usado/dueno/,3,3,3,True,False
+Rover | concesionaria,1,https://autos.mercadolibre.com.uy/rover/usado/concesionaria/,3,3,3,True,False
+Maserati | concesionaria,1,https://autos.mercadolibre.com.uy/maserati/usado/concesionaria/,3,3,3,True,False
+Chevrolet | concesionaria | Blazer,2,https://autos.mercadolibre.com.uy/chevrolet/blazer/usado/concesionaria/,3,3,3,True,False
+Chevrolet | concesionaria | N300,2,https://autos.mercadolibre.com.uy/chevrolet/n300/usado/concesionaria/,3,3,3,True,False
+Chevrolet | concesionaria | Zafira,2,https://autos.mercadolibre.com.uy/chevrolet/zafira/usado/concesionaria/,3,3,3,True,False
+Volkswagen | particular | Suran Cross,2,https://autos.mercadolibre.com.uy/volkswagen/suran-cross/usado/dueno/,3,3,3,True,False
+Volkswagen | particular | Tera,2,https://autos.mercadolibre.com.uy/volkswagen/tera/usado/dueno/,3,3,3,True,False
+Volkswagen | concesionaria | Parati,2,https://autos.mercadolibre.com.uy/volkswagen/parati/usado/concesionaria/,3,3,3,True,False
+Renault | concesionaria | Kardian,2,https://autos.mercadolibre.com.uy/renault/kardian/usado/concesionaria/,3,3,3,True,False
+Renault | concesionaria | Mégane III,2,https://autos.mercadolibre.com.uy/renault/megane-iii/usado/concesionaria/,3,3,3,True,False
+Peugeot | concesionaria | 306,2,https://autos.mercadolibre.com.uy/peugeot/306/usado/concesionaria/,3,3,3,True,False
+Peugeot | concesionaria | Boxer,2,https://autos.mercadolibre.com.uy/peugeot/boxer/usado/concesionaria/,3,3,3,True,False
+Renault | particular | Trafic,2,https://autos.mercadolibre.com.uy/renault/trafic/usado/dueno/,3,3,3,True,False
+Suzuki | particular | Dzire hybrid,2,https://autos.mercadolibre.com.uy/suzuki/dzire-hybrid/usado/dueno/,3,3,3,True,False
+Suzuki | particular | Marutti,2,https://autos.mercadolibre.com.uy/suzuki/marutti/usado/dueno/,3,3,3,True,False
+Suzuki | particular | SX4,2,https://autos.mercadolibre.com.uy/suzuki/sx4/usado/dueno/,3,3,1,True,False
+Fiat | particular | Cronos,2,https://autos.mercadolibre.com.uy/fiat/cronos/usado/dueno/,3,3,3,True,False
+Fiat | particular | Grand Siena,2,https://autos.mercadolibre.com.uy/fiat/grand-siena/usado/dueno/,3,3,2,True,False
+Nissan | particular | Murano,2,https://autos.mercadolibre.com.uy/nissan/murano/usado/dueno/,3,3,3,True,False
+Nissan | particular | Pathfinder,2,https://autos.mercadolibre.com.uy/nissan/pathfinder/usado/dueno/,3,3,2,True,False
+Suzuki | concesionaria | Maruti,2,https://autos.mercadolibre.com.uy/suzuki/maruti/usado/concesionaria/,3,3,3,True,False
+Fiat | concesionaria | Idea,2,https://autos.mercadolibre.com.uy/fiat/idea/usado/concesionaria/,3,3,3,True,False
+Fiat | concesionaria | Punto,2,https://autos.mercadolibre.com.uy/fiat/punto/usado/concesionaria/,3,3,3,True,False
+Hyundai | particular | Elantra,2,https://autos.mercadolibre.com.uy/hyundai/elantra/usado/dueno/,3,3,2,True,False
+Hyundai | particular | Veloster,2,https://autos.mercadolibre.com.uy/hyundai/veloster/usado/dueno/,3,3,2,True,False
+Hyundai | concesionaria | Elantra,2,https://autos.mercadolibre.com.uy/hyundai/elantra/usado/concesionaria/,3,3,2,True,False
+Hyundai | concesionaria | H350,2,https://autos.mercadolibre.com.uy/hyundai/h350/usado/concesionaria/,3,3,2,True,False
+Hyundai | concesionaria | HB20X,2,https://autos.mercadolibre.com.uy/hyundai/hb20x/usado/concesionaria/,3,3,2,True,False
+Toyota | particular | 4Runner,2,https://autos.mercadolibre.com.uy/toyota/4runner/usado/dueno/,3,3,2,True,False
+Toyota | particular | Yaris Hatch,2,https://autos.mercadolibre.com.uy/toyota/yaris-hatch/usado/dueno/,3,3,2,True,False
+Toyota | particular | Yaris Sedán,2,https://autos.mercadolibre.com.uy/toyota/yaris-sedan/usado/dueno/,3,3,3,True,False
+Citroën | concesionaria | AX,2,https://autos.mercadolibre.com.uy/citroen/ax/usado/concesionaria/,3,3,3,True,False
+Citroën | concesionaria | C4 Picasso,2,https://autos.mercadolibre.com.uy/citroen/c4-picasso/usado/concesionaria/,3,3,3,True,False
+Citroën | concesionaria | C5 Aircross,2,https://autos.mercadolibre.com.uy/citroen/c5-aircross/usado/concesionaria/,3,3,3,True,False
+Citroën | concesionaria | Jumpy,2,https://autos.mercadolibre.com.uy/citroen/jumpy/usado/concesionaria/,3,3,3,True,False
+Citroën | concesionaria | Nemo,2,https://autos.mercadolibre.com.uy/citroen/nemo/usado/concesionaria/,3,3,3,True,False
+Citroën | concesionaria | ZX,2,https://autos.mercadolibre.com.uy/citroen/zx/usado/concesionaria/,3,3,3,True,False
+Ford | concesionaria | Escort,2,https://autos.mercadolibre.com.uy/ford/escort/usado/concesionaria/,3,3,3,True,False
+Ford | concesionaria | Focus III,2,https://autos.mercadolibre.com.uy/ford/focus-iii/usado/concesionaria/,3,3,3,True,False
+Citroën | particular | Basalt,2,https://autos.mercadolibre.com.uy/citroen/basalt/usado/dueno/,3,3,3,True,False
+Ford | particular | F-100,2,https://autos.mercadolibre.com.uy/ford/f-100/usado/dueno/,3,3,3,True,False
+BMW | concesionaria | Serie M,2,https://autos.mercadolibre.com.uy/bmw/serie-m/usado/concesionaria/,3,3,3,True,False
+Toyota | concesionaria | Hilux SW4,2,https://autos.mercadolibre.com.uy/toyota/hilux-sw4/usado/concesionaria/,3,3,3,True,False
+Mercedes-Benz | concesionaria | Clase CLC,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-clc/usado/concesionaria/,3,3,2,True,False
+Mercedes-Benz | concesionaria | Clase S,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-s/usado/concesionaria/,3,3,3,True,False
+Mercedes-Benz | concesionaria | GLC,2,https://autos.mercadolibre.com.uy/mercedes-benz/glc/usado/concesionaria/,3,3,3,True,False
+Mercedes-Benz | concesionaria | ML,2,https://autos.mercadolibre.com.uy/mercedes-benz/ml/usado/concesionaria/,3,3,3,True,False
+BMW | particular | Ix3,2,https://autos.mercadolibre.com.uy/bmw/ix3/usado/dueno/,3,3,2,True,False
+BMW | particular | X2,2,https://autos.mercadolibre.com.uy/bmw/x2/usado/dueno/,3,3,2,True,False
+Mercedes-Benz | particular | Clase CLA,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-cla/usado/dueno/,3,3,1,True,False
+Mercedes-Benz | particular | Clase CLC,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-clc/usado/dueno/,3,3,3,True,False
+Mercedes-Benz | particular | Vito,2,https://autos.mercadolibre.com.uy/mercedes-benz/vito/usado/dueno/,3,3,3,True,False
+Honda | particular | Odyssey,2,https://autos.mercadolibre.com.uy/honda/odyssey/usado/dueno/,3,3,2,True,False
+Kia | particular | K3 Cross,2,https://autos.mercadolibre.com.uy/kia/k3-cross/usado/dueno/,3,3,3,True,False
+Kia | particular | K3 Sedan,2,https://autos.mercadolibre.com.uy/kia/k3-sedan/usado/dueno/,3,3,3,True,False
+Kia | particular | Soul,2,https://autos.mercadolibre.com.uy/kia/soul/usado/dueno/,3,3,2,True,False
+Honda | concesionaria | City,2,https://autos.mercadolibre.com.uy/honda/city/usado/concesionaria/,3,3,2,True,False
+Audi | concesionaria | A5,2,https://autos.mercadolibre.com.uy/audi/a5/usado/concesionaria/,3,3,3,True,False
+Audi | concesionaria | A6,2,https://autos.mercadolibre.com.uy/audi/a6/usado/concesionaria/,3,3,2,True,False
+Kia | concesionaria | K3 Cross,2,https://autos.mercadolibre.com.uy/kia/k3-cross/usado/concesionaria/,3,3,3,True,False
+Chery | concesionaria | Tiggo 4 hybrid,2,https://autos.mercadolibre.com.uy/chery/tiggo-4-hybrid/usado/concesionaria/,3,3,3,True,False
+Chery | concesionaria | Tiggo 7,2,https://autos.mercadolibre.com.uy/chery/tiggo-7/usado/concesionaria/,3,3,3,True,False
+Chery | particular | Beat,2,https://autos.mercadolibre.com.uy/chery/beat/usado/dueno/,3,3,2,True,False
+BYD | particular | Yuan Plus,2,https://autos.mercadolibre.com.uy/byd/yuan-plus/usado/dueno/,3,3,1,True,False
+BYD | concesionaria | S6,2,https://autos.mercadolibre.com.uy/byd/s6/usado/concesionaria/,3,3,3,True,False
+BYD | concesionaria | Tang,2,https://autos.mercadolibre.com.uy/byd/tang/usado/concesionaria/,3,3,2,True,False
+Mitsubishi | particular | Eclipse Cross,2,https://autos.mercadolibre.com.uy/mitsubishi/eclipse-cross/usado/dueno/,3,3,0,True,False
+Mitsubishi | particular | L300,2,https://autos.mercadolibre.com.uy/mitsubishi/l300/usado/dueno/,3,3,2,True,False
+Mitsubishi | concesionaria | Lancer,2,https://autos.mercadolibre.com.uy/mitsubishi/lancer/usado/concesionaria/,3,3,0,True,False
+Geely | concesionaria | Emgrand X7 Sport,2,https://autos.mercadolibre.com.uy/geely/emgrand-x7-sport/usado/concesionaria/,3,3,0,True,False
+GWM | concesionaria | Haval H6,2,https://autos.mercadolibre.com.uy/gwm/haval-h6/usado/concesionaria/,3,3,1,True,False
+GWM | concesionaria | Haval M4,2,https://autos.mercadolibre.com.uy/gwm/haval-m4/usado/concesionaria/,3,3,0,True,False
+Geely | particular | Cityray,2,https://autos.mercadolibre.com.uy/geely/cityray/usado/dueno/,3,3,1,True,False
+Geely | particular | CK2,2,https://autos.mercadolibre.com.uy/geely/ck2/usado/dueno/,3,3,1,True,False
+Geely | particular | Coolray,2,https://autos.mercadolibre.com.uy/geely/coolray/usado/dueno/,3,3,0,True,False
+Geely | particular | Emgrand 718,2,https://autos.mercadolibre.com.uy/geely/emgrand-718/usado/dueno/,3,3,1,True,False
+Subaru | particular | Tribeca,2,https://autos.mercadolibre.com.uy/subaru/tribeca/usado/dueno/,3,3,0,True,False
+Nissan | concesionaria | March | 2020,3,https://autos.mercadolibre.com.uy/nissan/march/usado/concesionaria/2020/,3,3,0,True,False
+Mazda | particular | Mazda 2,2,https://autos.mercadolibre.com.uy/mazda/mazda-2/usado/dueno/,3,3,0,True,False
+Fiat | concesionaria | Mobi | 2026,3,https://autos.mercadolibre.com.uy/fiat/mobi/usado/concesionaria/2026/,3,3,0,True,False
+ZxAuto | particular,1,https://autos.mercadolibre.com.uy/zxauto/usado/dueno/,2,2,2,True,False
+Lynk & Co | particular,1,https://autos.mercadolibre.com.uy/lynk-co/usado/dueno/,1,1,1,True,False
+MG | particular,1,https://autos.mercadolibre.com.uy/mg/usado/dueno/,2,2,2,True,False
+Jaguar | particular,1,https://autos.mercadolibre.com.uy/jaguar/usado/dueno/,2,2,2,True,False
+Chrysler | particular,1,https://autos.mercadolibre.com.uy/chrysler/usado/dueno/,2,2,2,True,False
+Maserati | particular,1,https://autos.mercadolibre.com.uy/maserati/usado/dueno/,2,2,2,True,False
+Soueast | concesionaria,1,https://autos.mercadolibre.com.uy/soueast/usado/concesionaria/,2,2,2,True,False
+Trike | concesionaria,1,https://autos.mercadolibre.com.uy/trike/usado/concesionaria/,2,2,2,True,False
+Mobility (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_8295612,2,2,2,True,True
+Smart (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/smart/usado/,2,2,2,True,True
+leapmotor (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/leapmotor/usado/,2,2,2,True,True
+Asia (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/asia/usado/,2,2,2,True,True
+Wuling (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/wuling/usado/,2,2,2,True,True
+Infiniti (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/infiniti/usado/,2,2,2,True,True
+Chevrolet | concesionaria | Astra,2,https://autos.mercadolibre.com.uy/chevrolet/astra/usado/concesionaria/,2,2,1,True,False
+Chevrolet | concesionaria | S-10,2,https://autos.mercadolibre.com.uy/chevrolet/s-10/usado/concesionaria/,2,2,2,True,False
+Volkswagen | particular | CC,2,https://autos.mercadolibre.com.uy/volkswagen/cc/usado/dueno/,2,2,2,True,False
+Chevrolet | particular | Captiva Xl,2,https://autos.mercadolibre.com.uy/chevrolet/captiva-xl/usado/dueno/,2,2,2,True,False
+Chevrolet | particular | Corvette,2,https://autos.mercadolibre.com.uy/chevrolet/corvette/usado/dueno/,2,2,2,True,False
+Chevrolet | particular | Spark Euv,2,https://autos.mercadolibre.com.uy/chevrolet/spark-euv/usado/dueno/,2,2,2,True,False
+Chevrolet | particular | Zafira,2,https://autos.mercadolibre.com.uy/chevrolet/zafira/usado/dueno/,2,2,2,True,False
+Renault | concesionaria | Master,2,https://autos.mercadolibre.com.uy/renault/master/usado/concesionaria/,2,2,2,True,False
+Peugeot | particular | 108,2,https://autos.mercadolibre.com.uy/peugeot/108/usado/dueno/,2,2,2,True,False
+Peugeot | particular | 308 hybrid,2,https://autos.mercadolibre.com.uy/peugeot/308-hybrid/usado/dueno/,2,2,2,True,False
+Peugeot | particular | 404,2,https://autos.mercadolibre.com.uy/peugeot/404/usado/dueno/,2,2,2,True,False
+Peugeot | particular | 407,2,https://autos.mercadolibre.com.uy/peugeot/407/usado/dueno/,2,2,2,True,False
+Peugeot | particular | 408,2,https://autos.mercadolibre.com.uy/peugeot/408/usado/dueno/,2,2,2,True,False
+Peugeot | particular | 504,2,https://autos.mercadolibre.com.uy/peugeot/504/usado/dueno/,2,2,2,True,False
+Peugeot | particular | 508,2,https://autos.mercadolibre.com.uy/peugeot/508/usado/dueno/,2,2,2,True,False
+Peugeot | particular | Bipper,2,https://autos.mercadolibre.com.uy/peugeot/bipper/usado/dueno/,2,2,2,True,False
+Peugeot | particular | E-2008,2,https://autos.mercadolibre.com.uy/peugeot/e-2008/usado/dueno/,2,2,2,True,False
+Peugeot | particular | Rifter,2,https://autos.mercadolibre.com.uy/peugeot/rifter/usado/dueno/,2,2,2,True,False
+Peugeot | concesionaria | 408,2,https://autos.mercadolibre.com.uy/peugeot/408/usado/concesionaria/,2,2,2,True,False
+Peugeot | concesionaria | Partner Patagónica,2,https://autos.mercadolibre.com.uy/peugeot/partner-patagonica/usado/concesionaria/,2,2,2,True,False
+Renault | particular | Express,2,https://autos.mercadolibre.com.uy/renault/express/usado/dueno/,2,2,2,True,False
+Renault | particular | Koleos e-tech hybrid,2,https://autos.mercadolibre.com.uy/renault/koleos-e-tech-hybrid/usado/dueno/,2,2,2,True,False
+Renault | particular | Kwid E-Tech,2,https://autos.mercadolibre.com.uy/renault/kwid-e-tech/usado/dueno/,2,2,2,True,False
+Renault | particular | Master Furgon,2,https://autos.mercadolibre.com.uy/renault/master-furgon/usado/dueno/,2,2,2,True,False
+Suzuki | particular | Ignis,2,https://autos.mercadolibre.com.uy/suzuki/ignis/usado/dueno/,2,2,2,True,False
+Suzuki | particular | Sx4 S-Cross,2,https://autos.mercadolibre.com.uy/suzuki/usado/dueno/_MODEL_58049359,2,2,2,True,False
+Fiat | particular | 147 Spazio,2,https://autos.mercadolibre.com.uy/fiat/147-spazio/usado/dueno/,2,2,2,True,False
+Fiat | particular | 600,2,https://autos.mercadolibre.com.uy/fiat/600/usado/dueno/,2,2,2,True,False
+Fiat | particular | Ducato,2,https://autos.mercadolibre.com.uy/fiat/ducato/usado/dueno/,2,2,2,True,False
+Fiat | particular | Fioruno,2,https://autos.mercadolibre.com.uy/fiat/fioruno/usado/dueno/,2,2,2,True,False
+Nissan | particular | Kicks Play,2,https://autos.mercadolibre.com.uy/nissan/kicks-play/usado/dueno/,2,2,2,True,False
+Nissan | particular | Maxima,2,https://autos.mercadolibre.com.uy/nissan/maxima/usado/dueno/,2,2,2,True,False
+Nissan | particular | Sunny,2,https://autos.mercadolibre.com.uy/nissan/sunny/usado/dueno/,2,2,2,True,False
+Nissan | particular | Urvan,2,https://autos.mercadolibre.com.uy/nissan/urvan/usado/dueno/,2,2,2,True,False
+Nissan | particular | X-Trail E-Power,2,https://autos.mercadolibre.com.uy/nissan/x-trail-e-power/usado/dueno/,2,2,2,True,False
+Suzuki | concesionaria | Dzire hybrid,2,https://autos.mercadolibre.com.uy/suzuki/dzire-hybrid/usado/concesionaria/,2,2,2,True,False
+Suzuki | concesionaria | Grand Vitara Hybrid,2,https://autos.mercadolibre.com.uy/suzuki/grand-vitara-hybrid/usado/concesionaria/,3,3,3,True,False
+Suzuki | concesionaria | Ignis,2,https://autos.mercadolibre.com.uy/suzuki/ignis/usado/concesionaria/,2,2,1,True,False
+Fiat | concesionaria | Strada Adventure,2,https://autos.mercadolibre.com.uy/fiat/strada-adventure/usado/concesionaria/,2,2,2,True,False
+Nissan | concesionaria | Juke,2,https://autos.mercadolibre.com.uy/nissan/juke/usado/concesionaria/,2,2,2,True,False
+Nissan | concesionaria | Magnite,2,https://autos.mercadolibre.com.uy/nissan/magnite/usado/concesionaria/,2,2,2,True,False
+Hyundai | particular | Grand I10 Sedan,2,https://autos.mercadolibre.com.uy/hyundai/usado/dueno/_MODEL_38668049,2,2,2,True,False
+Hyundai | particular | Tucson Hybrid,2,https://autos.mercadolibre.com.uy/hyundai/tucson-hybrid/usado/dueno/,2,2,1,True,False
+Hyundai | concesionaria | Atos,2,https://autos.mercadolibre.com.uy/hyundai/atos/usado/concesionaria/,2,2,2,True,False
+Hyundai | concesionaria | i20,2,https://autos.mercadolibre.com.uy/hyundai/i20/usado/concesionaria/,2,2,2,True,False
+Hyundai | concesionaria | I30,2,https://autos.mercadolibre.com.uy/hyundai/i30/usado/concesionaria/,2,2,2,True,False
+Toyota | particular | Fortuner,2,https://autos.mercadolibre.com.uy/toyota/fortuner/usado/dueno/,2,2,2,True,False
+Toyota | particular | Hiace,2,https://autos.mercadolibre.com.uy/toyota/hiace/usado/dueno/,2,2,2,True,False
+Toyota | particular | Raize,2,https://autos.mercadolibre.com.uy/toyota/raize/usado/dueno/,2,2,2,True,False
+Toyota | particular | Rav4 Hybrid,2,https://autos.mercadolibre.com.uy/toyota/rav4-hybrid/usado/dueno/,2,2,0,True,False
+Toyota | particular | Sienna,2,https://autos.mercadolibre.com.uy/toyota/sienna/usado/dueno/,2,2,1,True,False
+Citroën | concesionaria | Aircross,2,https://autos.mercadolibre.com.uy/citroen/aircross/usado/concesionaria/,2,2,0,True,False
+Citroën | concesionaria | Basalt,2,https://autos.mercadolibre.com.uy/citroen/basalt/usado/concesionaria/,2,2,2,True,False
+Citroën | concesionaria | Berlingo Business,2,https://autos.mercadolibre.com.uy/citroen/berlingo-business/usado/concesionaria/,2,2,2,True,False
+Citroën | concesionaria | C4 Lounge,2,https://autos.mercadolibre.com.uy/citroen/c4-lounge/usado/concesionaria/,2,2,2,True,False
+Citroën | concesionaria | Mehari,2,https://autos.mercadolibre.com.uy/citroen/mehari/usado/concesionaria/,2,2,2,True,False
+Ford | concesionaria | Bronco,2,https://autos.mercadolibre.com.uy/ford/bronco/usado/concesionaria/,2,2,2,True,False
+Ford | concesionaria | F-150 Raptor,2,https://autos.mercadolibre.com.uy/ford/f-150-raptor/usado/concesionaria/,2,2,2,True,False
+Ford | concesionaria | Territory,2,https://autos.mercadolibre.com.uy/ford/territory/usado/concesionaria/,2,2,1,True,False
+Citroën | particular | Aircross,2,https://autos.mercadolibre.com.uy/citroen/aircross/usado/dueno/,2,2,2,True,False
+Citroën | particular | AMi,2,https://autos.mercadolibre.com.uy/citroen/ami/usado/dueno/,2,2,2,True,False
+Citroën | particular | Berlingo Business,2,https://autos.mercadolibre.com.uy/citroen/berlingo-business/usado/dueno/,2,2,2,True,False
+Citroën | particular | Berlingo Multispace,2,https://autos.mercadolibre.com.uy/citroen/berlingo-multispace/usado/dueno/,2,2,2,True,False
+Citroën | particular | C1,2,https://autos.mercadolibre.com.uy/citroen/c1/usado/dueno/,2,2,1,True,False
+Citroën | particular | C15,2,https://autos.mercadolibre.com.uy/citroen/c15/usado/dueno/,2,2,2,True,False
+Citroën | particular | E-Berlingo Van,2,https://autos.mercadolibre.com.uy/citroen/e-berlingo-van/usado/dueno/,2,2,2,True,False
+Citroën | particular | Jumpy,2,https://autos.mercadolibre.com.uy/citroen/jumpy/usado/dueno/,2,2,1,True,False
+Citroën | particular | Nemo,2,https://autos.mercadolibre.com.uy/citroen/nemo/usado/dueno/,2,2,2,True,False
+Ford | particular | Courier,2,https://autos.mercadolibre.com.uy/ford/courier/usado/dueno/,2,2,2,True,False
+Ford | particular | Fiesta Max,2,https://autos.mercadolibre.com.uy/ford/fiesta-max/usado/dueno/,2,2,2,True,False
+Ford | particular | Ka+,2,https://autos.mercadolibre.com.uy/ford/modelo-ka/usado/dueno/,2,2,2,True,False
+Ford | particular | Maverick,2,https://autos.mercadolibre.com.uy/ford/maverick/usado/dueno/,2,2,2,True,False
+Ford | particular | Nueva Ranger,2,https://autos.mercadolibre.com.uy/ford/nueva-ranger/usado/dueno/,2,2,1,True,False
+Ford | particular | Ranger Raptor,2,https://autos.mercadolibre.com.uy/ford/ranger-raptor/usado/dueno/,2,2,2,True,False
+Toyota | concesionaria | Fortuner,2,https://autos.mercadolibre.com.uy/toyota/fortuner/usado/concesionaria/,2,2,1,True,False
+Toyota | concesionaria | Hilux Pick-Up,2,https://autos.mercadolibre.com.uy/toyota/hilux-pick-up/usado/concesionaria/,2,2,2,True,False
+Toyota | concesionaria | Raize,2,https://autos.mercadolibre.com.uy/toyota/raize/usado/concesionaria/,2,2,2,True,False
+Toyota | concesionaria | Rav4 Hybrid,2,https://autos.mercadolibre.com.uy/toyota/rav4-hybrid/usado/concesionaria/,2,2,2,True,False
+Toyota | concesionaria | Rush,2,https://autos.mercadolibre.com.uy/toyota/rush/usado/concesionaria/,2,2,2,True,False
+Toyota | concesionaria | Yaris Hatch,2,https://autos.mercadolibre.com.uy/toyota/yaris-hatch/usado/concesionaria/,2,2,2,True,False
+Mercedes-Benz | concesionaria | Clase B,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-b/usado/concesionaria/,2,2,1,True,False
+Mercedes-Benz | concesionaria | Eqa,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/concesionaria/_MODEL_65953931,2,2,1,True,False
+Mercedes-Benz | concesionaria | Vito,2,https://autos.mercadolibre.com.uy/mercedes-benz/vito/usado/concesionaria/,2,2,2,True,False
+BMW | particular | 330E,2,https://autos.mercadolibre.com.uy/bmw/usado/dueno/_MODEL_19836078,2,2,1,True,False
+BMW | particular | X6,2,https://autos.mercadolibre.com.uy/bmw/x6/usado/dueno/,2,2,1,True,False
+Mercedes-Benz | particular | 300,2,https://autos.mercadolibre.com.uy/mercedes-benz/300/usado/dueno/,2,2,1,True,False
+Mercedes-Benz | particular | C 180,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/dueno/_MODEL_85429,2,2,2,True,False
+Mercedes-Benz | particular | CLK,2,https://autos.mercadolibre.com.uy/mercedes-benz/clk/usado/dueno/,2,2,2,True,False
+Honda | particular | Accord,2,https://autos.mercadolibre.com.uy/honda/accord/usado/dueno/,2,2,2,True,False
+Honda | particular | Prelude,2,https://autos.mercadolibre.com.uy/honda/prelude/usado/dueno/,2,2,1,True,False
+Honda | particular | Type R,2,https://autos.mercadolibre.com.uy/honda/type-r/usado/dueno/,2,2,1,True,False
+Kia | particular | Carens,2,https://autos.mercadolibre.com.uy/kia/carens/usado/dueno/,2,2,2,True,False
+Kia | particular | Pride,2,https://autos.mercadolibre.com.uy/kia/pride/usado/dueno/,2,2,2,True,False
+Kia | particular | Seltos,2,https://autos.mercadolibre.com.uy/kia/seltos/usado/dueno/,2,2,1,True,False
+Honda | concesionaria | Accord,2,https://autos.mercadolibre.com.uy/honda/accord/usado/concesionaria/,2,2,1,True,False
+Audi | concesionaria | q5 sportback,2,https://autos.mercadolibre.com.uy/audi/q5-sportback/usado/concesionaria/,2,2,2,True,False
+Audi | concesionaria | Rs Q3 Sportback,2,https://autos.mercadolibre.com.uy/audi/rs-q3-sportback/usado/concesionaria/,2,2,1,True,False
+Audi | concesionaria | TT Coupe,2,https://autos.mercadolibre.com.uy/audi/tt-coupe/usado/concesionaria/,2,2,2,True,False
+Kia | concesionaria | K2500,2,https://autos.mercadolibre.com.uy/kia/k2500/usado/concesionaria/,2,2,1,True,False
+Kia | concesionaria | Sonet,2,https://autos.mercadolibre.com.uy/kia/sonet/usado/concesionaria/,2,2,0,True,False
+Chery | concesionaria | Beat,2,https://autos.mercadolibre.com.uy/chery/beat/usado/concesionaria/,2,2,0,True,False
+Chery | concesionaria | Tiggo 4 Pro,2,https://autos.mercadolibre.com.uy/chery/tiggo-4-pro/usado/concesionaria/,2,2,2,True,False
+Chery | concesionaria | Tiggo 5,2,https://autos.mercadolibre.com.uy/chery/tiggo-5/usado/concesionaria/,2,2,1,True,False
+Chery | concesionaria | Tiggo 8,2,https://autos.mercadolibre.com.uy/chery/tiggo-8/usado/concesionaria/,2,2,2,True,False
+Audi | particular | Q3 Sportback,2,https://autos.mercadolibre.com.uy/audi/q3-sportback/usado/dueno/,2,2,1,True,False
+Audi | particular | SQ5,2,https://autos.mercadolibre.com.uy/audi/sq5/usado/dueno/,2,2,1,True,False
+Chery | particular | A113,2,https://autos.mercadolibre.com.uy/chery/a113/usado/dueno/,2,2,2,True,False
+Chery | particular | Cowin,2,https://autos.mercadolibre.com.uy/chery/cowin/usado/dueno/,2,2,2,True,False
+Chery | particular | Tiggo 4 hybrid,2,https://autos.mercadolibre.com.uy/chery/tiggo-4-hybrid/usado/dueno/,2,2,2,True,False
+Chery | particular | Tiggo 5,2,https://autos.mercadolibre.com.uy/chery/tiggo-5/usado/dueno/,2,2,1,True,False
+BYD | particular | Song Plus,2,https://autos.mercadolibre.com.uy/byd/song-plus/usado/dueno/,3,3,3,True,False
+Jeep | concesionaria | Cherokee,2,https://autos.mercadolibre.com.uy/jeep/cherokee/usado/concesionaria/,2,2,2,True,False
+Jeep | concesionaria | Grand Cherokee L,2,https://autos.mercadolibre.com.uy/jeep/grand-cherokee-l/usado/concesionaria/,2,2,1,True,False
+Mitsubishi | concesionaria | Grandis,2,https://autos.mercadolibre.com.uy/mitsubishi/grandis/usado/concesionaria/,2,2,0,True,False
+Mitsubishi | concesionaria | Mirage G4,2,https://autos.mercadolibre.com.uy/mitsubishi/mirage-g4/usado/concesionaria/,2,2,1,True,False
+Mitsubishi | concesionaria | Montero,2,https://autos.mercadolibre.com.uy/mitsubishi/montero/usado/concesionaria/,2,2,1,True,False
+Geely | concesionaria | 515,2,https://autos.mercadolibre.com.uy/geely/515/usado/concesionaria/,2,2,2,True,False
+Geely | concesionaria | Cityray,2,https://autos.mercadolibre.com.uy/geely/cityray/usado/concesionaria/,2,2,1,True,False
+GWM | concesionaria | Deer,2,https://autos.mercadolibre.com.uy/gwm/deer/usado/concesionaria/,2,2,1,True,False
+GWM | concesionaria | Haval H5,2,https://autos.mercadolibre.com.uy/gwm/haval-h5/usado/concesionaria/,2,2,0,True,False
+GWM | concesionaria | Voleex C20R,2,https://autos.mercadolibre.com.uy/gwm/voleex-c20r/usado/concesionaria/,2,2,0,True,False
+Jeep | particular | Cherokee,2,https://autos.mercadolibre.com.uy/jeep/cherokee/usado/dueno/,2,2,2,True,False
+Jeep | particular | CJ5,2,https://autos.mercadolibre.com.uy/jeep/cj5/usado/dueno/,2,2,2,True,False
+Jeep | particular | Wrangler,2,https://autos.mercadolibre.com.uy/jeep/wrangler/usado/dueno/,2,2,1,True,False
+Mazda | particular | BT50,2,https://autos.mercadolibre.com.uy/mazda/bt50/usado/dueno/,2,2,0,True,False
+Mazda | particular | CX-9,2,https://autos.mercadolibre.com.uy/mazda/cx-9/usado/dueno/,2,2,0,True,False
+Daewoo | concesionaria,1,https://autos.mercadolibre.com.uy/daewoo/usado/concesionaria/,1,1,1,True,False
+SsangYong | concesionaria,1,https://autos.mercadolibre.com.uy/ssangyong/usado/concesionaria/,1,1,1,True,False
+Lexus | particular,1,https://autos.mercadolibre.com.uy/lexus/usado/dueno/,1,1,1,True,False
+GAC | particular,1,https://autos.mercadolibre.com.uy/gac/usado/dueno/,1,1,1,True,False
+Soueast | particular,1,https://autos.mercadolibre.com.uy/soueast/usado/dueno/,1,1,1,True,False
+Trike | particular,1,https://autos.mercadolibre.com.uy/trike/usado/dueno/,1,1,1,True,False
+Hummer | concesionaria,1,https://autos.mercadolibre.com.uy/hummer/usado/concesionaria/,1,1,1,True,False
+Hummer | particular,1,https://autos.mercadolibre.com.uy/hummer/usado/dueno/,1,1,1,True,False
+Brilliance | concesionaria,1,https://autos.mercadolibre.com.uy/brilliance/usado/concesionaria/,1,1,1,True,False
+Brilliance | particular,1,https://autos.mercadolibre.com.uy/brilliance/usado/dueno/,1,1,1,True,False
+Mudan (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/mudan/usado/,1,1,1,True,True
+DSFK (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_8266702,1,1,1,True,True
+Maxus (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/maxus/usado/,1,1,1,True,True
+DFM (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/dfm/usado/,1,1,1,True,True
+Studebaker (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_64432,1,1,1,True,True
+Isuzu (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/isuzu/usado/,1,1,1,True,True
+Xpeng (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/xpeng/usado/,1,1,1,True,True
+Club Car (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_492688,1,1,1,True,True
+Haval (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_42753577,1,1,1,True,True
+Plymouth (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/plymouth/usado/,1,1,1,True,True
+Morris (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/morris/usado/,1,1,1,True,True
+Compro (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_373089,1,1,1,True,True
+Indio (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_3681819,1,1,1,True,True
+King Star (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_3569285,1,1,1,True,True
+Fort (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_307,1,1,1,True,True
+Fusca (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_28321263,1,1,1,True,True
+Genérica (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_276243,1,1,1,True,True
+Orient (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/orient/usado/,1,1,1,True,True
+Cadillac (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/cadillac/usado/,1,1,1,True,True
+Higer (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/marca-higer/usado/,1,1,1,True,True
+Hudson (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/hudson/usado/,1,1,1,True,True
+Zna (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/zna/usado/,1,1,1,True,True
+Hozon (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/hozon/usado/,1,1,1,True,True
+Zontes (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_12079008,1,1,1,True,True
+Versa (sin filtro vendedor),0,https://autos.mercadolibre.com.uy/usado/_BRAND_104909,1,1,1,True,True
+Chevrolet | concesionaria | Blazer Ev,2,https://autos.mercadolibre.com.uy/chevrolet/blazer-ev/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | Cobalt,2,https://autos.mercadolibre.com.uy/chevrolet/cobalt/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | Corsa Combo,2,https://autos.mercadolibre.com.uy/chevrolet/corsa-combo/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | Corsa Wagon,2,https://autos.mercadolibre.com.uy/chevrolet/corsa-wagon/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | D-Max,2,https://autos.mercadolibre.com.uy/chevrolet/d-max/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | Monza,2,https://autos.mercadolibre.com.uy/chevrolet/monza/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | Spark GT,2,https://autos.mercadolibre.com.uy/chevrolet/spark-gt/usado/concesionaria/,1,1,1,True,False
+Chevrolet | concesionaria | Suburban,2,https://autos.mercadolibre.com.uy/chevrolet/suburban/usado/concesionaria/,1,1,1,True,False
+Volkswagen | particular | E-Up!,2,https://autos.mercadolibre.com.uy/volkswagen/e-up/usado/dueno/,1,1,1,True,False
+Volkswagen | particular | Furgon,2,https://autos.mercadolibre.com.uy/volkswagen/furgon/usado/dueno/,1,1,1,True,False
+Volkswagen | particular | Gol G3,2,https://autos.mercadolibre.com.uy/volkswagen/usado/dueno/_MODEL_17689414,1,1,1,True,False
+Volkswagen | particular | Gol G6,2,https://autos.mercadolibre.com.uy/volkswagen/usado/dueno/_MODEL_40781397,1,1,1,True,False
+Volkswagen | particular | Jetta,2,https://autos.mercadolibre.com.uy/volkswagen/jetta/usado/dueno/,1,1,1,True,False
+Volkswagen | particular | Polo Track,2,https://autos.mercadolibre.com.uy/volkswagen/usado/dueno/_MODEL_24888676,1,1,1,True,False
+Volkswagen | particular | Saveiro Cross,2,https://autos.mercadolibre.com.uy/volkswagen/saveiro-cross/usado/dueno/,1,1,1,True,False
+Volkswagen | particular | Sharan,2,https://autos.mercadolibre.com.uy/volkswagen/sharan/usado/dueno/,2,2,2,True,False
+Chevrolet | particular | 2,2,https://autos.mercadolibre.com.uy/chevrolet/2/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | Captiva ev,2,https://autos.mercadolibre.com.uy/chevrolet/captiva-ev/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | Corsa Sedan,2,https://autos.mercadolibre.com.uy/chevrolet/corsa-sedan/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | D-Max,2,https://autos.mercadolibre.com.uy/chevrolet/d-max/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | Hilux,2,https://autos.mercadolibre.com.uy/chevrolet/hilux/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | Mega,2,https://autos.mercadolibre.com.uy/chevrolet/mega/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | Opala,2,https://autos.mercadolibre.com.uy/chevrolet/opala/usado/dueno/,1,1,1,True,False
+Chevrolet | particular | Roadster,2,https://autos.mercadolibre.com.uy/chevrolet/roadster/usado/dueno/,1,1,1,True,False
+Volkswagen | concesionaria | Escarabajo/Fusca,2,https://autos.mercadolibre.com.uy/volkswagen/escarabajo-fusca/usado/concesionaria/,1,1,1,True,False
+Volkswagen | concesionaria | Id.3,2,https://autos.mercadolibre.com.uy/volkswagen/usado/concesionaria/_MODEL_46838747,1,1,1,True,False
+Volkswagen | concesionaria | Kombi,2,https://autos.mercadolibre.com.uy/volkswagen/kombi/usado/concesionaria/,1,1,1,True,False
+Volkswagen | concesionaria | Polo Classic,2,https://autos.mercadolibre.com.uy/volkswagen/polo-classic/usado/concesionaria/,1,1,1,True,False
+Volkswagen | concesionaria | Touareg,2,https://autos.mercadolibre.com.uy/volkswagen/touareg/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Duster Oroch,2,https://autos.mercadolibre.com.uy/renault/duster-oroch/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Grand Scénic,2,https://autos.mercadolibre.com.uy/renault/grand-scenic/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Laguna,2,https://autos.mercadolibre.com.uy/renault/laguna/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Laguna 2,2,https://autos.mercadolibre.com.uy/renault/laguna-2/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Master minibus,2,https://autos.mercadolibre.com.uy/renault/master-minibus/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Megane 2,2,https://autos.mercadolibre.com.uy/renault/megane-2/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | R19,2,https://autos.mercadolibre.com.uy/renault/r19/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Scenic2,2,https://autos.mercadolibre.com.uy/renault/scenic2/usado/concesionaria/,1,1,1,True,False
+Renault | concesionaria | Zoe,2,https://autos.mercadolibre.com.uy/renault/zoe/usado/concesionaria/,1,1,1,True,False
+Peugeot | particular | 309,2,https://autos.mercadolibre.com.uy/peugeot/309/usado/dueno/,1,1,1,True,False
+Peugeot | particular | 406,2,https://autos.mercadolibre.com.uy/peugeot/406/usado/dueno/,1,1,1,True,False
+Peugeot | particular | 605,2,https://autos.mercadolibre.com.uy/peugeot/605/usado/dueno/,1,1,1,True,False
+Peugeot | particular | Partner Patagónica,2,https://autos.mercadolibre.com.uy/peugeot/partner-patagonica/usado/dueno/,1,1,1,True,False
+Peugeot | particular | Partner Urbana,2,https://autos.mercadolibre.com.uy/peugeot/partner-urbana/usado/dueno/,1,1,1,True,False
+Peugeot | concesionaria | 106,2,https://autos.mercadolibre.com.uy/peugeot/106/usado/concesionaria/,1,1,1,True,False
+Peugeot | concesionaria | 2008 hybrid,2,https://autos.mercadolibre.com.uy/peugeot/2008-hybrid/usado/concesionaria/,1,1,1,True,False
+Peugeot | concesionaria | 3008 Hybrid,2,https://autos.mercadolibre.com.uy/peugeot/3008-hybrid/usado/concesionaria/,1,1,1,True,False
+Peugeot | concesionaria | 308 hybrid,2,https://autos.mercadolibre.com.uy/peugeot/308-hybrid/usado/concesionaria/,1,1,1,True,False
+Peugeot | concesionaria | 404,2,https://autos.mercadolibre.com.uy/peugeot/404/usado/concesionaria/,1,1,1,True,False
+Peugeot | concesionaria | 504,2,https://autos.mercadolibre.com.uy/peugeot/504/usado/concesionaria/,1,1,1,True,False
+Peugeot | concesionaria | Hoggar,2,https://autos.mercadolibre.com.uy/peugeot/hoggar/usado/concesionaria/,1,1,1,True,False
+Renault | particular | Clio Mío,2,https://autos.mercadolibre.com.uy/renault/clio-mio/usado/dueno/,1,1,1,True,False
+Renault | particular | Kangoo E-Tech,2,https://autos.mercadolibre.com.uy/renault/kangoo-e-tech/usado/dueno/,1,1,1,True,False
+Renault | particular | R 12,2,https://autos.mercadolibre.com.uy/renault/r-12/usado/dueno/,1,1,1,True,False
+Renault | particular | R 18,2,https://autos.mercadolibre.com.uy/renault/r-18/usado/dueno/,1,1,1,True,False
+Renault | particular | R11,2,https://autos.mercadolibre.com.uy/renault/r11/usado/dueno/,1,1,1,True,False
+Renault | particular | R19,2,https://autos.mercadolibre.com.uy/renault/r19/usado/dueno/,1,1,1,True,False
+Renault | particular | R9,2,https://autos.mercadolibre.com.uy/renault/r9/usado/dueno/,1,1,1,True,False
+Suzuki | particular | Freedom,2,https://autos.mercadolibre.com.uy/suzuki/freedom/usado/dueno/,1,1,1,True,False
+Suzuki | particular | Kizashi,2,https://autos.mercadolibre.com.uy/suzuki/kizashi/usado/dueno/,1,1,1,True,False
+Suzuki | particular | Samurai,2,https://autos.mercadolibre.com.uy/suzuki/samurai/usado/dueno/,1,1,0,True,False
+Suzuki | particular | Suzuki,2,https://autos.mercadolibre.com.uy/suzuki/usado/dueno/_MODEL_17677412,1,1,1,True,False
+Fiat | particular | 500,2,https://autos.mercadolibre.com.uy/fiat/500/usado/dueno/,1,1,1,True,False
+Fiat | particular | Duna,2,https://autos.mercadolibre.com.uy/fiat/duna/usado/dueno/,2,2,2,True,False
+Fiat | particular | Freedom,2,https://autos.mercadolibre.com.uy/fiat/freedom/usado/dueno/,1,1,1,True,False
+Fiat | particular | Gol G3,2,https://autos.mercadolibre.com.uy/fiat/usado/dueno/_MODEL_17689414,1,1,1,True,False
+Fiat | particular | Linea,2,https://autos.mercadolibre.com.uy/fiat/modelo-linea/usado/dueno/,1,1,1,True,False
+Fiat | particular | Palio Adventure,2,https://autos.mercadolibre.com.uy/fiat/palio-adventure/usado/dueno/,1,1,1,True,False
+Fiat | particular | Premio,2,https://autos.mercadolibre.com.uy/fiat/premio/usado/dueno/,1,1,1,True,False
+Fiat | particular | Punto,2,https://autos.mercadolibre.com.uy/fiat/punto/usado/dueno/,1,1,1,True,False
+Fiat | particular | Uno EVO,2,https://autos.mercadolibre.com.uy/fiat/uno-evo/usado/dueno/,1,1,1,True,False
+Fiat | particular | Wey,2,https://autos.mercadolibre.com.uy/fiat/usado/dueno/_MODEL_63547795,1,1,1,True,False
+Nissan | particular | 720,2,https://autos.mercadolibre.com.uy/nissan/720/usado/dueno/,1,1,1,True,False
+Nissan | particular | Ad Wagon,2,https://autos.mercadolibre.com.uy/nissan/ad-wagon/usado/dueno/,1,1,1,True,False
+Nissan | particular | Leaf,2,https://autos.mercadolibre.com.uy/nissan/leaf/usado/dueno/,1,1,1,True,False
+Nissan | particular | Terra,2,https://autos.mercadolibre.com.uy/nissan/terra/usado/dueno/,1,1,1,True,False
+Nissan | particular | Tsuru,2,https://autos.mercadolibre.com.uy/nissan/tsuru/usado/dueno/,1,1,1,True,False
+Nissan | particular | Vanette,2,https://autos.mercadolibre.com.uy/nissan/vanette/usado/dueno/,1,1,1,True,False
+Suzuki | concesionaria | Swift Hybrid,2,https://autos.mercadolibre.com.uy/suzuki/usado/concesionaria/_MODEL_38629682,1,1,1,True,False
+Fiat | concesionaria | 500C,2,https://autos.mercadolibre.com.uy/fiat/500c/usado/concesionaria/,1,1,1,True,False
+Fiat | concesionaria | Linea,2,https://autos.mercadolibre.com.uy/fiat/modelo-linea/usado/concesionaria/,1,1,1,True,False
+Fiat | concesionaria | Palio Fase Ii,2,https://autos.mercadolibre.com.uy/fiat/palio-fase-ii/usado/concesionaria/,1,1,1,True,False
+Fiat | concesionaria | Spider,2,https://autos.mercadolibre.com.uy/fiat/spider/usado/concesionaria/,1,1,1,True,False
+Nissan | concesionaria | Pathfinder,2,https://autos.mercadolibre.com.uy/nissan/pathfinder/usado/concesionaria/,1,1,1,True,False
+Nissan | concesionaria | Rogue,2,https://autos.mercadolibre.com.uy/nissan/rogue/usado/concesionaria/,1,1,1,True,False
+Nissan | concesionaria | X-Trail E-Power,2,https://autos.mercadolibre.com.uy/nissan/x-trail-e-power/usado/concesionaria/,1,1,1,True,False
+Hyundai | particular | Excel,2,https://autos.mercadolibre.com.uy/hyundai/excel/usado/dueno/,1,1,1,True,False
+Hyundai | particular | Grand Santa Fé,2,https://autos.mercadolibre.com.uy/hyundai/modelo-grand-santa-fe/usado/dueno/,1,1,1,True,False
+Hyundai | particular | H-1 Van,2,https://autos.mercadolibre.com.uy/hyundai/h-1-van/usado/dueno/,1,1,1,True,False
+Hyundai | particular | I30,2,https://autos.mercadolibre.com.uy/hyundai/i30/usado/dueno/,1,1,1,True,False
+Hyundai | concesionaria | Kona Electric,2,https://autos.mercadolibre.com.uy/hyundai/kona-electric/usado/concesionaria/,1,1,1,True,False
+Hyundai | concesionaria | Porter,2,https://autos.mercadolibre.com.uy/hyundai/porter/usado/concesionaria/,1,1,1,True,False
+Toyota | particular | Celica,2,https://autos.mercadolibre.com.uy/toyota/celica/usado/dueno/,1,1,1,True,False
+Toyota | particular | Prius C,2,https://autos.mercadolibre.com.uy/toyota/usado/dueno/_MODEL_48359254,1,1,0,True,False
+Toyota | particular | Starlet,2,https://autos.mercadolibre.com.uy/toyota/starlet/usado/dueno/,1,1,1,True,False
+Toyota | particular | Tundra,2,https://autos.mercadolibre.com.uy/toyota/tundra/usado/dueno/,1,1,1,True,False
+Citroën | concesionaria | Berlingo Van,2,https://autos.mercadolibre.com.uy/citroen/berlingo-van/usado/concesionaria/,1,1,1,True,False
+Citroën | concesionaria | C15,2,https://autos.mercadolibre.com.uy/citroen/c15/usado/concesionaria/,1,1,1,True,False
+Citroën | concesionaria | C3 Picasso,2,https://autos.mercadolibre.com.uy/citroen/c3-picasso/usado/concesionaria/,1,1,0,True,False
+Citroën | concesionaria | C5 Aircross Hibrido,2,https://autos.mercadolibre.com.uy/citroen/c5-aircross-hibrido/usado/concesionaria/,1,1,1,True,False
+Citroën | concesionaria | DS4,2,https://autos.mercadolibre.com.uy/citroen/ds4/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Econoline,2,https://autos.mercadolibre.com.uy/ford/econoline/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | F-100,2,https://autos.mercadolibre.com.uy/ford/f-100/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Fiesta Kinetic Design,2,https://autos.mercadolibre.com.uy/ford/fiesta-kinetic-design/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Fiesta Max,2,https://autos.mercadolibre.com.uy/ford/fiesta-max/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Focus 2,2,https://autos.mercadolibre.com.uy/ford/focus-2/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Mondeo,2,https://autos.mercadolibre.com.uy/ford/mondeo/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Mustang,2,https://autos.mercadolibre.com.uy/ford/mustang/usado/concesionaria/,1,1,1,True,False
+Ford | concesionaria | Raptor,2,https://autos.mercadolibre.com.uy/ford/raptor/usado/concesionaria/,1,1,0,True,False
+Citroën | particular | C3 Picasso,2,https://autos.mercadolibre.com.uy/citroen/c3-picasso/usado/dueno/,1,1,1,True,False
+Citroën | particular | C5,2,https://autos.mercadolibre.com.uy/citroen/c5/usado/dueno/,1,1,1,True,False
+Citroën | particular | C5 Aircross,2,https://autos.mercadolibre.com.uy/citroen/c5-aircross/usado/dueno/,1,1,0,True,False
+Citroën | particular | Grand C4 Picasso,2,https://autos.mercadolibre.com.uy/citroen/grand-c4-picasso/usado/dueno/,1,1,0,True,False
+Citroën | particular | ZX,2,https://autos.mercadolibre.com.uy/citroen/zx/usado/dueno/,1,1,1,True,False
+Ford | particular | Del Rey,2,https://autos.mercadolibre.com.uy/ford/del-rey/usado/dueno/,1,1,1,True,False
+Ford | particular | Escape,2,https://autos.mercadolibre.com.uy/ford/escape/usado/dueno/,1,1,0,True,False
+Ford | particular | F1,2,https://autos.mercadolibre.com.uy/ford/f1/usado/dueno/,1,1,1,True,False
+Ford | particular | Falcon,2,https://autos.mercadolibre.com.uy/ford/falcon/usado/dueno/,1,1,1,True,False
+Ford | particular | Focus 2,2,https://autos.mercadolibre.com.uy/ford/focus-2/usado/dueno/,1,1,1,True,False
+Ford | particular | Focus II,2,https://autos.mercadolibre.com.uy/ford/focus-ii/usado/dueno/,1,1,1,True,False
+Ford | particular | Jeep,2,https://autos.mercadolibre.com.uy/ford/usado/dueno/_MODEL_4912632,1,1,1,True,False
+Ford | particular | Territory,2,https://autos.mercadolibre.com.uy/ford/territory/usado/dueno/,1,1,0,True,False
+BMW | concesionaria | 320,2,https://autos.mercadolibre.com.uy/bmw/320/usado/concesionaria/,1,1,1,True,False
+BMW | concesionaria | M5,2,https://autos.mercadolibre.com.uy/bmw/m5/usado/concesionaria/,1,1,1,True,False
+BMW | concesionaria | X7,2,https://autos.mercadolibre.com.uy/bmw/x7/usado/concesionaria/,1,1,1,True,False
+BMW | concesionaria | Z3,2,https://autos.mercadolibre.com.uy/bmw/z3/usado/concesionaria/,1,1,1,True,False
+Toyota | concesionaria | 4Runner,2,https://autos.mercadolibre.com.uy/toyota/4runner/usado/concesionaria/,1,1,1,True,False
+Toyota | concesionaria | 86,2,https://autos.mercadolibre.com.uy/toyota/86/usado/concesionaria/,1,1,0,True,False
+Toyota | concesionaria | Agya,2,https://autos.mercadolibre.com.uy/toyota/agya/usado/concesionaria/,1,1,1,True,False
+Toyota | concesionaria | CH-R,2,https://autos.mercadolibre.com.uy/toyota/ch-r/usado/concesionaria/,1,1,1,True,False
+Toyota | concesionaria | Tacoma,2,https://autos.mercadolibre.com.uy/toyota/tacoma/usado/concesionaria/,1,1,0,True,False
+Toyota | concesionaria | Tercel,2,https://autos.mercadolibre.com.uy/toyota/tercel/usado/concesionaria/,1,1,1,True,False
+Toyota | concesionaria | Tundra,2,https://autos.mercadolibre.com.uy/toyota/tundra/usado/concesionaria/,1,1,1,True,False
+Mercedes-Benz | concesionaria | 190 E,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/concesionaria/_MODEL_7349445,1,1,1,True,False
+Mercedes-Benz | concesionaria | 300,2,https://autos.mercadolibre.com.uy/mercedes-benz/300/usado/concesionaria/,1,1,1,True,False
+Mercedes-Benz | concesionaria | Clase Cle,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-cle/usado/concesionaria/,1,1,1,True,False
+Mercedes-Benz | concesionaria | Clase CLS,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-cls/usado/concesionaria/,1,1,1,True,False
+Mercedes-Benz | concesionaria | E300,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/concesionaria/_MODEL_2231989,1,1,1,True,False
+Mercedes-Benz | concesionaria | Glc 300,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/concesionaria/_MODEL_23689245,1,1,1,True,False
+BMW | particular | 320,2,https://autos.mercadolibre.com.uy/bmw/320/usado/dueno/,1,1,1,True,False
+BMW | particular | i5,2,https://autos.mercadolibre.com.uy/bmw/i5/usado/dueno/,1,1,1,True,False
+BMW | particular | IX,2,https://autos.mercadolibre.com.uy/bmw/ix/usado/dueno/,1,1,0,True,False
+BMW | particular | Serie 6,2,https://autos.mercadolibre.com.uy/bmw/serie-6/usado/dueno/,1,1,0,True,False
+BMW | particular | Serie 7,2,https://autos.mercadolibre.com.uy/bmw/serie-7/usado/dueno/,1,1,1,True,False
+BMW | particular | Serie M,2,https://autos.mercadolibre.com.uy/bmw/serie-m/usado/dueno/,1,1,1,True,False
+Mercedes-Benz | particular | 300C,2,https://autos.mercadolibre.com.uy/mercedes-benz/300c/usado/dueno/,1,1,1,True,False
+Mercedes-Benz | particular | Berlina,2,https://autos.mercadolibre.com.uy/mercedes-benz/berlina/usado/dueno/,1,1,1,True,False
+Mercedes-Benz | particular | Clase Cle,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-cle/usado/dueno/,1,1,1,True,False
+Mercedes-Benz | particular | Clase S,2,https://autos.mercadolibre.com.uy/mercedes-benz/clase-s/usado/dueno/,1,1,1,True,False
+Mercedes-Benz | particular | E300,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/dueno/_MODEL_2231989,1,1,1,True,False
+Mercedes-Benz | particular | Eqe,2,https://autos.mercadolibre.com.uy/mercedes-benz/usado/dueno/_MODEL_68459453,1,1,0,True,False
+Mercedes-Benz | particular | Esprinter,2,https://autos.mercadolibre.com.uy/mercedes-benz/esprinter/usado/dueno/,1,1,1,True,False
+Honda | particular | City,2,https://autos.mercadolibre.com.uy/honda/city/usado/dueno/,1,1,0,True,False
+Honda | particular | Oddysey,2,https://autos.mercadolibre.com.uy/honda/oddysey/usado/dueno/,1,1,0,True,False
+Honda | particular | Pilot,2,https://autos.mercadolibre.com.uy/honda/pilot/usado/dueno/,1,1,1,True,False
+Kia | particular | 3000,2,https://autos.mercadolibre.com.uy/kia/3000/usado/dueno/,1,1,1,True,False
+Kia | particular | Carnival,2,https://autos.mercadolibre.com.uy/kia/carnival/usado/dueno/,1,1,0,True,False
+Kia | particular | EV5,2,https://autos.mercadolibre.com.uy/kia/ev5/usado/dueno/,1,1,0,True,False
+Kia | particular | K2500,2,https://autos.mercadolibre.com.uy/kia/k2500/usado/dueno/,1,1,1,True,False
+Kia | particular | Niro Hybrid,2,https://autos.mercadolibre.com.uy/kia/niro-hybrid/usado/dueno/,1,1,1,True,False
+Kia | particular | Pregio,2,https://autos.mercadolibre.com.uy/kia/pregio/usado/dueno/,1,1,0,True,False
+Kia | particular | Soluto,2,https://autos.mercadolibre.com.uy/kia/soluto/usado/dueno/,2,2,2,True,False
+Honda | concesionaria | Zr-V,2,https://autos.mercadolibre.com.uy/honda/zr-v/usado/concesionaria/,1,1,1,True,False
+Audi | concesionaria | A4 Allroad,2,https://autos.mercadolibre.com.uy/audi/a4-allroad/usado/concesionaria/,1,1,1,True,False
+Audi | concesionaria | A4 Avant,2,https://autos.mercadolibre.com.uy/audi/a4-avant/usado/concesionaria/,1,1,1,True,False
+Audi | concesionaria | E-tron,2,https://autos.mercadolibre.com.uy/audi/e-tron/usado/concesionaria/,1,1,0,True,False
+Audi | concesionaria | E-Tron Sportback,2,https://autos.mercadolibre.com.uy/audi/e-tron-sportback/usado/concesionaria/,1,1,0,True,False
+Audi | concesionaria | Q6 sportback e-tron,2,https://autos.mercadolibre.com.uy/audi/q6-sportback-e-tron/usado/concesionaria/,1,1,1,True,False
+Audi | concesionaria | Q8 E-Tron,2,https://autos.mercadolibre.com.uy/audi/q8-e-tron/usado/concesionaria/,1,1,1,True,False
+Audi | concesionaria | RS e-tron,2,https://autos.mercadolibre.com.uy/audi/rs-e-tron/usado/concesionaria/,1,1,1,True,False
+Audi | concesionaria | RS3 Sportback,2,https://autos.mercadolibre.com.uy/audi/rs3-sportback/usado/concesionaria/,1,1,0,True,False
+Kia | concesionaria | Carens,2,https://autos.mercadolibre.com.uy/kia/carens/usado/concesionaria/,1,1,0,True,False
+Kia | concesionaria | Carnival hev,2,https://autos.mercadolibre.com.uy/kia/carnival-hev/usado/concesionaria/,1,1,0,True,False
+Kia | concesionaria | Ev3,2,https://autos.mercadolibre.com.uy/kia/ev3/usado/concesionaria/,1,1,0,True,False
+Kia | concesionaria | EV5,2,https://autos.mercadolibre.com.uy/kia/ev5/usado/concesionaria/,1,1,0,True,False
+Kia | concesionaria | Niro Hybrid,2,https://autos.mercadolibre.com.uy/kia/niro-hybrid/usado/concesionaria/,1,1,1,True,False
+Audi | particular | A1 Sportback,2,https://autos.mercadolibre.com.uy/audi/a1-sportback/usado/dueno/,1,1,1,True,False
+Audi | particular | A4 Avant,2,https://autos.mercadolibre.com.uy/audi/a4-avant/usado/dueno/,1,1,0,True,False
+Audi | particular | A5,2,https://autos.mercadolibre.com.uy/audi/a5/usado/dueno/,1,1,1,True,False
+Audi | particular | E-tron,2,https://autos.mercadolibre.com.uy/audi/e-tron/usado/dueno/,1,1,0,True,False
+Audi | particular | Q4,2,https://autos.mercadolibre.com.uy/audi/q4/usado/dueno/,1,1,1,True,False
+Audi | particular | RS3,2,https://autos.mercadolibre.com.uy/audi/rs3/usado/dueno/,1,1,0,True,False
+Audi | particular | S E-Tron,2,https://autos.mercadolibre.com.uy/audi/s-e-tron/usado/dueno/,1,1,0,True,False
+Audi | particular | TT Roadster,2,https://autos.mercadolibre.com.uy/audi/modelo-tt-roadster/usado/dueno/,1,1,1,True,False
+Chery | particular | Tiggo 3,2,https://autos.mercadolibre.com.uy/chery/tiggo-3/usado/dueno/,1,1,0,True,False
+Chery | particular | Tiggo 8 Pro E+,2,https://autos.mercadolibre.com.uy/chery/tiggo-8-pro-e/usado/dueno/,1,1,1,True,False
+BYD | particular | E5,2,https://autos.mercadolibre.com.uy/byd/e5/usado/dueno/,1,1,0,True,False
+BYD | particular | F3-R,2,https://autos.mercadolibre.com.uy/byd/f3-r/usado/dueno/,1,1,1,True,False
+BYD | particular | Sealion 7,2,https://autos.mercadolibre.com.uy/byd/sealion-7/usado/dueno/,1,1,1,True,False
+BYD | particular | Song,2,https://autos.mercadolibre.com.uy/byd/usado/dueno/_MODEL_10577547,1,1,1,True,False
+BYD | particular | T3,2,https://autos.mercadolibre.com.uy/byd/t3/usado/dueno/,1,1,0,True,False
+BYD | particular | Tang ev,2,https://autos.mercadolibre.com.uy/byd/tang-ev/usado/dueno/,1,1,0,True,False
+Jeep | concesionaria | Avenger,2,https://autos.mercadolibre.com.uy/jeep/avenger/usado/concesionaria/,1,1,1,True,False
+Jeep | concesionaria | Jeep,2,https://autos.mercadolibre.com.uy/jeep/usado/concesionaria/_MODEL_4912632,1,1,1,True,False
+Jeep | concesionaria | Willys,2,https://autos.mercadolibre.com.uy/jeep/willys/usado/concesionaria/,1,1,1,True,False
+BYD | concesionaria | S1,2,https://autos.mercadolibre.com.uy/byd/s1/usado/concesionaria/,1,1,1,True,False
+BYD | concesionaria | Sealion 7,2,https://autos.mercadolibre.com.uy/byd/sealion-7/usado/concesionaria/,1,1,1,True,False
+BYD | concesionaria | Shark,2,https://autos.mercadolibre.com.uy/byd/shark/usado/concesionaria/,1,1,1,True,False
+BYD | concesionaria | Song,2,https://autos.mercadolibre.com.uy/byd/usado/concesionaria/_MODEL_10577547,1,1,1,True,False
+BYD | concesionaria | Yuan,2,https://autos.mercadolibre.com.uy/byd/yuan/usado/concesionaria/,1,1,1,True,False
+Mitsubishi | particular | Colt,2,https://autos.mercadolibre.com.uy/mitsubishi/colt/usado/dueno/,2,2,2,True,False
+Mitsubishi | particular | Montero,2,https://autos.mercadolibre.com.uy/mitsubishi/montero/usado/dueno/,1,1,0,True,False
+Mitsubishi | particular | montero sport,2,https://autos.mercadolibre.com.uy/mitsubishi/montero-sport/usado/dueno/,1,1,1,True,False
+Mitsubishi | particular | Triton,2,https://autos.mercadolibre.com.uy/mitsubishi/usado/dueno/_MODEL_30404,1,1,1,True,False
+Geely | concesionaria | CK2,2,https://autos.mercadolibre.com.uy/geely/ck2/usado/concesionaria/,1,1,1,True,False
+Geely | concesionaria | LC Cross,2,https://autos.mercadolibre.com.uy/geely/lc-cross/usado/concesionaria/,1,1,0,True,False
+GWM | concesionaria | Haval,2,https://autos.mercadolibre.com.uy/gwm/modelo-haval/usado/concesionaria/,1,1,0,True,False
+GWM | concesionaria | Haval h6 hev,2,https://autos.mercadolibre.com.uy/gwm/haval-h6-hev/usado/concesionaria/,1,1,0,True,False
+GWM | concesionaria | Hover,2,https://autos.mercadolibre.com.uy/gwm/hover/usado/concesionaria/,1,1,0,True,False
+GWM | concesionaria | Ora 03,2,https://autos.mercadolibre.com.uy/gwm/ora-03/usado/concesionaria/,1,1,1,True,False
+GWM | concesionaria | Tank 300,2,https://autos.mercadolibre.com.uy/gwm/tank-300/usado/concesionaria/,1,1,1,True,False
+GWM | concesionaria | Wingle 6,2,https://autos.mercadolibre.com.uy/gwm/wingle-6/usado/concesionaria/,1,1,1,True,False
+Jeep | particular | ARO,2,https://autos.mercadolibre.com.uy/jeep/usado/dueno/_MODEL_16029547,1,1,1,True,False
+Jeep | particular | Gladiator,2,https://autos.mercadolibre.com.uy/jeep/gladiator/usado/dueno/,1,1,0,True,False
+Jeep | particular | Grand Cherokee L,2,https://autos.mercadolibre.com.uy/jeep/grand-cherokee-l/usado/dueno/,1,1,0,True,False
+Jeep | particular | Willys,2,https://autos.mercadolibre.com.uy/jeep/willys/usado/dueno/,1,1,1,True,False
+Geely | particular | Emgrand X7 Sport,2,https://autos.mercadolibre.com.uy/geely/emgrand-x7-sport/usado/dueno/,1,1,0,True,False
+Geely | particular | Ex2,2,https://autos.mercadolibre.com.uy/geely/ex2/usado/dueno/,1,1,0,True,False
+Geely | particular | Geometry C,2,https://autos.mercadolibre.com.uy/geely/geometry-c/usado/dueno/,1,1,1,True,False
+Subaru | particular | Cross Trek,2,https://autos.mercadolibre.com.uy/subaru/cross-trek/usado/dueno/,1,1,0,True,False
+Subaru | particular | Justy,2,https://autos.mercadolibre.com.uy/subaru/justy/usado/dueno/,1,1,0,True,False
+Subaru | particular | WRX,2,https://autos.mercadolibre.com.uy/subaru/wrx/usado/dueno/,1,1,0,True,False
+Mazda | particular | B2200,2,https://autos.mercadolibre.com.uy/mazda/b2200/usado/dueno/,1,1,0,True,False
+Mazda | particular | CX-3,2,https://autos.mercadolibre.com.uy/mazda/cx-3/usado/dueno/,1,1,0,True,False
+Mazda | particular | MX-5,2,https://autos.mercadolibre.com.uy/mazda/mx-5/usado/dueno/,1,1,1,True,False

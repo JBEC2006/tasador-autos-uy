@@ -45,7 +45,11 @@ hacer requests, y el contador de requests persiste en `data/progress.json`.
 ## Fecha del scraping
 
 - Prueba de factibilidad y descubrimiento: 2026-10-28.
-- Corrida completa: _pendiente_.
+- Corrida completa: 2026-10-28 (12:52 a 15:23, hora de Uruguay).
+- Resultado: **17.095 avisos únicos** de 17.353 usados informados por el sitio
+  (**98,5 % de cobertura**). Se usaron 1.487 requests de los 2.000 permitidos, sumando
+  todo el proyecto: factibilidad, descubrimiento, prueba y corrida. No hubo
+  bloqueos ni URLs prohibidas.
 
 ## Reglas respetadas
 
@@ -111,8 +115,12 @@ combustible_titulo, motor_titulo, busqueda_origen, fecha_scraping, flag`
 ## Limitaciones
 
 - Solo primera página por búsqueda: un **año individual** con más de 48 avisos
-  para un modelo y tipo de vendedor (ej. modelos muy populares) queda con
-  cobertura parcial; se registra en el log.
+  para un modelo y tipo de vendedor queda con cobertura parcial; se registra en el
+  log. En la corrida pasó 2 veces: Chevrolet Montana 2024 de concesionaria (50
+  avisos) y Chevrolet Onix 2023 de concesionaria (49 avisos).
+- Avisos que el sitio no incluye en el filtro de modelo (45 búsquedas
+  marca × vendedor los tienen) solo se ven si entran en la primera página de la
+  marca.
 - La suma de avisos por marca (17.298) es algo menor al total informado (17.353):
   ~55 avisos sin marca en el filtro no se pueden alcanzar por esta vía.
 - 35 marcas mínimas (58 avisos) no ofrecen filtro de vendedor: `tipo_vendedor` vacío.
@@ -120,5 +128,8 @@ combustible_titulo, motor_titulo, busqueda_origen, fecha_scraping, flag`
 - Combustible, transmisión, carrocería y motor exactos solo están en la página de
   detalle de cada aviso; con un request por aviso se superaría el tope de 2.000,
   así que esa fase no se corrió y se usan los indicios del título.
+- Hay valores cargados mal por los vendedores, que se mantienen tal cual para
+  tratarlos en la limpieza. Algunos ejemplos son km de relleno (9.999.999), precios
+  en USD de 99.999.999 o de 500, y precios en UYU de 1.000.000.000.
 - El orden "más relevantes" del sitio decide qué 48 avisos se ven cuando una
   búsqueda tiene más: no es una muestra aleatoria.

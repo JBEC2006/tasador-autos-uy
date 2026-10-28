@@ -1,0 +1,6065 @@
+{
+ "fecha": "2026-10-28T11:57:02",
+ "base_url": "https://autos.mercadolibre.com.uy/usado/",
+ "total_informado": 17353,
+ "filtro_usado": {
+  "name": "Usado",
+  "results": 17353,
+  "url": "https://autos.mercadolibre.com.uy/usado/"
+ },
+ "marcas": [
+  {
+   "marca": "Chevrolet",
+   "url": "https://autos.mercadolibre.com.uy/chevrolet/usado/",
+   "total_informado": 2298,
+   "vendedor": {
+    "concesionaria": {
+     "results": 1234,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1064,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "2",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/2/usado/"
+    },
+    {
+     "modelo": "Agile",
+     "results": 50,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/agile/usado/"
+    },
+    {
+     "modelo": "Astra",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/astra/usado/"
+    },
+    {
+     "modelo": "Aveo",
+     "results": 70,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/aveo/usado/"
+    },
+    {
+     "modelo": "Aveo G3",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/aveo-g3/usado/"
+    },
+    {
+     "modelo": "Blazer",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/blazer/usado/"
+    },
+    {
+     "modelo": "Blazer Ev",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/blazer-ev/usado/"
+    },
+    {
+     "modelo": "C-10",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/c-10/usado/"
+    },
+    {
+     "modelo": "Camaro",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/camaro/usado/"
+    },
+    {
+     "modelo": "Captiva",
+     "results": 63,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/captiva/usado/"
+    },
+    {
+     "modelo": "Captiva ev",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/captiva-ev/usado/"
+    },
+    {
+     "modelo": "Captiva Sport",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/captiva-sport/usado/"
+    },
+    {
+     "modelo": "Captiva Xl",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/captiva-xl/usado/"
+    },
+    {
+     "modelo": "Celta",
+     "results": 108,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/celta/usado/"
+    },
+    {
+     "modelo": "Chevette",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/chevette/usado/"
+    },
+    {
+     "modelo": "Classic",
+     "results": 15,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/classic/usado/"
+    },
+    {
+     "modelo": "Cobalt",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/cobalt/usado/"
+    },
+    {
+     "modelo": "Corsa",
+     "results": 149,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/corsa/usado/"
+    },
+    {
+     "modelo": "Corsa Classic",
+     "results": 45,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/corsa-classic/usado/"
+    },
+    {
+     "modelo": "Corsa Combo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/corsa-combo/usado/"
+    },
+    {
+     "modelo": "Corsa Sedan",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/corsa-sedan/usado/"
+    },
+    {
+     "modelo": "Corsa Wagon",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/corsa-wagon/usado/"
+    },
+    {
+     "modelo": "Corvette",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/corvette/usado/"
+    },
+    {
+     "modelo": "Cruze",
+     "results": 71,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/cruze/usado/"
+    },
+    {
+     "modelo": "Cruze 5",
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/cruze-5/usado/"
+    },
+    {
+     "modelo": "Cruze II",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/cruze-ii/usado/"
+    },
+    {
+     "modelo": "D-Max",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/d-max/usado/"
+    },
+    {
+     "modelo": "Equinox",
+     "results": 34,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/equinox/usado/"
+    },
+    {
+     "modelo": "Groove",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/groove/usado/"
+    },
+    {
+     "modelo": "Hilux",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/hilux/usado/"
+    },
+    {
+     "modelo": "Joy",
+     "results": 58,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/joy/usado/"
+    },
+    {
+     "modelo": "Joy Plus",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/joy-plus/usado/"
+    },
+    {
+     "modelo": "Kadett",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/kadett/usado/"
+    },
+    {
+     "modelo": "Mega",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/mega/usado/"
+    },
+    {
+     "modelo": "Meriva",
+     "results": 24,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/meriva/usado/"
+    },
+    {
+     "modelo": "Montana",
+     "results": 145,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/montana/usado/"
+    },
+    {
+     "modelo": "Monza",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/monza/usado/"
+    },
+    {
+     "modelo": "N300",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/n300/usado/"
+    },
+    {
+     "modelo": "Onix",
+     "results": 542,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/onix/usado/"
+    },
+    {
+     "modelo": "Onix plus",
+     "results": 90,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/onix-plus/usado/"
+    },
+    {
+     "modelo": "Opala",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/opala/usado/"
+    },
+    {
+     "modelo": "Prisma",
+     "results": 106,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/prisma/usado/"
+    },
+    {
+     "modelo": "Roadster",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/roadster/usado/"
+    },
+    {
+     "modelo": "S-10",
+     "results": 15,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/s-10/usado/"
+    },
+    {
+     "modelo": "S10",
+     "results": 99,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/s10/usado/"
+    },
+    {
+     "modelo": "S10 Z71",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/s10-z71/usado/"
+    },
+    {
+     "modelo": "Sail",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/sail/usado/"
+    },
+    {
+     "modelo": "Silverado",
+     "results": 24,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/silverado/usado/"
+    },
+    {
+     "modelo": "Sonic",
+     "results": 29,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/sonic/usado/"
+    },
+    {
+     "modelo": "Spark",
+     "results": 137,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/spark/usado/"
+    },
+    {
+     "modelo": "Spark Euv",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/spark-euv/usado/"
+    },
+    {
+     "modelo": "Spark GT",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/spark-gt/usado/"
+    },
+    {
+     "modelo": "Spin",
+     "results": 42,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/spin/usado/"
+    },
+    {
+     "modelo": "Suburban",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/suburban/usado/"
+    },
+    {
+     "modelo": "Tracker",
+     "results": 158,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/tracker/usado/"
+    },
+    {
+     "modelo": "Vectra",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/vectra/usado/"
+    },
+    {
+     "modelo": "Zafira",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/chevrolet/zafira/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Volkswagen",
+   "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/",
+   "total_informado": 2181,
+   "vendedor": {
+    "concesionaria": {
+     "results": 1009,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1172,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Amarok",
+     "results": 145,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/amarok/usado/"
+    },
+    {
+     "modelo": "Bora",
+     "results": 48,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/bora/usado/"
+    },
+    {
+     "modelo": "CC",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/cc/usado/"
+    },
+    {
+     "modelo": "CrossFox",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/crossfox/usado/"
+    },
+    {
+     "modelo": "E-Up!",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/e-up/usado/"
+    },
+    {
+     "modelo": "Escarabajo/Fusca",
+     "results": 15,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/escarabajo-fusca/usado/"
+    },
+    {
+     "modelo": "Fox",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/fox/usado/"
+    },
+    {
+     "modelo": "Furgon",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/furgon/usado/"
+    },
+    {
+     "modelo": "Gol",
+     "results": 428,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/gol/usado/"
+    },
+    {
+     "modelo": "Gol G3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/_MODEL_17689414"
+    },
+    {
+     "modelo": "Gol G6",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/_MODEL_40781397"
+    },
+    {
+     "modelo": "Gol Sedan",
+     "results": 64,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/gol-sedan/usado/"
+    },
+    {
+     "modelo": "Golf",
+     "results": 88,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/golf/usado/"
+    },
+    {
+     "modelo": "GTI",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/gti/usado/"
+    },
+    {
+     "modelo": "Id.3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/_MODEL_46838747"
+    },
+    {
+     "modelo": "Jetta",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/jetta/usado/"
+    },
+    {
+     "modelo": "Kombi",
+     "results": 15,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/kombi/usado/"
+    },
+    {
+     "modelo": "New Beetle",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/new-beetle/usado/"
+    },
+    {
+     "modelo": "Nivus",
+     "results": 137,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/nivus/usado/"
+    },
+    {
+     "modelo": "Parati",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/parati/usado/"
+    },
+    {
+     "modelo": "Passat",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/passat/usado/"
+    },
+    {
+     "modelo": "Polo",
+     "results": 78,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/polo/usado/"
+    },
+    {
+     "modelo": "Polo Classic",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/polo-classic/usado/"
+    },
+    {
+     "modelo": "Polo Track",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/usado/_MODEL_24888676"
+    },
+    {
+     "modelo": "Saveiro",
+     "results": 330,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/saveiro/usado/"
+    },
+    {
+     "modelo": "Saveiro Cross",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/saveiro-cross/usado/"
+    },
+    {
+     "modelo": "Sharan",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/sharan/usado/"
+    },
+    {
+     "modelo": "Suran",
+     "results": 63,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/suran/usado/"
+    },
+    {
+     "modelo": "Suran Cross",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/suran-cross/usado/"
+    },
+    {
+     "modelo": "T-Cross",
+     "results": 96,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/t-cross/usado/"
+    },
+    {
+     "modelo": "Taos",
+     "results": 43,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/taos/usado/"
+    },
+    {
+     "modelo": "Tera",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/tera/usado/"
+    },
+    {
+     "modelo": "Tiguan",
+     "results": 146,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/tiguan/usado/"
+    },
+    {
+     "modelo": "Touareg",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/touareg/usado/"
+    },
+    {
+     "modelo": "Up!",
+     "results": 189,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/up/usado/"
+    },
+    {
+     "modelo": "Vento",
+     "results": 142,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/vento/usado/"
+    },
+    {
+     "modelo": "Virtus",
+     "results": 34,
+     "url": "https://autos.mercadolibre.com.uy/volkswagen/virtus/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Renault",
+   "url": "https://autos.mercadolibre.com.uy/renault/usado/",
+   "total_informado": 1338,
+   "vendedor": {
+    "concesionaria": {
+     "results": 726,
+     "url": "https://autos.mercadolibre.com.uy/renault/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 612,
+     "url": "https://autos.mercadolibre.com.uy/renault/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Arkana",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/renault/arkana/usado/"
+    },
+    {
+     "modelo": "Captur",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/renault/captur/usado/"
+    },
+    {
+     "modelo": "Clio",
+     "results": 102,
+     "url": "https://autos.mercadolibre.com.uy/renault/clio/usado/"
+    },
+    {
+     "modelo": "Clio Mío",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/clio-mio/usado/"
+    },
+    {
+     "modelo": "Duster",
+     "results": 135,
+     "url": "https://autos.mercadolibre.com.uy/renault/duster/usado/"
+    },
+    {
+     "modelo": "Duster Oroch",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/duster-oroch/usado/"
+    },
+    {
+     "modelo": "Express",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/renault/express/usado/"
+    },
+    {
+     "modelo": "Fluence",
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/renault/fluence/usado/"
+    },
+    {
+     "modelo": "Grand Captur",
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/renault/grand-captur/usado/"
+    },
+    {
+     "modelo": "Grand Scénic",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/grand-scenic/usado/"
+    },
+    {
+     "modelo": "Kangoo",
+     "results": 49,
+     "url": "https://autos.mercadolibre.com.uy/renault/kangoo/usado/"
+    },
+    {
+     "modelo": "Kangoo E-Tech",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/kangoo-e-tech/usado/"
+    },
+    {
+     "modelo": "Kangoo Express",
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/renault/kangoo-express/usado/"
+    },
+    {
+     "modelo": "Kardian",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/renault/kardian/usado/"
+    },
+    {
+     "modelo": "Koleos",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/renault/koleos/usado/"
+    },
+    {
+     "modelo": "Koleos e-tech hybrid",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/renault/koleos-e-tech-hybrid/usado/"
+    },
+    {
+     "modelo": "Kwid",
+     "results": 265,
+     "url": "https://autos.mercadolibre.com.uy/renault/kwid/usado/"
+    },
+    {
+     "modelo": "Kwid E-Tech",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/renault/kwid-e-tech/usado/"
+    },
+    {
+     "modelo": "Laguna",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/laguna/usado/"
+    },
+    {
+     "modelo": "Laguna 2",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/laguna-2/usado/"
+    },
+    {
+     "modelo": "Logan",
+     "results": 69,
+     "url": "https://autos.mercadolibre.com.uy/renault/logan/usado/"
+    },
+    {
+     "modelo": "Master",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/renault/master/usado/"
+    },
+    {
+     "modelo": "Master Furgon",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/renault/master-furgon/usado/"
+    },
+    {
+     "modelo": "Master minibus",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/renault/master-minibus/usado/"
+    },
+    {
+     "modelo": "Megane",
+     "results": 19,
+     "url": "https://autos.mercadolibre.com.uy/renault/megane/usado/"
+    },
+    {
+     "modelo": "Megane 2",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/renault/megane-2/usado/"
+    },
+    {
+     "modelo": "Mégane III",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/renault/megane-iii/usado/"
+    },
+    {
+     "modelo": "Oroch",
+     "results": 262,
+     "url": "https://autos.mercadolibre.com.uy/renault/oroch/usado/"
+    },
+    {
+     "modelo": "R 12",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/r-12/usado/"
+    },
+    {
+     "modelo": "R 18",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/r-18/usado/"
+    },
+    {
+     "modelo": "R11",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/r11/usado/"
+    },
+    {
+     "modelo": "R19",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/renault/r19/usado/"
+    },
+    {
+     "modelo": "R9",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/r9/usado/"
+    },
+    {
+     "modelo": "Sandero",
+     "results": 77,
+     "url": "https://autos.mercadolibre.com.uy/renault/sandero/usado/"
+    },
+    {
+     "modelo": "Sandero Stepway",
+     "results": 93,
+     "url": "https://autos.mercadolibre.com.uy/renault/sandero-stepway/usado/"
+    },
+    {
+     "modelo": "Scenic2",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/scenic2/usado/"
+    },
+    {
+     "modelo": "Scénic",
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/renault/scenic/usado/"
+    },
+    {
+     "modelo": "Stepway",
+     "results": 44,
+     "url": "https://autos.mercadolibre.com.uy/renault/stepway/usado/"
+    },
+    {
+     "modelo": "Symbol",
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/renault/symbol/usado/"
+    },
+    {
+     "modelo": "Trafic",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/renault/trafic/usado/"
+    },
+    {
+     "modelo": "Twingo",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/renault/twingo/usado/"
+    },
+    {
+     "modelo": "Zoe",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/renault/zoe/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Peugeot",
+   "url": "https://autos.mercadolibre.com.uy/peugeot/usado/",
+   "total_informado": 1322,
+   "vendedor": {
+    "concesionaria": {
+     "results": 642,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 680,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "106",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/106/usado/"
+    },
+    {
+     "modelo": "107",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/107/usado/"
+    },
+    {
+     "modelo": "108",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/108/usado/"
+    },
+    {
+     "modelo": "2008",
+     "results": 223,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/2008/usado/"
+    },
+    {
+     "modelo": "2008 hybrid",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/2008-hybrid/usado/"
+    },
+    {
+     "modelo": "205",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/205/usado/"
+    },
+    {
+     "modelo": "206",
+     "results": 49,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/206/usado/"
+    },
+    {
+     "modelo": "207",
+     "results": 127,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/207/usado/"
+    },
+    {
+     "modelo": "208",
+     "results": 420,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/208/usado/"
+    },
+    {
+     "modelo": "3008",
+     "results": 33,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/3008/usado/"
+    },
+    {
+     "modelo": "3008 Hybrid",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/3008-hybrid/usado/"
+    },
+    {
+     "modelo": "301",
+     "results": 77,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/301/usado/"
+    },
+    {
+     "modelo": "306",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/306/usado/"
+    },
+    {
+     "modelo": "307",
+     "results": 60,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/307/usado/"
+    },
+    {
+     "modelo": "308",
+     "results": 85,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/308/usado/"
+    },
+    {
+     "modelo": "308 hybrid",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/308-hybrid/usado/"
+    },
+    {
+     "modelo": "309",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/309/usado/"
+    },
+    {
+     "modelo": "404",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/404/usado/"
+    },
+    {
+     "modelo": "405",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/405/usado/"
+    },
+    {
+     "modelo": "406",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/406/usado/"
+    },
+    {
+     "modelo": "407",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/407/usado/"
+    },
+    {
+     "modelo": "408",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/408/usado/"
+    },
+    {
+     "modelo": "5008",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/5008/usado/"
+    },
+    {
+     "modelo": "504",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/504/usado/"
+    },
+    {
+     "modelo": "508",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/508/usado/"
+    },
+    {
+     "modelo": "605",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/605/usado/"
+    },
+    {
+     "modelo": "Bipper",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/bipper/usado/"
+    },
+    {
+     "modelo": "Boxer",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/boxer/usado/"
+    },
+    {
+     "modelo": "E-2008",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/e-2008/usado/"
+    },
+    {
+     "modelo": "Expert",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/expert/usado/"
+    },
+    {
+     "modelo": "Hoggar",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/hoggar/usado/"
+    },
+    {
+     "modelo": "Landtrek",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/landtrek/usado/"
+    },
+    {
+     "modelo": "Partner",
+     "results": 77,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/partner/usado/"
+    },
+    {
+     "modelo": "Partner Furgon",
+     "results": 23,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/partner-furgon/usado/"
+    },
+    {
+     "modelo": "Partner K9",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/partner-k9/usado/"
+    },
+    {
+     "modelo": "Partner Patagónica",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/partner-patagonica/usado/"
+    },
+    {
+     "modelo": "Partner Urbana",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/partner-urbana/usado/"
+    },
+    {
+     "modelo": "Rifter",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/peugeot/rifter/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Suzuki",
+   "url": "https://autos.mercadolibre.com.uy/suzuki/usado/",
+   "total_informado": 1118,
+   "vendedor": {
+    "concesionaria": {
+     "results": 535,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 583,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Alto",
+     "results": 125,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/alto/usado/"
+    },
+    {
+     "modelo": "Alto 800",
+     "results": 117,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/alto-800/usado/"
+    },
+    {
+     "modelo": "Baleno",
+     "results": 29,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/baleno/usado/"
+    },
+    {
+     "modelo": "Celerio",
+     "results": 299,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/celerio/usado/"
+    },
+    {
+     "modelo": "Ciaz",
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/ciaz/usado/"
+    },
+    {
+     "modelo": "Dzire",
+     "results": 43,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/dzire/usado/"
+    },
+    {
+     "modelo": "Dzire hybrid",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/dzire-hybrid/usado/"
+    },
+    {
+     "modelo": "Ertiga",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/ertiga/usado/"
+    },
+    {
+     "modelo": "Freedom",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/freedom/usado/"
+    },
+    {
+     "modelo": "Fronx",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/fronx/usado/"
+    },
+    {
+     "modelo": "Grand Vitara",
+     "results": 71,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/grand-vitara/usado/"
+    },
+    {
+     "modelo": "Grand Vitara Hybrid",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/grand-vitara-hybrid/usado/"
+    },
+    {
+     "modelo": "Ignis",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/ignis/usado/"
+    },
+    {
+     "modelo": "Kizashi",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/kizashi/usado/"
+    },
+    {
+     "modelo": "Maruti",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/maruti/usado/"
+    },
+    {
+     "modelo": "Marutti",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/marutti/usado/"
+    },
+    {
+     "modelo": "S-Presso",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/s-presso/usado/"
+    },
+    {
+     "modelo": "Samurai",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/samurai/usado/"
+    },
+    {
+     "modelo": "Suzuki",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/usado/_MODEL_17677412"
+    },
+    {
+     "modelo": "Swift",
+     "results": 269,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/swift/usado/"
+    },
+    {
+     "modelo": "Swift Hybrid",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/usado/_MODEL_38629682"
+    },
+    {
+     "modelo": "SX4",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/sx4/usado/"
+    },
+    {
+     "modelo": "Sx4 S-Cross",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/usado/_MODEL_58049359"
+    },
+    {
+     "modelo": "Vitara",
+     "results": 51,
+     "url": "https://autos.mercadolibre.com.uy/suzuki/vitara/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Fiat",
+   "url": "https://autos.mercadolibre.com.uy/fiat/usado/",
+   "total_informado": 1078,
+   "vendedor": {
+    "concesionaria": {
+     "results": 520,
+     "url": "https://autos.mercadolibre.com.uy/fiat/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 558,
+     "url": "https://autos.mercadolibre.com.uy/fiat/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "147 Spazio",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/fiat/147-spazio/usado/"
+    },
+    {
+     "modelo": "500",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/fiat/500/usado/"
+    },
+    {
+     "modelo": "500C",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/500c/usado/"
+    },
+    {
+     "modelo": "500X",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/fiat/500x/usado/"
+    },
+    {
+     "modelo": "600",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/fiat/600/usado/"
+    },
+    {
+     "modelo": "Argo",
+     "results": 33,
+     "url": "https://autos.mercadolibre.com.uy/fiat/argo/usado/"
+    },
+    {
+     "modelo": "Cinquecento",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/fiat/cinquecento/usado/"
+    },
+    {
+     "modelo": "Cronos",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/fiat/cronos/usado/"
+    },
+    {
+     "modelo": "Ducato",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/fiat/ducato/usado/"
+    },
+    {
+     "modelo": "Duna",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/duna/usado/"
+    },
+    {
+     "modelo": "FASTBACK",
+     "results": 25,
+     "url": "https://autos.mercadolibre.com.uy/fiat/fastback/usado/"
+    },
+    {
+     "modelo": "Fiorino",
+     "results": 67,
+     "url": "https://autos.mercadolibre.com.uy/fiat/fiorino/usado/"
+    },
+    {
+     "modelo": "Fioruno",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/fiat/fioruno/usado/"
+    },
+    {
+     "modelo": "Freedom",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/freedom/usado/"
+    },
+    {
+     "modelo": "Gol G3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/usado/_MODEL_17689414"
+    },
+    {
+     "modelo": "Grand Siena",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/fiat/grand-siena/usado/"
+    },
+    {
+     "modelo": "Idea",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/fiat/idea/usado/"
+    },
+    {
+     "modelo": "Linea",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/fiat/modelo-linea/usado/"
+    },
+    {
+     "modelo": "Mobi",
+     "results": 92,
+     "url": "https://autos.mercadolibre.com.uy/fiat/mobi/usado/"
+    },
+    {
+     "modelo": "Palio",
+     "results": 48,
+     "url": "https://autos.mercadolibre.com.uy/fiat/palio/usado/"
+    },
+    {
+     "modelo": "Palio Adventure",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/palio-adventure/usado/"
+    },
+    {
+     "modelo": "Palio Fase Ii",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/palio-fase-ii/usado/"
+    },
+    {
+     "modelo": "Palio Weekend",
+     "results": 33,
+     "url": "https://autos.mercadolibre.com.uy/fiat/palio-weekend/usado/"
+    },
+    {
+     "modelo": "Palio Weekend Adventure",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/fiat/palio-weekend-adventure/usado/"
+    },
+    {
+     "modelo": "Panda",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/fiat/panda/usado/"
+    },
+    {
+     "modelo": "Premio",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/premio/usado/"
+    },
+    {
+     "modelo": "Pulse",
+     "results": 15,
+     "url": "https://autos.mercadolibre.com.uy/fiat/pulse/usado/"
+    },
+    {
+     "modelo": "Punto",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/fiat/punto/usado/"
+    },
+    {
+     "modelo": "Siena",
+     "results": 48,
+     "url": "https://autos.mercadolibre.com.uy/fiat/siena/usado/"
+    },
+    {
+     "modelo": "Spider",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/spider/usado/"
+    },
+    {
+     "modelo": "Strada",
+     "results": 301,
+     "url": "https://autos.mercadolibre.com.uy/fiat/strada/usado/"
+    },
+    {
+     "modelo": "Strada Adventure",
+     "results": 26,
+     "url": "https://autos.mercadolibre.com.uy/fiat/strada-adventure/usado/"
+    },
+    {
+     "modelo": "Toro",
+     "results": 76,
+     "url": "https://autos.mercadolibre.com.uy/fiat/toro/usado/"
+    },
+    {
+     "modelo": "Uno",
+     "results": 192,
+     "url": "https://autos.mercadolibre.com.uy/fiat/uno/usado/"
+    },
+    {
+     "modelo": "Uno EVO",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/uno-evo/usado/"
+    },
+    {
+     "modelo": "Way",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/fiat/way/usado/"
+    },
+    {
+     "modelo": "Wey",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/fiat/usado/_MODEL_63547795"
+    }
+   ]
+  },
+  {
+   "marca": "Nissan",
+   "url": "https://autos.mercadolibre.com.uy/nissan/usado/",
+   "total_informado": 1063,
+   "vendedor": {
+    "concesionaria": {
+     "results": 505,
+     "url": "https://autos.mercadolibre.com.uy/nissan/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 558,
+     "url": "https://autos.mercadolibre.com.uy/nissan/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "720",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/720/usado/"
+    },
+    {
+     "modelo": "Ad Wagon",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/ad-wagon/usado/"
+    },
+    {
+     "modelo": "D-21",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/nissan/d-21/usado/"
+    },
+    {
+     "modelo": "D-22",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/nissan/d-22/usado/"
+    },
+    {
+     "modelo": "Frontier",
+     "results": 131,
+     "url": "https://autos.mercadolibre.com.uy/nissan/frontier/usado/"
+    },
+    {
+     "modelo": "Juke",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/nissan/juke/usado/"
+    },
+    {
+     "modelo": "Kicks",
+     "results": 153,
+     "url": "https://autos.mercadolibre.com.uy/nissan/kicks/usado/"
+    },
+    {
+     "modelo": "Kicks Play",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/nissan/kicks-play/usado/"
+    },
+    {
+     "modelo": "Leaf",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/leaf/usado/"
+    },
+    {
+     "modelo": "Magnite",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/nissan/magnite/usado/"
+    },
+    {
+     "modelo": "March",
+     "results": 116,
+     "url": "https://autos.mercadolibre.com.uy/nissan/march/usado/"
+    },
+    {
+     "modelo": "Maxima",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/nissan/maxima/usado/"
+    },
+    {
+     "modelo": "Murano",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/nissan/murano/usado/"
+    },
+    {
+     "modelo": "Note",
+     "results": 64,
+     "url": "https://autos.mercadolibre.com.uy/nissan/note/usado/"
+    },
+    {
+     "modelo": "NP300",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/nissan/np300/usado/"
+    },
+    {
+     "modelo": "Np300 Doble Cabina",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/nissan/np300-doble-cabina/usado/"
+    },
+    {
+     "modelo": "NP300 Frontier",
+     "results": 66,
+     "url": "https://autos.mercadolibre.com.uy/nissan/np300-frontier/usado/"
+    },
+    {
+     "modelo": "Pathfinder",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/nissan/pathfinder/usado/"
+    },
+    {
+     "modelo": "Qashqai",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/nissan/qashqai/usado/"
+    },
+    {
+     "modelo": "Rogue",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/rogue/usado/"
+    },
+    {
+     "modelo": "Sentra",
+     "results": 133,
+     "url": "https://autos.mercadolibre.com.uy/nissan/sentra/usado/"
+    },
+    {
+     "modelo": "Sunny",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/nissan/sunny/usado/"
+    },
+    {
+     "modelo": "Terra",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/terra/usado/"
+    },
+    {
+     "modelo": "Tiida",
+     "results": 65,
+     "url": "https://autos.mercadolibre.com.uy/nissan/tiida/usado/"
+    },
+    {
+     "modelo": "tiida hb",
+     "results": 29,
+     "url": "https://autos.mercadolibre.com.uy/nissan/tiida-hb/usado/"
+    },
+    {
+     "modelo": "Tsuru",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/tsuru/usado/"
+    },
+    {
+     "modelo": "Urvan",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/nissan/urvan/usado/"
+    },
+    {
+     "modelo": "Vanette",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/nissan/vanette/usado/"
+    },
+    {
+     "modelo": "Versa",
+     "results": 202,
+     "url": "https://autos.mercadolibre.com.uy/nissan/versa/usado/"
+    },
+    {
+     "modelo": "X-Trail",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/nissan/x-trail/usado/"
+    },
+    {
+     "modelo": "X-Trail E-Power",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/nissan/x-trail-e-power/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Hyundai",
+   "url": "https://autos.mercadolibre.com.uy/hyundai/usado/",
+   "total_informado": 856,
+   "vendedor": {
+    "concesionaria": {
+     "results": 417,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 439,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Accent",
+     "results": 56,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/accent/usado/"
+    },
+    {
+     "modelo": "Atos",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/atos/usado/"
+    },
+    {
+     "modelo": "Creta",
+     "results": 91,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/creta/usado/"
+    },
+    {
+     "modelo": "Elantra",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/elantra/usado/"
+    },
+    {
+     "modelo": "Eon",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/eon/usado/"
+    },
+    {
+     "modelo": "Excel",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/excel/usado/"
+    },
+    {
+     "modelo": "Grand i10",
+     "results": 32,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/grand-i10/usado/"
+    },
+    {
+     "modelo": "Grand I10 Sedan",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/usado/_MODEL_38668049"
+    },
+    {
+     "modelo": "Grand Santa Fé",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/modelo-grand-santa-fe/usado/"
+    },
+    {
+     "modelo": "H-1 Van",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/h-1-van/usado/"
+    },
+    {
+     "modelo": "H1",
+     "results": 33,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/h1/usado/"
+    },
+    {
+     "modelo": "H100",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/h100/usado/"
+    },
+    {
+     "modelo": "H350",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/h350/usado/"
+    },
+    {
+     "modelo": "HB20",
+     "results": 261,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/hb20/usado/"
+    },
+    {
+     "modelo": "HB20S",
+     "results": 71,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/hb20s/usado/"
+    },
+    {
+     "modelo": "HB20X",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/hb20x/usado/"
+    },
+    {
+     "modelo": "i10",
+     "results": 56,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/i10/usado/"
+    },
+    {
+     "modelo": "i20",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/i20/usado/"
+    },
+    {
+     "modelo": "I30",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/i30/usado/"
+    },
+    {
+     "modelo": "Ioniq",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/ioniq/usado/"
+    },
+    {
+     "modelo": "Kona",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/kona/usado/"
+    },
+    {
+     "modelo": "Kona Electric",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/kona-electric/usado/"
+    },
+    {
+     "modelo": "Kona Hybrid",
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/kona-hybrid/usado/"
+    },
+    {
+     "modelo": "Porter",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/porter/usado/"
+    },
+    {
+     "modelo": "Santa Fe",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/santa-fe/usado/"
+    },
+    {
+     "modelo": "Sonata",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/sonata/usado/"
+    },
+    {
+     "modelo": "Tucson",
+     "results": 119,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/tucson/usado/"
+    },
+    {
+     "modelo": "Tucson Hybrid",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/tucson-hybrid/usado/"
+    },
+    {
+     "modelo": "Veloster",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/hyundai/veloster/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Citroën",
+   "url": "https://autos.mercadolibre.com.uy/citroen/usado/",
+   "total_informado": 682,
+   "vendedor": {
+    "concesionaria": {
+     "results": 354,
+     "url": "https://autos.mercadolibre.com.uy/citroen/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 328,
+     "url": "https://autos.mercadolibre.com.uy/citroen/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Aircross",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/citroen/aircross/usado/"
+    },
+    {
+     "modelo": "AMi",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/citroen/ami/usado/"
+    },
+    {
+     "modelo": "AX",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/citroen/ax/usado/"
+    },
+    {
+     "modelo": "Basalt",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/citroen/basalt/usado/"
+    },
+    {
+     "modelo": "Berlingo",
+     "results": 84,
+     "url": "https://autos.mercadolibre.com.uy/citroen/berlingo/usado/"
+    },
+    {
+     "modelo": "Berlingo Business",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/citroen/berlingo-business/usado/"
+    },
+    {
+     "modelo": "Berlingo Furgon",
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/citroen/berlingo-furgon/usado/"
+    },
+    {
+     "modelo": "Berlingo Multispace",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/citroen/berlingo-multispace/usado/"
+    },
+    {
+     "modelo": "Berlingo Van",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/citroen/berlingo-van/usado/"
+    },
+    {
+     "modelo": "C-Elysée",
+     "results": 49,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c-elysee/usado/"
+    },
+    {
+     "modelo": "C1",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c1/usado/"
+    },
+    {
+     "modelo": "C15",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c15/usado/"
+    },
+    {
+     "modelo": "C3",
+     "results": 211,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c3/usado/"
+    },
+    {
+     "modelo": "C3 Aircross",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c3-aircross/usado/"
+    },
+    {
+     "modelo": "C3 Picasso",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c3-picasso/usado/"
+    },
+    {
+     "modelo": "C4",
+     "results": 25,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c4/usado/"
+    },
+    {
+     "modelo": "C4 Cactus",
+     "results": 117,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c4-cactus/usado/"
+    },
+    {
+     "modelo": "C4 Lounge",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c4-lounge/usado/"
+    },
+    {
+     "modelo": "C4 Picasso",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c4-picasso/usado/"
+    },
+    {
+     "modelo": "C5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c5/usado/"
+    },
+    {
+     "modelo": "C5 Aircross",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c5-aircross/usado/"
+    },
+    {
+     "modelo": "C5 Aircross Hibrido",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/citroen/c5-aircross-hibrido/usado/"
+    },
+    {
+     "modelo": "DS3",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/citroen/ds3/usado/"
+    },
+    {
+     "modelo": "DS4",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/citroen/ds4/usado/"
+    },
+    {
+     "modelo": "E-Berlingo Van",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/citroen/e-berlingo-van/usado/"
+    },
+    {
+     "modelo": "Grand C4 Picasso",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/citroen/grand-c4-picasso/usado/"
+    },
+    {
+     "modelo": "Jumpy",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/citroen/jumpy/usado/"
+    },
+    {
+     "modelo": "Mehari",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/citroen/mehari/usado/"
+    },
+    {
+     "modelo": "Nemo",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/citroen/nemo/usado/"
+    },
+    {
+     "modelo": "Saxo",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/citroen/saxo/usado/"
+    },
+    {
+     "modelo": "Xsara",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/citroen/xsara/usado/"
+    },
+    {
+     "modelo": "Xsara Picasso",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/citroen/xsara-picasso/usado/"
+    },
+    {
+     "modelo": "ZX",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/citroen/zx/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Ford",
+   "url": "https://autos.mercadolibre.com.uy/ford/usado/",
+   "total_informado": 644,
+   "vendedor": {
+    "concesionaria": {
+     "results": 338,
+     "url": "https://autos.mercadolibre.com.uy/ford/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 306,
+     "url": "https://autos.mercadolibre.com.uy/ford/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Bronco",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/ford/bronco/usado/"
+    },
+    {
+     "modelo": "Bronco Sport",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/ford/bronco-sport/usado/"
+    },
+    {
+     "modelo": "Courier",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/ford/courier/usado/"
+    },
+    {
+     "modelo": "Del Rey",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/del-rey/usado/"
+    },
+    {
+     "modelo": "Econoline",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/econoline/usado/"
+    },
+    {
+     "modelo": "Ecosport",
+     "results": 191,
+     "url": "https://autos.mercadolibre.com.uy/ford/ecosport/usado/"
+    },
+    {
+     "modelo": "Escape",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/ford/escape/usado/"
+    },
+    {
+     "modelo": "Escort",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/ford/escort/usado/"
+    },
+    {
+     "modelo": "Explorer",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/ford/explorer/usado/"
+    },
+    {
+     "modelo": "F-100",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/ford/f-100/usado/"
+    },
+    {
+     "modelo": "F-150",
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/ford/f-150/usado/"
+    },
+    {
+     "modelo": "F-150 Raptor",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/ford/f-150-raptor/usado/"
+    },
+    {
+     "modelo": "F1",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/f1/usado/"
+    },
+    {
+     "modelo": "Falcon",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/falcon/usado/"
+    },
+    {
+     "modelo": "Festiva",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/ford/festiva/usado/"
+    },
+    {
+     "modelo": "Fiesta",
+     "results": 84,
+     "url": "https://autos.mercadolibre.com.uy/ford/fiesta/usado/"
+    },
+    {
+     "modelo": "Fiesta Kinetic",
+     "results": 31,
+     "url": "https://autos.mercadolibre.com.uy/ford/fiesta-kinetic/usado/"
+    },
+    {
+     "modelo": "Fiesta Kinetic Design",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/fiesta-kinetic-design/usado/"
+    },
+    {
+     "modelo": "Fiesta Max",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/ford/fiesta-max/usado/"
+    },
+    {
+     "modelo": "Focus",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/ford/focus/usado/"
+    },
+    {
+     "modelo": "Focus 2",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/ford/focus-2/usado/"
+    },
+    {
+     "modelo": "Focus II",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/focus-ii/usado/"
+    },
+    {
+     "modelo": "Focus III",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/ford/focus-iii/usado/"
+    },
+    {
+     "modelo": "Fusion",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/ford/fusion/usado/"
+    },
+    {
+     "modelo": "Jeep",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/usado/_MODEL_4912632"
+    },
+    {
+     "modelo": "Ka",
+     "results": 31,
+     "url": "https://autos.mercadolibre.com.uy/ford/ka/usado/"
+    },
+    {
+     "modelo": "Ka+",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/ford/modelo-ka/usado/"
+    },
+    {
+     "modelo": "Maverick",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/ford/maverick/usado/"
+    },
+    {
+     "modelo": "Mondeo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/mondeo/usado/"
+    },
+    {
+     "modelo": "Mustang",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/ford/mustang/usado/"
+    },
+    {
+     "modelo": "Nueva Ranger",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/ford/nueva-ranger/usado/"
+    },
+    {
+     "modelo": "Ranger",
+     "results": 123,
+     "url": "https://autos.mercadolibre.com.uy/ford/ranger/usado/"
+    },
+    {
+     "modelo": "Ranger Raptor",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/ford/ranger-raptor/usado/"
+    },
+    {
+     "modelo": "Raptor",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ford/raptor/usado/"
+    },
+    {
+     "modelo": "Territory",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/ford/territory/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Toyota",
+   "url": "https://autos.mercadolibre.com.uy/toyota/usado/",
+   "total_informado": 611,
+   "vendedor": {
+    "concesionaria": {
+     "results": 242,
+     "url": "https://autos.mercadolibre.com.uy/toyota/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 369,
+     "url": "https://autos.mercadolibre.com.uy/toyota/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "4Runner",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/toyota/4runner/usado/"
+    },
+    {
+     "modelo": "86",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/86/usado/"
+    },
+    {
+     "modelo": "Agya",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/agya/usado/"
+    },
+    {
+     "modelo": "Celica",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/celica/usado/"
+    },
+    {
+     "modelo": "CH-R",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/ch-r/usado/"
+    },
+    {
+     "modelo": "Corolla",
+     "results": 96,
+     "url": "https://autos.mercadolibre.com.uy/toyota/corolla/usado/"
+    },
+    {
+     "modelo": "Corolla Cross",
+     "results": 50,
+     "url": "https://autos.mercadolibre.com.uy/toyota/corolla-cross/usado/"
+    },
+    {
+     "modelo": "Corolla Hybrid",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/toyota/corolla-hybrid/usado/"
+    },
+    {
+     "modelo": "Etios",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/toyota/etios/usado/"
+    },
+    {
+     "modelo": "Fortuner",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/toyota/fortuner/usado/"
+    },
+    {
+     "modelo": "Hiace",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/toyota/hiace/usado/"
+    },
+    {
+     "modelo": "Hilux",
+     "results": 242,
+     "url": "https://autos.mercadolibre.com.uy/toyota/hilux/usado/"
+    },
+    {
+     "modelo": "Hilux Pick-Up",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/toyota/hilux-pick-up/usado/"
+    },
+    {
+     "modelo": "Hilux SW4",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/toyota/hilux-sw4/usado/"
+    },
+    {
+     "modelo": "Land Cruiser",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/toyota/land-cruiser/usado/"
+    },
+    {
+     "modelo": "Prius",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/toyota/prius/usado/"
+    },
+    {
+     "modelo": "Prius C",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/usado/_MODEL_48359254"
+    },
+    {
+     "modelo": "Raize",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/toyota/raize/usado/"
+    },
+    {
+     "modelo": "Rav 4 Hybrid",
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/toyota/rav-4-hybrid/usado/"
+    },
+    {
+     "modelo": "RAV4",
+     "results": 37,
+     "url": "https://autos.mercadolibre.com.uy/toyota/rav4/usado/"
+    },
+    {
+     "modelo": "Rav4 Hybrid",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/toyota/rav4-hybrid/usado/"
+    },
+    {
+     "modelo": "Rush",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/toyota/rush/usado/"
+    },
+    {
+     "modelo": "Sienna",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/toyota/sienna/usado/"
+    },
+    {
+     "modelo": "Starlet",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/starlet/usado/"
+    },
+    {
+     "modelo": "Tacoma",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/toyota/tacoma/usado/"
+    },
+    {
+     "modelo": "Tercel",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/toyota/tercel/usado/"
+    },
+    {
+     "modelo": "Tundra",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/toyota/tundra/usado/"
+    },
+    {
+     "modelo": "Yaris",
+     "results": 19,
+     "url": "https://autos.mercadolibre.com.uy/toyota/yaris/usado/"
+    },
+    {
+     "modelo": "Yaris Hatch",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/toyota/yaris-hatch/usado/"
+    },
+    {
+     "modelo": "Yaris Sedán",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/toyota/yaris-sedan/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "BMW",
+   "url": "https://autos.mercadolibre.com.uy/bmw/usado/",
+   "total_informado": 482,
+   "vendedor": {
+    "concesionaria": {
+     "results": 258,
+     "url": "https://autos.mercadolibre.com.uy/bmw/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 224,
+     "url": "https://autos.mercadolibre.com.uy/bmw/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "320",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/bmw/320/usado/"
+    },
+    {
+     "modelo": "330E",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/bmw/usado/_MODEL_19836078"
+    },
+    {
+     "modelo": "I4",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/bmw/i4/usado/"
+    },
+    {
+     "modelo": "i5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bmw/i5/usado/"
+    },
+    {
+     "modelo": "IX",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/bmw/ix/usado/"
+    },
+    {
+     "modelo": "Ix1",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/bmw/ix1/usado/"
+    },
+    {
+     "modelo": "Ix2",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/bmw/ix2/usado/"
+    },
+    {
+     "modelo": "Ix3",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/bmw/ix3/usado/"
+    },
+    {
+     "modelo": "M5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bmw/m5/usado/"
+    },
+    {
+     "modelo": "Serie 1",
+     "results": 81,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-1/usado/"
+    },
+    {
+     "modelo": "Serie 2",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-2/usado/"
+    },
+    {
+     "modelo": "Serie 3",
+     "results": 89,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-3/usado/"
+    },
+    {
+     "modelo": "Serie 4",
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-4/usado/"
+    },
+    {
+     "modelo": "Serie 5",
+     "results": 19,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-5/usado/"
+    },
+    {
+     "modelo": "Serie 6",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-6/usado/"
+    },
+    {
+     "modelo": "Serie 7",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-7/usado/"
+    },
+    {
+     "modelo": "Serie M",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/bmw/serie-m/usado/"
+    },
+    {
+     "modelo": "X1",
+     "results": 74,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x1/usado/"
+    },
+    {
+     "modelo": "X2",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x2/usado/"
+    },
+    {
+     "modelo": "X3",
+     "results": 65,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x3/usado/"
+    },
+    {
+     "modelo": "X4",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x4/usado/"
+    },
+    {
+     "modelo": "X5",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x5/usado/"
+    },
+    {
+     "modelo": "X6",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x6/usado/"
+    },
+    {
+     "modelo": "X7",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bmw/x7/usado/"
+    },
+    {
+     "modelo": "Z3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bmw/z3/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Mercedes-Benz",
+   "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/",
+   "total_informado": 427,
+   "vendedor": {
+    "concesionaria": {
+     "results": 240,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 187,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "190 E",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/_MODEL_7349445"
+    },
+    {
+     "modelo": "300",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/300/usado/"
+    },
+    {
+     "modelo": "300C",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/300c/usado/"
+    },
+    {
+     "modelo": "Berlina",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/berlina/usado/"
+    },
+    {
+     "modelo": "C 180",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/_MODEL_85429"
+    },
+    {
+     "modelo": "Clase A",
+     "results": 38,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-a/usado/"
+    },
+    {
+     "modelo": "Clase B",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-b/usado/"
+    },
+    {
+     "modelo": "Clase C",
+     "results": 83,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-c/usado/"
+    },
+    {
+     "modelo": "Clase CLA",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-cla/usado/"
+    },
+    {
+     "modelo": "Clase CLC",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-clc/usado/"
+    },
+    {
+     "modelo": "Clase Cle",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-cle/usado/"
+    },
+    {
+     "modelo": "Clase CLS",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-cls/usado/"
+    },
+    {
+     "modelo": "Clase E",
+     "results": 37,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-e/usado/"
+    },
+    {
+     "modelo": "Clase GLA",
+     "results": 55,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-gla/usado/"
+    },
+    {
+     "modelo": "Clase GLB",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-glb/usado/"
+    },
+    {
+     "modelo": "Clase GLC",
+     "results": 50,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-glc/usado/"
+    },
+    {
+     "modelo": "Clase GLE",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-gle/usado/"
+    },
+    {
+     "modelo": "Clase GLK",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-glk/usado/"
+    },
+    {
+     "modelo": "Clase ML",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-ml/usado/"
+    },
+    {
+     "modelo": "Clase S",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-s/usado/"
+    },
+    {
+     "modelo": "Clase SL",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-sl/usado/"
+    },
+    {
+     "modelo": "Clase SLK",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clase-slk/usado/"
+    },
+    {
+     "modelo": "CLK",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/clk/usado/"
+    },
+    {
+     "modelo": "E300",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/_MODEL_2231989"
+    },
+    {
+     "modelo": "Eqa",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/_MODEL_65953931"
+    },
+    {
+     "modelo": "Eqe",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/_MODEL_68459453"
+    },
+    {
+     "modelo": "Esprinter",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/esprinter/usado/"
+    },
+    {
+     "modelo": "GLC",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/glc/usado/"
+    },
+    {
+     "modelo": "Glc 300",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/usado/_MODEL_23689245"
+    },
+    {
+     "modelo": "ML",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/ml/usado/"
+    },
+    {
+     "modelo": "Sprinter",
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/sprinter/usado/"
+    },
+    {
+     "modelo": "Vito",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/mercedes-benz/vito/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Honda",
+   "url": "https://autos.mercadolibre.com.uy/honda/usado/",
+   "total_informado": 321,
+   "vendedor": {
+    "concesionaria": {
+     "results": 154,
+     "url": "https://autos.mercadolibre.com.uy/honda/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 167,
+     "url": "https://autos.mercadolibre.com.uy/honda/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Accord",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/honda/accord/usado/"
+    },
+    {
+     "modelo": "City",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/honda/city/usado/"
+    },
+    {
+     "modelo": "Civic",
+     "results": 52,
+     "url": "https://autos.mercadolibre.com.uy/honda/civic/usado/"
+    },
+    {
+     "modelo": "CR-V",
+     "results": 81,
+     "url": "https://autos.mercadolibre.com.uy/honda/cr-v/usado/"
+    },
+    {
+     "modelo": "Fit",
+     "results": 27,
+     "url": "https://autos.mercadolibre.com.uy/honda/fit/usado/"
+    },
+    {
+     "modelo": "HR-V",
+     "results": 52,
+     "url": "https://autos.mercadolibre.com.uy/honda/hr-v/usado/"
+    },
+    {
+     "modelo": "Oddysey",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/honda/oddysey/usado/"
+    },
+    {
+     "modelo": "Odyssey",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/honda/odyssey/usado/"
+    },
+    {
+     "modelo": "Pilot",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/honda/pilot/usado/"
+    },
+    {
+     "modelo": "Prelude",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/honda/prelude/usado/"
+    },
+    {
+     "modelo": "Ridgeline",
+     "results": 34,
+     "url": "https://autos.mercadolibre.com.uy/honda/ridgeline/usado/"
+    },
+    {
+     "modelo": "Type R",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/honda/type-r/usado/"
+    },
+    {
+     "modelo": "WR-V",
+     "results": 45,
+     "url": "https://autos.mercadolibre.com.uy/honda/wr-v/usado/"
+    },
+    {
+     "modelo": "Zr-V",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/honda/zr-v/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Kia",
+   "url": "https://autos.mercadolibre.com.uy/kia/usado/",
+   "total_informado": 296,
+   "vendedor": {
+    "concesionaria": {
+     "results": 141,
+     "url": "https://autos.mercadolibre.com.uy/kia/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 155,
+     "url": "https://autos.mercadolibre.com.uy/kia/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "3000",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/kia/3000/usado/"
+    },
+    {
+     "modelo": "Avella",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/kia/avella/usado/"
+    },
+    {
+     "modelo": "Carens",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/kia/carens/usado/"
+    },
+    {
+     "modelo": "Carnival",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/kia/carnival/usado/"
+    },
+    {
+     "modelo": "Carnival hev",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/kia/carnival-hev/usado/"
+    },
+    {
+     "modelo": "Cerato",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/kia/cerato/usado/"
+    },
+    {
+     "modelo": "Ev3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/kia/ev3/usado/"
+    },
+    {
+     "modelo": "EV5",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/kia/ev5/usado/"
+    },
+    {
+     "modelo": "K2500",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/kia/k2500/usado/"
+    },
+    {
+     "modelo": "K3",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/kia/usado/_MODEL_11605"
+    },
+    {
+     "modelo": "K3 Cross",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/kia/k3-cross/usado/"
+    },
+    {
+     "modelo": "K3 Sedan",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/kia/k3-sedan/usado/"
+    },
+    {
+     "modelo": "Niro Hybrid",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/kia/niro-hybrid/usado/"
+    },
+    {
+     "modelo": "Picanto",
+     "results": 73,
+     "url": "https://autos.mercadolibre.com.uy/kia/picanto/usado/"
+    },
+    {
+     "modelo": "Pregio",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/kia/pregio/usado/"
+    },
+    {
+     "modelo": "Pride",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/kia/pride/usado/"
+    },
+    {
+     "modelo": "Rio",
+     "results": 64,
+     "url": "https://autos.mercadolibre.com.uy/kia/rio/usado/"
+    },
+    {
+     "modelo": "Seltos",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/kia/seltos/usado/"
+    },
+    {
+     "modelo": "Soluto",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/kia/soluto/usado/"
+    },
+    {
+     "modelo": "Sonet",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/kia/sonet/usado/"
+    },
+    {
+     "modelo": "Sorento",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/kia/sorento/usado/"
+    },
+    {
+     "modelo": "Soul",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/kia/soul/usado/"
+    },
+    {
+     "modelo": "Sportage",
+     "results": 63,
+     "url": "https://autos.mercadolibre.com.uy/kia/sportage/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Audi",
+   "url": "https://autos.mercadolibre.com.uy/audi/usado/",
+   "total_informado": 291,
+   "vendedor": {
+    "concesionaria": {
+     "results": 154,
+     "url": "https://autos.mercadolibre.com.uy/audi/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 137,
+     "url": "https://autos.mercadolibre.com.uy/audi/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "A1",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/audi/a1/usado/"
+    },
+    {
+     "modelo": "A1 Sportback",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/a1-sportback/usado/"
+    },
+    {
+     "modelo": "A3",
+     "results": 26,
+     "url": "https://autos.mercadolibre.com.uy/audi/a3/usado/"
+    },
+    {
+     "modelo": "A3 Sportback",
+     "results": 26,
+     "url": "https://autos.mercadolibre.com.uy/audi/a3-sportback/usado/"
+    },
+    {
+     "modelo": "A4",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/audi/a4/usado/"
+    },
+    {
+     "modelo": "A4 Allroad",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/a4-allroad/usado/"
+    },
+    {
+     "modelo": "A4 Avant",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/audi/a4-avant/usado/"
+    },
+    {
+     "modelo": "A5",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/audi/a5/usado/"
+    },
+    {
+     "modelo": "A6",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/audi/a6/usado/"
+    },
+    {
+     "modelo": "E-tron",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/audi/e-tron/usado/"
+    },
+    {
+     "modelo": "E-Tron Sportback",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/e-tron-sportback/usado/"
+    },
+    {
+     "modelo": "Q2",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/audi/q2/usado/"
+    },
+    {
+     "modelo": "Q3",
+     "results": 52,
+     "url": "https://autos.mercadolibre.com.uy/audi/q3/usado/"
+    },
+    {
+     "modelo": "Q3 Sportback",
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/audi/q3-sportback/usado/"
+    },
+    {
+     "modelo": "Q4",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/q4/usado/"
+    },
+    {
+     "modelo": "Q5",
+     "results": 61,
+     "url": "https://autos.mercadolibre.com.uy/audi/q5/usado/"
+    },
+    {
+     "modelo": "q5 sportback",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/audi/q5-sportback/usado/"
+    },
+    {
+     "modelo": "Q6 sportback e-tron",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/q6-sportback-e-tron/usado/"
+    },
+    {
+     "modelo": "Q7",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/audi/q7/usado/"
+    },
+    {
+     "modelo": "Q8 E-Tron",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/q8-e-tron/usado/"
+    },
+    {
+     "modelo": "RS e-tron",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/rs-e-tron/usado/"
+    },
+    {
+     "modelo": "Rs Q3 Sportback",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/audi/rs-q3-sportback/usado/"
+    },
+    {
+     "modelo": "RS3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/rs3/usado/"
+    },
+    {
+     "modelo": "RS3 Sportback",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/rs3-sportback/usado/"
+    },
+    {
+     "modelo": "S E-Tron",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/s-e-tron/usado/"
+    },
+    {
+     "modelo": "S3",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/audi/s3/usado/"
+    },
+    {
+     "modelo": "SQ5",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/audi/sq5/usado/"
+    },
+    {
+     "modelo": "TT Coupe",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/audi/tt-coupe/usado/"
+    },
+    {
+     "modelo": "TT Roadster",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/audi/modelo-tt-roadster/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Chery",
+   "url": "https://autos.mercadolibre.com.uy/chery/usado/",
+   "total_informado": 271,
+   "vendedor": {
+    "concesionaria": {
+     "results": 140,
+     "url": "https://autos.mercadolibre.com.uy/chery/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 131,
+     "url": "https://autos.mercadolibre.com.uy/chery/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "A113",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chery/a113/usado/"
+    },
+    {
+     "modelo": "Beat",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/chery/beat/usado/"
+    },
+    {
+     "modelo": "Chery QQ",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/chery/chery-qq/usado/"
+    },
+    {
+     "modelo": "Cowin",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chery/cowin/usado/"
+    },
+    {
+     "modelo": "Fulwin",
+     "results": 35,
+     "url": "https://autos.mercadolibre.com.uy/chery/fulwin/usado/"
+    },
+    {
+     "modelo": "QQ",
+     "results": 26,
+     "url": "https://autos.mercadolibre.com.uy/chery/qq/usado/"
+    },
+    {
+     "modelo": "QQ3",
+     "results": 30,
+     "url": "https://autos.mercadolibre.com.uy/chery/qq3/usado/"
+    },
+    {
+     "modelo": "Tiggo",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo/usado/"
+    },
+    {
+     "modelo": "Tiggo 2",
+     "results": 31,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-2/usado/"
+    },
+    {
+     "modelo": "Tiggo 2 Pro",
+     "results": 22,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-2-pro/usado/"
+    },
+    {
+     "modelo": "Tiggo 3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-3/usado/"
+    },
+    {
+     "modelo": "Tiggo 4",
+     "results": 23,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-4/usado/"
+    },
+    {
+     "modelo": "Tiggo 4 hybrid",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-4-hybrid/usado/"
+    },
+    {
+     "modelo": "Tiggo 4 Pro",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-4-pro/usado/"
+    },
+    {
+     "modelo": "Tiggo 5",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-5/usado/"
+    },
+    {
+     "modelo": "Tiggo 7",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-7/usado/"
+    },
+    {
+     "modelo": "tiggo 7 pro",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-7-pro/usado/"
+    },
+    {
+     "modelo": "Tiggo 8",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-8/usado/"
+    },
+    {
+     "modelo": "Tiggo 8 Pro",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-8-pro/usado/"
+    },
+    {
+     "modelo": "Tiggo 8 Pro E+",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chery/tiggo-8-pro-e/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "BYD",
+   "url": "https://autos.mercadolibre.com.uy/byd/usado/",
+   "total_informado": 238,
+   "vendedor": {
+    "concesionaria": {
+     "results": 113,
+     "url": "https://autos.mercadolibre.com.uy/byd/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 125,
+     "url": "https://autos.mercadolibre.com.uy/byd/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "E2",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/byd/e2/usado/"
+    },
+    {
+     "modelo": "E5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd/e5/usado/"
+    },
+    {
+     "modelo": "F0",
+     "results": 69,
+     "url": "https://autos.mercadolibre.com.uy/byd/f0/usado/"
+    },
+    {
+     "modelo": "F3",
+     "results": 34,
+     "url": "https://autos.mercadolibre.com.uy/byd/f3/usado/"
+    },
+    {
+     "modelo": "F3-R",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd/f3-r/usado/"
+    },
+    {
+     "modelo": "S1",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/byd/s1/usado/"
+    },
+    {
+     "modelo": "S5",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/byd/s5/usado/"
+    },
+    {
+     "modelo": "S6",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/byd/s6/usado/"
+    },
+    {
+     "modelo": "Seagull",
+     "results": 24,
+     "url": "https://autos.mercadolibre.com.uy/byd/seagull/usado/"
+    },
+    {
+     "modelo": "Sealion 7",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/byd/sealion-7/usado/"
+    },
+    {
+     "modelo": "Shark",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd/shark/usado/"
+    },
+    {
+     "modelo": "Song",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/byd/usado/_MODEL_10577547"
+    },
+    {
+     "modelo": "Song Plus",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/byd/song-plus/usado/"
+    },
+    {
+     "modelo": "T3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd/t3/usado/"
+    },
+    {
+     "modelo": "Tang",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/byd/tang/usado/"
+    },
+    {
+     "modelo": "Tang ev",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd/tang-ev/usado/"
+    },
+    {
+     "modelo": "Yuan",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd/yuan/usado/"
+    },
+    {
+     "modelo": "Yuan Plus",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/byd/yuan-plus/usado/"
+    },
+    {
+     "modelo": "Yuan Pro",
+     "results": 26,
+     "url": "https://autos.mercadolibre.com.uy/byd/yuan-pro/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Jeep",
+   "url": "https://autos.mercadolibre.com.uy/jeep/usado/",
+   "total_informado": 190,
+   "vendedor": {
+    "concesionaria": {
+     "results": 120,
+     "url": "https://autos.mercadolibre.com.uy/jeep/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 70,
+     "url": "https://autos.mercadolibre.com.uy/jeep/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "ARO",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jeep/usado/_MODEL_16029547"
+    },
+    {
+     "modelo": "Avenger",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jeep/avenger/usado/"
+    },
+    {
+     "modelo": "Cherokee",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/jeep/cherokee/usado/"
+    },
+    {
+     "modelo": "CJ5",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jeep/cj5/usado/"
+    },
+    {
+     "modelo": "Commander",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/jeep/commander/usado/"
+    },
+    {
+     "modelo": "Compass",
+     "results": 70,
+     "url": "https://autos.mercadolibre.com.uy/jeep/compass/usado/"
+    },
+    {
+     "modelo": "Gladiator",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/jeep/gladiator/usado/"
+    },
+    {
+     "modelo": "Grand Cherokee",
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/jeep/grand-cherokee/usado/"
+    },
+    {
+     "modelo": "Grand Cherokee L",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/jeep/grand-cherokee-l/usado/"
+    },
+    {
+     "modelo": "Jeep",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jeep/usado/_MODEL_4912632"
+    },
+    {
+     "modelo": "Renegade",
+     "results": 53,
+     "url": "https://autos.mercadolibre.com.uy/jeep/renegade/usado/"
+    },
+    {
+     "modelo": "Willys",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jeep/willys/usado/"
+    },
+    {
+     "modelo": "Wrangler",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/jeep/wrangler/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Mitsubishi",
+   "url": "https://autos.mercadolibre.com.uy/mitsubishi/usado/",
+   "total_informado": 177,
+   "vendedor": {
+    "concesionaria": {
+     "results": 83,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 94,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "ASX",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/asx/usado/"
+    },
+    {
+     "modelo": "Colt",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/colt/usado/"
+    },
+    {
+     "modelo": "Eclipse Cross",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/eclipse-cross/usado/"
+    },
+    {
+     "modelo": "Grandis",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/grandis/usado/"
+    },
+    {
+     "modelo": "L200",
+     "results": 64,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/l200/usado/"
+    },
+    {
+     "modelo": "L300",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/l300/usado/"
+    },
+    {
+     "modelo": "Lancer",
+     "results": 25,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/lancer/usado/"
+    },
+    {
+     "modelo": "Mirage",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/mirage/usado/"
+    },
+    {
+     "modelo": "Mirage G4",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/mirage-g4/usado/"
+    },
+    {
+     "modelo": "Montero",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/montero/usado/"
+    },
+    {
+     "modelo": "montero sport",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/montero-sport/usado/"
+    },
+    {
+     "modelo": "Outlander",
+     "results": 27,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/outlander/usado/"
+    },
+    {
+     "modelo": "Sportero",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/sportero/usado/"
+    },
+    {
+     "modelo": "Triton",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mitsubishi/usado/_MODEL_30404"
+    }
+   ]
+  },
+  {
+   "marca": "Geely",
+   "url": "https://autos.mercadolibre.com.uy/geely/usado/",
+   "total_informado": 141,
+   "vendedor": {
+    "concesionaria": {
+     "results": 73,
+     "url": "https://autos.mercadolibre.com.uy/geely/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 68,
+     "url": "https://autos.mercadolibre.com.uy/geely/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "515",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/geely/515/usado/"
+    },
+    {
+     "modelo": "Cityray",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/geely/cityray/usado/"
+    },
+    {
+     "modelo": "CK",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/geely/ck/usado/"
+    },
+    {
+     "modelo": "CK2",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/geely/ck2/usado/"
+    },
+    {
+     "modelo": "Coolray",
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/geely/coolray/usado/"
+    },
+    {
+     "modelo": "Emgrand 718",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/geely/emgrand-718/usado/"
+    },
+    {
+     "modelo": "Emgrand GS",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/geely/emgrand-gs/usado/"
+    },
+    {
+     "modelo": "Emgrand X7 Sport",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/geely/emgrand-x7-sport/usado/"
+    },
+    {
+     "modelo": "Ex2",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/geely/ex2/usado/"
+    },
+    {
+     "modelo": "EX5",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/geely/ex5/usado/"
+    },
+    {
+     "modelo": "Geometry C",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/geely/geometry-c/usado/"
+    },
+    {
+     "modelo": "Geometry E",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/geely/geometry-e/usado/"
+    },
+    {
+     "modelo": "GX3",
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/geely/gx3/usado/"
+    },
+    {
+     "modelo": "Gx3 Pro",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/geely/gx3-pro/usado/"
+    },
+    {
+     "modelo": "LC",
+     "results": 19,
+     "url": "https://autos.mercadolibre.com.uy/geely/lc/usado/"
+    },
+    {
+     "modelo": "LC Cross",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/geely/lc-cross/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "GWM",
+   "url": "https://autos.mercadolibre.com.uy/gwm/usado/",
+   "total_informado": 115,
+   "vendedor": {
+    "concesionaria": {
+     "results": 72,
+     "url": "https://autos.mercadolibre.com.uy/gwm/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 43,
+     "url": "https://autos.mercadolibre.com.uy/gwm/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Deer",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/gwm/deer/usado/"
+    },
+    {
+     "modelo": "Florid",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/gwm/florid/usado/"
+    },
+    {
+     "modelo": "Haval",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gwm/modelo-haval/usado/"
+    },
+    {
+     "modelo": "Haval Dargo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gwm/usado/_MODEL_46502138"
+    },
+    {
+     "modelo": "Haval H5",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/gwm/haval-h5/usado/"
+    },
+    {
+     "modelo": "Haval H6",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/gwm/haval-h6/usado/"
+    },
+    {
+     "modelo": "Haval h6 hev",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gwm/haval-h6-hev/usado/"
+    },
+    {
+     "modelo": "Haval Jolion",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gwm/haval-jolion/usado/"
+    },
+    {
+     "modelo": "Haval M4",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/gwm/haval-m4/usado/"
+    },
+    {
+     "modelo": "Hover",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gwm/hover/usado/"
+    },
+    {
+     "modelo": "Ora 03",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/gwm/ora-03/usado/"
+    },
+    {
+     "modelo": "Peri",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/gwm/peri/usado/"
+    },
+    {
+     "modelo": "Poer",
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/gwm/poer/usado/"
+    },
+    {
+     "modelo": "Tank 300",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/gwm/tank-300/usado/"
+    },
+    {
+     "modelo": "Voleex C20R",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/gwm/voleex-c20r/usado/"
+    },
+    {
+     "modelo": "Voleex C30",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/gwm/voleex-c30/usado/"
+    },
+    {
+     "modelo": "Wingle",
+     "results": 19,
+     "url": "https://autos.mercadolibre.com.uy/gwm/wingle/usado/"
+    },
+    {
+     "modelo": "Wingle 5",
+     "results": 31,
+     "url": "https://autos.mercadolibre.com.uy/gwm/wingle-5/usado/"
+    },
+    {
+     "modelo": "Wingle 5E",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/gwm/wingle-5e/usado/"
+    },
+    {
+     "modelo": "Wingle 6",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/gwm/wingle-6/usado/"
+    },
+    {
+     "modelo": "Wingle 7",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/gwm/wingle-7/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Subaru",
+   "url": "https://autos.mercadolibre.com.uy/subaru/usado/",
+   "total_informado": 97,
+   "vendedor": {
+    "concesionaria": {
+     "results": 41,
+     "url": "https://autos.mercadolibre.com.uy/subaru/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 56,
+     "url": "https://autos.mercadolibre.com.uy/subaru/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Cross Trek",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/subaru/cross-trek/usado/"
+    },
+    {
+     "modelo": "Forester",
+     "results": 38,
+     "url": "https://autos.mercadolibre.com.uy/subaru/forester/usado/"
+    },
+    {
+     "modelo": "Impreza",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/subaru/impreza/usado/"
+    },
+    {
+     "modelo": "Justy",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/subaru/justy/usado/"
+    },
+    {
+     "modelo": "Legacy",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/subaru/legacy/usado/"
+    },
+    {
+     "modelo": "Outback",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/subaru/outback/usado/"
+    },
+    {
+     "modelo": "Tribeca",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/subaru/tribeca/usado/"
+    },
+    {
+     "modelo": "WRX",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/subaru/wrx/usado/"
+    },
+    {
+     "modelo": "XV",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/subaru/xv/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Mazda",
+   "url": "https://autos.mercadolibre.com.uy/mazda/usado/",
+   "total_informado": 79,
+   "vendedor": {
+    "concesionaria": {
+     "results": 29,
+     "url": "https://autos.mercadolibre.com.uy/mazda/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 50,
+     "url": "https://autos.mercadolibre.com.uy/mazda/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "3",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/mazda/3/usado/"
+    },
+    {
+     "modelo": "B2200",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mazda/b2200/usado/"
+    },
+    {
+     "modelo": "B2500",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mazda/b2500/usado/"
+    },
+    {
+     "modelo": "B3000",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mazda/usado/_MODEL_11743024"
+    },
+    {
+     "modelo": "BT-50",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/mazda/bt-50/usado/"
+    },
+    {
+     "modelo": "BT50",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mazda/bt50/usado/"
+    },
+    {
+     "modelo": "CX-3",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mazda/cx-3/usado/"
+    },
+    {
+     "modelo": "CX-30",
+     "results": 28,
+     "url": "https://autos.mercadolibre.com.uy/mazda/cx-30/usado/"
+    },
+    {
+     "modelo": "CX-5",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/mazda/cx-5/usado/"
+    },
+    {
+     "modelo": "CX-9",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/mazda/cx-9/usado/"
+    },
+    {
+     "modelo": "Mazda 2",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mazda/mazda-2/usado/"
+    },
+    {
+     "modelo": "MX-5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mazda/mx-5/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "MINI",
+   "url": "https://autos.mercadolibre.com.uy/mini/usado/",
+   "total_informado": 71,
+   "vendedor": {
+    "concesionaria": {
+     "results": 41,
+     "url": "https://autos.mercadolibre.com.uy/mini/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 30,
+     "url": "https://autos.mercadolibre.com.uy/mini/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Aceman",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mini/aceman/usado/"
+    },
+    {
+     "modelo": "Cooper",
+     "results": 23,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper/usado/"
+    },
+    {
+     "modelo": "Cooper C",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-c/usado/"
+    },
+    {
+     "modelo": "Cooper Countryman",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-countryman/usado/"
+    },
+    {
+     "modelo": "Cooper S",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-s/usado/"
+    },
+    {
+     "modelo": "Cooper S Cabrio",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-s-cabrio/usado/"
+    },
+    {
+     "modelo": "Cooper S Countryman",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-s-countryman/usado/"
+    },
+    {
+     "modelo": "Cooper Se",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-se/usado/"
+    },
+    {
+     "modelo": "Cooper Se Countryman",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mini/cooper-se-countryman/usado/"
+    },
+    {
+     "modelo": "Countryman",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mini/countryman/usado/"
+    },
+    {
+     "modelo": "Paceman",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/mini/paceman/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Jetour",
+   "url": "https://autos.mercadolibre.com.uy/jetour/usado/",
+   "total_informado": 70,
+   "vendedor": {
+    "concesionaria": {
+     "results": 32,
+     "url": "https://autos.mercadolibre.com.uy/jetour/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 38,
+     "url": "https://autos.mercadolibre.com.uy/jetour/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Dashing",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/jetour/dashing/usado/"
+    },
+    {
+     "modelo": "G700",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jetour/g700/usado/"
+    },
+    {
+     "modelo": "Luxury",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jetour/luxury/usado/"
+    },
+    {
+     "modelo": "T1",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/jetour/t1/usado/"
+    },
+    {
+     "modelo": "T2",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/jetour/t2/usado/"
+    },
+    {
+     "modelo": "X50",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jetour/x50/usado/"
+    },
+    {
+     "modelo": "X70",
+     "results": 33,
+     "url": "https://autos.mercadolibre.com.uy/jetour/x70/usado/"
+    },
+    {
+     "modelo": "X70 Plus",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/jetour/x70-plus/usado/"
+    },
+    {
+     "modelo": "X90 Plus",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jetour/x90-plus/usado/"
+    },
+    {
+     "modelo": "X95",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jetour/x95/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "FAW",
+   "url": "https://autos.mercadolibre.com.uy/faw/usado/",
+   "total_informado": 70,
+   "vendedor": {
+    "concesionaria": {
+     "results": 39,
+     "url": "https://autos.mercadolibre.com.uy/faw/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 31,
+     "url": "https://autos.mercadolibre.com.uy/faw/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "1020",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/1020/usado/"
+    },
+    {
+     "modelo": "Brio",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/faw/brio/usado/"
+    },
+    {
+     "modelo": "Ca1010A2",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/usado/_MODEL_17652189"
+    },
+    {
+     "modelo": "D60",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/faw/d60/usado/"
+    },
+    {
+     "modelo": "N5",
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/faw/n5/usado/"
+    },
+    {
+     "modelo": "N7",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/faw/usado/_MODEL_2510859"
+    },
+    {
+     "modelo": "New N5",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/faw/new-n5/usado/"
+    },
+    {
+     "modelo": "Oley",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/faw/oley/usado/"
+    },
+    {
+     "modelo": "R7",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/faw/r7/usado/"
+    },
+    {
+     "modelo": "S80",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/s80/usado/"
+    },
+    {
+     "modelo": "Sedan",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/sedan/usado/"
+    },
+    {
+     "modelo": "T80",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/faw/t80/usado/"
+    },
+    {
+     "modelo": "V2",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/faw/v2/usado/"
+    },
+    {
+     "modelo": "V2 Cross",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/v2-cross/usado/"
+    },
+    {
+     "modelo": "V5",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/faw/v5/usado/"
+    },
+    {
+     "modelo": "Vita",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/vita/usado/"
+    },
+    {
+     "modelo": "X80",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/faw/x80/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Dodge",
+   "url": "https://autos.mercadolibre.com.uy/dodge/usado/",
+   "total_informado": 67,
+   "vendedor": {
+    "concesionaria": {
+     "results": 43,
+     "url": "https://autos.mercadolibre.com.uy/dodge/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 24,
+     "url": "https://autos.mercadolibre.com.uy/dodge/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Dakota",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dodge/dakota/usado/"
+    },
+    {
+     "modelo": "Durango",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dodge/durango/usado/"
+    },
+    {
+     "modelo": "Journey",
+     "results": 50,
+     "url": "https://autos.mercadolibre.com.uy/dodge/journey/usado/"
+    },
+    {
+     "modelo": "Ram",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/dodge/modelo-ram/usado/"
+    },
+    {
+     "modelo": "Ram 1500",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/dodge/ram-1500/usado/"
+    },
+    {
+     "modelo": "Ram 2500",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/dodge/ram-2500/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "JAC",
+   "url": "https://autos.mercadolibre.com.uy/jac/usado/",
+   "total_informado": 66,
+   "vendedor": {
+    "concesionaria": {
+     "results": 31,
+     "url": "https://autos.mercadolibre.com.uy/jac/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 35,
+     "url": "https://autos.mercadolibre.com.uy/jac/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "B18",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/b18/usado/"
+    },
+    {
+     "modelo": "E-J7",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/e-j7/usado/"
+    },
+    {
+     "modelo": "Hfc1023",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/usado/_MODEL_17689356"
+    },
+    {
+     "modelo": "Hfc1037",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/usado/_MODEL_17689357"
+    },
+    {
+     "modelo": "J2",
+     "results": 16,
+     "url": "https://autos.mercadolibre.com.uy/jac/j2/usado/"
+    },
+    {
+     "modelo": "J3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/j3/usado/"
+    },
+    {
+     "modelo": "J6",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/jac/j6/usado/"
+    },
+    {
+     "modelo": "S1",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/jac/s1/usado/"
+    },
+    {
+     "modelo": "S2",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/jac/modelo-s2/usado/"
+    },
+    {
+     "modelo": "Sunray",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/jac/sunray/usado/"
+    },
+    {
+     "modelo": "T6",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/jac/t6/usado/"
+    },
+    {
+     "modelo": "T8",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/t8/usado/"
+    },
+    {
+     "modelo": "X200",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jac/x200/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "DFSK",
+   "url": "https://autos.mercadolibre.com.uy/dfsk/usado/",
+   "total_informado": 51,
+   "vendedor": {
+    "concesionaria": {
+     "results": 30,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 21,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Box",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/box/usado/"
+    },
+    {
+     "modelo": "C-35",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/c-35/usado/"
+    },
+    {
+     "modelo": "C31",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/c31/usado/"
+    },
+    {
+     "modelo": "C35",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/c35/usado/"
+    },
+    {
+     "modelo": "Doble Cabina",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/doble-cabina/usado/"
+    },
+    {
+     "modelo": "Furgon",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/furgon/usado/"
+    },
+    {
+     "modelo": "Glory",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/glory/usado/"
+    },
+    {
+     "modelo": "K01",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/k01/usado/"
+    },
+    {
+     "modelo": "K02",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/k02/usado/"
+    },
+    {
+     "modelo": "K05S",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/k05s/usado/"
+    },
+    {
+     "modelo": "Mini Van",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/mini-van/usado/"
+    },
+    {
+     "modelo": "Pick Up",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/pick-up/usado/"
+    },
+    {
+     "modelo": "Reefer",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/reefer/usado/"
+    },
+    {
+     "modelo": "SUV",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dfsk/modelo-suv/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Volvo",
+   "url": "https://autos.mercadolibre.com.uy/volvo/usado/",
+   "total_informado": 42,
+   "vendedor": {
+    "concesionaria": {
+     "results": 18,
+     "url": "https://autos.mercadolibre.com.uy/volvo/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 24,
+     "url": "https://autos.mercadolibre.com.uy/volvo/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "460",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/460/usado/"
+    },
+    {
+     "modelo": "C30",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/volvo/c30/usado/"
+    },
+    {
+     "modelo": "C40 Recharge",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/c40-recharge/usado/"
+    },
+    {
+     "modelo": "EX30",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/volvo/ex30/usado/"
+    },
+    {
+     "modelo": "S40",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/volvo/s40/usado/"
+    },
+    {
+     "modelo": "S60",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/s60/usado/"
+    },
+    {
+     "modelo": "V40",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volvo/v40/usado/"
+    },
+    {
+     "modelo": "V60",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/volvo/v60/usado/"
+    },
+    {
+     "modelo": "XC40",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/xc40/usado/"
+    },
+    {
+     "modelo": "Xc40 Recharge",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/volvo/xc40-recharge/usado/"
+    },
+    {
+     "modelo": "XC60",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/volvo/xc60/usado/"
+    },
+    {
+     "modelo": "Xc60 Recharge",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/xc60-recharge/usado/"
+    },
+    {
+     "modelo": "XC90",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/xc90/usado/"
+    },
+    {
+     "modelo": "Xc90 Recharge",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/volvo/xc90-recharge/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Lifan",
+   "url": "https://autos.mercadolibre.com.uy/lifan/usado/",
+   "total_informado": 40,
+   "vendedor": {
+    "concesionaria": {
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/lifan/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/lifan/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "320",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/lifan/320/usado/"
+    },
+    {
+     "modelo": "620",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/lifan/620/usado/"
+    },
+    {
+     "modelo": "Foison",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lifan/foison/usado/"
+    },
+    {
+     "modelo": "X50",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/lifan/x50/usado/"
+    },
+    {
+     "modelo": "X60",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lifan/x60/usado/"
+    },
+    {
+     "modelo": "X7",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/lifan/x7/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Land Rover",
+   "url": "https://autos.mercadolibre.com.uy/land-rover/usado/",
+   "total_informado": 35,
+   "vendedor": {
+    "concesionaria": {
+     "results": 20,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 15,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Defender",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/defender/usado/"
+    },
+    {
+     "modelo": "Defender 110",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/defender-110/usado/"
+    },
+    {
+     "modelo": "Discovery",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/discovery/usado/"
+    },
+    {
+     "modelo": "Discovery 4",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/discovery-4/usado/"
+    },
+    {
+     "modelo": "Evoque",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/evoque/usado/"
+    },
+    {
+     "modelo": "Freelander",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/freelander/usado/"
+    },
+    {
+     "modelo": "Freelander 2",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/freelander-2/usado/"
+    },
+    {
+     "modelo": "Jeep",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/usado/_MODEL_4912632"
+    },
+    {
+     "modelo": "Range Rover",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/range-rover/usado/"
+    },
+    {
+     "modelo": "Range Rover Evoque",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/range-rover-evoque/usado/"
+    },
+    {
+     "modelo": "Range Rover Sport",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/range-rover-sport/usado/"
+    },
+    {
+     "modelo": "Range Rover Velar",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/land-rover/range-rover-velar/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Victory Auto",
+   "url": "https://autos.mercadolibre.com.uy/victory-auto/usado/",
+   "total_informado": 26,
+   "vendedor": {
+    "concesionaria": {
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Box",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/box/usado/"
+    },
+    {
+     "modelo": "Doble Cabina",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/doble-cabina/usado/"
+    },
+    {
+     "modelo": "Furgon",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/furgon/usado/"
+    },
+    {
+     "modelo": "K1 Box",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/k1-box/usado/"
+    },
+    {
+     "modelo": "K2 Box",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/k2-box/usado/"
+    },
+    {
+     "modelo": "K2 Pick Up",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/k2-pick-up/usado/"
+    },
+    {
+     "modelo": "Pick Up",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/pick-up/usado/"
+    },
+    {
+     "modelo": "Virtus",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/victory-auto/virtus/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Porsche",
+   "url": "https://autos.mercadolibre.com.uy/porsche/usado/",
+   "total_informado": 25,
+   "vendedor": {
+    "concesionaria": {
+     "results": 17,
+     "url": "https://autos.mercadolibre.com.uy/porsche/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/porsche/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Boxster",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/porsche/boxster/usado/"
+    },
+    {
+     "modelo": "Cayenne",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/porsche/cayenne/usado/"
+    },
+    {
+     "modelo": "Cayenne coupé",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/porsche/cayenne-coupe/usado/"
+    },
+    {
+     "modelo": "Cayenne S",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/porsche/cayenne-s/usado/"
+    },
+    {
+     "modelo": "Macan",
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/porsche/macan/usado/"
+    },
+    {
+     "modelo": "Panamera",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/porsche/panamera/usado/"
+    },
+    {
+     "modelo": "Taycan Cross Turismo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/porsche/taycan-cross-turismo/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Seat",
+   "url": "https://autos.mercadolibre.com.uy/seat/usado/",
+   "total_informado": 22,
+   "vendedor": {
+    "concesionaria": {
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/seat/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/seat/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Arona",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/seat/arona/usado/"
+    },
+    {
+     "modelo": "Ateca",
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/seat/ateca/usado/"
+    },
+    {
+     "modelo": "Ibiza",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/seat/ibiza/usado/"
+    },
+    {
+     "modelo": "Leon",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/seat/leon/usado/"
+    },
+    {
+     "modelo": "Toledo",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/seat/toledo/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Changan",
+   "url": "https://autos.mercadolibre.com.uy/changan/usado/",
+   "total_informado": 21,
+   "vendedor": {
+    "concesionaria": {
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/changan/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/changan/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "CS 35",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/changan/cs-35/usado/"
+    },
+    {
+     "modelo": "Cs35 Plus",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/changan/cs35-plus/usado/"
+    },
+    {
+     "modelo": "CS55",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/changan/usado/_MODEL_8845304"
+    },
+    {
+     "modelo": "Cs55 Plus",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/changan/cs55-plus/usado/"
+    },
+    {
+     "modelo": "Star",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/changan/star/usado/"
+    },
+    {
+     "modelo": "STAR PICK-UP",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/changan/star-pick-up/usado/"
+    },
+    {
+     "modelo": "Uni-T",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/changan/uni-t/usado/"
+    },
+    {
+     "modelo": "Uni-V",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/changan/uni-v/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Chana",
+   "url": "https://autos.mercadolibre.com.uy/chana/usado/",
+   "total_informado": 18,
+   "vendedor": {
+    "concesionaria": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/chana/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/chana/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "1022",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chana/1022/usado/"
+    },
+    {
+     "modelo": "6363",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chana/6363/usado/"
+    },
+    {
+     "modelo": "Benni",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/chana/benni/usado/"
+    },
+    {
+     "modelo": "Cargo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chana/cargo/usado/"
+    },
+    {
+     "modelo": "CX 20",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chana/cx-20/usado/"
+    },
+    {
+     "modelo": "Furgon",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chana/furgon/usado/"
+    },
+    {
+     "modelo": "Mini Benni",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/chana/mini-benni/usado/"
+    },
+    {
+     "modelo": "SC",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/chana/sc/usado/"
+    },
+    {
+     "modelo": "Star",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chana/star/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "OMODA",
+   "url": "https://autos.mercadolibre.com.uy/omoda/usado/",
+   "total_informado": 18,
+   "vendedor": {
+    "concesionaria": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/omoda/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/omoda/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "C5",
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/omoda/c5/usado/"
+    },
+    {
+     "modelo": "E5",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/omoda/e5/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Karry",
+   "url": "https://autos.mercadolibre.com.uy/karry/usado/",
+   "total_informado": 16,
+   "vendedor": {
+    "concesionaria": {
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/karry/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/karry/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Kq52",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/karry/kq52/usado/"
+    },
+    {
+     "modelo": "Q22",
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/karry/q22/usado/"
+    },
+    {
+     "modelo": "Q22E",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/karry/q22e/usado/"
+    },
+    {
+     "modelo": "Q22L",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/karry/q22l/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Opel",
+   "url": "https://autos.mercadolibre.com.uy/opel/usado/",
+   "total_informado": 16,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/opel/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 13,
+     "url": "https://autos.mercadolibre.com.uy/opel/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Combo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/opel/combo/usado/"
+    },
+    {
+     "modelo": "Combo Cargo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/opel/combo-cargo/usado/"
+    },
+    {
+     "modelo": "Corsa",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/opel/corsa/usado/"
+    },
+    {
+     "modelo": "Crossland",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/opel/crossland/usado/"
+    },
+    {
+     "modelo": "Grandland X",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/opel/grandland-x/usado/"
+    },
+    {
+     "modelo": "Kadett",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/opel/kadett/usado/"
+    },
+    {
+     "modelo": "Olimpia",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/opel/olimpia/usado/"
+    },
+    {
+     "modelo": "Rekord",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/opel/rekord/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Daewoo",
+   "url": "https://autos.mercadolibre.com.uy/daewoo/usado/",
+   "total_informado": 15,
+   "vendedor": {
+    "concesionaria": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 14,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Cielo",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/cielo/usado/"
+    },
+    {
+     "modelo": "Damas",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/damas/usado/"
+    },
+    {
+     "modelo": "Lanos",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/lanos/usado/"
+    },
+    {
+     "modelo": "Racer",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/racer/usado/"
+    },
+    {
+     "modelo": "Tico",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/daewoo/tico/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "RAM",
+   "url": "https://autos.mercadolibre.com.uy/ram/usado/",
+   "total_informado": 15,
+   "vendedor": {
+    "concesionaria": {
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/ram/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/ram/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "1500",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/ram/1500/usado/"
+    },
+    {
+     "modelo": "Dakota",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ram/dakota/usado/"
+    },
+    {
+     "modelo": "Rampage",
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/ram/rampage/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "BYD auto",
+   "url": "https://autos.mercadolibre.com.uy/byd-auto/usado/",
+   "total_informado": 15,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/byd-auto/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 12,
+     "url": "https://autos.mercadolibre.com.uy/byd-auto/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "F0",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/byd-auto/f0/usado/"
+    },
+    {
+     "modelo": "F3",
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/byd-auto/f3/usado/"
+    },
+    {
+     "modelo": "S6",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/byd-auto/s6/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Daihatsu",
+   "url": "https://autos.mercadolibre.com.uy/daihatsu/usado/",
+   "total_informado": 14,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 11,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Charade",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/charade/usado/"
+    },
+    {
+     "modelo": "Cuore",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/cuore/usado/"
+    },
+    {
+     "modelo": "Delta",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/delta/usado/"
+    },
+    {
+     "modelo": "Sirion",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/sirion/usado/"
+    },
+    {
+     "modelo": "Terios",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/daihatsu/terios/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Great Wall",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_42829323",
+   "total_informado": 13,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/usado/concesionaria/_BRAND_42829323"
+    },
+    "particular": {
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/usado/dueno/_BRAND_42829323"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Deer",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/deer/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Florid Cross",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/florid-cross/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Haval H6",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/haval-h6/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Haval M4",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/haval-m4/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Hover",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hover/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Voleex C30",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/voleex-c30/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Wingle",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/wingle/usado/_BRAND_42829323"
+    },
+    {
+     "modelo": "Wingle 3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/wingle-3/usado/_BRAND_42829323"
+    }
+   ]
+  },
+  {
+   "marca": "Alfa Romeo",
+   "url": "https://autos.mercadolibre.com.uy/alfa-romeo/usado/",
+   "total_informado": 12,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "145",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/145/usado/"
+    },
+    {
+     "modelo": "147",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/147/usado/"
+    },
+    {
+     "modelo": "164",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/164/usado/"
+    },
+    {
+     "modelo": "33",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/33/usado/"
+    },
+    {
+     "modelo": "Giulietta",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/giulietta/usado/"
+    },
+    {
+     "modelo": "Mito",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/mito/usado/"
+    },
+    {
+     "modelo": "Mobi",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/mobi/usado/"
+    },
+    {
+     "modelo": "Stelvio",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/alfa-romeo/stelvio/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "BAW",
+   "url": "https://autos.mercadolibre.com.uy/baw/usado/",
+   "total_informado": 12,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/baw/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 9,
+     "url": "https://autos.mercadolibre.com.uy/baw/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "L7",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/baw/l7/usado/"
+    },
+    {
+     "modelo": "Pony",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/baw/pony/usado/"
+    },
+    {
+     "modelo": "Truck",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/baw/truck/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "ZxAuto",
+   "url": "https://autos.mercadolibre.com.uy/zxauto/usado/",
+   "total_informado": 12,
+   "vendedor": {
+    "concesionaria": {
+     "results": 10,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Admiral",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/admiral/usado/"
+    },
+    {
+     "modelo": "GRAND TIGER",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/grand-tiger/usado/"
+    },
+    {
+     "modelo": "Grandtiger",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/grandtiger/usado/"
+    },
+    {
+     "modelo": "Terralord",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/terralord/usado/"
+    },
+    {
+     "modelo": "Urban",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/zxauto/urban/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Foton",
+   "url": "https://autos.mercadolibre.com.uy/foton/usado/",
+   "total_informado": 10,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/foton/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 7,
+     "url": "https://autos.mercadolibre.com.uy/foton/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Doble Cabina",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/foton/doble-cabina/usado/"
+    },
+    {
+     "modelo": "Midi",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/foton/midi/usado/"
+    },
+    {
+     "modelo": "Tunland",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/foton/tunland/usado/"
+    },
+    {
+     "modelo": "Tunland V7",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/foton/tunland-v7/usado/"
+    },
+    {
+     "modelo": "View",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/foton/view/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "JMC",
+   "url": "https://autos.mercadolibre.com.uy/jmc/usado/",
+   "total_informado": 10,
+   "vendedor": {
+    "concesionaria": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/jmc/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/jmc/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Boarding",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jmc/boarding/usado/"
+    },
+    {
+     "modelo": "Jmev ev3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jmc/jmev-ev3/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Haima",
+   "url": "https://autos.mercadolibre.com.uy/haima/usado/",
+   "total_informado": 10,
+   "vendedor": {
+    "concesionaria": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/haima/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/haima/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/haima/5/usado/"
+    },
+    {
+     "modelo": "7",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/haima/7/usado/"
+    },
+    {
+     "modelo": "Family",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/haima/family/usado/"
+    },
+    {
+     "modelo": "S5",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/haima/s5/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Lynk & Co",
+   "url": "https://autos.mercadolibre.com.uy/lynk-co/usado/",
+   "total_informado": 8,
+   "vendedor": {
+    "concesionaria": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/lynk-co/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/lynk-co/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "01",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lynk-co/01/usado/"
+    },
+    {
+     "modelo": "02",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/lynk-co/02/usado/"
+    },
+    {
+     "modelo": "06",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/lynk-co/06/usado/"
+    },
+    {
+     "modelo": "09",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lynk-co/09/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Tesla",
+   "url": "https://autos.mercadolibre.com.uy/tesla/usado/",
+   "total_informado": 9,
+   "vendedor": {
+    "concesionaria": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/tesla/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/tesla/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Cybertruck",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/tesla/usado/_MODEL_16716735"
+    },
+    {
+     "modelo": "MODEL Y",
+     "results": 8,
+     "url": "https://autos.mercadolibre.com.uy/tesla/model/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Zotye",
+   "url": "https://autos.mercadolibre.com.uy/zotye/usado/",
+   "total_informado": 9,
+   "vendedor": {
+    "concesionaria": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/zotye/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/zotye/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Hunter",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/zotye/hunter/usado/"
+    },
+    {
+     "modelo": "Rural",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/zotye/rural/usado/"
+    },
+    {
+     "modelo": "Z100",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/zotye/z100/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "BAIC",
+   "url": "https://autos.mercadolibre.com.uy/baic/usado/",
+   "total_informado": 9,
+   "vendedor": {
+    "concesionaria": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/baic/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/baic/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "BJ30",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/baic/bj30/usado/"
+    },
+    {
+     "modelo": "C206",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/baic/c206/usado/"
+    },
+    {
+     "modelo": "EX3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/baic/ex3/usado/"
+    },
+    {
+     "modelo": "X55 Ii",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/baic/x55-ii/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Dongfeng",
+   "url": "https://autos.mercadolibre.com.uy/dongfeng/usado/",
+   "total_informado": 9,
+   "vendedor": {
+    "concesionaria": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/dongfeng/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/dongfeng/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "H30 cross",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/dongfeng/usado/_MODEL_74290800"
+    },
+    {
+     "modelo": "Vigo",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/dongfeng/vigo/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "MG",
+   "url": "https://autos.mercadolibre.com.uy/mg/usado/",
+   "total_informado": 8,
+   "vendedor": {
+    "concesionaria": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/mg/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mg/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "3",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mg/3/usado/"
+    },
+    {
+     "modelo": "Cyberster",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mg/cyberster/usado/"
+    },
+    {
+     "modelo": "Marvel R",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/mg/marvel-r/usado/"
+    },
+    {
+     "modelo": "Zs Ev",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/mg/zs-ev/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Effa",
+   "url": "https://autos.mercadolibre.com.uy/effa/usado/",
+   "total_informado": 8,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "Cargo",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/effa/cargo/usado/"
+    },
+    {
+     "modelo": "Ideal",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/effa/ideal/usado/"
+    },
+    {
+     "modelo": "Minyi",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/effa/minyi/usado/"
+    },
+    {
+     "modelo": "Plutus",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/effa/plutus/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Bestune",
+   "url": "https://autos.mercadolibre.com.uy/bestune/usado/",
+   "total_informado": 8,
+   "vendedor": {
+    "concesionaria": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/bestune/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/bestune/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "B70S",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bestune/b70s/usado/"
+    },
+    {
+     "modelo": "T33",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bestune/t33/usado/"
+    },
+    {
+     "modelo": "T77",
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/bestune/t77/usado/"
+    },
+    {
+     "modelo": "T90",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/bestune/t90/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Rover",
+   "url": "https://autos.mercadolibre.com.uy/rover/usado/",
+   "total_informado": 7,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/rover/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/rover/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "214",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/rover/214/usado/"
+    },
+    {
+     "modelo": "216",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/rover/216/usado/"
+    },
+    {
+     "modelo": "414",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/rover/414/usado/"
+    },
+    {
+     "modelo": "75",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/rover/75/usado/"
+    },
+    {
+     "modelo": "Maestro",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/rover/maestro/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "SsangYong",
+   "url": "https://autos.mercadolibre.com.uy/ssangyong/usado/",
+   "total_informado": 7,
+   "vendedor": {
+    "concesionaria": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/ssangyong/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 6,
+     "url": "https://autos.mercadolibre.com.uy/ssangyong/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Actyon",
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/ssangyong/actyon/usado/"
+    },
+    {
+     "modelo": "Korando",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/ssangyong/korando/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Jaguar",
+   "url": "https://autos.mercadolibre.com.uy/jaguar/usado/",
+   "total_informado": 7,
+   "vendedor": {
+    "concesionaria": {
+     "results": 5,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "E-Pace",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/e-pace/usado/"
+    },
+    {
+     "modelo": "F-PACE",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/f-pace/usado/"
+    },
+    {
+     "modelo": "X-Type",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/x-type/usado/"
+    },
+    {
+     "modelo": "XF",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/xf/usado/"
+    },
+    {
+     "modelo": "XJ6",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/xj6/usado/"
+    },
+    {
+     "modelo": "XK",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/jaguar/xk/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Chrysler",
+   "url": "https://autos.mercadolibre.com.uy/chrysler/usado/",
+   "total_informado": 6,
+   "vendedor": {
+    "concesionaria": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Cirrus",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/cirrus/usado/"
+    },
+    {
+     "modelo": "Grand Caravan",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/grand-caravan/usado/"
+    },
+    {
+     "modelo": "PT Cruiser",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/pt-cruiser/usado/"
+    },
+    {
+     "modelo": "Sebring",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/sebring/usado/"
+    },
+    {
+     "modelo": "Town & Country",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/chrysler/town-country/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Lexus",
+   "url": "https://autos.mercadolibre.com.uy/lexus/usado/",
+   "total_informado": 5,
+   "vendedor": {
+    "concesionaria": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/lexus/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lexus/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "IS",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lexus/is/usado/"
+    },
+    {
+     "modelo": "SC",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lexus/sc/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Maserati",
+   "url": "https://autos.mercadolibre.com.uy/maserati/usado/",
+   "total_informado": 5,
+   "vendedor": {
+    "concesionaria": {
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/maserati/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/maserati/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Coupe",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/maserati/modelo-coupe/usado/"
+    },
+    {
+     "modelo": "Grecale Gt",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/maserati/grecale-gt/usado/"
+    },
+    {
+     "modelo": "Levante",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/maserati/levante/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "GAC",
+   "url": "https://autos.mercadolibre.com.uy/gac/usado/",
+   "total_informado": 5,
+   "vendedor": {
+    "concesionaria": {
+     "results": 4,
+     "url": "https://autos.mercadolibre.com.uy/gac/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gac/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Aion Es",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gac/aion-es/usado/"
+    },
+    {
+     "modelo": "Aion ut",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/gac/aion-ut/usado/"
+    },
+    {
+     "modelo": "Aion v",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gac/aion-v/usado/"
+    },
+    {
+     "modelo": "Emzoom",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/gac/emzoom/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Lada",
+   "url": "https://autos.mercadolibre.com.uy/lada/usado/",
+   "total_informado": 5,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "Laika",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lada/laika/usado/"
+    },
+    {
+     "modelo": "Laika 2105",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lada/laika-2105/usado/"
+    },
+    {
+     "modelo": "Niva",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lada/niva/usado/"
+    },
+    {
+     "modelo": "Samara",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/lada/samara/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Gonow",
+   "url": "https://autos.mercadolibre.com.uy/marca-gonow/usado/",
+   "total_informado": 4,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "Mini Truck",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/marca-gonow/mini-truck/usado/"
+    },
+    {
+     "modelo": "Mini Van",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/marca-gonow/mini-van/usado/"
+    },
+    {
+     "modelo": "Mini Van Way",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/marca-gonow/mini-van-way/usado/"
+    },
+    {
+     "modelo": "Starry",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/marca-gonow/starry/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "TATA",
+   "url": "https://autos.mercadolibre.com.uy/tata/usado/",
+   "total_informado": 4,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "Indigo",
+     "results": 3,
+     "url": "https://autos.mercadolibre.com.uy/tata/indigo/usado/"
+    },
+    {
+     "modelo": "Vista",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/tata/vista/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Soueast",
+   "url": "https://autos.mercadolibre.com.uy/soueast/usado/",
+   "total_informado": 3,
+   "vendedor": {
+    "concesionaria": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/soueast/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/soueast/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "S07",
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/soueast/s07/usado/"
+    },
+    {
+     "modelo": "S09",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/soueast/s09/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Trike",
+   "url": "https://autos.mercadolibre.com.uy/trike/usado/",
+   "total_informado": 3,
+   "vendedor": {
+    "concesionaria": {
+     "results": 2,
+     "url": "https://autos.mercadolibre.com.uy/trike/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/trike/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Eco-Van",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/trike/eco-van/usado/"
+    },
+    {
+     "modelo": "Mini Car TuTu",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/trike/mini-car-tutu/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Mobility",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_8295612",
+   "total_informado": 2,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Hummer",
+   "url": "https://autos.mercadolibre.com.uy/hummer/usado/",
+   "total_informado": 2,
+   "vendedor": {
+    "concesionaria": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hummer/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hummer/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "H3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/hummer/h3/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Smart",
+   "url": "https://autos.mercadolibre.com.uy/smart/usado/",
+   "total_informado": 2,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "1",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/smart/1/usado/"
+    },
+    {
+     "modelo": "3",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/smart/3/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "leapmotor",
+   "url": "https://autos.mercadolibre.com.uy/leapmotor/usado/",
+   "total_informado": 2,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "B10",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/leapmotor/b10/usado/"
+    },
+    {
+     "modelo": "C-10",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/leapmotor/c-10/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Asia",
+   "url": "https://autos.mercadolibre.com.uy/asia/usado/",
+   "total_informado": 2,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "Towner",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/asia/towner/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Wuling",
+   "url": "https://autos.mercadolibre.com.uy/wuling/usado/",
+   "total_informado": 2,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Brilliance",
+   "url": "https://autos.mercadolibre.com.uy/brilliance/usado/",
+   "total_informado": 2,
+   "vendedor": {
+    "concesionaria": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/brilliance/usado/concesionaria/"
+    },
+    "particular": {
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/brilliance/usado/dueno/"
+    }
+   },
+   "modelos": [
+    {
+     "modelo": "Haise",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/brilliance/haise/usado/"
+    },
+    {
+     "modelo": "V5",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/brilliance/v5/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Infiniti",
+   "url": "https://autos.mercadolibre.com.uy/infiniti/usado/",
+   "total_informado": 2,
+   "vendedor": {},
+   "modelos": [
+    {
+     "modelo": "QX60",
+     "results": 1,
+     "url": "https://autos.mercadolibre.com.uy/infiniti/qx60/usado/"
+    }
+   ]
+  },
+  {
+   "marca": "Mudan",
+   "url": "https://autos.mercadolibre.com.uy/mudan/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "DSFK",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_8266702",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Maxus",
+   "url": "https://autos.mercadolibre.com.uy/maxus/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "DFM",
+   "url": "https://autos.mercadolibre.com.uy/dfm/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Studebaker",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_64432",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Isuzu",
+   "url": "https://autos.mercadolibre.com.uy/isuzu/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Xpeng",
+   "url": "https://autos.mercadolibre.com.uy/xpeng/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Club Car",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_492688",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Haval",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_42753577",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Plymouth",
+   "url": "https://autos.mercadolibre.com.uy/plymouth/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Morris",
+   "url": "https://autos.mercadolibre.com.uy/morris/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Compro",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_373089",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Indio",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_3681819",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "King Star",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_3569285",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Fort",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_307",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Fusca",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_28321263",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Genérica",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_276243",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Orient",
+   "url": "https://autos.mercadolibre.com.uy/orient/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Cadillac",
+   "url": "https://autos.mercadolibre.com.uy/cadillac/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Higer",
+   "url": "https://autos.mercadolibre.com.uy/marca-higer/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Hudson",
+   "url": "https://autos.mercadolibre.com.uy/hudson/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Zna",
+   "url": "https://autos.mercadolibre.com.uy/zna/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Hozon",
+   "url": "https://autos.mercadolibre.com.uy/hozon/usado/",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Zontes",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_12079008",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  },
+  {
+   "marca": "Versa",
+   "url": "https://autos.mercadolibre.com.uy/usado/_BRAND_104909",
+   "total_informado": 1,
+   "vendedor": {},
+   "modelos": []
+  }
+ ]
+}
