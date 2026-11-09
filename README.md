@@ -22,6 +22,8 @@ data/        autos_raw.csv, progress.json, scrape.log, discovery.json, busquedas
 data/raw/    HTML crudo (no se versiona)
 notebooks/   limpieza, EDA y modelos (próximamente)
 informe/     informe final (próximamente)
+presentacion/  Presentación 1 (propuesta inicial, primera entrega)
+Proyecto.pdf   consigna del proyecto
 ```
 
 ## Cómo correrlo
