@@ -23,7 +23,7 @@ data/raw/    HTML crudo (no se versiona)
 notebooks/   limpieza, EDA y modelos (próximamente)
 informe/     informe final (próximamente)
 presentacion/  Presentación 1 (propuesta inicial, primera entrega)
-Proyecto.pdf   consigna del proyecto
+Proyecto.pdf   consigna del proyecto (solo local, no se versiona)
 ```
 
 ## Cómo correrlo
