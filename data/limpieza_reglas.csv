@@ -4,3 +4,5 @@ inicio,0,17095
 km sin informar (km ≤ 1 y año < 2025),45,17001
 km de relleno (km > 1.000.000),72,16929
 precio > USD 150.000,36,16893
+en pesos y < USD 3.000 (cuota o moneda mal cargada),86,16807
+"aviso de compra (""Compro"" en el título)",3,16804

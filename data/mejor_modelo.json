@@ -1,0 +1,6 @@
+{
+  "modelo": "Ridge",
+  "interaccion": false,
+  "umbral": 1,
+  "alpha": 1.0
+}
