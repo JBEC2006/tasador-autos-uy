@@ -20,7 +20,7 @@ scraper/     código del scraping
   test_parse.py  test del parser con el HTML guardado
 data/        autos_raw.csv, progress.json, scrape.log, discovery.json, busquedas.csv
 data/raw/    HTML crudo (no se versiona)
-notebooks/   limpieza, EDA y modelos (próximamente)
+notebooks/   01_limpieza_eda (limpieza y exploración), figuras/; modelos en curso
 informe/     informe final (próximamente)
 presentacion/  Presentación 1 (propuesta inicial, primera entrega)
 Proyecto.pdf   consigna del proyecto (solo local, no se versiona)

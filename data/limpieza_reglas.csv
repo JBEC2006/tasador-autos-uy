@@ -1,0 +1,6 @@
+regla,sacadas,quedan
+inicio,0,17095
+0 km (km ≤ 1 y año ≥ 2025),49,17046
+km sin informar (km ≤ 1 y año < 2025),45,17001
+km de relleno (km > 1.000.000),72,16929
+precio > USD 150.000,36,16893
