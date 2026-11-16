@@ -21,9 +21,12 @@ scraper/     código del scraping
 data/        autos_raw.csv, progress.json, scrape.log, discovery.json, busquedas.csv
 data/raw/    HTML crudo (no se versiona)
 notebooks/   01_limpieza_eda, 02_modelos (base, Ridge, Lasso), 03_residuos_depreciacion,
-             preparar.py (variables, compartido por 02 y 03), figuras/
+             preparar.py (variables, compartido por 02 y 03), exportar_tasador.py, figuras/
 informe/     informe final (próximamente)
 presentacion/  Presentación 1 (propuesta inicial, primera entrega)
+  defensa/project/  deck de la defensa (deck.json, deck.css y una slide HTML por archivo)
+  tasador/          tasador en vivo: tasador.html + modelo.json
+                    (lo genera notebooks/exportar_tasador.py a partir del notebook 02)
 Proyecto.pdf   consigna del proyecto (solo local, no se versiona)
 ```
 

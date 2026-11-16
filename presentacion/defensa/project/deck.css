@@ -1,0 +1,119 @@
+/* Paleta: noche de concesionaria. Oscuro #121722 / #1B2230, claro #F3EFE6 / #E6E0D3,
+   ámbar #F5A524 (etiqueta de precio), turquesa #3CC4B5. */
+:root {
+  --noche: #121722;
+  --noche2: #1B2230;
+  --papel: #F3EFE6;
+  --papel2: #E6E0D3;
+  --ambar: #F5A524;
+  --turq: #3CC4B5;
+  --turq-osc: #0E6F66;
+  --tinta: #161B26;
+  --gris: #4A5263;
+  --niebla: #AEB7C8;
+}
+
+body { font-family: 'Inter', Arial, sans-serif; }
+
+section {
+  padding: 128px;
+  background: var(--noche);
+  color: var(--papel);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+section.claro { background: var(--papel); color: var(--tinta); }
+section.ambar { background: var(--ambar); color: var(--tinta); }
+section.noche2 { background: var(--noche2); }
+
+h1, h2, h3 { font-family: 'Space Grotesk', Arial, sans-serif; letter-spacing: -1px; }
+h1 { font-size: 120px; font-weight: 700; line-height: 1.0; }
+h2 { font-size: 72px; font-weight: 700; line-height: 1.05; }
+h3 { font-size: 40px; font-weight: 600; line-height: 1.15; }
+p { font-size: 32px; line-height: 1.4; }
+
+.eyebrow {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ambar);
+}
+section.claro .eyebrow { color: var(--turq-osc); }
+section.ambar .eyebrow { color: var(--tinta); }
+
+.suave { color: var(--niebla); }
+section.claro .suave { color: var(--gris); }
+.chico { font-size: 26px; }
+
+.num {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-weight: 700;
+  line-height: 1.0;
+}
+.gigante { font-size: 200px; letter-spacing: -6px; }
+.grande { font-size: 120px; letter-spacing: -3px; }
+.medio { font-size: 72px; letter-spacing: -2px; }
+.c-ambar { color: var(--ambar); }
+.c-turq { color: var(--turq); }
+.c-turq-osc { color: var(--turq-osc); }
+
+.fila { display: flex; flex-direction: row; gap: 48px; }
+.col { display: flex; flex-direction: column; gap: 16px; }
+.flex1 { flex: 1; }
+
+.tarjeta {
+  background: var(--noche2);
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+section.claro .tarjeta { background: var(--papel2); }
+section.noche2 .tarjeta { background: var(--noche); }
+.tarjeta.borde-ambar { border-top: 8px solid var(--ambar); }
+.tarjeta.borde-turq { border-top: 8px solid var(--turq); }
+
+.pill {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  background: var(--ambar);
+  color: var(--tinta);
+  padding: 8px 20px;
+  border-radius: 999px;
+}
+
+.fuente {
+  position: absolute;
+  left: 128px;
+  bottom: 64px;
+  width: 1664px;
+  font-size: 24px;
+  color: var(--niebla);
+}
+section.claro .fuente { color: var(--gris); }
+
+/* Llegada escalonada: la regla quieta es el estado final. */
+.entra { animation: entra 700ms cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 140ms); }
+@keyframes entra { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+
+.aparece { animation: aparece 900ms ease-out both; animation-delay: calc(var(--i, 0) * 140ms); }
+@keyframes aparece { from { opacity: 0; } to { opacity: 1; } }
+
+.crece { animation: crece 900ms cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 160ms); transform-origin: left center; }
+@keyframes crece { from { opacity: 0; transform: scaleX(0.05); } to { opacity: 1; transform: scaleX(1); } }
+
+/* Pasos que marca quien presenta */
+.fragment { opacity: 0; transform: translateY(24px); transition: opacity 500ms ease, transform 500ms ease; }
+.fragment.visible { opacity: 1; transform: translateY(0); }
+
+/* Barras */
+.barra { height: 64px; border-radius: 12px; }
+.barra.ambar { background: var(--ambar); }
+.barra.turq { background: var(--turq); }
+.barra.gris { background: #3A4356; }
+section.claro .barra.gris { background: #C9C1B0; }
