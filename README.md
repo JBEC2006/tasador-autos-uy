@@ -24,9 +24,11 @@ notebooks/   01_limpieza_eda, 02_modelos (base, Ridge, Lasso, árbol), 03_residu
              preparar.py (variables, compartido por 02 y 03), exportar_tasador.py, figuras/
 informe/     informe.tex (borrador del informe, en LaTeX)
 presentacion/  Presentación 1 (propuesta inicial, primera entrega)
-  defensa/project/  deck de la defensa (deck.json, deck.css y una slide HTML por archivo)
-  tasador/          tasador en vivo: tasador.html + modelo.json
-                    (lo genera notebooks/exportar_tasador.py a partir del notebook 02)
+  defensa_final/    presentación de la defensa: presentacion.html (abrir con doble clic;
+                    flechas o clic para avanzar, F pantalla completa, N muestra quién habla)
+  defensa/project/  deck anterior de la defensa (una slide HTML por archivo)
+  tasador/          tasador en vivo: tasador.html + modelo.json y modelo.js
+                    (los genera notebooks/exportar_tasador.py a partir del notebook 02)
 Proyecto.pdf   consigna del proyecto (solo local, no se versiona)
 ```
 
@@ -61,7 +63,7 @@ cd notebooks
 | `01_limpieza_eda` | `autos_raw.csv` | `autos_clean.csv`, `limpieza_reglas.csv`, figuras 01–03 |
 | `02_modelos` | `autos_clean.csv` | `resultados_test.csv`, `predicciones_test.csv`, `mejor_modelo.json`, figura 06 |
 | `03_residuos_depreciacion` | lo anterior | `extremos_revisar.csv`, figuras 04–05 |
-| `exportar_tasador.py` | lo anterior | `presentacion/tasador/modelo.json` |
+| `exportar_tasador.py` | lo anterior | `presentacion/tasador/modelo.json` y `modelo.js` |
 
 Los tres juntos tardan unos 10 minutos (lo más lento es Lasso con alpha chico, en el 02, y el bootstrap del 03).
 Todo usa semilla 42: el split train/test es el mismo en el 02, el 03 y el exportador.

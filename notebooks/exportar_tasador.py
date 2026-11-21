@@ -81,5 +81,8 @@ salida = {
     "meta": {"avisos": int(len(df)), "train": int(len(tr)), "fecha": "2026-10-28", "modelo": "Ridge",
              "alpha": M["alpha"], "umbral": M["umbral"], "error_mediano_pct": round(error_mediano, 1)},
 }
-SALIDA.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+texto = json.dumps(salida, ensure_ascii=False, separators=(",", ":"))
+SALIDA.write_text(texto, encoding="utf-8")
+# Copia como script: así tasador.html también abre con doble clic (file://), donde fetch() no anda.
+SALIDA.with_suffix(".js").write_text("window.MODELO_TASADOR = " + texto + ";\n", encoding="utf-8")
 print(f"Exportado {SALIDA} · diferencia máxima con el pipeline: {dif:.2e}")

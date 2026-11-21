@@ -194,6 +194,7 @@ footer b { color: var(--papel); font-weight: 600; }
   </footer>
 </div>
 
+<script src="modelo.js"></script>
 <script>
 (function () {
   // Percentiles 5 y 95 de los residuos en test (notebook 03): fuera de ese rango, "fuera de mercado".
@@ -388,8 +389,9 @@ footer b { color: var(--papel); font-weight: 600; }
     cargarEjemplo(EJEMPLOS[0]);
   }
 
-  fetch('modelo.json')
-    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  // modelo.js (window.MODELO_TASADOR) sirve al abrir el archivo directo; si no está, se pide modelo.json.
+  (window.MODELO_TASADOR ? Promise.resolve(window.MODELO_TASADOR)
+    : fetch('modelo.json').then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }))
     .then(iniciar)
     .catch(() => { $('rango').textContent = 'No se pudo cargar el modelo. Recargá la página.'; });
 })();
