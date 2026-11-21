@@ -1,8 +1,10 @@
 regla,sacadas,quedan
 inicio,0,17095
 0 km (km ≤ 1 y año ≥ 2025),49,17046
-km sin informar (km ≤ 1 y año < 2025),45,17001
-km de relleno (km > 1.000.000),72,16929
-precio > USD 150.000,36,16893
-en pesos y < USD 3.000 (cuota o moneda mal cargada),86,16807
-"aviso de compra (""Compro"" en el título)",3,16804
+km sin informar o en miles (km < 1.000 y año < 2025),115,16931
+km de relleno (≥ 999.999 o todos los dígitos iguales),233,16698
+año mal cargado (año ≥ 2026 y km > 100.000),4,16694
+precio > USD 150.000,33,16661
+en pesos y < USD 3.000 (cuota o moneda mal cargada),75,16586
+precio < USD 1.000 (seña o error de carga),2,16584
+"aviso de compra (""Compro"" en el título)",3,16581

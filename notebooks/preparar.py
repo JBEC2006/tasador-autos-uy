@@ -46,14 +46,16 @@ class Preparar(BaseEstimator, TransformerMixin):
                 Xa[["marca_ag"]])
         else:
             propias = sorted(n_marca[n_marca >= self.umbral_interaccion].index)
-            self.ohe_marca_ = OneHotEncoder(categories=[propias], handle_unknown="ignore",
-                                            sparse_output=False).fit(Xa[["marca"]])
+            # Con poco train (p. ej. en la curva de aprendizaje) puede no haber ninguna marca con
+            # tantos avisos: entonces no hay pendientes propias y todas usan la común.
+            self.ohe_marca_ = None if not propias else OneHotEncoder(
+                categories=[propias], handle_unknown="ignore", sparse_output=False).fit(Xa[["marca"]])
         self.esc_ = StandardScaler().fit(self._numericas(Xa))
         return self
 
     def _numericas(self, Xa):
         num = Xa[NUM].to_numpy(dtype=float)
-        if self.interaccion:
+        if self.interaccion and self.ohe_marca_ is not None:
             col = "marca_ag" if self.umbral_interaccion is None else "marca"
             m = self.ohe_marca_.transform(Xa[[col]])
             num = np.hstack([num, m * Xa[["antiguedad"]].to_numpy(dtype=float)])
@@ -66,7 +68,7 @@ class Preparar(BaseEstimator, TransformerMixin):
     def nombres(self):
         """Nombre de cada columna de salida, en el mismo orden que transform."""
         num = list(NUM)
-        if self.interaccion:
+        if self.interaccion and self.ohe_marca_ is not None:
             num += [f"antiguedad×{c}" for c in self.ohe_marca_.categories_[0]]
         return num + list(self.ohe_.get_feature_names_out(CATS))
 

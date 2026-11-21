@@ -1,5 +1,6 @@
 % Informe final · Aprendizaje Automático I · Tasador de autos usados (Uruguay)
-% Borrador generado con los números de los notebooks al 2026-11-16 (commit 1a11ecd).
+% Borrador con los números de los notebooks al 2026-11-21 (limpieza nueva, cotización BCU oficial,
+% pendiente por marca dentro de la validación, árbol de decisión y curva de aprendizaje).
 % Lo marcado con \pend{...} lo tiene que completar o revisar el grupo antes de entregar.
 % Límite: 6 páginas según la tabla de la consigna (la introducción dice 5): apuntar a 5.
 \documentclass[11pt,a4paper]{article}
@@ -33,14 +34,15 @@
 \begin{abstract}
 \noindent
 Quien compra un auto usado en Uruguay no tiene una referencia pública de precio: el mismo modelo y
-año se publica a precios que difieren casi al doble. Construimos un conjunto de 17.095 avisos de autos
-usados de Mercado Libre Uruguay (98,5\,\% de los publicados el 28/10/2026) y ajustamos regresiones
+año se publica a precios que difieren casi al doble. Juntamos 17.095 avisos de autos usados de
+Mercado Libre Uruguay (98,5\,\% de los publicados el 28/10/2026) y ajustamos regresiones
 regularizadas sobre el logaritmo del precio. Con marca, modelo, año, kilómetros, tipo de vendedor y lo
-que dice el título, el modelo tasa con un error mediano de 10,1\,\% sobre avisos no vistos ($R^2 = 0{,}86$
-en log), frente a 16,1\,\% de una tasación por mediana del modelo. Un auto pierde en promedio 4,4\,\% de
-su precio por año a kilómetros constantes, con diferencias significativas entre marcas (de 3,2\,\% en
-Suzuki a 5,1\,\% en Nissan y Mercedes-Benz). Los avisos que más se alejan del precio predicho son, en
-buena parte, \pend{completar con la revisión manual de los 40 extremos}.
+que dice el título, el modelo tasa con un error mediano de 9,5\,\% sobre avisos que no vio
+($R^2 = 0{,}86$ en log), contra 15,7\,\% de tasar con la mediana del modelo. Un auto pierde en
+promedio 4,2\,\% de su precio por año a kilómetros constantes, y el ritmo cambia según la marca (de
+3,2\,\% en Suzuki a 5,1\,\% en Mercedes-Benz), aunque eso casi no mejora la tasación. Los avisos que más
+se alejan del precio predicho son, en buena parte, \pend{completar con la revisión manual de los 40
+extremos}.
 \end{abstract}
 
 % ---------------------------------------------------------------------------------------------
@@ -76,12 +78,13 @@ marcas. Es una foto del mercado de un día, no una serie de tiempo.
 vendedor (particular o concesionaria) y, a partir del título, cilindrada, transmisión y combustible
 cuando el título los menciona (el resto se codifica como \emph{sin dato}).
 
-\textbf{Limpieza.} Los avisos en pesos (1,4\,\%) se pasaron a dólares con la cotización del BCU del día
-\pend{reemplazar la cotización provisoria 40,255 por la oficial del 28/10 y re-correr}. Las reglas se
-aplicaron en orden y cada una se registró (Cuadro~\ref{tab:limpieza}); quedaron \textbf{16.804 avisos}
-de 95 marcas y 856 modelos. La regla de avisos en pesos baratos surgió del análisis de residuos
-(Sección~\ref{sec:residuos}): en una primera versión, 10 de los 20 residuos más negativos eran avisos en
-pesos, la mayoría cuotas o entregas iniciales.
+\textbf{Limpieza.} Los avisos en pesos (1,4\,\%) se pasaron a dólares con la cotización del BCU del 28/10/2026
+(dólar billete, 40,096 pesos por dólar). Las reglas se aplicaron en orden y cada una se registró
+(Cuadro~\ref{tab:limpieza}); quedaron \textbf{16.581 avisos} de 95 marcas y 946 modelos. Varias reglas
+salieron de mirar los errores del modelo: en una primera versión, 10 de los 20 residuos más negativos
+eran avisos en pesos (cuotas o entregas iniciales), y entre los extremos aparecían kilómetros
+imposibles (un Saveiro 2017 con 10\,km, una F-100 2001 con 100\,km) y autos ``2027'' con 240.000\,km.
+El valor 111.111\,km aparece 89 veces, incluso en autos 2026: es relleno, no un dato.
 
 \begin{table}[h]
 \centering\small
@@ -89,21 +92,23 @@ pesos, la mayoría cuotas o entregas iniciales.
 \toprule
 Regla & Sacadas & Quedan \\
 \midrule
-Avisos obtenidos                                        &     &17.095 \\
-0\,km (km $\le 1$ y año $\ge 2025$)                     & 49 & 17.046 \\
-Km sin informar (km $\le 1$ y año $< 2025$)             & 45 & 17.001 \\
-Km de relleno ($> 1.000.000$, ej.\ 9.999.999)           & 72 & 16.929 \\
-Precio $>$ USD 150.000                                  & 36 & 16.893 \\
-En pesos y $<$ USD 3.000 (cuota o moneda mal cargada)   & 86 & 16.807 \\
-Avisos de compra (``Compro autos'')                     &  3 & 16.804 \\
+Avisos obtenidos                                               &     & 17.095 \\
+0\,km (km $\le 1$ y año $\ge 2025$)                            &  49 & 17.046 \\
+Km sin informar o en miles (km $< 1.000$ y año $< 2025$)       & 115 & 16.931 \\
+Km de relleno ($\ge 999.999$ o todas las cifras iguales)       & 233 & 16.698 \\
+Año mal cargado (año $\ge 2026$ y km $> 100.000$)              &   4 & 16.694 \\
+Precio $>$ USD 150.000                                         &  33 & 16.661 \\
+En pesos y $<$ USD 3.000 (cuota o moneda mal cargada)          &  75 & 16.586 \\
+Precio $<$ USD 1.000 (seña o error de carga)                   &   2 & 16.584 \\
+Avisos de compra (``Compro autos'')                            &   3 & 16.581 \\
 \bottomrule
 \end{tabular}
-\caption{Reglas de limpieza, en el orden en que se aplicaron.}
+\caption{Reglas de limpieza, en el orden en que se aplicaron. Una fila la saca la primera regla que la toma.}
 \label{tab:limpieza}
 \end{table}
 
-\textbf{Avisos repetidos.} Hay 406 avisos que comparten marca, modelo, año, kilómetros y precio con
-otro: con alta probabilidad, el mismo auto publicado dos o tres veces. Si un gemelo cae en
+\textbf{Avisos repetidos.} Hay 406 avisos que comparten marca, modelo, año, kilómetros, precio y moneda
+con otro: con alta probabilidad, el mismo auto publicado dos o tres veces. Si un gemelo cae en
 entrenamiento y otro en test, el modelo ``ya vio'' la respuesta y el error de test sale optimista. Por
 eso cada grupo de gemelos va entero a un solo lado, tanto en la partición train/test como en la
 validación cruzada.
@@ -111,28 +116,33 @@ validación cruzada.
 % ---------------------------------------------------------------------------------------------
 \section{Método}
 
-\textbf{Variable objetivo.} El precio tiene cola larga a la derecha (asimetría 3,46); su logaritmo es
-casi simétrico (0,51). Además, en log los errores son relativos (equivocarse en USD 2.000 no es lo
+\textbf{Variable objetivo.} El precio tiene cola larga a la derecha (asimetría 3,45); su logaritmo es
+casi simétrico (0,56). Además, en log los errores son relativos (equivocarse en USD 2.000 no es lo
 mismo en un auto de 5.000 que en uno de 50.000) y los coeficientes se leen como variaciones porcentuales:
 \[
 \log(\text{precio}) = \beta_0 + \beta_1\,\text{antigüedad} + \beta_2 \log(\text{km})
 + \text{marca} + \text{modelo} + \text{vendedor} + \text{indicios del título} + \varepsilon .
 \]
+Al volver a dólares con $\exp(\cdot)$ se obtiene la mediana del precio para ese auto, no la media; para
+tasar es lo que interesa (la mitad de los autos parecidos se publica más cara y la mitad más barata).
 
-\textbf{Partición.} 80\,\% entrenamiento (13.450 avisos) y 20\,\% test (3.354), agrupando por gemelos
-(\texttt{GroupShuffleSplit}). Test se usó una sola vez, al final.
+\textbf{Partición.} 80\,\% entrenamiento (13.265 avisos) y 20\,\% test (3.316), agrupando por gemelos
+(\texttt{GroupShuffleSplit}, semilla 42). Test se usó una sola vez, al final.
 
 \textbf{Modelos.}
 (1) \emph{Base}: la mediana del log-precio del modelo en entrenamiento (la de la marca si el modelo no
 aparece). Es la tasación de sentido común; si la regresión no le gana, no aporta.
 (2) \emph{Ridge} y (3) \emph{Lasso} con variables categóricas en \emph{one-hot} y numéricas
-estandarizadas.
+estandarizadas con las estadísticas de entrenamiento.
+(4) Un \emph{árbol de decisión} como comparación no lineal.
 
 \textbf{Hiperparámetros} por validación cruzada de 5 particiones agrupadas (\texttt{GroupKFold}) dentro
-de entrenamiento: la regularización $\alpha$; un \emph{umbral} de avisos por debajo del cual un modelo
-de auto pasa a la categoría ``otro de la marca'' (1, 2, 3, 5, 10 o 20; los conteos se calculan en cada
-partición de entrenamiento para no filtrar información); y si cada marca tiene su propia pendiente de
-depreciación (interacción antigüedad $\times$ marca).
+de entrenamiento. En Ridge: la regularización $\alpha$; un \emph{umbral} de avisos por debajo del cual un
+modelo de auto pasa a la categoría ``otro de la marca'' (1, 2, 3, 5, 10 o 20; los conteos se calculan
+en cada partición de entrenamiento para no filtrar información); y si las marcas con al menos 100 o 300
+avisos tienen su propia pendiente de depreciación (interacción antigüedad $\times$ marca). En el árbol:
+profundidad máxima y tamaño mínimo de hoja. Lasso es lento con $\alpha$ chico (unos 4 minutos por ajuste),
+así que quedó fijo en los valores de una búsqueda anterior.
 
 % ---------------------------------------------------------------------------------------------
 \section{Resultados}
@@ -145,35 +155,55 @@ depreciación (interacción antigüedad $\times$ marca).
 \toprule
 Modelo & RMSE (log) & $R^2$ (log) & MAE (USD) & RMSE (USD) & Error mediano \\
 \midrule
-Base: mediana por modelo & 0,343 & 0,670 & 4.236 & 8.254 & 16,1\,\% \\
-\textbf{Ridge}           & \textbf{0,220} & \textbf{0,863} & \textbf{2.665} & \textbf{5.811} & \textbf{10,1\,\%} \\
-Lasso                    & 0,226 & 0,856 & 2.750 & 5.948 & 10,3\,\% \\
+Base: mediana por modelo & 0,332 & 0,682 & 4.181 & 8.036 & 15,7\,\% \\
+\textbf{Ridge}           & \textbf{0,218} & \textbf{0,863} & \textbf{2.506} & \textbf{5.203} & \textbf{9,5\,\%} \\
+Lasso                    & 0,228 & 0,850 & 2.657 & 5.688 & 9,9\,\% \\
+Árbol de decisión        & 0,315 & 0,714 & 3.555 & 8.240 & 12,7\,\% \\
 \bottomrule
 \end{tabular}
-\caption{Desempeño en test (3.354 avisos no vistos). Error mediano: mediana de
+\caption{Desempeño en test (3.316 avisos no vistos). Error mediano: mediana de
 $|\text{predicho}/\text{real} - 1|$.}
 \label{tab:resultados}
 \end{table}
 
-Ridge reduce el error mediano de 16,1\,\% a 10,1\,\% respecto de la base (Cuadro~\ref{tab:resultados}).
-Lasso no mejora a Ridge: con 856 modelos, casi todas las variables aportan algo y no hay ganancia en
-anular coeficientes. El mejor umbral fue 1, es decir, \emph{no} agrupar modelos raros: el RMSE de
-validación sube de 0,234 (umbral 1) a 0,276 (umbral 20). La regularización de Ridge ya achica los
-coeficientes de modelos con pocos avisos, y agruparlos tira información útil. La interacción
-antigüedad $\times$ marca para todas las marcas empeora la validación (0,240 contra 0,234): le da una
-pendiente propia a marcas con uno o dos avisos.
+Ridge baja el error mediano de 15,7\,\% a 9,5\,\% respecto de la base (Cuadro~\ref{tab:resultados}).
+Lasso no mejora a Ridge: con casi mil modelos de auto, casi todas las variables aportan algo y no se gana
+nada anulando coeficientes. El árbol queda lejos: el mejor (profundidad 30, hojas de 1 aviso) tiene
+error 0,157 en entrenamiento y 0,302 en validación, una brecha que muestra que memoriza más de lo que
+generaliza. Además predice por escalones, y con kilómetros y antigüedad la relación es suave.
 
-El error no es parejo: es menor en el centro de la distribución (8--9\,\% de error mediano entre los
-deciles 4 y 7 de precio predicho) y mayor en los extremos (12\,\% en el decil más barato, 15,5\,\% en el
-más caro), donde hay menos avisos y más variedad de versiones.
+El mejor umbral fue 1, es decir, \emph{no} agrupar modelos raros: el RMSE de validación sube de 0,218
+(umbral 1) a 0,262 (umbral 20). La regularización de Ridge ya achica los coeficientes de modelos con pocos
+avisos, y agruparlos tira información. La validación eligió darle pendiente propia a las 13 marcas con
+300 avisos o más, aunque la mejora es chica (0,2194 a 0,2181). Darle pendiente propia a todas las marcas
+fue un error en una versión anterior: empataba en validación, pero en test le daba pendientes absurdas a
+marcas con uno o dos avisos y el RMSE en dólares se iba a 34.000.
+
+El error no es parejo: el error mediano está entre 8 y 9\,\% del decil 3 al 7 de precio predicho, y sube
+a 12,2\,\% en el decil más barato y a 14,6\,\% en el más caro, donde hay menos avisos y más variedad de
+versiones.
+
+\textbf{¿Faltan datos?} La curva de aprendizaje (Figura~\ref{fig:curva}) muestra que el error de
+validación sigue bajando al sumar avisos, pero cada vez menos: de 0,272 con 1.000 avisos a 0,220 con
+9.000 y 0,218 con 10.600. Más avisos ayudarían algo, sobre todo a los modelos de auto con pocos
+ejemplos, pero la brecha con el error de entrenamiento (0,179) indica que buena parte del error viene de lo
+que el aviso no dice: estado, equipamiento y versión exacta.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.62\linewidth]{06_curva_aprendizaje.png}
+\caption{Curva de aprendizaje de Ridge: RMSE en log según la cantidad de avisos de entrenamiento
+(validación cruzada agrupada; la banda es $\pm$ un desvío entre particiones).}
+\label{fig:curva}
+\end{figure}
 
 \subsection{Avisos fuera de mercado}
 \label{sec:residuos}
 
 Definimos el residuo como $\log(\text{precio publicado}) - \log(\text{precio predicho})$; un residuo de
 $+0{,}2$ es un aviso $\approx$22\,\% más caro de lo que predice el modelo. Sobre test, la mitad de los avisos
-está a menos de $\pm$10,2\,\% de lo predicho, y no hay sesgo global (mediana del residuo 0,000).
-Consideramos \emph{fuera de mercado} al 10\,\% más alejado: por debajo de $-27$\,\% o por encima de
+está a menos de $\pm$9,6\,\% de lo predicho, y no hay sesgo global (mediana del residuo 0,001).
+Consideramos \emph{fuera de mercado} al 10\,\% más alejado: por debajo de $-25$\,\% o por encima de
 $+36$\,\% (percentiles 5 y 95; Figura~\ref{fig:residuos}).
 
 \begin{figure}[h]
@@ -186,28 +216,29 @@ contra precio predicho; la mediana por decil se mantiene cerca de cero.}
 
 Revisamos a mano los 20 avisos más por debajo y los 20 más por encima:
 \pend{completar con data/extremos\_revisar.csv. Contar cuántos son error de carga (precio o año mal
-puestos: p.\,ej.\ Daihatsu Cuore ``2027'' con 240.000\,km), versiones que el modelo no distingue
-(AMG, M540i, Corolla GR, motorhome), estado del auto, u oportunidades/caros sin explicación aparente}.
+puestos: p.\,ej.\ BMW 320 E21 ``2027'', Jeep CJ3 ``2001''), modelos que casi no aparecen en
+entrenamiento (Toyota Agya, BYD Seagull), versiones que el modelo no distingue (AMG, motorhome,
+Maserati), estado del auto (``entero o por partes'') u oportunidades/caros sin explicación aparente}.
 \pend{Una o dos frases de conclusión: ¿el residuo sirve más para detectar errores de carga o para
 detectar oportunidades?}
 
 \subsection{Depreciación}
 
-Leyendo los coeficientes de Ridge (en unidades originales), a marca, modelo y kilómetros constantes:
+Con un Ridge sin pendiente por marca (mismos hiperparámetros) y a marca, modelo y kilómetros constantes:
 
 \begin{itemize}
-\item un auto pierde \textbf{4,4\,\% de su precio por año};
-\item duplicar los kilómetros le resta \textbf{4,4\,\%} (elasticidad $-0{,}065$). El efecto es chico porque
-kilómetros y antigüedad están correlacionados (0,45): la antigüedad ya captura la mayor parte;
+\item un auto pierde \textbf{4,2\,\% de su precio por año};
+\item duplicar los kilómetros le resta \textbf{6,8\,\%} (elasticidad $-0{,}10$). El efecto es chico porque
+kilómetros y antigüedad van juntos (correlación 0,56 en log): la antigüedad ya captura la mayor parte;
 \item por el mismo auto, una concesionaria pide \textbf{2,8\,\% más} que un particular.
 \end{itemize}
 
-Para la pregunta por marca, reajustamos dando pendiente propia solo a las 13 marcas con al menos 300
-avisos en entrenamiento; el resto comparte una pendiente común. Los intervalos de confianza del 95\,\% se
-obtuvieron por \emph{bootstrap} de grupos de gemelos (200 repeticiones). Las diferencias son reales:
-Suzuki pierde 3,2\,\% por año (IC 2,9--3,6) y Nissan 5,1\,\% (4,7--5,5), con intervalos que no se solapan
-(Figura~\ref{fig:marcas}). Pero casi no mejoran la predicción: el RMSE de validación pasa de 0,2340 a
-0,2332, muy por debajo de la variación entre particiones (0,013).
+Con la pendiente propia para las 13 marcas con al menos 300 avisos en entrenamiento (el modelo
+elegido), los intervalos de confianza del 95\,\% se obtuvieron por \emph{bootstrap} de grupos de gemelos
+(200 repeticiones). Las diferencias son reales: Suzuki pierde 3,2\,\% por año (IC 2,8--3,5) y
+Mercedes-Benz 5,1\,\% (4,7--5,7), con intervalos que no se solapan (Figura~\ref{fig:marcas}). Pero casi
+no mejoran la predicción: el RMSE de validación pasa de 0,2194 a 0,2181, por debajo de la variación
+entre particiones (0,008).
 
 \begin{figure}[h]
 \centering
@@ -217,8 +248,8 @@ La línea punteada es la pendiente común del resto de las marcas.}
 \label{fig:marcas}
 \end{figure}
 
-Estas pendientes son menores que las que surgen de comparar medianas por antigüedad (6,5\,\% por año en
-Chevrolet, 7,3\,\% en Nissan): sin controlar por kilómetros y modelo, a la antigüedad se le atribuye
+Estas pendientes son menores que las que surgen de comparar medianas por antigüedad (6,6\,\% por año en
+Chevrolet, 7,5\,\% en Nissan): sin controlar por kilómetros y modelo, a la antigüedad se le atribuye
 también que los autos viejos tienen más kilómetros y son de modelos más baratos.
 
 % ---------------------------------------------------------------------------------------------
@@ -231,27 +262,30 @@ de lo que dice el título: es la principal fuente de residuos grandes.
 \item \textbf{Muestra no aleatoria en búsquedas grandes.} Cuando una búsqueda tenía más de 48 avisos, el
 sitio elegía cuáles mostrar. Pasó en dos casos (Chevrolet Montana 2024 y Onix 2023 de concesionaria).
 \item \textbf{Una sola fecha.} No se puede decir nada sobre cómo cambian los precios en el tiempo.
-\item \textbf{Cotización.} \pend{si sigue siendo la provisoria, decirlo acá}.
+\item \textbf{Pocos avisos por modelo.} Más de la mitad de los modelos (559 de 946) tiene menos de 5 avisos: para esos,
+la tasación se apoya en la marca y en la pendiente común.
 \end{itemize}
 
 % ---------------------------------------------------------------------------------------------
 \section{Conclusiones}
 
-\pend{Tres o cuatro frases: respuesta a la pregunta principal (10\,\% de error típico, 6 puntos mejor que
-la mediana del modelo), qué son los avisos fuera de mercado según la revisión manual, y la respuesta a la
-secundaria (4,4\,\% por año, diferencias reales entre marcas que no cambian la tasación). Posible
-aplicación: una herramienta que marque avisos a revisar.}
+Con lo que dice un aviso, un Ridge sobre log(precio) tasa con un error mediano de 9,5\,\%, unos 6 puntos
+mejor que mirar la mediana del modelo. \pend{qué son los avisos fuera de mercado según la revisión
+manual}. Un auto pierde en promedio 4,2\,\% de su precio por año; la marca cambia ese ritmo (de 3,2\,\% a
+5,1\,\%) pero casi no cambia la precisión de la tasación. Una aplicación directa es una herramienta que
+marque los avisos que conviene revisar antes de comprar.
 
 \medskip
 \noindent\textbf{Reproducibilidad.} Código, datos y notebooks en
 \url{https://github.com/JBEC2006/tasador-autos-uy} \pend{confirmar acceso del docente}. Los tres
 notebooks (\texttt{01\_limpieza\_eda}, \texttt{02\_modelos}, \texttt{03\_residuos\_depreciacion})
-corren de punta a punta en menos de dos minutos.
+corren de punta a punta en unos 10 minutos, con semilla fija; el README explica cómo.
 
 \begin{thebibliography}{9}
 \small
-\bibitem{pudaruth} S.~Pudaruth (2014). \pend{título, revista, volumen y páginas: ver diapositiva 10
-de la propuesta y la fuente original}. Datos de Mauricio.
+\bibitem{pudaruth} S.~Pudaruth (2014). Predicting the price of used cars using machine learning
+techniques. \emph{International Journal of Information \& Computation Technology}, 4(7), 753--764.
+Datos de Mauricio.
 \bibitem{kihm} A.~Kihm y C.~Vance (2016). \pend{título, revista, volumen y páginas}. Datos de Alemania.
 \bibitem{hendry} Hendry y Priilaid (2025). \pend{nombres, título, revista}. Datos de Sudáfrica.
 \end{thebibliography}

@@ -7,9 +7,9 @@
   "order": ["cover", "gancho", "pregunta", "datos", "busquedas", "limpieza", "gemelos", "log", "resultados", "hiper", "demo", "residuos", "deprec", "marcas", "limites", "respuesta", "preguntas"],
   "sections": {
     "s1": {"description": "El problema: el mismo auto se publica a precios que casi se duplican.", "start": "cover"},
-    "s2": {"description": "Los datos: 17.095 avisos de Mercado Libre, cómo se juntaron y cómo se limpiaron.", "start": "datos"},
-    "s3": {"description": "El método: split agrupado por gemelos, log(precio), base contra Ridge y Lasso.", "start": "gemelos"},
-    "s4": {"description": "Resultados: 10 % de error típico, la demo en vivo y los avisos fuera de mercado.", "start": "resultados"},
+    "s2": {"description": "Los datos: 17.095 avisos de Mercado Libre, cómo se juntaron y cómo se limpiaron (quedan 16.581).", "start": "datos"},
+    "s3": {"description": "El método: split agrupado por gemelos, log(precio), base contra Ridge, Lasso y un árbol.", "start": "gemelos"},
+    "s4": {"description": "Resultados: 9,5 % de error típico, la demo en vivo y los avisos fuera de mercado.", "start": "resultados"},
     "s5": {"description": "Depreciación: cuánto pierde un auto por año y si cambia según la marca.", "start": "deprec"},
     "s6": {"description": "Cierre: límites, la respuesta a la pregunta y preguntas.", "start": "limites"}
   },

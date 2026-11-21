@@ -1,20 +1,20 @@
 <section id="hiper" class="claro" data-transition="fade">
 <p class="eyebrow entra" style="--i:0">Lo que nos enseñó la validación cruzada</p>
-<h2 class="entra" style="--i:1">Dos ideas que los datos descartaron.</h2>
+<h2 class="entra" style="--i:1">Una idea descartada, una que entró por poco.</h2>
 <div class="fila" style="gap:32px">
 <div class="tarjeta borde-ambar flex1 fragment">
 <h3>Agrupar los modelos raros en “otro de la marca”</h3>
-<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio">0,234</p><p style="font-size:28px">sin agrupar</p></div>
-<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio suave">0,276</p><p style="font-size:28px">agrupando con menos de 20 avisos</p></div>
+<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio">0,218</p><p style="font-size:28px">sin agrupar</p></div>
+<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio suave">0,262</p><p style="font-size:28px">agrupando con menos de 20 avisos</p></div>
 <p style="font-size:28px">Ridge ya achica los coeficientes con pocos datos: agrupar tira información.</p>
 </div>
 <div class="tarjeta borde-ambar flex1 fragment">
-<h3>Una pendiente de depreciación para cada marca</h3>
-<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio">0,234</p><p style="font-size:28px">pendiente común</p></div>
-<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio suave">0,240</p><p style="font-size:28px">una por marca</p></div>
-<p style="font-size:28px">Marcas con 1 o 2 avisos estiman su pendiente sobre casi nada: es ruido.</p>
+<h3>Una pendiente de depreciación propia por marca</h3>
+<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio suave">0,219</p><p style="font-size:28px">pendiente común</p></div>
+<div class="fila" style="gap:24px; align-items:baseline"><p class="num medio">0,218</p><p style="font-size:28px">propia, solo marcas con 300 avisos o más</p></div>
+<p style="font-size:28px">Para todas las marcas es ruido: con 1 o 2 avisos la pendiente se estima sobre casi nada.</p>
 </div>
 </div>
 <p class="suave entra" style="--i:3; font-size:26px">RMSE en log, validación cruzada de 5 particiones agrupadas por gemelos, solo con datos de train</p>
-<aside>Esta slide muestra que el proceso fue honesto: probamos hipótesis y la validación decidió. La segunda vuelve en la parte de depreciación: con solo las marcas grandes, la pendiente propia sí tiene sentido.</aside>
+<aside>Esta slide muestra que el proceso fue honesto: probamos hipótesis y la validación decidió. La segunda vuelve en la parte de depreciación. Pendiente propia para todas las marcas empataba en validación pero en test predecía precios absurdos en marcas raras (RMSE de USD 34.000); por eso solo la tienen las 13 marcas con 300 avisos o más.</aside>
 </section>

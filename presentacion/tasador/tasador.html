@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>¿Está bien de precio?</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,7 +120,7 @@ footer b { color: var(--papel); font-weight: 600; }
     <div>
       <p class="ceja">Tasador de autos usados · Uruguay</p>
       <h1>¿Está bien de precio?</h1>
-      <p class="sub">Elegí el auto y el modelo lo tasa con lo que aprendió de 13.450 avisos reales de Mercado Libre Uruguay del 28/10/2026.</p>
+      <p class="sub">Elegí el auto y el modelo lo tasa con lo que aprendió de <span id="n-train">13.265</span> avisos reales de Mercado Libre Uruguay del 28/10/2026.</p>
     </div>
     <div class="ejemplos" id="ejemplos" aria-label="Ejemplos rápidos">
       <span>Probá:</span>
@@ -185,7 +189,7 @@ footer b { color: var(--papel); font-weight: 600; }
 
   <footer>
     <b>Cómo funciona.</b> Regresión Ridge sobre log(precio) con antigüedad, log(km), marca, modelo, tipo de vendedor y los datos del título.
-    En avisos que el modelo no vio, la mitad de las tasaciones se equivoca menos de 10,1 %. Tasa el precio <b>publicado</b>, no el de venta, y no ve el estado del auto.
+    En avisos que el modelo no vio, la mitad de las tasaciones se equivoca menos de <span id="err-med">9,5 %</span>. Tasa el precio <b>publicado</b>, no el de venta, y no ve el estado del auto.
     Proyecto final de Aprendizaje Automático I, Universidad de Montevideo · Elías, Otero, Guerra, Bruschera.
   </footer>
 </div>
@@ -193,7 +197,9 @@ footer b { color: var(--papel); font-weight: 600; }
 <script>
 (function () {
   // Percentiles 5 y 95 de los residuos en test (notebook 03): fuera de ese rango, "fuera de mercado".
-  const P05 = -0.320, P95 = 0.309, CERCA = 0.10;
+  // Se leen de modelo.json al cargar (los escribe notebooks/exportar_tasador.py).
+  let P05 = -0.289, P95 = 0.310;
+  const CERCA = 0.10;
   const EJEMPLOS = [
     { t: 'Onix 2019 · 90.000 km', marca: 'Chevrolet', modelo: 'Onix', anio: 2019, km: 90000 },
     { t: 'Hilux 2018 · 150.000 km', marca: 'Toyota', modelo: 'Hilux', anio: 2018, km: 150000 },
@@ -248,11 +254,18 @@ footer b { color: var(--papel); font-weight: 600; }
     const clave = a.marca + '|' + a.modelo;
     const modeloAg = (clave in c.modelo_ag) ? clave : marcaAg + '|otro';
     const g = (col, v) => c[col][v] || 0;
+    const pm = (M.pend_marca || {})[a.marca];
     const titulo = ['motor_titulo', 'transmision_titulo', 'combustible_titulo'];
     return {
+      // Cada columna antigüedad×marca vale la antigüedad si el auto es de esa marca y 0 si no; como está
+      // estandarizada, también suma un término fijo. Ese término (evaluado en la antigüedad media) va a la base.
       base: M.intercepto + g('marca_ag', marcaAg) + g('modelo_ag', modeloAg) + g('tipo_vendedor', 'particular')
-            + titulo.reduce((s, k) => s + g(k, 'sin_dato'), 0),
-      ant: n.antiguedad.coef * (ant - n.antiguedad.media) / n.antiguedad.escala,
+            + titulo.reduce((s, k) => s + g(k, 'sin_dato'), 0)
+            + Object.entries(M.pend_marca || {}).reduce(
+                (s, [m, t]) => s + t.coef * ((a.marca === m ? n.antiguedad.media : 0) - t.media) / t.escala, 0),
+      // Antigüedad: pendiente común + (si el modelo la tiene) la pendiente propia de las marcas grandes.
+      ant: n.antiguedad.coef * (ant - n.antiguedad.media) / n.antiguedad.escala
+           + (pm ? pm.coef * (ant - n.antiguedad.media) / pm.escala : 0),
       km: n.log_km.coef * (Math.log(a.km) - n.log_km.media) / n.log_km.escala,
       vend: g('tipo_vendedor', a.vendedor) - g('tipo_vendedor', 'particular'),
       tit: titulo.reduce((s, k) => s + g(k, a[k]) - g(k, 'sin_dato'), 0)
@@ -349,6 +362,9 @@ footer b { color: var(--papel); font-weight: 600; }
 
   function iniciar(modelo) {
     M = modelo;
+    P05 = M.residuo_p05; P95 = M.residuo_p95;
+    $('n-train').textContent = M.meta.train.toLocaleString('es-UY');
+    $('err-med').textContent = M.meta.error_mediano_pct.toFixed(1).replace('.', ',') + ' %';
     const marcas = Object.keys(M.catalogo).sort((a, b) => a.localeCompare(b, 'es'));
     opciones($('marca'), marcas);
     for (const k of ['motor_titulo', 'transmision_titulo', 'combustible_titulo']) {

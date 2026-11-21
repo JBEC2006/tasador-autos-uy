@@ -1,15 +1,16 @@
 <section id="resultados" data-transition="fade">
-<p class="eyebrow entra" style="--i:0">Resultados en test · 3.354 avisos que el modelo nunca vio</p>
-<h2 class="entra" style="--i:1">Tasa con un error típico de 10 %.</h2>
+<p class="eyebrow entra" style="--i:0">Resultados en test · 3.316 avisos que el modelo nunca vio</p>
+<h2 class="entra" style="--i:1">Tasa con un error típico de menos de 10 %.</h2>
 <div class="col" style="gap:28px">
 <p class="suave entra" style="--i:2; font-size:28px">Error mediano: la mitad de las tasaciones se equivoca menos que esto</p>
-<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px">Base: mediana del modelo</p><div class="barra gris crece" style="--i:3; width:1000px"></div><p class="num" style="font-size:44px">16,1 %</p></div>
-<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px"><b>Ridge</b></p><div class="barra ambar crece" style="--i:5; width:627px"></div><p class="num c-ambar" style="font-size:44px">10,1 %</p></div>
-<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px">Lasso</p><div class="barra turq crece" style="--i:6; width:640px"></div><p class="num c-turq" style="font-size:44px">10,3 %</p></div>
+<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px">Base: mediana del modelo</p><div class="barra gris crece" style="--i:3; width:1000px"></div><p class="num" style="font-size:44px">15,7 %</p></div>
+<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px"><b>Ridge</b></p><div class="barra ambar crece" style="--i:5; width:605px"></div><p class="num c-ambar" style="font-size:44px">9,5 %</p></div>
+<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px">Lasso</p><div class="barra turq crece" style="--i:6; width:631px"></div><p class="num c-turq" style="font-size:44px">9,9 %</p></div>
+<div class="fila" style="align-items:center; gap:32px"><p style="width:420px; font-size:32px">Árbol de decisión</p><div class="barra gris crece" style="--i:7; width:809px"></div><p class="num" style="font-size:44px">12,7 %</p></div>
 </div>
 <div class="fila entra" style="--i:8; gap:32px">
-<div class="tarjeta flex1"><p class="num medio">0,863</p><p class="suave" style="font-size:26px">R² en log (base: 0,670)</p></div>
-<div class="tarjeta flex1"><p class="num medio">USD 2.665</p><p class="suave" style="font-size:26px">error absoluto medio (base: 4.236)</p></div>
+<div class="tarjeta flex1"><p class="num medio">0,863</p><p class="suave" style="font-size:26px">R² en log (base: 0,682)</p></div>
+<div class="tarjeta flex1"><p class="num medio">USD 2.506</p><p class="suave" style="font-size:26px">error absoluto medio (base: 4.181)</p></div>
 </div>
-<aside>La base es lo que haría cualquiera: mirar cuánto se pide por ese modelo. Ridge le saca 6 puntos de error. Lasso queda prácticamente igual: con 856 modelos casi todas las variables aportan, no hay nada que anular. Los hiperparámetros se eligieron con K-fold agrupado dentro de train; test se miró una sola vez.</aside>
+<aside>La base es lo que haría cualquiera: mirar cuánto se pide por ese modelo. Ridge le saca 6 puntos de error. Lasso queda prácticamente igual: con casi mil modelos casi todas las variables aportan, no hay nada que anular. El árbol (profundidad 30) tiene 0,16 de error en train y 0,30 en validación: memoriza. La curva de aprendizaje dice que más avisos ayudarían poco: el error baja de 0,220 a 0,218 entre 9.000 y 10.600 avisos. Los hiperparámetros se eligieron con K-fold agrupado dentro de train; test se miró una sola vez.</aside>
 </section>

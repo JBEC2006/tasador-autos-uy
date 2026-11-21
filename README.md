@@ -20,9 +20,9 @@ scraper/     código del scraping
   test_parse.py  test del parser con el HTML guardado
 data/        autos_raw.csv, progress.json, scrape.log, discovery.json, busquedas.csv
 data/raw/    HTML crudo (no se versiona)
-notebooks/   01_limpieza_eda, 02_modelos (base, Ridge, Lasso), 03_residuos_depreciacion,
+notebooks/   01_limpieza_eda, 02_modelos (base, Ridge, Lasso, árbol), 03_residuos_depreciacion,
              preparar.py (variables, compartido por 02 y 03), exportar_tasador.py, figuras/
-informe/     informe final (próximamente)
+informe/     informe.tex (borrador del informe, en LaTeX)
 presentacion/  Presentación 1 (propuesta inicial, primera entrega)
   defensa/project/  deck de la defensa (deck.json, deck.css y una slide HTML por archivo)
   tasador/          tasador en vivo: tasador.html + modelo.json
@@ -43,6 +43,28 @@ py -3.12 -m venv .venv
 .venv\Scripts\python -m scraper.run                       # corrida completa
 .venv\Scripts\python -m scraper.summary                   # resumen del CSV (sin red)
 ```
+
+### Análisis (sin red)
+
+Los notebooks se corren en orden, desde `notebooks/` (usan rutas relativas `../data`):
+
+```bash
+cd notebooks
+..\.venv\Scripts\python -m jupyter nbconvert --to notebook --execute --inplace 01_limpieza_eda.ipynb
+..\.venv\Scripts\python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 02_modelos.ipynb
+..\.venv\Scripts\python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 03_residuos_depreciacion.ipynb
+..\.venv\Scripts\python exportar_tasador.py
+```
+
+| Paso | Entrada | Salida |
+|---|---|---|
+| `01_limpieza_eda` | `autos_raw.csv` | `autos_clean.csv`, `limpieza_reglas.csv`, figuras 01–03 |
+| `02_modelos` | `autos_clean.csv` | `resultados_test.csv`, `predicciones_test.csv`, `mejor_modelo.json`, figura 06 |
+| `03_residuos_depreciacion` | lo anterior | `extremos_revisar.csv`, figuras 04–05 |
+| `exportar_tasador.py` | lo anterior | `presentacion/tasador/modelo.json` |
+
+Los tres juntos tardan unos 10 minutos (lo más lento es Lasso con alpha chico, en el 02, y el bootstrap del 03).
+Todo usa semilla 42: el split train/test es el mismo en el 02, el 03 y el exportador.
 
 **Reanudar:** si la corrida se corta, se vuelve a lanzar el mismo comando. Cada
 página descargada queda en `data/raw/pages/`; lo ya bajado se relee del disco sin
