@@ -41,8 +41,8 @@ que dice el título, el modelo tasa con un error mediano de 9,5\,\% sobre avisos
 ($R^2 = 0{,}86$ en log), contra 15,7\,\% de tasar con la mediana del modelo. Un auto pierde en
 promedio 4,2\,\% de su precio por año a kilómetros constantes, y el ritmo cambia según la marca (de
 3,2\,\% en Suzuki a 5,1\,\% en Mercedes-Benz), aunque eso casi no mejora la tasación. Los avisos que más
-se alejan del precio predicho son, en buena parte, \pend{completar con la revisión manual de los 40
-extremos}.
+se alejan del precio predicho son sobre todo errores de carga o autos chocados (16 de los 40 más
+extremos) y versiones o modelos que el modelo casi no vio (17 de 40).
 \end{abstract}
 
 % ---------------------------------------------------------------------------------------------
@@ -220,13 +220,37 @@ contra precio predicho; la mediana por decil se mantiene cerca de cero.}
 \label{fig:residuos}
 \end{figure}
 
-Revisamos a mano los 20 avisos más por debajo y los 20 más por encima:
-\pend{completar con data/extremos\_revisar.csv. Contar cuántos son error de carga (precio o año mal
-puestos: p.\,ej.\ BMW 320 E21 ``2027'', Jeep CJ3 ``2001''), modelos que casi no aparecen en
-entrenamiento (Toyota Agya, BYD Seagull), versiones que el modelo no distingue (AMG, motorhome,
-Maserati), estado del auto (``entero o por partes'') u oportunidades/caros sin explicación aparente}.
-\pend{Una o dos frases de conclusión: ¿el residuo sirve más para detectar errores de carga o para
-detectar oportunidades?}
+Revisamos a mano los 20 avisos más por debajo y los 20 más por encima, con lo que muestran el título,
+el año, los kilómetros y la URL del aviso (Tabla~\ref{tab:extremos}; el detalle está en
+\texttt{data/\allowbreak extremos\_revisar.csv}). Si el aviso muestra un motivo, lo clasificamos por ese; si no, y el
+modelo tenía 0 a 2 avisos de ese modelo en entrenamiento, como modelo con pocos datos.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+Motivo & Por debajo & Por encima & Total \\
+\midrule
+Error de carga (año, precio o km)          & 5 & 7 & 12 \\
+Estado del auto (chocado, por partes)      & 4 & 0 &  4 \\
+Versión que el modelo no distingue         & 0 & 6 &  6 \\
+Modelo con 0 a 2 avisos en entrenamiento   & 6 & 5 & 11 \\
+Sin motivo visible                         & 5 & 2 &  7 \\
+\midrule
+Total                                      & 20 & 20 & 40 \\
+\bottomrule
+\end{tabular}
+\caption{Revisión manual de los 40 avisos de test más alejados de la tasación.}
+\label{tab:extremos}
+\end{table}
+
+Los errores de carga son, por ejemplo, un BMW 320 E21 (fabricado de 1975 a 1983) publicado como 2027,
+un Mercedes-Benz A45 AMG (existe desde 2013) publicado como 2005 o un Peugeot 208 2020 a USD 34.990.
+Los autos chocados aparecen solo por debajo y las versiones especiales (AMG, motorhomes, un clásico de
+colección, un taxi cuyo precio incluye el permiso) solo por encima. El residuo sirve más para encontrar
+avisos con problemas o autos que el modelo no puede tasar que para encontrar oportunidades: solo 7 de
+los 40 no tienen un motivo visible, y aun esos pueden deberse al estado del auto, que el aviso no muestra.
 
 \subsection{Depreciación}
 
@@ -267,7 +291,7 @@ también que los autos viejos tienen más kilómetros y son de modelos más bara
 \begin{itemize}
 \item \textbf{Precio publicado, no precio de venta.} El modelo aprende lo que se pide, no lo que se paga.
 \item \textbf{El modelo no ve el estado del auto} (choques, mantenimiento) ni la versión exacta más allá
-de lo que dice el título: es la principal fuente de residuos grandes.
+de lo que dice el título: explica los autos chocados y las versiones especiales entre los residuos grandes.
 \item \textbf{Muestra no aleatoria en búsquedas grandes.} Cuando una búsqueda tenía más de 48 avisos, el
 sitio elegía cuáles mostrar. Pasó en dos casos (Chevrolet Montana 2024 y Onix 2023 de concesionaria).
 \item \textbf{La limpieza no saca todos los errores.} Quedan 44 avisos de 2025 o posteriores con menos de
@@ -281,8 +305,9 @@ la tasación se apoya en la marca y en la pendiente común.
 \section{Conclusiones}
 
 Con lo que dice un aviso, un Ridge sobre log(precio) tasa con un error mediano de 9,5\,\%, unos 6 puntos
-mejor que mirar la mediana del modelo. \pend{qué son los avisos fuera de mercado según la revisión
-manual}. Un auto pierde en promedio 4,2\,\% de su precio por año; la marca cambia ese ritmo (de 3,2\,\% a
+mejor que mirar la mediana del modelo. De los 40 avisos más alejados de la tasación, 16 son errores
+de carga o autos chocados y 17 son versiones o modelos que el modelo casi no vio: el residuo sirve más
+para marcar avisos a revisar que para encontrar oportunidades. Un auto pierde en promedio 4,2\,\% de su precio por año; la marca cambia ese ritmo (de 3,2\,\% a
 5,1\,\%) pero casi no cambia la precisión de la tasación. Una aplicación directa es una herramienta que
 marque los avisos que conviene revisar antes de comprar.
 
@@ -297,8 +322,12 @@ corren de punta a punta en unos 10 minutos, con semilla fija; el README explica 
 \bibitem{pudaruth} S.~Pudaruth (2014). Predicting the price of used cars using machine learning
 techniques. \emph{International Journal of Information \& Computation Technology}, 4(7), 753--764.
 Datos de Mauricio.
-\bibitem{kihm} A.~Kihm y C.~Vance (2016). \pend{título, revista, volumen y páginas}. Datos de Alemania.
-\bibitem{hendry} Hendry y Priilaid (2025). \pend{nombres, título, revista}. Datos de Sudáfrica.
+\bibitem{kihm} A.~Kihm y C.~Vance (2016). The determinants of equity transmission between the new and
+used car markets: a hedonic analysis. \emph{Journal of the Operational Research Society}, 67(10),
+1250--1258. Datos de Alemania.
+\bibitem{hendry} S.~Hendry (2025). An explorative study of linear vs non-linear hedonic pricing of
+second-hand cars in South Africa. Tesis de maestría, University of Cape Town (dir.\ D.~Priilaid).
+Datos de Sudáfrica.
 \end{thebibliography}
 
 \end{document}
