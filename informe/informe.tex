@@ -30,7 +30,7 @@
 \noindent
 Quien compra un auto usado en Uruguay no tiene una referencia pública de precio: el mismo modelo y
 año se publica a precios que difieren casi al doble. Juntamos 17.095 avisos de autos usados de
-Mercado Libre Uruguay (98,5\,\% de los publicados el 28/10/2026) y ajustamos regresiones
+Mercado Libre Uruguay (98,5\,\% de los usados publicados el 28/10/2026) y ajustamos regresiones
 regularizadas sobre el logaritmo del precio. Con marca, modelo, año, kilómetros, tipo de vendedor y lo
 que dice el título, el modelo tasa con un error mediano de 9,5\,\% sobre avisos que no vio
 ($R^2 = 0{,}86$ en log), contra 15,7\,\% de tasar con la mediana del modelo. Un auto pierde en
@@ -71,7 +71,9 @@ marcas. Es una foto del mercado de un día, no una serie de tiempo.
 
 \textbf{Variables.} Marca, modelo, versión, año, kilómetros, precio y moneda, departamento, tipo de
 vendedor (particular o concesionaria) y, a partir del título, cilindrada, transmisión y combustible
-cuando el título los menciona (el resto se codifica como \emph{sin dato}).
+cuando el título los menciona (el resto se codifica como \emph{sin dato}). El departamento y si el
+vendedor es tienda oficial se guardaron pero no entran al modelo: tres de cada cuatro avisos son de
+Montevideo o Canelones, y casi todas las tiendas oficiales son concesionarias, algo que el modelo ya usa.
 
 \textbf{Limpieza.} Los avisos en pesos (1,4\,\%) se pasaron a dólares con la cotización del BCU del 28/10/2026
 (dólar billete, 40,096 pesos por dólar). Las reglas se aplicaron en orden y cada una se registró
@@ -102,8 +104,8 @@ Avisos de compra (``Compro autos'')                            &   3 & 16.581 \\
 \label{tab:limpieza}
 \end{table}
 
-\textbf{Avisos repetidos.} Hay 406 avisos que comparten marca, modelo, año, kilómetros, precio y moneda
-con otro: con alta probabilidad, el mismo auto publicado dos o tres veces. Si un gemelo cae en
+\textbf{Avisos repetidos.} Hay 406 avisos (400 después de la limpieza, en 199 grupos) que comparten
+marca, modelo, año, kilómetros, precio y moneda con otro: con alta probabilidad, el mismo auto publicado dos o tres veces. Si un gemelo cae en
 entrenamiento y otro en test, el modelo ``ya vio'' la respuesta y el error de test sale optimista. Por
 eso cada grupo de gemelos va entero a un solo lado, tanto en la partición train/test como en la
 validación cruzada.
@@ -253,8 +255,9 @@ Con un Ridge sin pendiente por marca (mismos hiperparámetros) y a marca, modelo
 
 \begin{itemize}
 \item un auto pierde \textbf{4,2\,\% de su precio por año};
-\item duplicar los kilómetros le resta \textbf{6,8\,\%} (elasticidad $-0{,}10$). El efecto es chico porque
-kilómetros y antigüedad van juntos (correlación 0,56 en log): la antigüedad ya captura la mayor parte;
+\item duplicar los kilómetros le resta \textbf{6,8\,\%} (elasticidad $-0{,}10$). Es el efecto a igual
+antigüedad: como kilómetros y antigüedad van juntos (correlación 0,56 en log), sin controlar por
+antigüedad la elasticidad sería $-0{,}26$;
 \item por el mismo auto, una concesionaria pide \textbf{2,8\,\% más} que un particular.
 \end{itemize}
 
@@ -262,8 +265,7 @@ Con la pendiente propia para las 13 marcas con al menos 300 avisos en entrenamie
 elegido), los intervalos de confianza del 95\,\% se obtuvieron por \emph{bootstrap} de grupos de gemelos
 (200 repeticiones). Las diferencias son reales: Suzuki pierde 3,2\,\% por año (IC 2,8--3,5) y
 Mercedes-Benz 5,1\,\% (4,7--5,7), con intervalos que no se solapan (Figura~\ref{fig:marcas}). Pero casi
-no mejoran la predicción: el RMSE de validación pasa de 0,2194 a 0,2181, por debajo de la variación
-entre particiones (0,008). Los dos modelos coinciden en el promedio: con el modelo elegido, el promedio
+no mejoran la predicción: el RMSE de validación pasa de 0,2194 a 0,2181, una mejora chica. Los dos modelos coinciden en el promedio: con el modelo elegido, el promedio
 de las pendientes de todas las marcas, ponderado por avisos de entrenamiento, da 4,25\,\% por año. La
 pendiente del resto de las marcas es mayor (4,8\,\%) porque ahí quedan marcas chicas y de lujo, que se
 deprecian más rápido.
@@ -276,8 +278,8 @@ La línea punteada es la pendiente común del resto de las marcas.}
 \label{fig:marcas}
 \end{figure}
 
-Estas pendientes son menores que las que surgen de comparar medianas por antigüedad (6,6\,\% por año en
-Chevrolet, 7,5\,\% en Nissan): sin controlar por kilómetros y modelo, a la antigüedad se le atribuye
+Estas pendientes son menores que las de una regresión simple del logaritmo del precio contra la
+antigüedad (6,6\,\% por año en Chevrolet, 7,5\,\% en Nissan): sin controlar por kilómetros y modelo, a la antigüedad se le atribuye
 también que los autos viejos tienen más kilómetros y son de modelos más baratos.
 
 % ---------------------------------------------------------------------------------------------
@@ -291,6 +293,9 @@ de lo que dice el título: explica los autos chocados y las versiones especiales
 sitio elegía cuáles mostrar. Pasó en dos casos (Chevrolet Montana 2024 y Onix 2023 de concesionaria).
 \item \textbf{La limpieza no saca todos los errores.} Quedan 44 avisos de 2025 o posteriores con menos de
 1.000\,km (en la práctica, 0\,km) y 7 autos ``2027'', entre ellos un BMW 320 E21 con el año mal cargado.
+\item \textbf{La antigüedad entra de forma lineal.} En test, los 169 autos de más de 20 años se publican
+algo más caros de lo predicho y su error mediano va de 23\,\% a 30\,\%: entre ellos hay clásicos que se
+valorizan, algo que una pendiente constante no puede captar.
 \item \textbf{Una sola fecha.} No se puede decir nada sobre cómo cambian los precios en el tiempo.
 \item \textbf{Pocos avisos por modelo.} Más de la mitad de los modelos (559 de 946) tiene menos de 5 avisos: para esos,
 la tasación se apoya en la marca y en la pendiente común.

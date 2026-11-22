@@ -33,6 +33,9 @@ presentacion/  Presentación 1 (propuesta inicial, primera entrega)
 
 ## Cómo correrlo
 
+En Windows (en macOS o Linux: `python3.12 -m venv .venv` y `.venv/bin/python` en lugar de
+`.venv\Scripts\python`):
+
 ```bash
 py -3.12 -m venv .venv
 .venv\Scripts\python -m pip install -r requirements.txt
