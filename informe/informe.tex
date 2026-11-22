@@ -127,7 +127,10 @@ Al volver a dólares con $\exp(\cdot)$ se obtiene la mediana del precio para ese
 tasar es lo que interesa (la mitad de los autos parecidos se publica más cara y la mitad más barata).
 
 \textbf{Partición.} 80\,\% entrenamiento (13.265 avisos) y 20\,\% test (3.316), agrupando por gemelos
-(\texttt{GroupShuffleSplit}, semilla 42). Test se usó una sola vez, al final.
+(\texttt{GroupShuffleSplit}, semilla 42). En una versión anterior, mirar test motivó dos cambios: la
+regla de limpieza de avisos en pesos (Sección~2) y limitar la pendiente propia a las marcas grandes (el
+umbral de 100 o 300 avisos lo eligió después la validación cruzada). El resultado final se midió una
+sola vez, al final.
 
 \textbf{Modelos.}
 (1) \emph{Base}: la mediana del log-precio del modelo en entrenamiento (la de la marca si el modelo no
@@ -167,8 +170,9 @@ $|\text{predicho}/\text{real} - 1|$.}
 \end{table}
 
 Ridge baja el error mediano de 15,7\,\% a 9,5\,\% respecto de la base (Cuadro~\ref{tab:resultados}).
-Lasso no mejora a Ridge: con casi mil modelos de auto, casi todas las variables aportan algo y no se gana
-nada anulando coeficientes. El árbol queda lejos: el mejor (profundidad 30, hojas de 1 aviso) tiene
+Lasso queda apenas por detrás de Ridge, pero no se volvió a ajustar con la limpieza final por costo de
+cómputo (usa los hiperparámetros de una búsqueda anterior), así que la comparación no es del todo pareja.
+El árbol queda lejos: el mejor (profundidad 30, hojas de 1 aviso) tiene
 error 0,157 en entrenamiento y 0,302 en validación, una brecha que muestra que memoriza más de lo que
 generaliza. Además predice por escalones, y con kilómetros y antigüedad la relación es suave.
 
@@ -179,15 +183,17 @@ avisos, y agruparlos tira información. La validación eligió darle pendiente p
 fue un error en una versión anterior: empataba en validación, pero en test le daba pendientes absurdas a
 marcas con uno o dos avisos y el RMSE en dólares se iba a 34.000.
 
-El error no es parejo: el error mediano está entre 8 y 9\,\% del decil 3 al 7 de precio predicho, y sube
+El error no es parejo: el error mediano ronda el 9\,\% del decil 3 al 7 de precio predicho, y sube
 a 12,2\,\% en el decil más barato y a 14,6\,\% en el más caro, donde hay menos avisos y más variedad de
 versiones.
 
 \textbf{¿Faltan datos?} La curva de aprendizaje (Figura~\ref{fig:curva}) muestra que el error de
 validación sigue bajando al sumar avisos, pero cada vez menos: de 0,272 con 1.000 avisos a 0,220 con
 9.000 y 0,218 con 10.600. Más avisos ayudarían algo, sobre todo a los modelos de auto con pocos
-ejemplos, pero la brecha con el error de entrenamiento (0,179) indica que buena parte del error viene de lo
-que el aviso no dice: estado, equipamiento y versión exacta.
+ejemplos. Pero el error de entrenamiento ya es alto (0,179): aun sobre los avisos que vio, el modelo no
+puede explicar buena parte del precio, porque depende de lo que el aviso no dice (estado, equipamiento y
+versión exacta). La brecha entre entrenamiento y validación, que se achica al sumar avisos, es la parte
+que más datos sí reducirían.
 
 \begin{figure}[h]
 \centering
@@ -238,7 +244,10 @@ elegido), los intervalos de confianza del 95\,\% se obtuvieron por \emph{bootstr
 (200 repeticiones). Las diferencias son reales: Suzuki pierde 3,2\,\% por año (IC 2,8--3,5) y
 Mercedes-Benz 5,1\,\% (4,7--5,7), con intervalos que no se solapan (Figura~\ref{fig:marcas}). Pero casi
 no mejoran la predicción: el RMSE de validación pasa de 0,2194 a 0,2181, por debajo de la variación
-entre particiones (0,008).
+entre particiones (0,008). Los dos modelos coinciden en el promedio: con el modelo elegido, el promedio
+de las pendientes de todas las marcas, ponderado por avisos de entrenamiento, da 4,25\,\% por año. La
+pendiente del resto de las marcas es mayor (4,8\,\%) porque ahí quedan marcas chicas y de lujo, que se
+deprecian más rápido.
 
 \begin{figure}[h]
 \centering
@@ -261,6 +270,8 @@ también que los autos viejos tienen más kilómetros y son de modelos más bara
 de lo que dice el título: es la principal fuente de residuos grandes.
 \item \textbf{Muestra no aleatoria en búsquedas grandes.} Cuando una búsqueda tenía más de 48 avisos, el
 sitio elegía cuáles mostrar. Pasó en dos casos (Chevrolet Montana 2024 y Onix 2023 de concesionaria).
+\item \textbf{La limpieza no saca todos los errores.} Quedan 44 avisos de 2025 o posteriores con menos de
+1.000\,km (en la práctica, 0\,km) y 7 autos ``2027'', entre ellos un BMW 320 E21 con el año mal cargado.
 \item \textbf{Una sola fecha.} No se puede decir nada sobre cómo cambian los precios en el tiempo.
 \item \textbf{Pocos avisos por modelo.} Más de la mitad de los modelos (559 de 946) tiene menos de 5 avisos: para esos,
 la tasación se apoya en la marca y en la pendiente común.

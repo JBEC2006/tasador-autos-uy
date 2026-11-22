@@ -540,14 +540,14 @@ footer .grupo { text-align: right; }
   function leer() {
     return {
       marca: $('marca').value, modelo: $('modelo').value, anio: Number($('anio').value),
-      km: Math.max(1, numero($('km').value)),
+      km: Math.max(1000, numero($('km').value)),   // con menos de 1.000 km el modelo extrapola (no hay usados así en train)
       vendedor: document.querySelector('input[name="vendedor"]:checked').value,
       motor_titulo: $('motor').value, transmision_titulo: $('transmision').value, combustible_titulo: $('combustible').value,
       publicado: numero($('publicado').value) || null
     };
   }
 
-  // Misma fórmula que el pipeline de sklearn (verificada contra predicciones_test.csv).
+  // Misma fórmula que el pipeline de sklearn (exportar_tasador.py la verifica contra pipe.predict en test).
   function terminos(a) {
     const n = M.num, c = M.cats;
     const ant = M.anio_ref - a.anio;
