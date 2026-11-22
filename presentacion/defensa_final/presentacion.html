@@ -189,6 +189,15 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
 .r2 { font-size: 34px; }
 .r2 b { font-size: 64px; font-stretch: 120%; margin-right: 14px; }
 
+/* Curva: modelos con pocos avisos */
+#curva { height: 470px; }
+.escasez { display: flex; align-items: center; gap: 44px; width: 1640px; padding-top: 30px; border-top: 3px solid var(--gris-claro); }
+.escasez-barra { width: 340px; height: 20px; flex: none; background: var(--gris-claro); }
+.escasez-barra i { display: block; height: 100%; width: 46%; background: var(--rojo); transform: scaleX(0); transform-origin: left; transition: transform 1.2s var(--curva) .35s; }
+.escasez.visto .escasez-barra i { transform: none; }
+.escasez p { font-size: 34px; }
+.escasez b { color: var(--rojo); font-stretch: 112%; }
+
 /* Demo */
 #s-demo { justify-content: center; }
 #s-demo h2 { font-size: 150px; max-width: 900px; }
@@ -446,10 +455,14 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 9 · Curva de aprendizaje -->
-  <section class="slide" id="s-curva" data-ritmo="2300" data-orador="Federico · 45 s">
+  <section class="slide" id="s-curva" data-ritmo="2300,3600" data-orador="Federico · 1 min">
     <h2>¿Hacían falta más avisos?</h2>
-    <svg id="curva" viewBox="0 0 1640 560" role="img" aria-label="Error de validación según la cantidad de avisos de entrenamiento: baja de 0,272 con mil avisos a 0,218 con 10.600 y casi se aplana"></svg>
+    <svg id="curva" viewBox="0 0 1640 560" preserveAspectRatio="xMinYMid meet" role="img" aria-label="Error de validación según la cantidad de avisos de entrenamiento: baja de 0,272 con mil avisos a 0,218 con 10.600 y casi se aplana"></svg>
     <p class="paso" data-s="1" style="margin-top:-10px">Lo que más falta no es cantidad: es lo que el aviso no dice.</p>
+    <div class="escasez paso" data-s="2">
+      <div class="escasez-barra" role="img" aria-label="435 de 946 modelos tienen uno o dos avisos"><i></i></div>
+      <p><b>435 de 946 modelos</b> tienen uno o dos avisos: ahí sí faltan datos.</p>
+    </div>
   </section>
 
   <!-- 10 · Demo -->
