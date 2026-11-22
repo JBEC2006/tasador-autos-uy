@@ -19,6 +19,7 @@
 
 \graphicspath{{../notebooks/figuras/}}
 \captionsetup{font=small,labelfont=bf}
+\setlength{\emergencystretch}{2em}  % evita que nombres de archivo y URLs se salgan del margen
 
 % Marca de pendientes: se ve en rojo en el PDF. Buscar "\pend" antes de entregar.
 \newcommand{\pend}[1]{\textcolor{red}{[PENDIENTE: #1]}}
@@ -222,7 +223,7 @@ contra precio predicho; la mediana por decil se mantiene cerca de cero.}
 
 Revisamos a mano los 20 avisos más por debajo y los 20 más por encima, con lo que muestran el título,
 el año, los kilómetros y la URL del aviso (Tabla~\ref{tab:extremos}; el detalle está en
-\texttt{data/\allowbreak extremos\_revisar.csv}). Si el aviso muestra un motivo, lo clasificamos por ese; si no, y el
+\texttt{data/extremos\_revisar.csv}). Si el aviso muestra un motivo, lo clasificamos por ese; si no, y el
 modelo tenía 0 a 2 avisos de ese modelo en entrenamiento, como modelo con pocos datos.
 
 \begin{table}[h]
@@ -312,7 +313,7 @@ para marcar avisos a revisar que para encontrar oportunidades. Un auto pierde en
 marque los avisos que conviene revisar antes de comprar.
 
 \medskip
-\noindent\textbf{Reproducibilidad.} Código, datos y notebooks en
+\noindent\textbf{Reproducibilidad.} El código, los datos y los notebooks están en el repositorio
 \url{https://github.com/JBEC2006/tasador-autos-uy} \pend{confirmar acceso del docente}. Los tres
 notebooks (\texttt{01\_limpieza\_eda}, \texttt{02\_modelos}, \texttt{03\_residuos\_depreciacion})
 corren de punta a punta en unos 10 minutos, con semilla fija; el README explica cómo.
