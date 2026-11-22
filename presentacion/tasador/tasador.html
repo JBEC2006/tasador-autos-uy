@@ -86,16 +86,50 @@ h1 { font-size: clamp(2.4rem, 4vw, 4.3rem); font-weight: 800; font-stretch: 125%
 .dos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.4rem; }
 @media (max-width: 460px) { .dos { grid-template-columns: minmax(0, 1fr); } }
 
-select, .campo-texto input {
+.campo-texto input {
   width: 100%; appearance: none; -webkit-appearance: none; background-color: transparent; border: 0; border-radius: 0;
-  border-bottom: 2px solid var(--asfalto); padding: .2rem 1.6rem .4rem 0; font-size: 1.4rem; font-weight: 700; font-stretch: 108%;
-  transition: border-color .3s, color .3s;
+  padding: .2rem 0 .4rem; font-size: 1.4rem; font-weight: 700; font-stretch: 108%; caret-color: var(--rojo);
 }
-select { cursor: pointer; text-overflow: ellipsis;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2315181D' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-repeat: no-repeat; background-position: right .2rem center; background-size: .8rem; }
-select:hover, .campo-texto input:hover { border-bottom-color: var(--rojo); }
-select:focus-visible, .campo-texto input:focus-visible { outline: none; border-bottom-color: var(--rojo); }
+.campo-texto input:focus-visible { outline: none; }
+
+/* Desplegables propios: el <select> queda oculto como fuente de datos y esto es lo que se ve */
+.nativo { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.desplegable { position: relative; }
+.disparador { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: .6rem; background: none; border: 0;
+  border-bottom: 2px solid var(--asfalto); border-radius: 0; padding: .2rem 0 .4rem; font-size: 1.4rem; font-weight: 700; font-stretch: 108%;
+  text-align: left; cursor: pointer; transition: border-color .3s, box-shadow .3s; }
+.disparador .valor { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.disparador.sin-dato .valor { color: var(--gris); font-weight: 600; }
+.disparador:hover, .abierto .disparador { border-bottom-color: var(--rojo); }
+.disparador:focus-visible { outline: none; border-bottom-color: var(--rojo); box-shadow: 0 2px 0 var(--rojo); }
+.flecha-d { width: .8rem; height: .55rem; flex: none; fill: none; stroke: var(--asfalto); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;
+  transition: transform .4s var(--resorte), stroke .3s; }
+.abierto .flecha-d { transform: rotate(180deg); stroke: var(--rojo); }
+.panel { position: absolute; left: 0; top: calc(100% + 8px); z-index: 30; width: max(100%, 15rem); background: var(--blanco);
+  border: 2px solid var(--asfalto); border-radius: 6px; box-shadow: 0 22px 44px -20px rgba(21, 24, 29, .5);
+  opacity: 0; visibility: hidden; transform: translateY(-10px) scaleY(.96); transform-origin: top;
+  transition: opacity .2s var(--curva), transform .32s var(--curva), visibility 0s .32s; }
+.abierto .panel { opacity: 1; visibility: visible; transform: none; transition: opacity .2s var(--curva), transform .32s var(--curva), visibility 0s; }
+.tres > div:last-child .panel { left: auto; right: 0; }
+.buscador { display: flex; align-items: center; gap: .55rem; padding: .65rem .9rem; border-bottom: 1px solid var(--gris-claro); }
+.buscador svg { width: 1rem; height: 1rem; flex: none; fill: none; stroke: var(--gris); stroke-width: 2.4; stroke-linecap: round; }
+.buscador input { flex: 1; min-width: 0; border: 0; outline: none; background: none; font-size: 1rem; font-weight: 600; caret-color: var(--rojo); }
+.buscador input::placeholder { color: var(--gris-medio); }
+.panel ul { list-style: none; max-height: 18.5rem; overflow-y: auto; padding: .3rem 0; outline: none; overscroll-behavior: contain;
+  scrollbar-width: thin; scrollbar-color: var(--gris-medio) transparent; }
+.panel ul::-webkit-scrollbar { width: 8px; }
+.panel ul::-webkit-scrollbar-thumb { background: var(--gris-medio); border-radius: 4px; border: 2px solid var(--blanco); }
+.panel li { position: relative; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  padding: .52rem .95rem .52rem 1.15rem; font-size: 1.02rem; font-weight: 600; cursor: pointer; transition: background-color .15s; }
+.panel li::before { content: ''; position: absolute; left: 0; top: .35rem; bottom: .35rem; width: 3px; background: var(--rojo);
+  transform: scaleY(0); transition: transform .22s var(--curva); }
+.panel li.activo { background: var(--gris-ruta); }
+.panel li.activo::before { transform: none; }
+.panel li[aria-selected="true"] { color: var(--rojo); font-weight: 800; }
+.panel li .extra { font-size: .78rem; font-weight: 500; color: var(--gris); white-space: nowrap; }
+.panel li.vacio { color: var(--gris); font-weight: 500; cursor: default; }
+::selection { background: var(--rojo); color: var(--blanco); }
+button, label, summary, .chapa { -webkit-tap-highlight-color: transparent; }
 .pista { font-size: .8rem; color: var(--gris); margin-top: .35rem; min-height: 1.1em; }
 
 .campo-texto { display: flex; align-items: baseline; gap: .5rem; border-bottom: 2px solid var(--asfalto); transition: border-color .3s; }
@@ -140,7 +174,7 @@ summary i::after { transform: rotate(90deg); }
 details[open] summary i::after { transform: rotate(0); }
 summary small { font-weight: 500; color: var(--gris); font-size: .85rem; margin-left: .4rem; }
 .tres { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
-.tres select { font-size: 1.1rem; }
+.tres .disparador { font-size: 1.1rem; }
 @media (max-width: 460px) { .tres { grid-template-columns: minmax(0, 1fr); } }
 .precio-pub { border-top: 1px solid var(--gris-claro); padding-top: 1.2rem; }
 
@@ -367,28 +401,137 @@ footer .grupo { text-align: right; }
   const numero = (s) => Number(String(s).replace(/\D/g, '')) || 0;
   const reducido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const el = (tag, at, padre) => { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); if (padre) padre.appendChild(e); return e; };
-  let M = null, anterior = null, animacion = null, arrancando = true;
+  let M = null, anterior = null, autoAnterior = null, animacion = null, arrancando = true;
   let franjaClave = null, franjaEscala = null;
 
+  // etiqueta(v) devuelve el texto, o [texto, dato al costado] (por ejemplo, cuántos avisos hay).
   function opciones(sel, valores, etiqueta) {
     sel.innerHTML = '';
     for (const v of valores) {
+      const r = etiqueta ? etiqueta(v) : String(v), [texto, extra] = Array.isArray(r) ? r : [r, ''];
       const o = document.createElement('option');
-      o.value = v; o.textContent = etiqueta ? etiqueta(v) : v;
+      o.value = v; o.textContent = texto;
+      if (extra) o.dataset.extra = extra;
       sel.appendChild(o);
     }
   }
+  const avisos = (n) => miles(n) + (n === 1 ? ' aviso' : ' avisos');
+
+  // ---------- Desplegables propios ----------
+  // El <select> sigue siendo la fuente de verdad (valor y opciones); esto solo lo dibuja y lo maneja.
+  const desplegables = [];
+  const normal = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  function crearDesplegable(sel, buscar) {
+    sel.classList.add('nativo'); sel.tabIndex = -1; sel.setAttribute('aria-hidden', 'true');
+    const caja = document.createElement('div'); caja.className = 'desplegable';
+    sel.after(caja);
+    const boton = document.createElement('button');
+    boton.type = 'button'; boton.className = 'disparador'; boton.id = sel.id + '-btn';
+    boton.setAttribute('aria-haspopup', 'listbox'); boton.setAttribute('aria-expanded', 'false');
+    boton.innerHTML = '<span class="valor"></span><svg class="flecha-d" viewBox="0 0 14 9" aria-hidden="true"><path d="M1 1l6 6 6-6"/></svg>';
+    const panel = document.createElement('div'); panel.className = 'panel';
+    panel.innerHTML = (buscar ? '<div class="buscador"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><path d="M13 13l5 5"/></svg>' +
+      '<input type="text" autocomplete="off" spellcheck="false"></div>' : '') + '<ul role="listbox" tabindex="-1"></ul>';
+    caja.append(sel, boton, panel);
+    const lista = panel.querySelector('ul'), entrada = panel.querySelector('input'), foco = entrada || lista;
+    const rotulo = document.querySelector('label[for="' + sel.id + '"]');
+    lista.id = sel.id + '-lista'; boton.setAttribute('aria-controls', lista.id);
+    if (rotulo) {
+      rotulo.htmlFor = boton.id; rotulo.id = sel.id + '-rotulo';
+      boton.setAttribute('aria-labelledby', rotulo.id + ' ' + boton.id); lista.setAttribute('aria-labelledby', rotulo.id);
+      if (entrada) { entrada.placeholder = 'Buscar ' + rotulo.textContent.toLowerCase() + '…'; entrada.setAttribute('aria-label', entrada.placeholder); }
+    }
+    if (entrada) { entrada.setAttribute('role', 'combobox'); entrada.setAttribute('aria-controls', lista.id); entrada.setAttribute('aria-expanded', 'true'); }
+    let items = [], activo = -1, tecleo = '', relojTecleo = null;
+
+    function construir(filtro) {
+      const f = normal((filtro || '').trim());
+      lista.innerHTML = ''; items = [];
+      for (const o of sel.options) {
+        if (f && !normal(o.textContent).includes(f)) continue;
+        const li = document.createElement('li');
+        li.setAttribute('role', 'option'); li.id = sel.id + '-op-' + items.length; li.dataset.valor = o.value;
+        li.setAttribute('aria-selected', String(o.value === sel.value));
+        const t = document.createElement('span'); t.textContent = o.textContent; li.appendChild(t);
+        if (o.dataset.extra) { const x = document.createElement('span'); x.className = 'extra'; x.textContent = o.dataset.extra; li.appendChild(x); }
+        li.addEventListener('mousedown', (e) => e.preventDefault());   // que no se pierda el foco al elegir
+        li.addEventListener('click', () => elegir(o.value));
+        li.addEventListener('mousemove', () => { if (activo !== items.indexOf(li)) marcar(items.indexOf(li), false); });
+        lista.appendChild(li); items.push(li);
+      }
+      if (!items.length) { const li = document.createElement('li'); li.className = 'vacio'; li.textContent = 'No hay coincidencias'; lista.appendChild(li); }
+      const i = items.findIndex((li) => li.dataset.valor === sel.value);
+      marcar(f ? 0 : Math.max(0, i), true);
+    }
+    function marcar(i, desplazar) {
+      items.forEach((li, k) => li.classList.toggle('activo', k === i));
+      activo = items.length ? i : -1;
+      foco.setAttribute('aria-activedescendant', items[activo] ? items[activo].id : '');
+      if (desplazar && items[activo]) items[activo].scrollIntoView({ block: 'nearest' });
+    }
+    function abrir() {
+      if (caja.classList.contains('abierto')) return;
+      desplegables.forEach((d) => d.cerrar(false));
+      if (entrada) entrada.value = '';
+      construir('');
+      caja.classList.add('abierto'); boton.setAttribute('aria-expanded', 'true');
+      const li = items[activo];
+      if (li) lista.scrollTop = li.offsetTop - lista.clientHeight / 2 + li.offsetHeight / 2;
+      foco.focus({ preventScroll: true });
+    }
+    function cerrar(devolverFoco) {
+      if (!caja.classList.contains('abierto')) return;
+      caja.classList.remove('abierto'); boton.setAttribute('aria-expanded', 'false');
+      if (devolverFoco) boton.focus({ preventScroll: true });
+    }
+    function elegir(v) {
+      const cambia = v !== sel.value;
+      sel.value = v; pintar(); cerrar(true);
+      if (cambia) sel.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+    function pintar() {
+      const o = sel.options[sel.selectedIndex];
+      boton.querySelector('.valor').textContent = o ? o.textContent : '—';
+      boton.classList.toggle('sin-dato', !!o && o.value === 'sin_dato');
+    }
+    function teclas(e) {
+      if (e.key === 'ArrowDown') { e.preventDefault(); marcar(Math.min(items.length - 1, activo + 1), true); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); marcar(Math.max(0, activo - 1), true); }
+      else if (e.key === 'PageDown') { e.preventDefault(); marcar(Math.min(items.length - 1, activo + 8), true); }
+      else if (e.key === 'PageUp') { e.preventDefault(); marcar(Math.max(0, activo - 8), true); }
+      else if (e.key === 'Enter') { e.preventDefault(); if (items[activo]) elegir(items[activo].dataset.valor); }
+      else if (e.key === 'Escape') { e.preventDefault(); cerrar(true); }
+      else if (e.key === 'Tab') cerrar(false);
+      else if (!entrada && e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        // Sin buscador: escribir salta a la primera opción que empieza así (por ejemplo, "20" en el año).
+        tecleo += normal(e.key); clearTimeout(relojTecleo); relojTecleo = setTimeout(() => { tecleo = ''; }, 800);
+        const i = items.findIndex((li) => normal(li.textContent).startsWith(tecleo));
+        if (i >= 0) marcar(i, true);
+      }
+    }
+    boton.addEventListener('click', () => (caja.classList.contains('abierto') ? cerrar(true) : abrir()));
+    boton.addEventListener('keydown', (e) => { if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); abrir(); } });
+    foco.addEventListener('keydown', teclas);
+    if (entrada) entrada.addEventListener('input', () => construir(entrada.value));
+    caja.addEventListener('focusout', (e) => { if (!caja.contains(e.relatedTarget)) cerrar(false); });
+    const d = { caja, pintar, cerrar };
+    desplegables.push(d); pintar();
+    return d;
+  }
+  document.addEventListener('mousedown', (e) => desplegables.forEach((d) => { if (!d.caja.contains(e.target)) d.cerrar(false); }));
+  const pintarDesplegables = () => desplegables.forEach((d) => d.pintar());
   function cuantos(modelo) { return Object.values(modelo).reduce((s, a) => s + a.length, 0); }
 
   function llenarModelos(marca, elegido) {
     const mods = M.catalogo[marca] || {};
     const lista = Object.keys(mods).sort((a, b) => cuantos(mods[b]) - cuantos(mods[a]) || a.localeCompare(b));
-    opciones($('modelo'), lista, (m) => m + ' (' + cuantos(mods[m]) + ')');
+    opciones($('modelo'), lista, (m) => [m, avisos(cuantos(mods[m]))]);
     $('modelo').value = lista.includes(elegido) ? elegido : lista[0];
   }
   function llenarAnios(elegido) {
-    const anios = Object.keys(M.catalogo[$('marca').value][$('modelo').value] || {}).map(Number).sort((a, b) => b - a);
-    opciones($('anio'), anios);
+    const porAnio = M.catalogo[$('marca').value][$('modelo').value] || {};
+    const anios = Object.keys(porAnio).map(Number).sort((a, b) => b - a);
+    opciones($('anio'), anios, (a) => [String(a), avisos(porAnio[a].length)]);
     $('anio').value = anios.includes(elegido) ? elegido : anios[Math.floor(anios.length / 2)];
   }
 
@@ -601,14 +744,15 @@ footer .grupo { text-align: right; }
     const t = terminos(a);
     const pred = Math.exp(t.base + t.ant + t.km + t.vend + t.tit);
     contar(pred);
-    $('delta').innerHTML = (mostrarDelta && anterior && Math.abs(pred / anterior - 1) > 1e-6)
+    $('delta').innerHTML = (mostrarDelta && anterior && autoAnterior === a.marca + "|" + a.modelo && Math.abs(pred / anterior - 1) > 1e-6)
       ? 'Antes ' + usd(anterior) + ' · <b>' + pct(pred / anterior - 1) + '</b>' : '';
     $('rango').innerHTML = 'La mitad de los autos así se publica entre <b>' + usd(pred * Math.exp(M.residuo_p25)) + '</b> y <b>' + usd(pred * Math.exp(M.residuo_p75)) + '</b>.';
     $('que-auto').textContent = a.marca + ' ' + a.modelo + ' ' + a.anio + ' · ' + miles(a.km) + ' km';
     const n = (((M.catalogo[a.marca] || {})[a.modelo] || {})[a.anio] || []).length;
     $('pista-anio').textContent = n + (n === 1 ? ' aviso' : ' avisos') + ' de este año en los datos';
     medidor(a, pred); franja(a, pred); desglose(a, t, pred);
-    anterior = pred;
+    pintarDesplegables();
+    anterior = pred; autoAnterior = a.marca + "|" + a.modelo;   // el "antes" solo compara el mismo modelo
   }
 
   function ponerKm(v, desdeBarra) {
@@ -637,7 +781,7 @@ footer .grupo { text-align: right; }
     $('n-train').textContent = M.meta.train.toLocaleString('es-UY');
     $('err-med').textContent = M.meta.error_mediano_pct.toFixed(1).replace('.', ',') + ' %';
     const marcas = Object.keys(M.catalogo).sort((a, b) => a.localeCompare(b, 'es'));
-    opciones($('marca'), marcas);
+    opciones($('marca'), marcas, (m) => [m, avisos(Object.values(M.catalogo[m]).reduce((s, mo) => s + cuantos(mo), 0))]);
     for (const [k, id] of [['motor_titulo', 'motor'], ['transmision_titulo', 'transmision'], ['combustible_titulo', 'combustible']]) {
       const vals = M.opciones[k].filter((v) => v !== 'sin_dato');
       opciones($(id), ['sin_dato'].concat(vals), (v) => NOMBRES[v] || v);
@@ -651,6 +795,8 @@ footer .grupo { text-align: right; }
       b.addEventListener('click', () => cargarEjemplo(e, b)); ej.appendChild(b);
     });
     construirMedidor(); construirDesglose();
+    crearDesplegable($('marca'), true); crearDesplegable($('modelo'), true); crearDesplegable($('anio'), false);
+    for (const id of ['motor', 'transmision', 'combustible']) crearDesplegable($(id), false);
     const limpiarChapa = () => document.querySelectorAll('.chapa').forEach((c) => c.classList.remove('elegida'));
     $('marca').addEventListener('change', () => { llenarModelos($('marca').value); llenarAnios(); limpiarChapa(); tasar(true); });
     $('modelo').addEventListener('change', () => { llenarAnios(Number($('anio').value)); limpiarChapa(); tasar(true); });
