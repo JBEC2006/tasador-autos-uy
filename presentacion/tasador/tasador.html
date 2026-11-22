@@ -540,7 +540,7 @@ footer .grupo { text-align: right; }
   function leer() {
     return {
       marca: $('marca').value, modelo: $('modelo').value, anio: Number($('anio').value),
-      km: Math.max(1000, numero($('km').value)),   // con menos de 1.000 km el modelo extrapola (no hay usados así en train)
+      km: Math.max(1000, numero($('km').value)),   // con menos de 1.000 km el modelo extrapola (en train hay solo 33 avisos así)
       vendedor: document.querySelector('input[name="vendedor"]:checked').value,
       motor_titulo: $('motor').value, transmision_titulo: $('transmision').value, combustible_titulo: $('combustible').value,
       publicado: numero($('publicado').value) || null
