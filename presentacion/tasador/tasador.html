@@ -1,218 +1,374 @@
 <!doctype html>
 <html lang="es">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>¿Está bien de precio?</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<title>¿Está bien de precio? · Tasador</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap">
 <style>
-/* Layout: tablero de tasación de dos columnas (datos del auto | veredicto), una sola en el teléfono.
-   Mismo mundo visual que la presentación: noche de concesionaria, etiqueta de precio ámbar. */
+/* Tasador en vivo. Mismo mundo que la presentación: fondo blanco, asfalto, rojo de señal vial,
+   azul de chapa Mercosur y amarillo de carril. Pensado para verse bien en un proyector. */
 :root {
-  --noche: #121722;
-  --noche2: #1B2230;
-  --linea: #2A3245;
-  --papel: #F3EFE6;
-  --niebla: #AEB7C8;
-  --ambar: #F5A524;
-  --turq: #3CC4B5;
-  --rojo: #F07C6C;
-  --display: 'Space Grotesk', 'Arial', sans-serif;
-  --texto: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  --mono: 'JetBrains Mono', 'Courier New', monospace;
-  color-scheme: dark;
+  --blanco: #FFFFFF;
+  --asfalto: #15181D;
+  --gris: #646B78;
+  --gris-medio: #B9BEC7;
+  --gris-claro: #E6E8EC;
+  --gris-ruta: #F1F2F4;
+  --rojo: #D52B1E;
+  --azul: #1C3F94;
+  --amarillo: #F3B300;
+  --ancho: 'Archivo', 'Arial Narrow', Arial, sans-serif;
+  --curva: cubic-bezier(.2, .8, .2, 1);
+  --resorte: cubic-bezier(.34, 1.4, .64, 1);
+  color-scheme: light;
 }
-* { box-sizing: border-box; }
-html, body { background: var(--noche); color: var(--papel); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: clamp(15px, .94vw, 19px); background: var(--blanco); }
 body {
-  font-family: var(--texto);
-  font-size: 16px;
-  line-height: 1.5;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 28px 40px;
+  font-family: var(--ancho); color: var(--asfalto); background: var(--blanco);
+  font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; line-height: 1.4;
+  padding: 0 max(16px, 4vw) 2.5rem;
 }
-.envoltura { max-width: 1120px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+.envoltura { max-width: 1480px; margin: 0 auto; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--azul); outline-offset: 3px; }
 
-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px 24px; }
-.ceja { font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--ambar); margin: 0 0 6px; }
-h1 { font-family: var(--display); font-weight: 700; font-size: clamp(34px, 6vw, 56px); line-height: 1; letter-spacing: -.02em; margin: 0; text-wrap: balance; }
-.sub { color: var(--niebla); margin: 8px 0 0; max-width: 60ch; }
+/* Entrada de la página: cada bloque sube y se descubre en cascada */
+.entra { animation: sube .9s var(--curva) both; animation-delay: var(--d, 0s); }
+@keyframes sube { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
 
-.ejemplos { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.ejemplos span { color: var(--niebla); font-size: 13px; margin-right: 4px; }
-.chip {
-  font: 600 13px var(--texto); color: var(--papel); background: var(--noche2);
-  border: 1px solid var(--linea); border-radius: 999px; padding: 7px 14px; cursor: pointer;
+/* Cabecera */
+.cabecera { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem 2rem;
+  padding: 1.1rem 0; border-bottom: 1px solid var(--gris-claro); }
+.sello-sitio { display: flex; align-items: center; gap: .7rem; font-weight: 700; font-stretch: 112%; font-size: .95rem; }
+.sello-sitio svg { width: 2.6rem; height: auto; }
+.sello-sitio span { color: var(--gris); font-weight: 500; font-stretch: 100%; }
+.meta { font-size: .85rem; color: var(--gris); }
+.meta b { color: var(--asfalto); font-weight: 700; }
+
+/* Presentación del tasador */
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 1rem 3rem; padding: 1.5rem 0 1.3rem; }
+h1 { font-size: clamp(2.4rem, 4vw, 4.3rem); font-weight: 800; font-stretch: 125%; letter-spacing: -.025em; line-height: .95; }
+.bajada { font-size: 1.15rem; color: var(--gris); margin-top: .8rem; max-width: 46ch; }
+.ejemplos { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem 1rem; margin-top: 1.1rem; }
+.ejemplos > span { font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gris); margin-right: .2rem; }
+/* Ejemplos como chapas uruguayas */
+.chapa { display: inline-flex; flex-direction: column; border: 2.5px solid var(--asfalto); border-radius: 7px; overflow: hidden;
+  background: var(--blanco); cursor: pointer; transition: transform .35s var(--resorte), box-shadow .35s var(--curva); }
+.chapa .banda { background: var(--azul); color: var(--blanco); font-size: .5rem; font-weight: 700; letter-spacing: .34em; padding: .14rem 0 .12rem .34em; text-align: center; }
+.chapa .texto { font-size: 1.02rem; font-weight: 700; font-stretch: 72%; letter-spacing: .05em; padding: .32rem .9rem .36rem; text-transform: uppercase; white-space: nowrap; }
+.chapa:hover { transform: translateY(-3px); box-shadow: 0 10px 18px -12px rgba(21, 24, 29, .55); }
+.chapa:active { transform: translateY(0); }
+.chapa.elegida { border-color: var(--rojo); }
+.chapa.elegida .texto { color: var(--rojo); }
+
+#auto-intro { width: clamp(200px, 17vw, 320px); height: auto; overflow: visible; display: block; }
+#auto-intro .todo { animation: llega 1.9s cubic-bezier(.16, .84, .3, 1) .15s both; }
+#auto-intro .rueda { transform-box: fill-box; transform-origin: center; animation: gira 1.9s cubic-bezier(.16, .84, .3, 1) .15s both; }
+#auto-intro .estela { stroke: var(--gris-claro); stroke-width: 6; stroke-linecap: round; animation: estela 1.9s ease .15s both; }
+@keyframes llega { from { transform: translateX(-900px); } to { transform: none; } }
+@keyframes gira { from { transform: rotate(-1080deg); } to { transform: none; } }
+@keyframes estela { 0%, 70% { opacity: 1; } 100% { opacity: 0; } }
+
+/* Tablero: el auto a la izquierda, la tasación a la derecha */
+.tablero { display: grid; grid-template-columns: minmax(300px, 5fr) minmax(0, 8fr); gap: 2rem 4rem; align-items: start; }
+@media (max-width: 960px) { .tablero { grid-template-columns: minmax(0, 1fr); } .intro { grid-template-columns: minmax(0, 1fr); } #auto-intro { display: none; } }
+.bloque { border-top: 6px solid var(--asfalto); padding-top: 1.1rem; }
+.titulo-bloque { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1.3rem; }
+.titulo-bloque h2 { font-size: 1.05rem; font-weight: 800; font-stretch: 118%; letter-spacing: .01em; text-transform: uppercase; }
+.titulo-bloque span { font-size: .85rem; color: var(--gris); }
+
+.rotulo { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gris); margin-bottom: .35rem; }
+.campos { display: flex; flex-direction: column; gap: 1.5rem; }
+.dos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.4rem; }
+@media (max-width: 460px) { .dos { grid-template-columns: minmax(0, 1fr); } }
+
+select, .campo-texto input {
+  width: 100%; appearance: none; -webkit-appearance: none; background-color: transparent; border: 0; border-radius: 0;
+  border-bottom: 2px solid var(--asfalto); padding: .2rem 1.6rem .4rem 0; font-size: 1.4rem; font-weight: 700; font-stretch: 108%;
+  transition: border-color .3s, color .3s;
 }
-.chip:hover { border-color: var(--turq); }
+select { cursor: pointer; text-overflow: ellipsis;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2315181D' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right .2rem center; background-size: .8rem; }
+select:hover, .campo-texto input:hover { border-bottom-color: var(--rojo); }
+select:focus-visible, .campo-texto input:focus-visible { outline: none; border-bottom-color: var(--rojo); }
+.pista { font-size: .8rem; color: var(--gris); margin-top: .35rem; min-height: 1.1em; }
 
-.tablero { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 20px; }
-@media (max-width: 820px) { .tablero { grid-template-columns: minmax(0, 1fr); } }
-.panel { background: var(--noche2); border: 1px solid var(--linea); border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.campo-texto { display: flex; align-items: baseline; gap: .5rem; border-bottom: 2px solid var(--asfalto); transition: border-color .3s; }
+.campo-texto:hover, .campo-texto:focus-within { border-bottom-color: var(--rojo); }
+.campo-texto input { border: 0; padding-right: 0; font-size: 2rem; font-weight: 800; font-stretch: 115%; min-width: 0; flex: 1; }
+.campo-texto input:hover, .campo-texto input:focus-visible { border: 0; }
+.campo-texto input::placeholder { color: var(--gris-medio); font-weight: 700; }
+.campo-texto .unidad { font-size: 1rem; font-weight: 700; color: var(--gris); }
 
-label, .etiqueta { display: block; font-size: 13px; font-weight: 600; color: var(--niebla); margin-bottom: 6px; }
-.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-select, input[type="number"] {
-  width: 100%; font: 500 17px var(--texto); color: var(--papel); background: var(--noche);
-  border: 1px solid var(--linea); border-radius: 10px; padding: 11px 12px;
-}
-input[type="number"] { font-family: var(--mono); }
-select:focus-visible, input:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--turq); outline-offset: 2px; }
-input[type="range"] { width: 100%; accent-color: var(--ambar); margin-top: 10px; }
-.pista { font-size: 12px; color: var(--niebla); margin-top: 6px; }
+/* Kilómetros: la barra es una ruta y el cursor, un auto */
+.ruta-km { margin-top: 1rem; --p: 25%; }
+.ruta-km input { width: 100%; appearance: none; -webkit-appearance: none; background: transparent; height: 2rem; cursor: pointer; display: block; }
+.ruta-km input::-webkit-slider-runnable-track { height: 8px; border-radius: 4px;
+  background: repeating-linear-gradient(90deg, var(--amarillo) 0 10px, transparent 10px 20px) 0 50% / var(--p) 2px no-repeat,
+              linear-gradient(90deg, var(--asfalto) var(--p), var(--gris-claro) var(--p)); }
+.ruta-km input::-moz-range-track { height: 8px; border-radius: 4px;
+  background: repeating-linear-gradient(90deg, var(--amarillo) 0 10px, transparent 10px 20px) 0 50% / var(--p) 2px no-repeat,
+              linear-gradient(90deg, var(--asfalto) var(--p), var(--gris-claro) var(--p)); }
+.ruta-km input::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 66px; height: 26px; margin-top: -21px; border: 0; background: var(--auto-svg) center bottom / contain no-repeat; transition: transform .25s var(--resorte); }
+.ruta-km input::-moz-range-thumb { width: 66px; height: 26px; border: 0; border-radius: 0; background: var(--auto-svg) center bottom / contain no-repeat; transform: translateY(-11px); }
+.ruta-km input:active::-webkit-slider-thumb { transform: translateY(-2px) scale(1.06); }
+.ruta-km input:focus-visible { outline: none; }
+.ruta-km input:focus-visible::-webkit-slider-thumb { filter: drop-shadow(0 0 0 var(--azul)) drop-shadow(0 2px 0 var(--azul)); }
+.ruta-km .marcas-km { display: flex; justify-content: space-between; font-size: .75rem; color: var(--gris); margin-top: .15rem; }
+:root { --auto-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='40 50 730 216'%3E%3Cpath fill='%23D52B1E' d='M58 214 L52 178 Q54 152 80 144 L160 128 Q190 122 214 104 L262 76 Q282 64 306 63 L428 62 Q454 63 472 78 L540 122 L690 138 Q728 143 742 162 L752 186 Q756 210 736 214 L664 214 A54 54 0 0 0 556 214 L246 214 A54 54 0 0 0 138 214 Z'/%3E%3Cpath fill='%23FFFFFF' d='M246 122 L282 86 Q294 76 310 76 L372 76 L372 122 Z M386 76 L428 76 Q448 77 462 90 L512 122 L386 122 Z'/%3E%3Ccircle cx='192' cy='214' r='44' fill='%2315181D'/%3E%3Ccircle cx='192' cy='214' r='18' fill='%23FFFFFF'/%3E%3Ccircle cx='610' cy='214' r='44' fill='%2315181D'/%3E%3Ccircle cx='610' cy='214' r='18' fill='%23FFFFFF'/%3E%3C/svg%3E"); }
 
-.segmento { display: grid; grid-template-columns: 1fr 1fr; background: var(--noche); border: 1px solid var(--linea); border-radius: 10px; padding: 4px; gap: 4px; }
+/* Quién vende: interruptor de dos posiciones */
+.segmento { position: relative; display: grid; grid-template-columns: 1fr 1fr; border: 2px solid var(--asfalto); border-radius: 999px; padding: 3px; }
+.segmento::before { content: ''; position: absolute; top: 3px; bottom: 3px; left: 3px; width: calc(50% - 3px); border-radius: 999px; background: var(--asfalto); transition: transform .45s var(--resorte); }
+.segmento:has(#v-conc:checked)::before { transform: translateX(100%); }
 .segmento input { position: absolute; opacity: 0; pointer-events: none; }
-.segmento label { margin: 0; text-align: center; padding: 9px 6px; border-radius: 7px; font-size: 15px; color: var(--niebla); cursor: pointer; }
-.segmento input:checked + label { background: var(--ambar); color: var(--noche); }
-.segmento input:focus-visible + label { outline: 2px solid var(--turq); outline-offset: 2px; }
+.segmento label { position: relative; z-index: 1; text-align: center; padding: .5rem .4rem; font-size: 1rem; font-weight: 700; font-stretch: 108%; cursor: pointer; border-radius: 999px; transition: color .3s; }
+.segmento input:checked + label { color: var(--blanco); }
+.segmento input:focus-visible + label { outline: 3px solid var(--azul); outline-offset: 2px; }
 
-details { border-top: 1px solid var(--linea); padding-top: 14px; }
-summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--niebla); }
-details .tres { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
-@media (max-width: 460px) { details .tres { grid-template-columns: 1fr; } .dos { grid-template-columns: 1fr; } }
-
-.precio-pub { border-top: 1px solid var(--linea); padding-top: 16px; }
+details { border-top: 1px solid var(--gris-claro); padding-top: 1rem; }
+summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: .95rem; font-weight: 700; }
+summary::-webkit-details-marker { display: none; }
+summary i { position: relative; width: 14px; height: 14px; flex: none; }
+summary i::before, summary i::after { content: ''; position: absolute; left: 0; right: 0; top: 6px; height: 2px; background: var(--asfalto); transition: transform .35s var(--curva); }
+summary i::after { transform: rotate(90deg); }
+details[open] summary i::after { transform: rotate(0); }
+summary small { font-weight: 500; color: var(--gris); font-size: .85rem; margin-left: .4rem; }
+.tres { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.tres select { font-size: 1.1rem; }
+@media (max-width: 460px) { .tres { grid-template-columns: minmax(0, 1fr); } }
+.precio-pub { border-top: 1px solid var(--gris-claro); padding-top: 1.2rem; }
 
 /* Resultado */
-.resultado { gap: 22px; }
-.etiqueta-precio {
-  align-self: flex-start; display: inline-flex; flex-direction: column; gap: 2px;
-  background: var(--ambar); color: var(--noche); border-radius: 14px 14px 14px 4px; padding: 14px 22px 16px;
+.cima { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 1.5rem 2.5rem; align-items: start; }
+@media (max-width: 1280px) { .cima { grid-template-columns: minmax(0, 1fr); } .medidor { max-width: 360px; } }
+.monto { display: flex; align-items: baseline; gap: .6rem; font-weight: 800; font-stretch: 122%; letter-spacing: -.03em; line-height: .95; white-space: nowrap; }
+.monto small { font-size: clamp(1.2rem, 1.8vw, 1.8rem); color: var(--gris); letter-spacing: 0; }
+.monto span { font-size: clamp(3rem, 4.6vw, 4.9rem); font-stretch: 112%; }
+.barrido { height: 4px; background: var(--rojo); margin: .9rem 0 .8rem; transform-origin: left; }
+.barrido.anda { animation: barre .9s var(--curva) both; }
+@keyframes barre { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.rango { font-size: 1.05rem; }
+.rango b { font-weight: 800; font-stretch: 110%; white-space: nowrap; }
+.delta { font-size: .9rem; color: var(--gris); margin-top: .45rem; min-height: 1.3em; }
+.delta b { color: var(--asfalto); }
+
+/* Velocímetro: dónde cae el precio publicado respecto de la tasación */
+.medidor svg { width: 100%; max-width: 360px; height: auto; display: block; overflow: visible; }
+.medidor .zona { fill: none; stroke-width: 18; }
+.medidor .marca-fina { stroke: var(--gris-medio); stroke-width: 2; }
+.medidor text { font-family: var(--ancho); font-size: 17px; fill: var(--gris); }
+.medidor .lim { font-size: 20px; font-weight: 800; font-stretch: 112%; fill: var(--rojo); }
+#aguja { transform-box: view-box; transform-origin: 216px 196px; transition: transform 1s var(--resorte), opacity .5s; }
+#aguja.quieta { opacity: .3; }
+.veredicto { margin-top: .5rem; }
+.sello { display: inline-block; font-size: .85rem; font-weight: 800; font-stretch: 112%; letter-spacing: .08em; text-transform: uppercase; padding: .3rem .75rem; border-radius: 4px; border: 2px solid var(--asfalto); }
+.sello.mercado { background: var(--asfalto); color: var(--blanco); }
+.sello.fuera { background: var(--rojo); border-color: var(--rojo); color: var(--blanco); }
+.sello.cerca { background: var(--blanco); }
+.sello.espera { border-color: var(--gris-claro); color: var(--gris); }
+.sello.pop { animation: pop .5s var(--resorte); }
+@keyframes pop { from { transform: scale(.85); opacity: 0; } to { transform: none; opacity: 1; } }
+.veredicto p { font-size: .95rem; margin-top: .5rem; color: var(--gris); }
+.veredicto p b { color: var(--asfalto); font-weight: 800; }
+
+/* Franja con los avisos reales */
+.seccion { margin-top: 1.8rem; }
+.seccion-titulo { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4rem 1.5rem; margin-bottom: .6rem; }
+.seccion-titulo h3 { font-size: 1.05rem; font-weight: 800; font-stretch: 112%; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 1.1rem; font-size: .8rem; color: var(--gris); }
+.leyenda i { display: inline-block; vertical-align: -1px; margin-right: .4rem; }
+.leyenda .pt { width: 10px; height: 10px; border-radius: 50%; background: var(--asfalto); }
+.leyenda .ln { width: 3px; height: 13px; }
+#franja svg { width: 100%; height: auto; display: block; overflow: visible; }
+#franja text { font-family: var(--ancho); font-size: 13px; fill: var(--gris); }
+#franja .punto { fill: var(--asfalto); }
+#franja .punto.cae { animation: cae .7s var(--curva) both; }
+@keyframes cae { from { transform: translateY(-46px); opacity: 0; } to { transform: none; opacity: 1; } }
+#franja .marcador { transition: transform .8s var(--curva), opacity .4s; }
+#franja .marcador text { font-size: 14px; font-weight: 800; font-stretch: 110%; }
+
+/* Desglose: de un auto típico a esta tasación */
+.desglose .fila { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) 7.5rem; align-items: center; gap: 1.2rem; padding: .62rem 0; border-bottom: 1px solid var(--gris-claro); font-size: 1rem; }
+.desglose .fila:first-child { border-top: 1px solid var(--gris-claro); }
+.desglose .v { text-align: right; font-weight: 800; font-stretch: 110%; white-space: nowrap; }
+.desglose .v.baja { color: var(--rojo); }
+.desglose .eje-z { position: relative; height: 12px; }
+.desglose .eje-z::before { content: ''; position: absolute; left: 50%; top: -5px; bottom: -5px; width: 2px; margin-left: -1px; background: var(--gris-medio); }
+.desglose .eje-z i { position: absolute; top: 0; bottom: 0; left: 50%; width: 0; background: var(--asfalto); border-radius: 2px; transition: left .8s var(--curva), width .8s var(--curva), background-color .4s; }
+.desglose .eje-z i.baja { background: var(--rojo); }
+.desglose .total { border-bottom: 0; }
+.desglose .total span:first-child { font-weight: 800; font-stretch: 112%; text-transform: uppercase; letter-spacing: .06em; font-size: .9rem; }
+.desglose .total .v { font-size: 1.35rem; }
+.desglose .base .et b { font-weight: 700; }
+@media (max-width: 520px) { .desglose .fila { grid-template-columns: minmax(0, 1fr) 6rem; } .desglose .eje-z { display: none; } }
+
+/* Pie */
+footer { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 1rem 3rem; margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--gris-claro); font-size: .88rem; color: var(--gris); }
+footer b { color: var(--asfalto); }
+footer .grupo { text-align: right; }
+@media (max-width: 760px) { footer { grid-template-columns: minmax(0, 1fr); } footer .grupo { text-align: left; } }
+.aviso-carga { color: var(--rojo); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01s !important; animation-delay: 0s !important; transition-duration: .01s !important; transition-delay: 0s !important; }
 }
-.etiqueta-precio small { font: 700 12px var(--mono); letter-spacing: .14em; text-transform: uppercase; }
-.monto { font: 700 clamp(44px, 8vw, 72px) var(--mono); letter-spacing: -.03em; line-height: 1; font-variant-numeric: tabular-nums; }
-.rango { margin: 0; color: var(--papel); font-size: 17px; }
-.rango b { font-family: var(--mono); }
-.delta { font: 600 14px var(--mono); color: var(--turq); min-height: 20px; margin: -10px 0 0; }
-
-.veredicto { display: flex; gap: 12px; align-items: flex-start; border-radius: 12px; padding: 14px 16px; background: var(--noche); border: 1px solid var(--linea); }
-.veredicto .pill { flex: none; font: 700 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; }
-.veredicto p { margin: 0; font-size: 15px; }
-.pill.mercado { background: var(--turq); color: var(--noche); }
-.pill.abajo { background: var(--ambar); color: var(--noche); }
-.pill.arriba { background: var(--rojo); color: var(--noche); }
-.pill.neutro { background: var(--linea); color: var(--papel); }
-
-.franja-titulo { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.leyenda { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--niebla); }
-.leyenda i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
-.franja svg { width: 100%; height: auto; display: block; }
-
-.desglose { display: flex; flex-direction: column; gap: 0; }
-.desglose .fila { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--linea); font-size: 15px; }
-.desglose .fila:last-child { border-bottom: none; font-weight: 600; }
-.desglose .v { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.sube { color: var(--turq); }
-.baja { color: var(--ambar); }
-
-footer { color: var(--niebla); font-size: 13px; max-width: 80ch; }
-footer b { color: var(--papel); font-weight: 600; }
-.cargando { color: var(--niebla); }
-
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="carro" d="M58 214 L52 178 Q54 152 80 144 L160 128 Q190 122 214 104 L262 76 Q282 64 306 63 L428 62 Q454 63 472 78 L540 122 L690 138 Q728 143 742 162 L752 186 Q756 210 736 214 L664 214 A54 54 0 0 0 556 214 L246 214 A54 54 0 0 0 138 214 Z"/>
+    <path id="vidrios" d="M246 122 L282 86 Q294 76 310 76 L372 76 L372 122 Z M386 76 L428 76 Q448 77 462 90 L512 122 L386 122 Z"/>
+    <g id="llanta"><circle r="46" fill="#15181D"/><circle r="30" fill="#FFFFFF"/>
+      <g stroke="#15181D" stroke-width="5" stroke-linecap="round"><line x1="0" y1="-26" x2="0" y2="26"/><line x1="-26" y1="0" x2="26" y2="0"/><line x1="-18" y1="-18" x2="18" y2="18"/><line x1="-18" y1="18" x2="18" y2="-18"/></g>
+      <circle r="7" fill="#15181D"/></g>
+  </defs>
+</svg>
 
 <div class="envoltura">
-  <header>
-    <div>
-      <p class="ceja">Tasador de autos usados · Uruguay</p>
-      <h1>¿Está bien de precio?</h1>
-      <p class="sub">Elegí el auto y el modelo lo tasa con lo que aprendió de <span id="n-train">13.265</span> avisos reales de Mercado Libre Uruguay del 28/10/2026.</p>
+  <header class="cabecera entra">
+    <div class="sello-sitio">
+      <svg viewBox="40 50 730 216" aria-hidden="true"><use href="#carro" fill="#D52B1E"/><use href="#vidrios" fill="#FFFFFF"/><circle cx="192" cy="214" r="44" fill="#15181D"/><circle cx="610" cy="214" r="44" fill="#15181D"/></svg>
+      Tasador de autos usados <span>Uruguay</span>
     </div>
-    <div class="ejemplos" id="ejemplos" aria-label="Ejemplos rápidos">
-      <span>Probá:</span>
-    </div>
+    <p class="meta">Ridge sobre log(precio) · la mitad de las tasaciones se equivoca menos de <b id="err-med">9,5 %</b></p>
   </header>
 
-  <div class="tablero">
-    <form class="panel" id="form" autocomplete="off">
-      <div class="dos">
-        <div><label for="marca">Marca</label><select id="marca"></select></div>
-        <div><label for="modelo">Modelo</label><select id="modelo"></select></div>
-      </div>
-      <div class="dos">
+  <section class="intro">
+    <div>
+      <h1 class="entra" style="--d:.08s">¿Está bien de precio?</h1>
+      <p class="bajada entra" style="--d:.16s">Elegí un auto y el modelo lo tasa con lo que aprendió de <span id="n-train">13.265</span> avisos reales de Mercado Libre.</p>
+      <div class="ejemplos entra" style="--d:.24s" id="ejemplos" aria-label="Ejemplos para probar"><span>Probá con</span></div>
+    </div>
+    <svg id="auto-intro" viewBox="0 0 800 300" aria-hidden="true">
+      <ellipse cx="405" cy="264" rx="350" ry="9" fill="#E6E8EC"/>
+      <g class="todo">
+        <line class="estela" x1="-300" y1="118" x2="10" y2="118"/><line class="estela" x1="-420" y1="160" x2="-20" y2="160"/>
+        <line class="estela" x1="-260" y1="196" x2="30" y2="196"/>
+        <use href="#carro" fill="#D52B1E"/>
+        <use href="#vidrios" fill="#FFFFFF"/>
+        <path d="M700 152 L738 160 L741 172 L706 168 Z" fill="#FFFFFF"/>
+        <path d="M430 140 L456 140" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+        <g transform="translate(192 214)"><g class="rueda"><use href="#llanta"/></g></g>
+        <g transform="translate(610 214)"><g class="rueda"><use href="#llanta"/></g></g>
+      </g>
+    </svg>
+  </section>
+
+  <main class="tablero">
+    <form class="bloque entra" style="--d:.32s" id="form" autocomplete="off">
+      <div class="titulo-bloque"><h2>El auto</h2><span>lo que dice el aviso</span></div>
+      <div class="campos">
+        <div class="dos">
+          <div><label class="rotulo" for="marca">Marca</label><select id="marca"></select></div>
+          <div><label class="rotulo" for="modelo">Modelo</label><select id="modelo"></select></div>
+        </div>
         <div>
-          <label for="anio">Año</label><select id="anio"></select>
+          <label class="rotulo" for="anio">Año</label><select id="anio"></select>
           <p class="pista" id="pista-anio"></p>
         </div>
         <div>
-          <label for="km">Kilómetros</label><input id="km" type="number" min="0" max="1000000" step="1000" inputmode="numeric">
+          <label class="rotulo" for="km">Kilómetros</label>
+          <div class="campo-texto"><input id="km" type="text" inputmode="numeric" aria-describedby="km-ayuda"><span class="unidad">km</span></div>
+          <div class="ruta-km" id="ruta-km">
+            <input id="km-rango" type="range" min="0" max="300000" step="1000" aria-label="Kilómetros">
+            <div class="marcas-km" id="km-ayuda"><span>0</span><span>100.000</span><span>200.000</span><span>300.000</span></div>
+          </div>
         </div>
-      </div>
-      <input id="km-rango" type="range" min="0" max="350000" step="1000" aria-label="Kilómetros">
-      <div>
-        <span class="etiqueta" id="et-vendedor">Quién vende</span>
-        <div class="segmento" role="radiogroup" aria-labelledby="et-vendedor">
-          <input type="radio" name="vendedor" id="v-part" value="particular" checked><label for="v-part">Particular</label>
-          <input type="radio" name="vendedor" id="v-conc" value="concesionaria"><label for="v-conc">Concesionaria</label>
+        <div>
+          <span class="rotulo" id="et-vendedor">Quién vende</span>
+          <div class="segmento" role="radiogroup" aria-labelledby="et-vendedor">
+            <input type="radio" name="vendedor" id="v-part" value="particular" checked><label for="v-part">Particular</label>
+            <input type="radio" name="vendedor" id="v-conc" value="concesionaria"><label for="v-conc">Concesionaria</label>
+          </div>
         </div>
-      </div>
-      <details>
-        <summary>Lo que dice el título del aviso (opcional)</summary>
-        <div class="tres">
-          <div><label for="motor">Cilindrada</label><select id="motor"></select></div>
-          <div><label for="transmision">Transmisión</label><select id="transmision"></select></div>
-          <div><label for="combustible">Combustible</label><select id="combustible"></select></div>
+        <details>
+          <summary><span>Lo que dice el título <small>opcional</small></span><i></i></summary>
+          <div class="tres">
+            <div><label class="rotulo" for="motor">Cilindrada</label><select id="motor"></select></div>
+            <div><label class="rotulo" for="transmision">Caja</label><select id="transmision"></select></div>
+            <div><label class="rotulo" for="combustible">Combustible</label><select id="combustible"></select></div>
+          </div>
+        </details>
+        <div class="precio-pub">
+          <label class="rotulo" for="publicado">Precio del aviso, si tenés uno</label>
+          <div class="campo-texto"><span class="unidad">USD</span><input id="publicado" type="text" inputmode="numeric" placeholder="11.900"></div>
+          <p class="pista">Lo comparamos con la tasación y te decimos si está en precio.</p>
         </div>
-      </details>
-      <div class="precio-pub">
-        <label for="publicado">Precio publicado, si tenés uno (USD)</label>
-        <input id="publicado" type="number" min="0" step="100" inputmode="numeric" placeholder="Ej.: 11900">
-        <p class="pista">Lo comparamos con la tasación y te decimos si está fuera de mercado.</p>
       </div>
     </form>
 
-    <section class="panel resultado" aria-live="polite">
-      <div class="etiqueta-precio">
-        <small>Precio de mercado estimado</small>
-        <span class="monto" id="monto">USD —</span>
+    <section class="bloque entra" style="--d:.4s" aria-live="polite">
+      <div class="titulo-bloque"><h2>La tasación</h2><span id="que-auto"></span></div>
+      <div class="cima">
+        <div>
+          <span class="rotulo">Precio de mercado estimado</span>
+          <div class="monto"><small>USD</small><span id="monto">—</span></div>
+          <div class="barrido" id="barrido"></div>
+          <p class="rango" id="rango">Cargando el modelo…</p>
+          <p class="delta" id="delta"></p>
+        </div>
+        <div class="medidor">
+          <svg id="medidor" viewBox="0 0 432 226" role="img" aria-label="Dónde cae el precio del aviso respecto de la tasación"></svg>
+          <div class="veredicto" id="veredicto"></div>
+        </div>
       </div>
-      <p class="delta" id="delta"></p>
-      <p class="rango" id="rango"><span class="cargando">Cargando el modelo…</span></p>
-      <div class="veredicto" id="veredicto" hidden></div>
-      <div class="franja">
-        <div class="franja-titulo">
-          <span class="etiqueta" id="franja-titulo">Avisos reales del mismo modelo y año</span>
-          <div class="leyenda"><span><i style="background:var(--turq)"></i>aviso real</span><span><i style="background:var(--ambar)"></i>tasación</span><span><i style="background:var(--papel)"></i>tu precio</span></div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">
+          <h3 id="franja-titulo">Avisos reales del mismo modelo y año</h3>
+          <div class="leyenda"><span><i class="pt"></i>aviso real</span><span><i class="ln" style="background:var(--rojo)"></i>tasación</span><span><i class="ln" style="background:var(--azul)"></i>tu precio</span></div>
         </div>
         <div id="franja"></div>
       </div>
-      <div>
-        <span class="etiqueta">Cómo llegó a ese número</span>
+
+      <div class="seccion">
+        <div class="seccion-titulo"><h3>Cómo llegó a ese número</h3></div>
         <div class="desglose" id="desglose"></div>
       </div>
     </section>
-  </div>
+  </main>
 
   <footer>
-    <b>Cómo funciona.</b> Regresión Ridge sobre log(precio) con antigüedad, log(km), marca, modelo, tipo de vendedor y los datos del título.
-    En avisos que el modelo no vio, la mitad de las tasaciones se equivoca menos de <span id="err-med">9,5 %</span>. Tasa el precio <b>publicado</b>, no el de venta, y no ve el estado del auto.
-    Proyecto final de Aprendizaje Automático I, Universidad de Montevideo · Elías, Otero, Guerra, Bruschera.
+    <p><b>Cómo funciona.</b> Regresión Ridge sobre el logaritmo del precio, con antigüedad, kilómetros, marca, modelo, tipo de vendedor y lo que dice el título.
+      Tasa el precio que se <b>pide</b> en el aviso, no el de venta, y no ve el estado del auto.</p>
+    <p class="grupo">Santiago Bruschera, Joaquín Elías, Nicolás Guerra y Federico Otero<br>Aprendizaje Automático I, Universidad de Montevideo</p>
   </footer>
 </div>
 
 <script src="modelo.js"></script>
 <script>
 (function () {
+  'use strict';
   // Percentiles 5 y 95 de los residuos en test (notebook 03): fuera de ese rango, "fuera de mercado".
   // Se leen de modelo.json al cargar (los escribe notebooks/exportar_tasador.py).
   let P05 = -0.289, P95 = 0.310;
-  const CERCA = 0.10;
+  const CERCA = 0.10;   // a menos de ±10 % de la tasación: precio de mercado
+  const TOPE = 0.6;     // escala del velocímetro, en log(publicado / tasado)
   const EJEMPLOS = [
     { t: 'Onix 2019 · 90.000 km', marca: 'Chevrolet', modelo: 'Onix', anio: 2019, km: 90000 },
     { t: 'Hilux 2018 · 150.000 km', marca: 'Toyota', modelo: 'Hilux', anio: 2018, km: 150000 },
     { t: 'Gol 2012 · 120.000 km', marca: 'Volkswagen', modelo: 'Gol', anio: 2012, km: 120000 },
     { t: 'Swift 2020 · 50.000 km', marca: 'Suzuki', modelo: 'Swift', anio: 2020, km: 50000 }
   ];
-  const NOMBRES = { sin_dato: 'No dice', automatica: 'Automática', manual: 'Manual', diesel: 'Diésel', hibrido: 'Híbrido', nafta: 'Nafta', '0.0': 'Eléctrico (0.0)' };
+  const NOMBRES = { sin_dato: 'No dice', automatica: 'Automática', manual: 'Manual', diesel: 'Diésel', hibrido: 'Híbrido', nafta: 'Nafta', '0.0': 'Eléctrico' };
+  const NS = 'http://www.w3.org/2000/svg';
   const $ = (id) => document.getElementById(id);
-  const usd = (v) => 'USD ' + Math.round(v).toLocaleString('es-UY');
+  const miles = (v) => Math.round(v).toLocaleString('es-UY');
+  const usd = (v) => 'USD ' + miles(v);
   const pct = (f) => (f >= 0 ? '+' : '−') + Math.abs(f * 100).toLocaleString('es-UY', { maximumFractionDigits: 1, minimumFractionDigits: 1 }) + ' %';
+  const numero = (s) => Number(String(s).replace(/\D/g, '')) || 0;
   const reducido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let M = null, anterior = null, animacion = null;
+  const el = (tag, at, padre) => { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); if (padre) padre.appendChild(e); return e; };
+  let M = null, anterior = null, animacion = null, arrancando = true;
+  let franjaClave = null, franjaEscala = null;
 
   function opciones(sel, valores, etiqueta) {
     sel.innerHTML = '';
@@ -233,21 +389,20 @@ footer b { color: var(--papel); font-weight: 600; }
   function llenarAnios(elegido) {
     const anios = Object.keys(M.catalogo[$('marca').value][$('modelo').value] || {}).map(Number).sort((a, b) => b - a);
     opciones($('anio'), anios);
-    const def = anios.includes(elegido) ? elegido : anios[Math.floor(anios.length / 2)];
-    $('anio').value = def;
+    $('anio').value = anios.includes(elegido) ? elegido : anios[Math.floor(anios.length / 2)];
   }
 
   function leer() {
     return {
       marca: $('marca').value, modelo: $('modelo').value, anio: Number($('anio').value),
-      km: Math.max(1, Number($('km').value) || 1),
+      km: Math.max(1, numero($('km').value)),
       vendedor: document.querySelector('input[name="vendedor"]:checked').value,
       motor_titulo: $('motor').value, transmision_titulo: $('transmision').value, combustible_titulo: $('combustible').value,
-      publicado: Number($('publicado').value) || null
+      publicado: numero($('publicado').value) || null
     };
   }
 
-  // Misma fórmula que el pipeline de sklearn (verificada: diferencia máxima 1,7e-6 en log).
+  // Misma fórmula que el pipeline de sklearn (verificada contra predicciones_test.csv).
   function terminos(a) {
     const n = M.num, c = M.cats;
     const ant = M.anio_ref - a.anio;
@@ -273,91 +428,206 @@ footer b { color: var(--papel); font-weight: 600; }
     };
   }
 
+  // ---------- Precio ----------
   function contar(destino) {
-    const el = $('monto');
+    const e = $('monto');
     if (animacion) cancelAnimationFrame(animacion);
-    const desde = anterior ? anterior : destino * 0.6;
-    if (reducido) { el.textContent = usd(destino); return; }
-    const t0 = performance.now(), dur = 650;
+    const desde = anterior ? anterior : destino * 0.55;
+    if (reducido) { e.textContent = miles(destino); return; }
+    const t0 = performance.now(), dur = anterior ? 650 : 1300;
     const paso = (t) => {
-      const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
-      el.textContent = usd(desde + (destino - desde) * e);
+      const k = Math.min(1, (t - t0) / dur), f = 1 - Math.pow(1 - k, 4);
+      e.textContent = miles(desde + (destino - desde) * f);
       if (k < 1) animacion = requestAnimationFrame(paso);
     };
     animacion = requestAnimationFrame(paso);
+    const b = $('barrido'); b.classList.remove('anda'); void b.offsetWidth; b.classList.add('anda');
   }
 
+  // ---------- Velocímetro ----------
+  const CX = 216, CY = 196, R = 150;   // margen a los costados para las etiquetas de los límites
+  const recortar = (r) => Math.max(-TOPE, Math.min(TOPE, r));
+  const angulo = (r) => Math.PI * (1 - (recortar(r) + TOPE) / (2 * TOPE));   // π a la izquierda, 0 a la derecha
+  const punto = (r, rad) => [CX + rad * Math.cos(angulo(r)), CY - rad * Math.sin(angulo(r))];
+  function arco(r1, r2, rad) {
+    const [x1, y1] = punto(r1, rad), [x2, y2] = punto(r2, rad);
+    return `M${x1.toFixed(1)} ${y1.toFixed(1)} A${rad} ${rad} 0 0 1 ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+  }
+  function construirMedidor() {
+    const s = $('medidor');
+    s.innerHTML = '';
+    const hueco = 0.012;
+    const zonas = [[-TOPE, P05, 'var(--rojo)'], [P05, -CERCA, 'var(--gris-claro)'], [-CERCA, CERCA, 'var(--asfalto)'],
+                   [CERCA, P95, 'var(--gris-claro)'], [P95, TOPE, 'var(--rojo)']];
+    zonas.forEach(([a, b, color], i) => el('path', { d: arco(a + (i ? hueco : 0), b - (i < zonas.length - 1 ? hueco : 0), R), class: 'zona', stroke: color }, s));
+    for (let v = -0.6; v <= 0.6001; v += 0.1) {
+      const [x1, y1] = punto(v, R - 22), [x2, y2] = punto(v, R - 32);
+      el('line', { x1, y1, x2, y2, class: 'marca-fina' }, s);
+    }
+    for (const [v, ancla] of [[P05, 'end'], [P95, 'start']]) {
+      const [x, y] = punto(v, R + 18);
+      const t = el('text', { x, y: y + 4, 'text-anchor': ancla, class: 'lim' }, s); t.textContent = pct(Math.exp(v) - 1);
+    }
+    const t0 = el('text', { x: CX, y: CY - R - 18, 'text-anchor': 'middle' }, s); t0.textContent = 'tasación';
+    const tb = el('text', { x: CX - R, y: CY + 26, 'text-anchor': 'middle' }, s); tb.textContent = 'barato';
+    const tc = el('text', { x: CX + R, y: CY + 26, 'text-anchor': 'middle' }, s); tc.textContent = 'caro';
+    const g = el('g', { id: 'aguja', class: 'quieta' }, s);
+    el('path', { d: `M${CX - 6} ${CY} L${CX} ${CY - R + 26} L${CX + 6} ${CY} Z`, fill: 'var(--asfalto)' }, g);
+    el('circle', { cx: CX, cy: CY, r: 14, fill: 'var(--asfalto)' }, s);
+    el('circle', { cx: CX, cy: CY, r: 5, fill: 'var(--blanco)' }, s);
+    g.style.transform = 'rotate(-90deg)';
+  }
+  function aguja(grados, quieta) {
+    const g = $('aguja');
+    g.style.transform = `rotate(${grados}deg)`;
+    g.classList.toggle('quieta', !!quieta);
+  }
+  function medidor(a, pred) {
+    const v = $('veredicto');
+    let grados, quieta = false, sello, clase, texto;
+    if (!a.publicado) {
+      grados = -90; quieta = true; clase = 'espera'; sello = 'Sin precio del aviso';
+      texto = 'Escribí el precio publicado para ver si está en precio, barato o caro.';
+    } else {
+      const r = Math.log(a.publicado / pred), dif = a.publicado / pred - 1;
+      grados = recortar(r) / TOPE * 90;
+      if (r < P05) { clase = 'fuera'; sello = 'Muy por debajo'; texto = 'Está en el 5 % más barato. Puede ser una oportunidad, pero lo más común es un error de carga o algo que el aviso no dice.'; }
+      else if (r > P95) { clase = 'fuera'; sello = 'Muy por encima'; texto = 'Está en el 5 % más caro: una versión especial o un aviso caro.'; }
+      else if (Math.abs(r) <= CERCA) { clase = 'mercado'; sello = 'Precio de mercado'; texto = 'Dentro de lo esperable para este auto.'; }
+      else { clase = 'cerca'; sello = dif < 0 ? 'Algo barato' : 'Algo caro'; texto = 'Se aleja de la tasación, pero dentro de lo que se ve en el mercado.'; }
+      texto = '<b>' + pct(dif) + '</b> respecto de la tasación. ' + texto;
+    }
+    const previo = v.dataset.sello;
+    v.innerHTML = '<span class="sello ' + clase + (previo !== sello ? ' pop' : '') + '">' + sello + '</span><p>' + texto + '</p>';
+    v.dataset.sello = sello;
+    if (arrancando && !reducido) {
+      // Al cargar, la aguja barre la escala entera como el tablero de un auto al arrancar.
+      arrancando = false;
+      requestAnimationFrame(() => { aguja(90, false); setTimeout(() => aguja(grados, quieta), 900); });
+    } else { arrancando = false; aguja(grados, quieta); }
+  }
+
+  // ---------- Avisos reales del mismo modelo y año ----------
+  const FW = 760, EJE = 118, X0 = 14, X1 = FW - 14;
+  function pasoRedondo(rango) {
+    for (const p of [250, 500, 1000, 2000, 2500, 5000, 10000, 20000, 25000, 50000, 100000]) if (rango / p <= 6) return p;
+    return 200000;
+  }
+  function dibujarFranja(reales, clave, nueva) {
+    const xs = (v) => X0 + (v - franjaEscala.lo) / (franjaEscala.hi - franjaEscala.lo) * (X1 - X0);
+    const s = el('svg', { viewBox: `0 0 ${FW} 150`, role: 'img', 'aria-label': 'Precios de ' + reales.length + ' avisos reales, la tasación y el precio del aviso' });
+    el('line', { x1: X0, y1: EJE + 9, x2: X1, y2: EJE + 9, stroke: 'var(--gris-claro)', 'stroke-width': 2 }, s);
+    const p = pasoRedondo(franjaEscala.hi - franjaEscala.lo);
+    for (let v = Math.ceil(franjaEscala.lo / p) * p; v <= franjaEscala.hi; v += p) {
+      el('line', { x1: xs(v), y1: EJE + 9, x2: xs(v), y2: EJE + 15, stroke: 'var(--gris-medio)', 'stroke-width': 2 }, s);
+      const t = el('text', { x: xs(v), y: EJE + 32, 'text-anchor': 'middle' }, s); t.textContent = miles(v);
+    }
+    const pilas = {}, paso = 13;
+    reales.forEach((v, i) => {
+      const b = Math.round(xs(v) / paso); const k = pilas[b] = (pilas[b] || 0) + 1;
+      const y = EJE - (k - 1) * paso;
+      if (y < 30) return;
+      const c = el('circle', { cx: (b * paso).toFixed(1), cy: y, r: 5.6, class: 'punto' + (nueva && !reducido ? ' cae' : '') }, s);
+      if (nueva) c.style.animationDelay = Math.min(i * 0.014, 0.7) + 's';
+    });
+    for (const [id, color, y1] of [['m-tas', 'var(--rojo)', 8], ['m-pub', 'var(--azul)', 30]]) {
+      const g = el('g', { id, class: 'marcador' }, s);
+      el('line', { x1: 0, y1: y1 + 6, x2: 0, y2: EJE + 9, stroke: color, 'stroke-width': 3.5, 'stroke-linecap': 'round' }, g);
+      el('circle', { cx: 0, cy: y1 + 6, r: 5, fill: color }, g);
+      el('text', { x: 8, y: y1 + 10, style: 'fill:' + color }, g);
+    }
+    $('franja').replaceChildren(s);
+    franjaClave = clave;
+  }
   function franja(a, pred) {
     const reales = ((M.catalogo[a.marca] || {})[a.modelo] || {})[a.anio] || [];
+    const clave = a.marca + '|' + a.modelo + '|' + a.anio;
     $('franja-titulo').textContent = reales.length
       ? reales.length + (reales.length === 1 ? ' aviso real' : ' avisos reales') + ' de ' + a.modelo + ' ' + a.anio
-      : 'No hay avisos de ' + a.modelo + ' ' + a.anio;
-    const vals = reales.concat([pred]).concat(a.publicado ? [a.publicado] : []);
-    let lo = Math.min(...vals) * 0.92, hi = Math.max(...vals) * 1.08;
-    if (hi - lo < 1000) { lo -= 500; hi += 500; }
-    const W = 640, H = 120, x = (v) => 16 + (v - lo) / (hi - lo) * (W - 32);
-    const pilas = {};
-    let puntos = '';
-    for (const v of reales) {
-      const b = Math.round(x(v) / 14); const k = pilas[b] = (pilas[b] || 0) + 1;
-      const y = 78 - (k - 1) * 13;
-      if (y > 8) puntos += '<circle cx="' + (b * 14).toFixed(1) + '" cy="' + y + '" r="5.5" fill="var(--turq)" opacity="0.9"/>';
+      : 'No hay avisos de ' + a.modelo + ' ' + a.anio + ' en los datos';
+    const nueva = clave !== franjaClave;
+    if (nueva || pred < franjaEscala.lo || pred > franjaEscala.hi) {
+      const todos = reales.concat([pred]);
+      let lo = Math.min(...todos) * 0.86, hi = Math.max(...todos) * 1.14;
+      if (hi - lo < 2000) { lo -= 1000; hi += 1000; }
+      franjaEscala = { lo: Math.max(0, lo), hi };
+      dibujarFranja(reales, clave, nueva);
     }
-    const ticks = [lo + (hi - lo) * 0.1, lo + (hi - lo) * 0.5, lo + (hi - lo) * 0.9].map((v) => {
-      const r = Math.round(v / 500) * 500;
-      return '<text x="' + x(r).toFixed(1) + '" y="112" text-anchor="middle" fill="var(--niebla)" font-size="12" font-family="JetBrains Mono, monospace">' + r.toLocaleString('es-UY') + '</text>';
-    }).join('');
-    const marca = (v, color, alto) => '<line x1="' + x(v).toFixed(1) + '" x2="' + x(v).toFixed(1) + '" y1="' + alto + '" y2="90" stroke="' + color + '" stroke-width="3" stroke-linecap="round"/>';
-    $('franja').innerHTML =
-      '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Precios de ' + reales.length + ' avisos reales, la tasación y el precio ingresado">' +
-      '<line x1="16" x2="' + (W - 16) + '" y1="90" y2="90" stroke="var(--linea)" stroke-width="2"/>' + puntos +
-      marca(pred, 'var(--ambar)', 6) + (a.publicado ? marca(a.publicado, 'var(--papel)', 18) : '') + ticks + '</svg>';
+    const xs = (v) => X0 + (v - franjaEscala.lo) / (franjaEscala.hi - franjaEscala.lo) * (X1 - X0);
+    const ubicar = (id, v, etiqueta, derecha) => {
+      const g = $(id), x = Math.max(X0, Math.min(X1, xs(v))), t = g.querySelector('text');
+      const haciaDerecha = derecha ? x < FW - 150 : x < 150;
+      t.textContent = etiqueta; t.setAttribute('x', haciaDerecha ? 9 : -9); t.setAttribute('text-anchor', haciaDerecha ? 'start' : 'end');
+      g.style.transform = `translateX(${x.toFixed(1)}px)`;
+    };
+    const pubDerecha = a.publicado ? a.publicado >= pred : true;
+    ubicar('m-tas', pred, 'tasación ' + usd(pred), !pubDerecha);
+    const gp = $('m-pub');
+    if (a.publicado) { ubicar('m-pub', a.publicado, 'tu precio', pubDerecha); gp.style.opacity = 1; }
+    else gp.style.opacity = 0;
   }
 
-  function veredicto(a, pred) {
-    const el = $('veredicto');
-    if (!a.publicado) { el.hidden = true; return; }
-    const r = Math.log(a.publicado / pred), dif = a.publicado / pred - 1;
-    let clase, texto, frase;
-    if (r < P05) { clase = 'abajo'; texto = 'Muy por debajo'; frase = 'Está en el 5 % más barato respecto de lo que predice el modelo. Puede ser una oportunidad, pero lo más común es un error de carga o un auto con algo que el aviso no dice.'; }
-    else if (r > P95) { clase = 'arriba'; texto = 'Muy por encima'; frase = 'Está en el 5 % más caro respecto de lo que predice el modelo: una versión especial, o un aviso caro.'; }
-    else if (Math.abs(r) <= CERCA) { clase = 'mercado'; texto = 'Precio de mercado'; frase = 'Está dentro de lo esperable para este auto.'; }
-    else { clase = 'neutro'; texto = dif < 0 ? 'Algo barato' : 'Algo caro'; frase = 'Se aleja de la tasación, pero dentro de lo que se ve en el mercado.'; }
-    el.innerHTML = '<span class="pill ' + clase + '">' + texto + '</span><p><b>' + pct(dif) + '</b> respecto de la tasación. ' + frase + '</p>';
-    el.hidden = false;
+  // ---------- Desglose ----------
+  const FILAS = ['base', 'ant', 'km', 'vend', 'tit', 'total'];
+  function construirDesglose() {
+    $('desglose').innerHTML = FILAS.map((k) =>
+      '<div class="fila ' + (k === 'base' || k === 'total' ? k : '') + '" id="d-' + k + '"><span class="et"></span>' +
+      (k === 'base' || k === 'total' ? '<span></span>' : '<span class="eje-z"><i></i></span>') + '<span class="v"></span></div>').join('');
   }
-
   function desglose(a, t, pred) {
-    const filas = [];
-    const ref = M.num;
-    const antMedia = Math.round(ref.antiguedad.media), kmMedio = Math.round(Math.exp(ref.log_km.media) / 1000) * 1000;
-    filas.push([a.marca + ' ' + a.modelo + ' típico (' + antMedia + ' años, ' + kmMedio.toLocaleString('es-UY') + ' km, particular)', usd(Math.exp(t.base)), '']);
-    const f = (z) => Math.exp(z) - 1;
-    filas.push(['Antigüedad: ' + (M.anio_ref - a.anio) + ' años', pct(f(t.ant)), t.ant >= 0 ? 'sube' : 'baja']);
-    filas.push(['Kilómetros: ' + a.km.toLocaleString('es-UY'), pct(f(t.km)), t.km >= 0 ? 'sube' : 'baja']);
-    if (a.vendedor !== 'particular') filas.push(['Lo vende una concesionaria', pct(f(t.vend)), t.vend >= 0 ? 'sube' : 'baja']);
-    if (Math.abs(t.tit) > 1e-9) filas.push(['Lo que dice el título', pct(f(t.tit)), t.tit >= 0 ? 'sube' : 'baja']);
-    filas.push(['Tasación', usd(pred), '']);
-    $('desglose').innerHTML = filas.map((r) => '<div class="fila"><span>' + r[0] + '</span><span class="v ' + r[2] + '">' + r[1] + '</span></div>').join('');
+    const fila = (k, etiqueta, valor, z) => {
+      const f = $('d-' + k);
+      f.querySelector('.et').innerHTML = etiqueta;
+      const v = f.querySelector('.v');
+      if (z === undefined) { v.textContent = valor; return; }
+      const d = Math.exp(z) - 1, baja = d < -1e-9;
+      v.textContent = pct(d); v.classList.toggle('baja', baja);
+      const i = f.querySelector('i'), w = Math.min(50, Math.abs(d) / 0.4 * 50);   // la mitad de la barra = ±40 %
+      i.style.width = w + '%'; i.style.left = (baja ? 50 - w : 50) + '%'; i.classList.toggle('baja', baja);
+    };
+    const antMedia = Math.round(M.num.antiguedad.media), kmMedio = Math.round(Math.exp(M.num.log_km.media) / 1000) * 1000;
+    fila('base', '<b>' + a.marca + ' ' + a.modelo + '</b> típico: ' + antMedia + ' años, ' + miles(kmMedio) + ' km', usd(Math.exp(t.base)));
+    const anios = M.anio_ref - a.anio;
+    fila('ant', 'Antigüedad: ' + anios + (anios === 1 ? ' año' : ' años'), null, t.ant);
+    fila('km', 'Kilómetros: ' + miles(a.km), null, t.km);
+    fila('vend', a.vendedor === 'particular' ? 'Lo vende un particular' : 'Lo vende una concesionaria', null, t.vend);
+    fila('tit', Math.abs(t.tit) > 1e-9 ? 'Lo que dice el título' : 'El título no agrega datos', null, t.tit);
+    fila('total', 'Tasación', usd(pred));
   }
 
+  // ---------- Tasar ----------
   function tasar(mostrarDelta) {
     const a = leer();
     const t = terminos(a);
     const pred = Math.exp(t.base + t.ant + t.km + t.vend + t.tit);
     contar(pred);
-    $('delta').textContent = (mostrarDelta && anterior) ? 'Antes: ' + usd(anterior) + ' · cambio ' + pct(pred / anterior - 1) : '';
+    $('delta').innerHTML = (mostrarDelta && anterior && Math.abs(pred / anterior - 1) > 1e-6)
+      ? 'Antes ' + usd(anterior) + ' · <b>' + pct(pred / anterior - 1) + '</b>' : '';
     $('rango').innerHTML = 'La mitad de los autos así se publica entre <b>' + usd(pred * Math.exp(M.residuo_p25)) + '</b> y <b>' + usd(pred * Math.exp(M.residuo_p75)) + '</b>.';
+    $('que-auto').textContent = a.marca + ' ' + a.modelo + ' ' + a.anio + ' · ' + miles(a.km) + ' km';
     const n = (((M.catalogo[a.marca] || {})[a.modelo] || {})[a.anio] || []).length;
     $('pista-anio').textContent = n + (n === 1 ? ' aviso' : ' avisos') + ' de este año en los datos';
-    veredicto(a, pred); franja(a, pred); desglose(a, t, pred);
+    medidor(a, pred); franja(a, pred); desglose(a, t, pred);
     anterior = pred;
   }
 
-  function cargarEjemplo(e) {
+  function ponerKm(v, desdeBarra) {
+    const km = Math.max(0, Math.min(1000000, v));
+    if (!desdeBarra) $('km-rango').value = Math.min(km, 300000);
+    $('ruta-km').style.setProperty('--p', (Math.min(km, 300000) / 300000 * 100) + '%');
+    if (desdeBarra || document.activeElement !== $('km')) $('km').value = miles(km);
+  }
+  function formatearAlEscribir(input) {
+    const n = numero(input.value);
+    input.value = n ? miles(n) : '';
+    input.setSelectionRange(input.value.length, input.value.length);
+  }
+
+  function cargarEjemplo(e, boton) {
     $('marca').value = e.marca; llenarModelos(e.marca, e.modelo); llenarAnios(e.anio);
-    $('km').value = e.km; $('km-rango').value = Math.min(e.km, 350000);
+    ponerKm(e.km, true);
     $('publicado').value = '';
+    document.querySelectorAll('.chapa').forEach((c) => c.classList.toggle('elegida', c === boton));
     anterior = null; tasar(false);
   }
 
@@ -368,31 +638,39 @@ footer b { color: var(--papel); font-weight: 600; }
     $('err-med').textContent = M.meta.error_mediano_pct.toFixed(1).replace('.', ',') + ' %';
     const marcas = Object.keys(M.catalogo).sort((a, b) => a.localeCompare(b, 'es'));
     opciones($('marca'), marcas);
-    for (const k of ['motor_titulo', 'transmision_titulo', 'combustible_titulo']) {
-      const sel = $(k.split('_')[0] === 'motor' ? 'motor' : k.split('_')[0]);
+    for (const [k, id] of [['motor_titulo', 'motor'], ['transmision_titulo', 'transmision'], ['combustible_titulo', 'combustible']]) {
       const vals = M.opciones[k].filter((v) => v !== 'sin_dato');
-      opciones(sel, ['sin_dato'].concat(vals), (v) => NOMBRES[v] || v);
+      opciones($(id), ['sin_dato'].concat(vals), (v) => NOMBRES[v] || v);
     }
     const ej = $('ejemplos');
     EJEMPLOS.forEach((e) => {
       if (!(M.catalogo[e.marca] || {})[e.modelo]) return;
-      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = e.t;
-      b.addEventListener('click', () => cargarEjemplo(e)); ej.appendChild(b);
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'chapa';
+      b.innerHTML = '<span class="banda">URUGUAY</span><span class="texto"></span>';
+      b.querySelector('.texto').textContent = e.t;
+      b.addEventListener('click', () => cargarEjemplo(e, b)); ej.appendChild(b);
     });
-    $('marca').addEventListener('change', () => { llenarModelos($('marca').value); llenarAnios(); tasar(true); });
-    $('modelo').addEventListener('change', () => { llenarAnios(Number($('anio').value)); tasar(true); });
-    $('km-rango').addEventListener('input', () => { $('km').value = $('km-rango').value; tasar(true); });
-    $('km').addEventListener('input', () => { $('km-rango').value = Math.min(Number($('km').value) || 0, 350000); tasar(true); });
-    for (const id of ['anio', 'motor', 'transmision', 'combustible', 'publicado']) $(id).addEventListener('input', () => tasar(true));
+    construirMedidor(); construirDesglose();
+    const limpiarChapa = () => document.querySelectorAll('.chapa').forEach((c) => c.classList.remove('elegida'));
+    $('marca').addEventListener('change', () => { llenarModelos($('marca').value); llenarAnios(); limpiarChapa(); tasar(true); });
+    $('modelo').addEventListener('change', () => { llenarAnios(Number($('anio').value)); limpiarChapa(); tasar(true); });
+    $('anio').addEventListener('change', () => { limpiarChapa(); tasar(true); });
+    $('km-rango').addEventListener('input', () => { ponerKm(Number($('km-rango').value), true); limpiarChapa(); tasar(true); });
+    $('km').addEventListener('input', () => { formatearAlEscribir($('km')); ponerKm(numero($('km').value), false); limpiarChapa(); tasar(true); });
+    $('km').addEventListener('blur', () => ponerKm(numero($('km').value), true));
+    $('publicado').addEventListener('input', () => { formatearAlEscribir($('publicado')); tasar(true); });
+    for (const id of ['motor', 'transmision', 'combustible']) $(id).addEventListener('change', () => tasar(true));
     document.querySelectorAll('input[name="vendedor"]').forEach((r) => r.addEventListener('change', () => tasar(true)));
     $('form').addEventListener('submit', (e) => e.preventDefault());
-    cargarEjemplo(EJEMPLOS[0]);
+    cargarEjemplo(EJEMPLOS[0], ej.querySelector('.chapa'));
   }
 
   // modelo.js (window.MODELO_TASADOR) sirve al abrir el archivo directo; si no está, se pide modelo.json.
   (window.MODELO_TASADOR ? Promise.resolve(window.MODELO_TASADOR)
     : fetch('modelo.json').then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }))
     .then(iniciar)
-    .catch(() => { $('rango').textContent = 'No se pudo cargar el modelo. Recargá la página.'; });
+    .catch(() => { $('rango').innerHTML = '<span class="aviso-carga">No se pudo cargar el modelo. Recargá la página.</span>'; });
 })();
 </script>
+</body>
+</html>

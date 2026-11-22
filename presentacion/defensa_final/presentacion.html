@@ -46,7 +46,7 @@ p { font-size: 34px; line-height: 1.38; }
   transition: opacity .7s var(--curva) .15s, transform .9s var(--curva) .1s, filter .7s var(--curva) .15s, visibility 0s; }
 .slide.pasada { transform: translateX(-120px); }
 
-/* Pasos: lo que aparece con cada clic se descubre de izquierda a derecha, como cuando pasa un auto. */
+/* Pasos: cada slide se despliega sola, en cascada; cada grupo se descubre de izquierda a derecha, como cuando pasa un auto. */
 .paso { clip-path: inset(-20px 100% -20px -20px); opacity: .0; transition: clip-path .9s var(--curva), opacity .4s; }
 .paso.visto { clip-path: inset(-20px -20px -20px -20px); opacity: 1; }
 .atenua { transition: opacity .6s; }
@@ -230,9 +230,39 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
 .respuesta { display: flex; gap: 44px; align-items: baseline; }
 .respuesta b { width: 300px; flex: none; font-size: 92px; font-weight: 800; font-stretch: 120%; line-height: 1; color: var(--rojo); }
 .respuesta span { font-size: 40px; line-height: 1.3; max-width: 1220px; }
-.cierre { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; }
-.cierre .repo { font-size: 30px; color: var(--gris); }
-.cierre .gracias { font-size: 72px; font-weight: 800; font-stretch: 122%; white-space: nowrap; }
+
+/* Gracias: llegada a la meta */
+#s-gracias { inset: 0; justify-content: flex-start; gap: 0; padding-top: 150px; }
+#s-gracias h1 { font-size: 250px; line-height: .9; }
+#s-gracias .preguntas { font-size: 128px; line-height: 1; font-weight: 800; font-stretch: 125%; letter-spacing: -0.02em; color: var(--rojo); margin-top: 18px; }
+.mascara { overflow: hidden; padding-bottom: .06em; }
+.mascara span { display: inline-block; transform: translateY(110%); }
+.slide.vista .mascara span { transition: transform 1.1s cubic-bezier(.16,.84,.3,1); transform: none; }
+.slide.vista .preguntas span { transition-delay: .25s; }
+#s-gracias .firma { display: flex; flex-direction: column; gap: 8px; margin-top: 56px; font-size: 30px; opacity: 0; transform: translateY(16px); }
+#s-gracias .firma b { font-weight: 700; }
+#s-gracias .firma span { font-size: 26px; color: var(--gris); }
+#s-gracias.vista .firma { opacity: 1; transform: none; transition: opacity .8s ease .9s, transform .8s var(--curva) .9s; }
+.piso-final { position: absolute; left: 0; right: 0; bottom: 92px; height: 4px; background: var(--asfalto); transform: scaleX(0); transform-origin: left; }
+.slide.vista .piso-final { transform: none; transition: transform 1.2s var(--curva) .1s; }
+.carril-final { position: absolute; left: 0; right: 0; bottom: 56px; height: 4px; opacity: 0;
+  background: repeating-linear-gradient(90deg, var(--amarillo) 0 56px, transparent 56px 112px); }
+.slide.vista .carril-final { opacity: 1; transition: opacity .6s .2s; animation: carril-final 2.6s cubic-bezier(.16,.84,.3,1) .3s both; }
+@keyframes carril-final { from { background-position: 0 0; } to { background-position: -1792px 0; } }
+.bandera { position: absolute; left: 1100px; bottom: 96px; width: 56px; height: 280px; border: 3px solid var(--asfalto);
+  background: repeating-conic-gradient(var(--asfalto) 0 25%, var(--blanco) 0 50%) 0 0 / 50px 50px;
+  transform: scaleY(0); transform-origin: bottom; }
+.slide.vista .bandera { transform: none; transition: transform .9s cubic-bezier(.3,1.4,.5,1) .5s; }
+#auto-final { position: absolute; left: 1210px; bottom: 62px; width: 640px; height: 240px; overflow: visible; }
+#auto-final .rueda { transform-box: fill-box; transform-origin: center; }
+#auto-final .estela line { stroke: var(--gris-claro); stroke-width: 5; stroke-linecap: round; }
+#auto-final .todo { transform: translateX(-2000px); }
+.slide.vista #auto-final .todo { animation: llega-final 2.6s cubic-bezier(.16,.84,.3,1) .3s both; }
+.slide.vista #auto-final .rueda { animation: gira 2.6s cubic-bezier(.16,.84,.3,1) .3s both; }
+.slide.vista #auto-final .estela { animation: estela 2.6s ease .3s both; }
+@keyframes llega-final { from { transform: translateX(-2000px); } 88% { transform: translateX(8px); } to { transform: none; } }
+#ruta { transition: opacity .5s ease .9s; }
+#ruta.oculta { opacity: 0; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01s !important; animation-delay: 0s !important; transition-duration: .01s !important; transition-delay: 0s !important; }
@@ -270,8 +300,8 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
     <h1>¿Está bien de precio?</h1>
     <p class="sub">Un tasador de autos usados para Uruguay, entrenado con 16.581 avisos reales de Mercado Libre.</p>
     <div class="grupo">
-      <b>Joaquín Elías, Nicolás Guerra, Santiago Bruschera y Federico Otero</b><br>
-      <span class="gris">Aprendizaje Automático I, Universidad de Montevideo. 25 de noviembre de 2026</span>
+      <b>Santiago Bruschera, Joaquín Elías, Nicolás Guerra y Federico Otero</b><br>
+      <span class="gris">Aprendizaje Automático I, Universidad de Montevideo</span>
     </div>
     <svg id="auto-portada" viewBox="0 0 800 300" aria-label="Un auto que entra a la pantalla">
       <ellipse class="sombra" cx="405" cy="262" rx="360" ry="10"/>
@@ -309,14 +339,14 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 2 · Problema -->
-  <section class="slide" id="s-problema" data-orador="Joaquín · 50 s">
+  <section class="slide" id="s-problema" data-ritmo="2300" data-orador="Joaquín · 50 s">
     <h2>48 Chevrolet Onix 2019. Mismo auto, casi el doble de precio.</h2>
     <p class="gris" style="margin-top:-20px">Cada punto es un aviso real del 28 de octubre de 2026.</p>
     <svg id="onix" viewBox="0 0 1640 470" role="img" aria-label="Precios de los 48 Onix 2019 publicados: de 7.500 a 14.900 dólares"></svg>
   </section>
 
   <!-- 3 · Pregunta -->
-  <section class="slide" id="s-pregunta" data-orador="Joaquín · 50 s">
+  <section class="slide" id="s-pregunta" data-ritmo="1100,1900" data-orador="Joaquín · 50 s">
     <p class="pregunta">¿Qué tan bien se puede estimar el precio de un auto usado a partir de su aviso, y qué avisos se alejan mucho de ese precio?</p>
     <p class="secundaria paso" data-s="1">Y además: ¿cuánto valor pierde un auto por año y por kilómetro, y cambia según la marca?</p>
     <div class="paso" data-s="2" style="display:flex; flex-direction:column; gap:34px">
@@ -330,7 +360,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 4 · Datos -->
-  <section class="slide" id="s-datos" data-orador="Nico · 1 min 10 s">
+  <section class="slide" id="s-datos" data-ritmo="700,1500" data-orador="Nico · 1 min 10 s">
     <h2>Los datos los juntamos nosotros.</h2>
     <div class="embudo paso" data-s="1">
       <div class="fila"><div class="tira" style="width:1100px"></div><span><b>17.353</b>usados en todo el sitio</span></div>
@@ -349,7 +379,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 5 · Limpieza -->
-  <section class="slide" id="s-limpieza" data-orador="Nico · 55 s">
+  <section class="slide" id="s-limpieza" data-ritmo="700,1000,1300" data-orador="Nico · 55 s">
     <div class="antes-despues"><span class="gris">17.095</span><svg class="flecha gris"><use href="#flecha"/></svg><span>16.581</span></div>
     <p class="gris" style="margin-top:-18px">Lo que sacamos son errores de carga de los vendedores.</p>
     <div class="chapas">
@@ -369,7 +399,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 6 · Evaluación -->
-  <section class="slide" id="s-evaluacion" data-orador="Santiago · 1 min">
+  <section class="slide" id="s-evaluacion" data-ritmo="800,2100" data-orador="Santiago · 1 min">
     <h2>Probamos el modelo con avisos que nunca vio.</h2>
     <div class="split">
       <div class="tr"><b>13.265</b>para entrenar</div>
@@ -386,7 +416,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 7 · Modelo -->
-  <section class="slide" id="s-modelo" data-orador="Santiago · 1 min">
+  <section class="slide" id="s-modelo" data-ritmo="700,1300,1900" data-orador="Santiago · 1 min">
     <h2>Predecimos el logaritmo del precio.</h2>
     <div class="dos-hist paso" data-s="1">
       <figure><svg id="h-precio" viewBox="0 0 700 220"></svg><figcaption><b>Precio</b><span class="gris">cola larga: los autos caros dominan el error</span></figcaption></figure>
@@ -403,7 +433,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 8 · Resultados -->
-  <section class="slide" id="s-resultados" data-orador="Santiago · 1 min">
+  <section class="slide" id="s-resultados" data-ritmo="700,1400,2700" data-orador="Santiago · 1 min">
     <h2>Error mediano en 3.316 avisos que el modelo no vio.</h2>
     <p class="gris" style="margin-top:-20px">La mitad de las tasaciones se equivoca menos que esto. Más corto es mejor.</p>
     <div class="carriles">
@@ -416,7 +446,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 9 · Curva de aprendizaje -->
-  <section class="slide" id="s-curva" data-orador="Federico · 45 s">
+  <section class="slide" id="s-curva" data-ritmo="2300" data-orador="Federico · 45 s">
     <h2>¿Hacían falta más avisos?</h2>
     <svg id="curva" viewBox="0 0 1640 560" role="img" aria-label="Error de validación según la cantidad de avisos de entrenamiento: baja de 0,272 con mil avisos a 0,218 con 10.600 y casi se aplana"></svg>
     <p class="paso" data-s="1" style="margin-top:-10px">Lo que más falta no es cantidad: es lo que el aviso no dice.</p>
@@ -441,7 +471,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 11 · Fuera de mercado -->
-  <section class="slide" id="s-fuera" data-orador="Federico · 1 min">
+  <section class="slide" id="s-fuera" data-ritmo="1500,2200" data-orador="Federico · 1 min">
     <h2>La mitad de los avisos está a menos de 9,6 % de lo predicho.</h2>
     <svg id="residuos" viewBox="0 0 1640 300" role="img" aria-label="Distribución de la diferencia entre el precio publicado y el predicho, con el 5 % de cada cola marcado en rojo"></svg>
     <div class="casos paso" data-s="2">
@@ -455,7 +485,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 12 · Depreciación -->
-  <section class="slide" id="s-deprec" data-orador="Nico · 40 s">
+  <section class="slide" id="s-deprec" data-ritmo="700,1100,1500" data-orador="Nico · 40 s">
     <h2>A misma marca, modelo y kilómetros.</h2>
     <div style="display:flex; gap:80px; align-items:center">
       <div class="cifras-grandes">
@@ -468,7 +498,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 13 · Marcas -->
-  <section class="slide" id="s-marcas" data-orador="Nico · 40 s">
+  <section class="slide" id="s-marcas" data-ritmo="1600,2300" data-orador="Nico · 40 s">
     <h2>La marca cambia el ritmo, no la tasación.</h2>
     <svg id="marcas" style="width:1640px;height:620px;flex:none" viewBox="0 0 1640 620" role="img" aria-label="Porcentaje del precio que pierde cada marca por año, con intervalo de confianza del 95 %: de 3,2 en Suzuki a 5,1 en Mercedes-Benz"></svg>
     <p class="paso" data-s="2" style="margin-top:-12px">Con pendiente propia por marca, el error de validación casi no cambia: 0,219 contra 0,218.</p>
@@ -486,17 +516,48 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 15 · Respuesta -->
-  <section class="slide" id="s-respuesta" data-orador="Joaquín · 40 s">
+  <section class="slide" id="s-respuesta" data-ritmo="700,1200,1700" data-orador="Joaquín · 40 s">
     <h2>La respuesta.</h2>
     <div class="respuestas">
       <div class="respuesta paso" data-s="1"><b>9,5 %</b><span>de error típico al tasar con lo que dice el aviso: más de 6 puntos mejor que la mediana del modelo.</span></div>
       <div class="respuesta paso" data-s="2"><b>10 %</b><span>de los avisos queda fuera de mercado, y son sobre todo errores de carga y versiones especiales.</span></div>
       <div class="respuesta paso" data-s="3"><b>4,2 %</b><span>pierde un auto por año. La marca cambia ese ritmo, de 3,2 % a 5,1 %, pero no la tasación.</span></div>
     </div>
-    <div class="cierre paso" data-s="4">
-      <span class="gracias">Gracias. ¿Preguntas?</span>
-      <span class="repo">Código, datos y notebooks en github.com/JBEC2006/tasador-autos-uy</span>
+  </section>
+
+  <!-- 16 · Gracias -->
+  <section class="slide" id="s-gracias" data-orador="Todos · preguntas">
+    <h1 class="mascara"><span>Gracias.</span></h1>
+    <p class="preguntas mascara"><span>¿Preguntas?</span></p>
+    <div class="firma">
+      <b>Santiago Bruschera · Joaquín Elías · Nicolás Guerra · Federico Otero</b>
+      <span>Código, datos y notebooks en github.com/JBEC2006/tasador-autos-uy</span>
     </div>
+    <div class="piso-final"></div>
+    <div class="carril-final"></div>
+    <div class="bandera"></div>
+    <svg id="auto-final" viewBox="0 0 800 300" aria-hidden="true">
+      <ellipse class="sombra-final" cx="405" cy="264" rx="350" ry="9" fill="#E6E8EC"/>
+      <g class="todo">
+        <g class="estela">
+          <line x1="-420" y1="118" x2="0" y2="118"/><line x1="-560" y1="158" x2="-30" y2="158"/>
+          <line x1="-360" y1="194" x2="20" y2="194"/><line x1="-480" y1="90" x2="-90" y2="90"/>
+        </g>
+        <use href="#carro" fill="#D52B1E"/>
+        <use href="#vidrios" fill="#FFFFFF"/>
+        <path d="M700 152 L738 160 L741 172 L706 168 Z" fill="#FFFFFF"/>
+        <path d="M378 128 L382 206" stroke="#FFFFFF" stroke-width="3" opacity=".55"/>
+        <path d="M430 140 L456 140" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+        <g transform="translate(192 214)"><g class="rueda">
+          <circle r="46" fill="#15181D"/><circle r="30" fill="#FFFFFF"/>
+          <g stroke="#15181D" stroke-width="5" stroke-linecap="round"><line x1="0" y1="-26" x2="0" y2="26"/><line x1="-26" y1="0" x2="26" y2="0"/><line x1="-18" y1="-18" x2="18" y2="18"/><line x1="-18" y1="18" x2="18" y2="-18"/></g>
+          <circle r="7" fill="#15181D"/></g></g>
+        <g transform="translate(610 214)"><g class="rueda">
+          <circle r="46" fill="#15181D"/><circle r="30" fill="#FFFFFF"/>
+          <g stroke="#15181D" stroke-width="5" stroke-linecap="round"><line x1="0" y1="-26" x2="0" y2="26"/><line x1="-26" y1="0" x2="26" y2="0"/><line x1="-18" y1="-18" x2="18" y2="18"/><line x1="-18" y1="18" x2="18" y2="-18"/></g>
+          <circle r="7" fill="#15181D"/></g></g>
+      </g>
+    </svg>
   </section>
 
   <div id="ruta" aria-hidden="true">
@@ -668,7 +729,19 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   // ---------- Navegación ----------
   const slides = [...document.querySelectorAll('.slide')];
   const pasosDe = (s) => Math.max(0, ...[...s.querySelectorAll('[data-s]')].map((e) => +e.dataset.s));
-  let actual = 0, paso = 0;
+  let actual = 0, paso = 0, relojes = [];
+  // Cada slide se despliega sola: data-ritmo dice a los cuántos ms aparece cada grupo (data-s).
+  const ritmo = (s) => {
+    const n = pasosDe(s);
+    const r = s.dataset.ritmo ? s.dataset.ritmo.split(',').map(Number) : [];
+    return Array.from({ length: n }, (_, i) => r[i] ?? (700 + i * 600));
+  };
+  function desplegar(s) {
+    relojes.forEach(clearTimeout);
+    relojes = ritmo(s).map((t, i) => setTimeout(() => {
+      if (slides[actual] === s && paso < i + 1) { paso = i + 1; pintar(); }
+    }, t));
+  }
 
   function pintar() {
     const s = slides[actual];
@@ -716,9 +789,13 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
     s.querySelectorAll('#curva .linea').forEach((l) => l.style.strokeDashoffset = 2400);
     s.querySelectorAll('.fila-marca').forEach((g) => g.style.opacity = 0);
     s.querySelectorAll('#curva .fin').forEach((t) => { t.style.transition = 'none'; t.style.opacity = 0; });
+    // Lo que se movió con la cascada vuelve a su lugar sin animarse, para la próxima entrada.
+    const sinAnimar = (e, f) => { e.style.transition = 'none'; f(e); void e.getBoundingClientRect(); e.style.transition = ''; };
+    if (s.id === 's-evaluacion') sinAnimar(document.getElementById('gem-b'), (e) => { e.style.left = '1340px'; });
+    if (s.id === 's-datos') s.querySelectorAll('.odometro .col').forEach((c) => sinAnimar(c, (e) => { e.style.transform = 'translateY(0)'; }));
   }
 
-  function ir(n, pasoInicial = 0) {
+  function ir(n, completa = false) {
     n = Math.max(0, Math.min(slides.length - 1, n));
     const antes = slides[actual];
     if (n !== actual) {
@@ -728,8 +805,10 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
       const lineas = document.querySelector('#ruta .lineas');
       lineas.classList.remove('anda'); void lineas.offsetWidth; lineas.classList.add('anda');
     }
-    actual = n; paso = pasoInicial;
+    actual = n;
     const s = slides[actual];
+    paso = completa ? pasosDe(s) : 0;
+    if (completa) relojes.forEach(clearTimeout); else desplegar(s);
     s.classList.remove('pasada'); s.classList.add('activa');
     setTimeout(() => entrar(s), 250);
     pintar();
@@ -739,13 +818,15 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
     history.replaceState(null, '', '#' + (actual + 1));
   }
   function moverAutito() {
-    // Avanza por la ruta con cada slide; en el saludo final se va de la pantalla.
+    // Avanza por la ruta con cada slide; en el saludo final se va de la pantalla y la ruta se apaga.
     const pista = 1920 - 140 * 2 - 84 - 150;
-    const fin = slides[actual].id === 's-respuesta' && paso >= pasosDe(slides[actual]);
-    document.getElementById('autito').style.left = fin ? '2000px' : (140 + pista * actual / (slides.length - 1)) + 'px';
+    const fin = slides[actual].id === 's-gracias';
+    document.getElementById('autito').style.left = fin ? '2000px' : (140 + pista * Math.min(1, actual / (slides.length - 2))) + 'px';
+    document.getElementById('ruta').classList.toggle('oculta', fin);
   }
-  function siguiente() { if (paso < pasosDe(slides[actual])) { paso++; pintar(); } else if (actual < slides.length - 1) ir(actual + 1); }
-  function anterior() { if (paso > 0) { paso--; pintar(); } else if (actual > 0) ir(actual - 1, pasosDe(slides[actual - 1])); }
+  // Un clic, una slide. Al volver, la anterior aparece ya desplegada.
+  function siguiente() { if (actual < slides.length - 1) ir(actual + 1); }
+  function anterior() { if (actual > 0) ir(actual - 1, true); }
 
   document.addEventListener('keydown', (e) => {
     if (['ArrowRight', 'ArrowDown', 'PageDown', ' ', 'Enter'].includes(e.key)) { if (e.key === 'Enter' && document.activeElement.classList.contains('boton')) return; e.preventDefault(); siguiente(); }
