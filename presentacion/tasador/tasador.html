@@ -140,7 +140,9 @@ button, label, summary, .chapa { -webkit-tap-highlight-color: transparent; }
 .campo-texto .unidad { font-size: 1rem; font-weight: 700; color: var(--gris); }
 
 /* Kilómetros: la barra es una ruta y el cursor, un auto */
-.ruta-km { margin-top: 1rem; --p: 25%; }
+.ruta-km { margin-top: 1rem; --f: .3; }
+/* El asfalto termina justo debajo del centro del auto: el cursor (66 px) recorre el ancho menos su propio tamaño */
+.ruta-km input { --p: calc(33px + (100% - 66px) * var(--f)); }
 .ruta-km input { width: 100%; appearance: none; -webkit-appearance: none; background: transparent; height: 2rem; cursor: pointer; display: block; }
 .ruta-km input::-webkit-slider-runnable-track { height: 8px; border-radius: 4px;
   background: repeating-linear-gradient(90deg, var(--amarillo) 0 10px, transparent 10px 20px) 0 50% / var(--p) 2px no-repeat,
@@ -755,11 +757,12 @@ footer .grupo { text-align: right; }
     anterior = pred; autoAnterior = a.marca + "|" + a.modelo;   // el "antes" solo compara el mismo modelo
   }
 
-  function ponerKm(v, desdeBarra) {
+  // origen: 'barra' (se movió el auto), 'texto' (se escribió el número) o 'codigo' (ejemplo, al salir del campo).
+  function ponerKm(v, origen) {
     const km = Math.max(0, Math.min(1000000, v));
-    if (!desdeBarra) $('km-rango').value = Math.min(km, 300000);
-    $('ruta-km').style.setProperty('--p', (Math.min(km, 300000) / 300000 * 100) + '%');
-    if (desdeBarra || document.activeElement !== $('km')) $('km').value = miles(km);
+    if (origen !== 'barra') $('km-rango').value = Math.min(km, 300000);
+    $('ruta-km').style.setProperty('--f', Math.min(km, 300000) / 300000);
+    if (origen !== 'texto') $('km').value = miles(km);
   }
   function formatearAlEscribir(input) {
     const n = numero(input.value);
@@ -769,7 +772,7 @@ footer .grupo { text-align: right; }
 
   function cargarEjemplo(e, boton) {
     $('marca').value = e.marca; llenarModelos(e.marca, e.modelo); llenarAnios(e.anio);
-    ponerKm(e.km, true);
+    ponerKm(e.km, 'codigo');
     $('publicado').value = '';
     document.querySelectorAll('.chapa').forEach((c) => c.classList.toggle('elegida', c === boton));
     anterior = null; tasar(false);
@@ -801,9 +804,9 @@ footer .grupo { text-align: right; }
     $('marca').addEventListener('change', () => { llenarModelos($('marca').value); llenarAnios(); limpiarChapa(); tasar(true); });
     $('modelo').addEventListener('change', () => { llenarAnios(Number($('anio').value)); limpiarChapa(); tasar(true); });
     $('anio').addEventListener('change', () => { limpiarChapa(); tasar(true); });
-    $('km-rango').addEventListener('input', () => { ponerKm(Number($('km-rango').value), true); limpiarChapa(); tasar(true); });
-    $('km').addEventListener('input', () => { formatearAlEscribir($('km')); ponerKm(numero($('km').value), false); limpiarChapa(); tasar(true); });
-    $('km').addEventListener('blur', () => ponerKm(numero($('km').value), true));
+    $('km-rango').addEventListener('input', () => { ponerKm(Number($('km-rango').value), 'barra'); limpiarChapa(); tasar(true); });
+    $('km').addEventListener('input', () => { formatearAlEscribir($('km')); ponerKm(numero($('km').value), 'texto'); limpiarChapa(); tasar(true); });
+    $('km').addEventListener('blur', () => ponerKm(numero($('km').value), 'codigo'));
     $('publicado').addEventListener('input', () => { formatearAlEscribir($('publicado')); tasar(true); });
     for (const id of ['motor', 'transmision', 'combustible']) $(id).addEventListener('change', () => tasar(true));
     document.querySelectorAll('input[name="vendedor"]').forEach((r) => r.addEventListener('change', () => tasar(true)));
