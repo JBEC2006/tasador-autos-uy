@@ -1,8 +1,5 @@
 % Informe final · Aprendizaje Automático I · Tasador de autos usados (Uruguay)
-% Borrador con los números de los notebooks al 2026-11-21 (limpieza nueva, cotización BCU oficial,
-% pendiente por marca dentro de la validación, árbol de decisión y curva de aprendizaje).
-% Lo marcado con \pend{...} lo tiene que completar o revisar el grupo antes de entregar.
-% Límite: 6 páginas según la tabla de la consigna (la introducción dice 5): apuntar a 5.
+% Los números salen de los notebooks 01 a 03 (semilla 42). Se compila con: latexmk -pdf informe.tex
 \documentclass[11pt,a4paper]{article}
 
 \usepackage[utf8]{inputenc}
@@ -21,12 +18,9 @@
 \captionsetup{font=small,labelfont=bf}
 \setlength{\emergencystretch}{2em}  % evita que nombres de archivo y URLs se salgan del margen
 
-% Marca de pendientes: se ve en rojo en el PDF. Buscar "\pend" antes de entregar.
-\newcommand{\pend}[1]{\textcolor{red}{[PENDIENTE: #1]}}
-
 \title{¿Está bien de precio?\\[2pt]
 \large Un tasador de autos usados para Uruguay con datos de Mercado Libre}
-\author{Joaquín Elías \and Federico Otero \and Nicolás Guerra \and Santiago Bruschera}
+\author{Santiago Bruschera \and Joaquín Elías \and Nicolás Guerra \and Federico Otero}
 \date{Aprendizaje Automático I · Universidad de Montevideo · 23 de noviembre de 2026}
 
 \begin{document}
@@ -42,7 +36,7 @@ que dice el título, el modelo tasa con un error mediano de 9,5\,\% sobre avisos
 ($R^2 = 0{,}86$ en log), contra 15,7\,\% de tasar con la mediana del modelo. Un auto pierde en
 promedio 4,2\,\% de su precio por año a kilómetros constantes, y el ritmo cambia según la marca (de
 3,2\,\% en Suzuki a 5,1\,\% en Mercedes-Benz), aunque eso casi no mejora la tasación. Los avisos que más
-se alejan del precio predicho son sobre todo errores de carga o autos chocados (16 de los 40 más
+se alejan del precio predicho son, en buena parte, errores de carga o autos chocados (16 de los 40 más
 extremos) y versiones o modelos que el modelo casi no vio (17 de 40).
 \end{abstract}
 
@@ -314,7 +308,7 @@ marque los avisos que conviene revisar antes de comprar.
 
 \medskip
 \noindent\textbf{Reproducibilidad.} El código, los datos y los notebooks están en el repositorio
-\url{https://github.com/JBEC2006/tasador-autos-uy} \pend{confirmar acceso del docente}. Los tres
+\url{https://github.com/JBEC2006/tasador-autos-uy}. Los tres
 notebooks (\texttt{01\_limpieza\_eda}, \texttt{02\_modelos}, \texttt{03\_residuos\_depreciacion})
 corren de punta a punta en unos 10 minutos, con semilla fija; el README explica cómo.
 

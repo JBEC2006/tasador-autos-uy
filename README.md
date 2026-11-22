@@ -18,18 +18,17 @@ scraper/     código del scraping
   run.py         corrida de scraping
   summary.py     resumen del CSV (sin red)
   test_parse.py  test del parser con el HTML guardado
-data/        autos_raw.csv, progress.json, scrape.log, discovery.json, busquedas.csv
+data/        autos_raw.csv, progress.json, scrape.log, discovery.json, busquedas.csv (scraping);
+             autos_clean.csv, limpieza_reglas.csv, predicciones_test.csv, extremos_revisar.csv… (notebooks)
 data/raw/    HTML crudo (no se versiona)
 notebooks/   01_limpieza_eda, 02_modelos (base, Ridge, Lasso, árbol), 03_residuos_depreciacion,
              preparar.py (variables, compartido por 02 y 03), exportar_tasador.py, figuras/
-informe/     informe.tex (borrador del informe, en LaTeX)
+informe/     informe.tex (LaTeX) e informe.pdf
 presentacion/  Presentación 1 (propuesta inicial, primera entrega)
   defensa_final/    presentación de la defensa: presentacion.html (abrir con doble clic;
                     flechas o clic para avanzar, F pantalla completa, N muestra quién habla)
-  defensa/project/  deck anterior de la defensa (una slide HTML por archivo)
   tasador/          tasador en vivo: tasador.html + modelo.json y modelo.js
                     (los genera notebooks/exportar_tasador.py a partir del notebook 02)
-Proyecto.pdf   consigna del proyecto (solo local, no se versiona)
 ```
 
 ## Cómo correrlo
