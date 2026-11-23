@@ -234,7 +234,8 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
 
 /* Respuesta */
 .respuestas { display: flex; flex-direction: column; gap: 40px; }
-.respuesta { display: flex; gap: 44px; align-items: center; }
+.respuesta { display: flex; flex-wrap: wrap; gap: 4px 44px; align-items: center; }
+.respuesta .preg { flex-basis: 100%; font-size: 30px; font-weight: 600; font-style: normal; color: var(--gris); }
 .respuesta b { width: 300px; flex: none; font-size: 92px; font-weight: 800; font-stretch: 120%; line-height: 1; color: var(--rojo); }
 .respuesta span { font-size: 40px; line-height: 1.3; max-width: 1220px; }
 
@@ -529,9 +530,9 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   <section class="slide" id="s-respuesta" data-ritmo="700,1200,1700" data-orador="Joaquín · 40 s">
     <h2>La respuesta.</h2>
     <div class="respuestas">
-      <div class="respuesta paso" data-s="1"><b>9,5 %</b><span>de error típico. Usando el precio mediano de su modelo, 15,7&nbsp;%.</span></div>
-      <div class="respuesta paso" data-s="2"><b>5 %</b><span>de cada lado queda fuera de mercado. En los extremos, 16 de 40 eran errores de carga o autos chocados.</span></div>
-      <div class="respuesta paso" data-s="3"><b>4,2 %</b><span>por año, en promedio. Según la marca, de 3,2&nbsp;% a 5,1&nbsp;%.</span></div>
+      <div class="respuesta paso" data-s="1"><i class="preg">¿Qué tan bien se puede estimar el precio?</i><b>9,5 %</b><span>de error típico. Usando el precio mediano de su modelo, 15,7&nbsp;%.</span></div>
+      <div class="respuesta paso" data-s="2"><i class="preg">¿Qué avisos se alejan mucho de ese precio?</i><b>5 %</b><span>de cada lado queda fuera de mercado. En los extremos, 16 de 40 eran errores de carga o autos chocados.</span></div>
+      <div class="respuesta paso" data-s="3"><i class="preg">¿Cuánto valor pierde un auto por año?</i><b>4,2 %</b><span>por año, en promedio. Según la marca, de 3,2&nbsp;% a 5,1&nbsp;%.</span></div>
     </div>
   </section>
 
