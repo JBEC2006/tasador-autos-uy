@@ -35,6 +35,7 @@ h2 { font-size: 76px; line-height: 1.02; max-width: 1500px; }
 p { font-size: 34px; line-height: 1.38; }
 .chico { font-size: 26px; color: var(--gris); }
 .gris { color: var(--gris); }
+.antetitulo { font-size: 30px; font-weight: 600; color: var(--gris); margin-bottom: -28px; }
 .rojo { color: var(--rojo); }
 .azul { color: var(--azul); }
 
@@ -497,7 +498,8 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
 
   <!-- 12 · Depreciación -->
   <section class="slide" id="s-deprec" data-ritmo="700,1100,1500" data-orador="Nico · 40 s">
-    <h2>A misma marca, modelo y kilómetros.</h2>
+    <p class="antetitulo">Pregunta secundaria: ¿cuánto pierde un auto por año y por kilómetro?</p>
+    <h2>A misma marca y modelo:</h2>
     <div style="display:flex; gap:80px; align-items:center">
       <div class="cifras-grandes">
         <div class="cifra paso" data-s="1"><b>−4,2 %</b><span>por cada año</span></div>
@@ -510,6 +512,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
 
   <!-- 13 · Marcas -->
   <section class="slide" id="s-marcas" data-ritmo="1600,2300" data-orador="Nico · 40 s">
+    <p class="antetitulo">¿Y cambia según la marca?</p>
     <h2>La marca cambia el ritmo, no la tasación.</h2>
     <svg id="marcas" style="width:1640px;height:620px;flex:none" viewBox="0 0 1640 620" role="img" aria-label="Porcentaje del precio que pierde cada marca por año, con intervalo de confianza del 95 %: de 3,2 en Suzuki a 5,1 en Mercedes-Benz"></svg>
     <p class="paso" data-s="2" style="margin-top:-12px">Con pendiente propia por marca, el error de validación casi no cambia: 0,219 contra 0,218.</p>
