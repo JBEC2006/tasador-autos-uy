@@ -186,8 +186,6 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
 .carril .valor { position: absolute; top: 4px; white-space: nowrap; font-size: 46px; font-weight: 800; font-stretch: 118%; opacity: 0; transition: opacity .4s 1s, left 1.4s var(--curva); }
 .carril.visto .tramo { transform: scaleX(1); }
 .carril.visto .valor { opacity: 1; }
-.r2 { font-size: 34px; }
-.r2 b { font-size: 64px; font-stretch: 120%; margin-right: 14px; }
 
 /* Curva: modelos con pocos avisos */
 #curva { height: 470px; }
@@ -442,7 +440,7 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
   </section>
 
   <!-- 8 · Resultados -->
-  <section class="slide" id="s-resultados" data-ritmo="700,1400,2700" data-orador="Santiago · 1 min">
+  <section class="slide" id="s-resultados" data-ritmo="700,1400" data-orador="Santiago · 1 min">
     <h2>Error mediano en 3.316 avisos que el modelo no vio.</h2>
     <p class="gris" style="margin-top:-20px">La mitad de las tasaciones se equivoca menos que esto. Más corto es mejor.</p>
     <div class="carriles">
@@ -451,7 +449,6 @@ svg text { font-family: var(--ancho); fill: var(--gris); font-size: 24px; }
       <div class="carril" data-s="2" data-v="9.9"><div class="nombre">Lasso</div><div class="pista"><div class="tramo"></div><div class="valor">9,9 %</div></div></div>
       <div class="carril" data-s="2" data-v="12.7"><div class="nombre">Árbol de decisión<small>sobreajusta</small></div><div class="pista"><div class="tramo"></div><div class="valor">12,7 %</div></div></div>
     </div>
-    <p class="r2 paso" data-s="3"><b>0,86</b>de la variación del precio explicada por Ridge (R² en log)</p>
   </section>
 
   <!-- 9 · Curva de aprendizaje -->
